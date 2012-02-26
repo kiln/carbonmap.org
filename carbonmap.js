@@ -1,5 +1,24 @@
 $(function() {
+  var welcome = true;
+  $(".unwelcome").hide();
+
   $(".navitems a").click(function() {
+    
+    // If this is the first time a nav link has been clicked,
+    // replace the Welcome sidebar with a data sidebar.
+    //
+    // XXXX This should be map-specific.
+    if (welcome) {
+      $(".welcome").hide();
+      $(".unwelcome").show();
+      welcome = false;
+    }
+    
+    // Highlight the selected tab
+    $(".navitemsselected").removeClass("navitemsselected");
+    $(this).parent().addClass("navitemsselected");
+    
+    // Animate the map to the chosen configuration
     var href = $(this).attr("href");
     if (href.length > 1) {
       var data = carbonmap_data[href.substring(1)];

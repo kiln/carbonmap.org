@@ -255,7 +255,31 @@
 				</div>
 				<div id="sidebar">
 					<div id="sidebarmain">
-						<div id="sidebarwelcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.</div>
+						<div id="sidebarwelcome" class="welcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.</div>
+						<div class="sidebarhead unwelcome">About this map</div>
+						<div class="sidebartext unwelcome">
+							<p>Countries resized to show their total CO2 emissions from 1850 to 2010. These historical (or 'cumulative') emissions are crucial because CO2 can remain in the air for centuries. Europe and the US dominate. The UK, cradle of the industrial revolution, is particularly bloated.<p>
+						</div>
+						<div class="sidebarhead unwelcome">Shade this map by</div>
+						<form id="shadedropdown" class="unwelcome">
+							<select>
+								<option>CO2 per capita</option>
+								<option>GDP per capita</option>
+								<option>CO2 per GDP</option>
+							</select>
+						</form>
+						<div id="legendbox" class="unwelcome">
+							<div id="legendunittext">Tonnes of CO2 emitted per person in 2008</div>
+							<div class="legendband8" class="legendswatches"></div><div class="legendtext">Above 21 tonnes</div>
+							<div class="legendband7" class="legendswatches"></div><div class="legendtext">13-21 tonnes</div>
+							<div class="legendband6" class="legendswatches"></div><div class="legendtext">8-13 tonnes</div>
+							<div class="legendband5" class="legendswatches"></div><div class="legendtext">5-8 tonnes</div>
+							<div class="legendband4" class="legendswatches"></div><div class="legendtext">3-5 tonnes</div>
+							<div class="legendband3" class="legendswatches"></div><div class="legendtext">2-3 tonnes</div>
+							<div class="legendband2" class="legendswatches"></div><div class="legendtext">1-2 tonnes</div>
+							<div class="legendband1" class="legendswatches"></div><div class="legendtext">0-1 tonnes</div>
+						</div>
+					</div>
 					</div>
 					<div id="sidebarbottom">
 						<div class="sidebarhead">Share this site</div>
