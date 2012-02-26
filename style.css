@@ -1,0 +1,421 @@
+/******** Page layout ********/
+
+html {
+	}
+	
+body {
+	background: #777;
+	font-family: Helvetica, Arial;
+	margin: 0;
+	}
+	
+#wrapper {
+	width: 1024px;
+	margin-right:auto;
+	margin-left:auto;
+	background: white;
+	height: 674px;
+	}
+
+/******** Fonts ********/
+
+#wrapper, #masthead, #site-title, #site-strapline {
+	font-family: Helvetica, Arial;
+	}
+
+/******** Header area ********/
+
+#masthead {
+	background: #333;
+	padding: 15px 20px 15px 20px;	
+	}
+	
+#site-title-the {
+	color: white;
+	text-transform: uppercase;
+	display: inline;
+	font-size: 12px;
+	}
+
+#site-title {
+	color: white;
+	text-transform: uppercase;
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+#site-strapline {
+	display: inline;
+	color: yellow;
+	font-size: 16px;
+	margin-left: 10px;
+	}
+
+#credit {
+	display: inline;
+	float: right;	
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	vertical-align: baseline;
+	}
+
+#contents {
+	font-size: 14px;
+	padding: 14px 20px 0 20px;
+	}
+
+/******** Navigation ********/
+
+#navigation {
+	}
+	
+#reference, #responsibility, #vulnerability {
+	display: inline-block;
+	padding-right: 12px;
+	}
+		
+.navtitle {
+	color: #333;
+	border-bottom: dotted 1px grey;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-top: 6px;
+	padding-bottom: 0;
+	}
+
+.navitems {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px 4px 6px 4px;
+	}
+
+.navitems a:hover, 
+.navitems a:active {
+	background: black;
+	font-size: 16px;	
+	margin-left: 0;
+	margin-right: 0;
+	color: white;	
+//	-moz-border-bottom-right-radius: 5px;
+//	border-bottom-right-radius: 5px;
+//	-moz-border-bottom-left-radius: 5px;
+//	border-bottom-left-radius: 5px;
+	}
+	
+.navitemsselected {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background: rgb(223,223,223);
+	padding: 4px 4px 6px 4px;
+	-moz-border-bottom-right-radius: 2px;
+	border-bottom-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+
+#area, #historical {color: rgb(213,17,0)}
+#population, #reserves {color: rgb(0,198,62)}
+#wealth, #peopleatrisk {color: rgb(255,7,190)}
+#extraction, #sealevel {color: rgb(249,130,56)}
+#emissions, #poverty {color: rgb(0,193,238)}
+#consumption {color: rgb(108, 59, 195)}
+ 
+
+/******** Sidebar ********/
+
+#sidebar {
+	margin: 10px 0 0 0;
+	width: 142px;
+	float: right;
+	border: none;		
+	}
+
+#sidebarmain {
+	height: 450px;
+	margin: none;
+	border: none;		
+	}
+
+#sidebarwelcome {
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 0.95em;
+	padding-top: 20px; 
+	}
+
+.welcomered {
+	color: rgb(213,17,0)
+	}
+
+.welcomeblue {
+	color: rgb(0,193,238)
+	}
+
+#sidebarbottom {
+	border-top: dotted 1px grey;
+	}
+
+.sidebarhead {
+	padding: 6px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;	
+	margin-bottom: 4px;	
+	color: #CB181D;
+	}
+
+.sidebartext {
+	line-height: 1.2em;
+	font-size: 12px;
+	font-weight: normal;			
+	}
+
+#legendbox {	
+	padding: 10px 0 4px 0;
+	}
+
+#shade {
+	margin-top: 6px;
+	}
+	
+.legendtext {
+	font-size: 12px;
+	line-height: 15px;
+	}	
+
+#legendunittext {
+	font-size: 11px;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+	}
+
+.legendband1, .legendband2, .legendband3, .legendband4, .legendband5, .legendband6, .legendband7, .legendband8 {
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-right: 5px;
+	}
+
+.legendband1 { background: #FFF5F0; }
+.legendband2 { background: #FEE0D2; }
+.legendband3 { background: #FCBBA1; }
+.legendband4 { background: #FC9272; }
+.legendband5 { background: #FB6A4A; } 
+.legendband6 { background: #EF3B2C; }
+.legendband7 { background: #CB181D; }
+.legendband8 { background: #99000D; }
+
+
+#twittershare {
+	margin-top: 6px;
+	}
+
+#facebookshare {
+	margin-top: 3px;
+	margin-bottom: 6px;
+	}
+
+/******** Main Area ********/
+
+#mainarea {
+	margin: 10px 0 0 0;
+	float: left;
+	}
+	
+#maparea {
+	height: 450px;
+	}
+	
+#map {
+	padding-top: 18px;
+	height: 400px;
+	width: 820px;
+	}
+	
+svg {
+	background: white;
+	border: none;
+	}
+
+#robinson {
+	fill: white;
+	stroke: none;
+	stroke-width: 40000
+	}
+
+#bounds {
+	fill: none;
+	stroke: none;
+	}
+
+path {
+	fill: #f7d3aa;
+	stroke: white;
+	stroke-width: 7000;
+	}
+
+path.no-data {
+	fill: #999;
+	}
+	
+circle {
+	fill: red;
+	opacity: 0.100000;
+	}
+rect {
+	fill: green;
+	cursor: pointer;
+	}
+
+/******** Random banding of countries as example ********/
+
+
+/* Example selected */
+#BR { fill: #555}
+
+/* 21 tonnes and up*/
+#QA, #TT, #AE, #KW, #BH, #LU { fill: #99000D; }
+
+/* 13 tonnes and up*/ 
+#AU, #US, #CA, #SA, #OM, #KZ { fill: #CB181D; }
+
+/* 8 tonnes and up*/       
+#AD, #AL, #AM, #AT, #AX, #AZ, #BA, #BE, #BG, #BY, #CH, #CY, #CZ, #DE, #DK, #EE, #FI, #FO, #FR, #GB, #RU { fill: #EF3B2C; }
+
+/* 5 tonnes and up*/             
+#FR, #CN, #ZA, #ES, #GE, #GG, #GI, #GR, #HR, #HU, #IE, #IM, #IS, #IT, #JE, #KZ, #LI, #LT, #LV, #MC, #MD, #ME, #MK, #MT, #NL, #NO, #PL, #PT, #RO, #CU, #CW, #DM, #DO, #GD, #GL, #GP, #GT, #HN, #HT, #JM, #KN, #KY, #LC, #MF, #MQ, #MS, #MX { fill: #FB6A4A; } 
+
+/* 3 tonnes and up*/   
+#KR, #KZ, #LA, #LB, #LK, #MM, #MN, #MO, #MV, #MY, #NP, #PH, #PK, #PS, #SG, #SY, #TH, #TJ, #TL, #TM, #TR, #TW, #BJ, #BW, #CD, #RS, #SE, #SI, #SJ, #SK, #SM, #TR, #UA, #VA, #AG, #AI, #AN, #AW, #BB, #BL, #BM, #BQ, #BS, #BZ, #CR, #NI, #PA, #PM, #PR, #SV, #SX, #TC, #UM, #VC, #VG, #VI, #AR, #BO, #CL, #CO, #EC { fill: #FC9272; }
+     
+/* 2 tonnes and up*/   
+#PE, #PY, #SR, #UY, #VE, #AO, #BF, #BI, #GE, #HK, #IL, #IN, #IO, #IQ, #IR, #JO, #JP, #KG, #KH, #KP, #KR, #KZ, #LA, #LB, #LK, #MM, #MN, #MO, #MV, #MY, #NP, #PH, #PK, #PS, #SG, #SY, #TH, #TJ, #TL, #TM, #TR, #TW, #UZ, #VN, #YE, #AS,  #CK, #FJ, #FM, #GU, #KI, #MH, #MP, #NC, #NF, #NR, #NU, #NZ, #PF, #PG, #PN, #PW, #SB, #TK, #TO, #TV, #UM, #VU, #WF, #WS  { fill: #FCBBA1; }
+
+/* 1 tonne and up*/        
+#FK, #GF, #GY, #ST, #SZ, #TD, #TG, #TN, #TZ, #UG, #YT, #ZA, #ZM, #ZW, #IN, #ID, #AF, #AM, #AZ, #BD,  #BN, #BT, #CC, #CX, #CY { fill: #FEE0D2; }
+
+/* 0 tonnes and up*/        
+#CF, #CG, #CI, #CM, #CV, #DJ, #DZ, #EG, #EH, #ER, #ET, #GA, #GH, #GM, #GN, #GQ, #GW, #KE, #KM, #LR, #LS, #LY, #MA, #MG, #ML, #MR, #MU, #MW, #MZ, #NA, #NE, #NG, #RE, #RW, #SC, #SD, #SH, #SL, #SN, #SO, #SS  { fill: #FFF5F0; }
+
+
+
+#infoarea {
+	border-top: dotted 1px grey;
+	height: 74px;
+	background: #555;
+	padding: 0 10px 0 10px;
+	-moz-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+
+#selectacountry {
+	color: rgb(190,190,190);
+	font-weight: bold;
+	padding-top: 3px;
+	text-transform: uppercase;
+	font-size: 17px;
+	}
+
+#infoareaunselected {
+	height: 74px;
+	background: rgb(240,240,240);
+	padding: 1px 10px 0 10px;
+	-moz-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+
+#selectedcountryname {
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	border-bottom: dotted 1px white;
+	padding-top: 5px;
+	}
+
+#selectedcountrydataarea1 {
+	float: left;
+	width: 33%;
+	height: 30px;
+	font-size: 12px;
+	color: white;	
+	text-align: left;
+	}
+
+#selectedcountrydataarea2, #selectedcountrydataarea3 {
+	display: inline-block;
+	width: 33%;
+	height: 30px;
+	font-size: 12px;
+	color: white;	
+	text-align: right;
+	}
+
+#selectedcountrydatadescription1, #selectedcountrydatadescription2, #selectedcountrydatadescription3 {
+	margin-top: 5px;
+	}
+
+#selectedcountrydataresult1, #selectedcountrydataresult2, #selectedcountrydataresult3 {	
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 2px;
+	} 
+
+#selectedcountryrank1, #selectedcountryrank2, #selectedcountryrank3 {	
+	padding-left: 20px;
+	padding-top: 2px;
+	text-decoration: italic;
+	} 
+
+#selectedcountryrankrating1, #selectedcountryrankrating2, #selectedcountryrankrating3 {	
+	margin: 0 6px 0 6px;
+	} 
+
+#selectedcountryrankdata1, #selectedcountryrankdata2, #selectedcountryrankdata3 {	
+	}
+
+#selectedcountrydatarankoutof1, #selectedcountrydatarankoutof2, #selectedcountrydatarankoutof3 {	
+	} 
+
+
+/******** Footer ********/
+
+#footer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	height: 20px;
+	text-align: center;
+	margin-top: 542px;
+	display: block;
+	vertical-align: basline;	
+	}
+
+.footerlink {
+	display: inline;
+	margin: 0 16px 0 16px;
+	color: #555;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: centre;
+	}
+
+/******** General text elements ********/
+
+a:link, a:visited {
+	color: inherit;
+	text-decoration: none;
+	}
+
+a:hover, a:active {
+	color: #333;
+	text-decoration: none;
+	}
+
+p {
+	margin: 0.5em 0 0.5em 0;
+	}
