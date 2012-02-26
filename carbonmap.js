@@ -43,4 +43,14 @@ $(function() {
       }
     }
   });
+  
+  $("#shadedropdown").change(function() {
+    var shading = $(this).val();
+    if (shading == "cc") {
+      $("#maparea").addClass("cc");
+    }
+    else {
+      $("#maparea").removeClass("cc");
+    }
+  });
 });

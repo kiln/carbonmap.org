@@ -272,6 +272,23 @@ rect {
 	cursor: pointer;
 	}
 
+/******** Continental colouring ********/
+/* Africa */
+.cc #AO, .cc #BF, .cc #BI, .cc #BJ, .cc #BW, .cc #CD, .cc #CF, .cc #CG, .cc #CI, .cc #CM, .cc #CV, .cc #DJ, .cc #DZ, .cc #EG, .cc #EH, .cc #ER, .cc #ET, .cc #GA, .cc #GH, .cc #GM, .cc #GN, .cc #GQ, .cc #GW, .cc #KE, .cc #KM, .cc #LR, .cc #LS, .cc #LY, .cc #MA, .cc #MG, .cc #ML, .cc #MR, .cc #MU, .cc #MW, .cc #MZ, .cc #NA, .cc #NE, .cc #NG, .cc #RE, .cc #RW, .cc #SC, .cc #SD, .cc #SH, .cc #SL, .cc #SN, .cc #SO, .cc #SS, .cc #ST, .cc #SZ, .cc #TD, .cc #TG, .cc #TN, .cc #TZ, .cc #UG, .cc #YT, .cc #ZA, .cc #ZM, .cc #ZW { fill: orange; }
+/* Asia */
+.cc #AE, .cc #AF, .cc #AM, .cc #AZ, .cc #BD, .cc #BH, .cc #BN, .cc #BT, .cc #CC, .cc #CN, .cc #CX, .cc #CY, .cc #GE, .cc #HK, .cc #ID, .cc #IL, .cc #IN, .cc #IO, .cc #IQ, .cc #IR, .cc #JO, .cc #JP, .cc #KG, .cc #KH, .cc #KP, .cc #KR, .cc #KW, .cc #KZ, .cc #LA, .cc #LB, .cc #LK, .cc #MM, .cc #MN, .cc #MO, .cc #MV, .cc #MY, .cc #NP, .cc #OM, .cc #PH, .cc #PK, .cc #PS, .cc #QA, .cc #RU, .cc #SA, .cc #SG, .cc #SY, .cc #TH, .cc #TJ, .cc #TL, .cc #TM, .cc #TR, .cc #TW, .cc #UZ, .cc #VN, .cc #YE { fill: #00A86B; }
+/* Europe */
+.cc #AD, .cc #AL, .cc #AM, .cc #AT, .cc #AX, .cc #AZ, .cc #BA, .cc #BE, .cc #BG, .cc #BY, .cc #CH, .cc #CY, .cc #CZ, .cc #DE, .cc #DK, .cc #EE, .cc #ES, .cc #FI, .cc #FO, .cc #FR, .cc #GB, .cc #GE, .cc #GG, .cc #GI, .cc #GR, .cc #HR, .cc #HU, .cc #IE, .cc #IM, .cc #IS, .cc #IT, .cc #JE, .cc #KZ, .cc #LI, .cc #LT, .cc #LU, .cc #LV, .cc #MC, .cc #MD, .cc #ME, .cc #MK, .cc #MT, .cc #NL, .cc #NO, .cc #PL, .cc #PT, .cc #RO, .cc #RS, .cc #RU, .cc #SE, .cc #SI, .cc #SJ, .cc #SK, .cc #SM, .cc #TR, .cc #UA, .cc #VA { fill:  #CC3333 ; }
+/* North America */
+.cc #AG, .cc #AI, .cc #AN, .cc #AW, .cc #BB, .cc #BL, .cc #BM, .cc #BQ, .cc #BS, .cc #BZ, .cc #CA, .cc #CR, .cc #CU, .cc #CW, .cc #DM, .cc #DO, .cc #GD, .cc #GL, .cc #GP, .cc #GT, .cc #HN, .cc #HT, .cc #JM, .cc #KN, .cc #KY, .cc #LC, .cc #MF, .cc #MQ, .cc #MS, .cc #MX, .cc #NI, .cc #PA, .cc #PM, .cc #PR, .cc #SV, .cc #SX, .cc #TC, .cc #TT, .cc #UM, .cc #US, .cc #VC, .cc #VG, .cc #VI { fill: #0067A5; }
+/* South America */
+.cc #AR, .cc #BO, .cc #BR, .cc #CL, .cc #CO, .cc #EC, .cc #FK, .cc #GF, .cc #GY, .cc #PE, .cc #PY, .cc #SR, .cc #UY, .cc #VE { fill: #FF70DB; }
+/* Oceania */
+.cc #AS, .cc #AU, .cc #CK, .cc #FJ, .cc #FM, .cc #GU, .cc #KI, .cc #MH, .cc #MP, .cc #NC, .cc #NF, .cc #NR, .cc #NU, .cc #NZ, .cc #PF, .cc #PG, .cc #PN, .cc #PW, .cc #SB, .cc #TK, .cc #TO, .cc #TV, .cc #UM, .cc #VU, .cc #WF, .cc #WS { fill: purple; }
+/* Antarctica */
+.cc #AQ, .cc #BV, .cc #GS, .cc #HM, .cc #TF { fill: white; }
+
+
 /******** Random banding of countries as example ********/
 
 
