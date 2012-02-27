@@ -20,7 +20,7 @@ body {
 /******** Fonts ********/
 
 #wrapper, #masthead, #site-title, #site-strapline {
-	font-family: Helvetica, Arial;
+	font-family: Helvetica, Arial, sans-serif;
 	}
 
 /******** Header area ********/
@@ -159,6 +159,8 @@ body {
 
 #sidebarbottom {
 	border-top: dotted 1px grey;
+	width: 142px;
+	float: right	
 	}
 
 .sidebarhead {
