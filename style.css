@@ -20,7 +20,7 @@ body {
 /******** Fonts ********/
 
 #wrapper, #masthead, #site-title, #site-strapline {
-	font-family: Helvetica, Arial;
+	font-family: Helvetica, Arial, sans-serif;
 	}
 
 /******** Header area ********/
@@ -159,6 +159,8 @@ body {
 
 #sidebarbottom {
 	border-top: dotted 1px grey;
+	width: 142px;
+	float: right	
 	}
 
 .sidebarhead {
@@ -318,8 +320,6 @@ rect {
 
 /* 0 tonnes and up*/        
 #CF, #CG, #CI, #CM, #CV, #DJ, #DZ, #EG, #EH, #ER, #ET, #GA, #GH, #GM, #GN, #GQ, #GW, #KE, #KM, #LR, #LS, #LY, #MA, #MG, #ML, #MR, #MU, #MW, #MZ, #NA, #NE, #NG, #RE, #RW, #SC, #SD, #SH, #SL, #SN, #SO, #SS  { fill: #FFF5F0; }
-
-
 
 #infoarea {
 	border-top: dotted 1px grey;
