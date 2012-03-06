@@ -17,11 +17,28 @@ body {
 	height: 674px;
 	}
 
-/******** Fonts ********/
+/******** Fonts and swatches ********/
 
 #wrapper, #masthead, #site-title, #site-strapline {
 	font-family: Helvetica, Arial, sans-serif;
 	}
+
+.red {color: rgb(213,17,0)}
+.green {color: rgb(0,198,62)}
+.pink {color: rgb(255,7,190)}
+.orange {color: rgb(249,130,56)}
+.cyan {color: rgb(0,193,238)}
+.purple {color: rgb(108, 59, 195)}
+
+
+.legendred1 { background: #FFF5F0; } /* Palest */
+.legendred2 { background: #FEE0D2; }
+.legendred3 { background: #FCBBA1; }
+.legendred4 { background: #FC9272; }
+.legendred5 { background: #FB6A4A; } 
+.legendred6 { background: #EF3B2C; }
+.legendred7 { background: #CB181D; }
+.legendred8 { background: #99000D; } /* Darkest */
 
 /******** Header area ********/
 
@@ -54,7 +71,8 @@ body {
 
 #credit {
 	display: inline;
-	float: right;	
+	float: right;
+	padding-top: 6px;	
 	color: white;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -89,137 +107,21 @@ body {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 4px 4px 6px 4px;
-	}
-
-.navitems a:hover, 
-.navitems a:active {
-	background: black;
-	font-size: 16px;	
-	margin-left: 0;
-	margin-right: 0;
-	color: white;	
-//	-moz-border-bottom-right-radius: 5px;
-//	border-bottom-right-radius: 5px;
-//	-moz-border-bottom-left-radius: 5px;
-//	border-bottom-left-radius: 5px;
+	padding: 4px;
+	-moz-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;	
 	}
 	
 .navitemsselected {
-	display: inline-block;
-	font-size: 16px;
-	font-weight: bold;
 	color: white;
-	background: rgb(223,223,223);
-	padding: 4px 4px 6px 4px;
-	-moz-border-bottom-right-radius: 2px;
-	border-bottom-right-radius: 5px;
-	-moz-border-bottom-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	background: #666;
 	}
 
-#area, #historical {color: rgb(213,17,0)}
-#population, #reserves {color: rgb(0,198,62)}
-#wealth, #peopleatrisk {color: rgb(255,7,190)}
-#extraction, #sealevel {color: rgb(249,130,56)}
-#emissions, #poverty {color: rgb(0,193,238)}
-#consumption {color: rgb(108, 59, 195)}
- 
-
-/******** Sidebar ********/
-
-#sidebar {
-	margin: 10px 0 0 0;
-	width: 142px;
-	float: right;
-	border: none;		
-	}
-
-#sidebarmain {
-	height: 450px;
-	margin: none;
-	border: none;		
-	}
-
-#sidebarwelcome {
-	font-size: 28px;
-	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: 0.95em;
-	padding-top: 20px; 
-	}
-
-.welcomered {
-	color: rgb(213,17,0)
-	}
-
-.welcomeblue {
-	color: rgb(0,193,238)
-	}
-
-#sidebarbottom {
-	border-top: dotted 1px grey;
-	width: 142px;
-	float: right	
-	}
-
-.sidebarhead {
-	padding: 6px 0 0 0;
-	font-size: 14px;
-	font-weight: bold;	
-	margin-bottom: 4px;	
-	color: #CB181D;
-	}
-
-.sidebartext {
-	line-height: 1.2em;
-	font-size: 12px;
-	font-weight: normal;			
-	}
-
-#legendbox {	
-	padding: 10px 0 4px 0;
-	}
-
-#shade {
-	margin-top: 6px;
-	}
-	
-.legendtext {
-	font-size: 12px;
-	line-height: 15px;
-	}	
-
-#legendunittext {
-	font-size: 11px;
-	line-height: 1.1em;
-	margin-bottom: 10px;
-	}
-
-.legendband1, .legendband2, .legendband3, .legendband4, .legendband5, .legendband6, .legendband7, .legendband8 {
-	width: 12px;
-	height: 12px;
-	float: left;
-	margin-right: 5px;
-	}
-
-.legendband1 { background: #FFF5F0; }
-.legendband2 { background: #FEE0D2; }
-.legendband3 { background: #FCBBA1; }
-.legendband4 { background: #FC9272; }
-.legendband5 { background: #FB6A4A; } 
-.legendband6 { background: #EF3B2C; }
-.legendband7 { background: #CB181D; }
-.legendband8 { background: #99000D; }
-
-
-#twittershare {
-	margin-top: 6px;
-	}
-
-#facebookshare {
-	margin-top: 3px;
-	margin-bottom: 6px;
+.navitemsselected a:hover, 
+.navitemsselected a:link {
+	color: white;	
 	}
 
 /******** Main Area ********/
@@ -326,8 +228,8 @@ rect {
 	height: 74px;
 	background: #555;
 	padding: 0 10px 0 10px;
-	-moz-border-bottom-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 	}
 
 #selectacountry {
@@ -342,8 +244,8 @@ rect {
 	height: 74px;
 	background: rgb(240,240,240);
 	padding: 1px 10px 0 10px;
-	-moz-border-bottom-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 	}
 
 #selectedcountryname {
@@ -398,6 +300,91 @@ rect {
 #selectedcountrydatarankoutof1, #selectedcountrydatarankoutof2, #selectedcountrydatarankoutof3 {	
 	} 
 
+/******** Sidebar ********/
+
+#sidebar {
+	margin: 10px 0 0 0;
+	width: 142px;
+	float: right;
+	border: none;		
+	}
+
+#sidebarmain {
+	height: 450px;
+	margin: none;
+	border: none;		
+	}
+
+#sidebarwelcome {
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 0.95em;
+	padding-top: 20px; 
+	}
+
+.welcomered {
+	color: rgb(213,17,0)
+	}
+
+.welcomeblue {
+	color: rgb(0,193,238)
+	}
+
+#sidebarbottom {
+	border-top: dotted 1px grey;
+	width: 142px;
+	float: right	
+	}
+
+.sidebarhead {
+	padding: 6px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;	
+	margin-bottom: 4px;	
+	color: #CB181D;
+	}
+
+.sidebartext {
+	line-height: 1.2em;
+	font-size: 12px;
+	font-weight: normal;			
+	}
+
+#legendbox {	
+	padding: 10px 0 4px 0;
+	}
+
+#shade {
+	margin-top: 6px;
+	}
+	
+.legendtext {
+	font-size: 12px;
+	line-height: 14px;
+	}	
+
+#legendunittext {
+	font-size: 11px;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+	}
+
+.legendswatch {
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-right: 5px;
+	}
+
+#twittershare {
+	margin-top: 6px;
+	}
+
+#facebookshare {
+	margin-top: 3px;
+	margin-bottom: 6px;
+	}
 
 /******** Footer ********/
 
@@ -407,7 +394,7 @@ rect {
 	width: 600px;
 	height: 20px;
 	text-align: center;
-	margin-top: 542px;
+	margin-top: 538px;
 	display: block;
 	vertical-align: basline;	
 	}
