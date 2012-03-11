@@ -48,6 +48,11 @@ $(function() {
     }
   });
   
+  // Check the hash on initial load as well.
+  if (location.hash) {
+    $(window).hashchange();
+  }
+  
   $("#shadedropdown").change(function() {
     var shading = $(this).val();
     if (shading == "cc") {
