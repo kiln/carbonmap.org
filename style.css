@@ -31,20 +31,11 @@ body {
 .purple {color: rgb(108, 59, 195)}
 
 
-.legendred1 { background: #FFF5F0; } /* Palest */
-.legendred2 { background: #FEE0D2; }
-.legendred3 { background: #FCBBA1; }
-.legendred4 { background: #FC9272; }
-.legendred5 { background: #FB6A4A; } 
-.legendred6 { background: #EF3B2C; }
-.legendred7 { background: #CB181D; }
-.legendred8 { background: #99000D; } /* Darkest */
-
 /******** Header area ********/
 
 #masthead {
 	background: #333;
-	padding: 15px 20px 15px 20px;	
+	padding: 15px 20px 15px 20px;
 	}
 	
 #site-title-the {
@@ -101,7 +92,7 @@ body {
 		
 .navtitle {
 	color: #333;
-	border-bottom: dotted 1px grey;
+	border-bottom: dotted 1px gray;
 	text-transform: uppercase;
 	font-size: 12px;
 	padding-top: 6px;
@@ -154,7 +145,7 @@ svg {
 #robinson {
 	fill: white;
 	stroke: none;
-	stroke-width: 40000
+	stroke-width: 40000;
 	}
 
 #bounds {
@@ -181,55 +172,8 @@ rect {
 	cursor: pointer;
 	}
 
-/******** Continental colouring ********/
-/* Africa */
-.cc #AO, .cc #BF, .cc #BI, .cc #BJ, .cc #BW, .cc #CD, .cc #CF, .cc #CG, .cc #CI, .cc #CM, .cc #CV, .cc #DJ, .cc #DZ, .cc #EG, .cc #EH, .cc #ER, .cc #ET, .cc #GA, .cc #GH, .cc #GM, .cc #GN, .cc #GQ, .cc #GW, .cc #KE, .cc #KM, .cc #LR, .cc #LS, .cc #LY, .cc #MA, .cc #MG, .cc #ML, .cc #MR, .cc #MU, .cc #MW, .cc #MZ, .cc #NA, .cc #NE, .cc #NG, .cc #RE, .cc #RW, .cc #SC, .cc #SD, .cc #SH, .cc #SL, .cc #SN, .cc #SO, .cc #SS, .cc #ST, .cc #SZ, .cc #TD, .cc #TG, .cc #TN, .cc #TZ, .cc #UG, .cc #YT, .cc #ZA, .cc #ZM, .cc #ZW { fill: orange; }
-/* Asia */
-.cc #AE, .cc #AF, .cc #AM, .cc #AZ, .cc #BD, .cc #BH, .cc #BN, .cc #BT, .cc #CC, .cc #CN, .cc #CX, .cc #CY, .cc #GE, .cc #HK, .cc #ID, .cc #IL, .cc #IN, .cc #IO, .cc #IQ, .cc #IR, .cc #JO, .cc #JP, .cc #KG, .cc #KH, .cc #KP, .cc #KR, .cc #KW, .cc #KZ, .cc #LA, .cc #LB, .cc #LK, .cc #MM, .cc #MN, .cc #MO, .cc #MV, .cc #MY, .cc #NP, .cc #OM, .cc #PH, .cc #PK, .cc #PS, .cc #QA, .cc #RU, .cc #SA, .cc #SG, .cc #SY, .cc #TH, .cc #TJ, .cc #TL, .cc #TM, .cc #TR, .cc #TW, .cc #UZ, .cc #VN, .cc #YE { fill: #00A86B; }
-/* Europe */
-.cc #AD, .cc #AL, .cc #AM, .cc #AT, .cc #AX, .cc #AZ, .cc #BA, .cc #BE, .cc #BG, .cc #BY, .cc #CH, .cc #CY, .cc #CZ, .cc #DE, .cc #DK, .cc #EE, .cc #ES, .cc #FI, .cc #FO, .cc #FR, .cc #GB, .cc #GE, .cc #GG, .cc #GI, .cc #GR, .cc #HR, .cc #HU, .cc #IE, .cc #IM, .cc #IS, .cc #IT, .cc #JE, .cc #KZ, .cc #LI, .cc #LT, .cc #LU, .cc #LV, .cc #MC, .cc #MD, .cc #ME, .cc #MK, .cc #MT, .cc #NL, .cc #NO, .cc #PL, .cc #PT, .cc #RO, .cc #RS, .cc #RU, .cc #SE, .cc #SI, .cc #SJ, .cc #SK, .cc #SM, .cc #TR, .cc #UA, .cc #VA { fill:  #CC3333 ; }
-/* North America */
-.cc #AG, .cc #AI, .cc #AN, .cc #AW, .cc #BB, .cc #BL, .cc #BM, .cc #BQ, .cc #BS, .cc #BZ, .cc #CA, .cc #CR, .cc #CU, .cc #CW, .cc #DM, .cc #DO, .cc #GD, .cc #GL, .cc #GP, .cc #GT, .cc #HN, .cc #HT, .cc #JM, .cc #KN, .cc #KY, .cc #LC, .cc #MF, .cc #MQ, .cc #MS, .cc #MX, .cc #NI, .cc #PA, .cc #PM, .cc #PR, .cc #SV, .cc #SX, .cc #TC, .cc #TT, .cc #UM, .cc #US, .cc #VC, .cc #VG, .cc #VI { fill: #0067A5; }
-/* South America */
-.cc #AR, .cc #BO, .cc #BR, .cc #CL, .cc #CO, .cc #EC, .cc #FK, .cc #GF, .cc #GY, .cc #PE, .cc #PY, .cc #SR, .cc #UY, .cc #VE { fill: #FF70DB; }
-/* Oceania */
-.cc #AS, .cc #AU, .cc #CK, .cc #FJ, .cc #FM, .cc #GU, .cc #KI, .cc #MH, .cc #MP, .cc #NC, .cc #NF, .cc #NR, .cc #NU, .cc #NZ, .cc #PF, .cc #PG, .cc #PN, .cc #PW, .cc #SB, .cc #TK, .cc #TO, .cc #TV, .cc #UM, .cc #VU, .cc #WF, .cc #WS { fill: purple; }
-/* Antarctica */
-.cc #AQ, .cc #BV, .cc #GS, .cc #HM, .cc #TF { fill: white; }
-
-
-/******** Random banding of countries as example ********/
-
-
-/* Example selected */
-#BR { fill: #555}
-
-/* 21 tonnes and up*/
-#QA, #TT, #AE, #KW, #BH, #LU { fill: #99000D; }
-
-/* 13 tonnes and up*/ 
-#AU, #US, #CA, #SA, #OM, #KZ { fill: #CB181D; }
-
-/* 8 tonnes and up*/       
-#AD, #AL, #AM, #AT, #AX, #AZ, #BA, #BE, #BG, #BY, #CH, #CY, #CZ, #DE, #DK, #EE, #FI, #FO, #FR, #GB, #RU { fill: #EF3B2C; }
-
-/* 5 tonnes and up*/             
-#FR, #CN, #ZA, #ES, #GE, #GG, #GI, #GR, #HR, #HU, #IE, #IM, #IS, #IT, #JE, #KZ, #LI, #LT, #LV, #MC, #MD, #ME, #MK, #MT, #NL, #NO, #PL, #PT, #RO, #CU, #CW, #DM, #DO, #GD, #GL, #GP, #GT, #HN, #HT, #JM, #KN, #KY, #LC, #MF, #MQ, #MS, #MX { fill: #FB6A4A; } 
-
-/* 3 tonnes and up*/   
-#KR, #KZ, #LA, #LB, #LK, #MM, #MN, #MO, #MV, #MY, #NP, #PH, #PK, #PS, #SG, #SY, #TH, #TJ, #TL, #TM, #TR, #TW, #BJ, #BW, #CD, #RS, #SE, #SI, #SJ, #SK, #SM, #TR, #UA, #VA, #AG, #AI, #AN, #AW, #BB, #BL, #BM, #BQ, #BS, #BZ, #CR, #NI, #PA, #PM, #PR, #SV, #SX, #TC, #UM, #VC, #VG, #VI, #AR, #BO, #CL, #CO, #EC { fill: #FC9272; }
-     
-/* 2 tonnes and up*/   
-#PE, #PY, #SR, #UY, #VE, #AO, #BF, #BI, #GE, #HK, #IL, #IN, #IO, #IQ, #IR, #JO, #JP, #KG, #KH, #KP, #KR, #KZ, #LA, #LB, #LK, #MM, #MN, #MO, #MV, #MY, #NP, #PH, #PK, #PS, #SG, #SY, #TH, #TJ, #TL, #TM, #TR, #TW, #UZ, #VN, #YE, #AS,  #CK, #FJ, #FM, #GU, #KI, #MH, #MP, #NC, #NF, #NR, #NU, #NZ, #PF, #PG, #PN, #PW, #SB, #TK, #TO, #TV, #UM, #VU, #WF, #WS  { fill: #FCBBA1; }
-
-/* 1 tonne and up*/        
-#FK, #GF, #GY, #ST, #SZ, #TD, #TG, #TN, #TZ, #UG, #YT, #ZA, #ZM, #ZW, #IN, #ID, #AF, #AM, #AZ, #BD,  #BN, #BT, #CC, #CX, #CY { fill: #FEE0D2; }
-
-/* 0 tonnes and up*/        
-#CF, #CG, #CI, #CM, #CV, #DJ, #DZ, #EG, #EH, #ER, #ET, #GA, #GH, #GM, #GN, #GQ, #GW, #KE, #KM, #LR, #LS, #LY, #MA, #MG, #ML, #MR, #MU, #MW, #MZ, #NA, #NE, #NG, #RE, #RW, #SC, #SD, #SH, #SL, #SN, #SO, #SS  { fill: #FFF5F0; }
-
 #infoarea {
-	border-top: dotted 1px grey;
+	border-top: dotted 1px gray;
 	height: 74px;
 	background: #555;
 	padding: 0 10px 0 10px;
@@ -289,20 +233,20 @@ rect {
 	padding-top: 2px;
 	} 
 
-#selectedcountryrank1, #selectedcountryrank2, #selectedcountryrank3 {	
+#selectedcountryrank1, #selectedcountryrank2, #selectedcountryrank3 {
 	padding-left: 20px;
 	padding-top: 2px;
 	text-decoration: italic;
 	} 
 
-#selectedcountryrankrating1, #selectedcountryrankrating2, #selectedcountryrankrating3 {	
+#selectedcountryrankrating1, #selectedcountryrankrating2, #selectedcountryrankrating3 {
 	margin: 0 6px 0 6px;
 	} 
 
-#selectedcountryrankdata1, #selectedcountryrankdata2, #selectedcountryrankdata3 {	
+#selectedcountryrankdata1, #selectedcountryrankdata2, #selectedcountryrankdata3 {
 	}
 
-#selectedcountrydatarankoutof1, #selectedcountrydatarankoutof2, #selectedcountrydatarankoutof3 {	
+#selectedcountrydatarankoutof1, #selectedcountrydatarankoutof2, #selectedcountrydatarankoutof3 {
 	} 
 
 /******** Sidebar ********/
@@ -311,13 +255,13 @@ rect {
 	margin: 10px 0 0 0;
 	width: 142px;
 	float: right;
-	border: none;		
+	border: none;
 	}
 
 #sidebarmain {
 	height: 450px;
 	margin: none;
-	border: none;		
+	border: none;
 	}
 
 #sidebarwelcome {
@@ -337,7 +281,7 @@ rect {
 	}
 
 #sidebarbottom {
-	border-top: dotted 1px grey;
+	border-top: dotted 1px gray;
 	width: 142px;
 	float: right	
 	}
@@ -345,15 +289,15 @@ rect {
 .sidebarhead {
 	padding: 6px 0 0 0;
 	font-size: 14px;
-	font-weight: bold;	
-	margin-bottom: 4px;	
+	font-weight: bold;
+	margin-bottom: 4px;
 	color: #CB181D;
 	}
 
 .sidebartext {
 	line-height: 1.2em;
 	font-size: 12px;
-	font-weight: normal;			
+	font-weight: normal;
 	}
 
 #legendbox {	
@@ -369,7 +313,7 @@ rect {
 	line-height: 14px;
 	}	
 
-#legendunittext {
+#legendtext {
 	font-size: 11px;
 	line-height: 1.1em;
 	margin-bottom: 10px;
@@ -401,7 +345,7 @@ rect {
 	text-align: center;
 	margin-top: 538px;
 	display: block;
-	vertical-align: basline;	
+	vertical-align: basline;
 	}
 
 .footerlink {

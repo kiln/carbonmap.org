@@ -4,7 +4,9 @@
 		<meta http-equiv="Content-Type" content="text/ html; charset=UTF-8">
 		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
 		<link href='style.css' rel='stylesheet' type='text/css'>
+		<link href='shading.css' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="data.shading.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.ba-hashchange.min.js"></script>
 		<script type="text/javascript" src="carbonmap.js"></script>
@@ -58,7 +60,7 @@
 					</div>
 				</div>
 				<div id="mainarea">
-					<div id="maparea" class="cc">
+					<div id="maparea" class="shading-Continents">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map" viewBox="-8505833.3305252 -8025154.47184994 20011666.6610504 14250308.94369988">
 							<path id="bounds" d="M -17005833.33053 -8625154.47185 h 34011666.66106 v 17250308.94370 h -34011666.66106 Z"/>
 							<path id="RS" d="M 1723754 -4552889 L 1744367 -4586550 1642431 -4651301 1664911 -4668495 1638374 -4702712 1670665 -4706581 1623784 -4738353 1641265 -4793578 1610029 -4795162 1642398 -4828525 1603417 -4844410 1584482 -4900065 1644437 -4927087 1752640 -4885073 1819912 -4820762 1814348 -4782347 1879427 -4751342 1928034 -4763876 1907018 -4683699 1968607 -4618208 1924521 -4579860 1930983 -4532402 1817187 -4515761 1785843 -4479860 Z" class="no-data"/>
@@ -259,26 +261,16 @@
 					<div id="sidebarmain">
 						<div id="sidebarwelcome" class="welcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.</div>
 						<div class="sidebarhead unwelcome">About this map</div>
-						<div class="sidebartext unwelcome" id="about">
-							<p>Countries resized to show their total CO2 emissions from 1850 to 2010. These historical (or 'cumulative') emissions are crucial because CO2 can remain in the air for centuries. Europe and the US dominate. The UK, cradle of the industrial revolution, is particularly bloated.<p>
-						</div>
+						<div class="sidebartext unwelcome" id="about"></div>
 						<div class="sidebarhead unwelcome">Shade this map by</div>
 						<form class="unwelcome">
 							<select id="shadedropdown">
-								<option value="cc" selected>Continents</option>
-								<option value="gdp">GDP per person</option>
+								<option value="Continents" selected>Continents</option>
+								<option value="EmissionsChange">Emissions change</option>
 							</select>
 						</form>
 						<div id="legendbox" class="unwelcome">
-							<div id="legendunittext">Tonnes of CO2 emitted per person in 2008</div>
-							<div class="legendswatch legendred8"></div><div class="legendtext">Above 21 tonnes</div>
-							<div class="legendswatch legendred7" class="legendswatches"></div><div class="legendtext">13-21 tonnes</div>
-							<div class="legendswatch legendred6" class="legendswatches"></div><div class="legendtext">8-13 tonnes</div>
-							<div class="legendswatch legendred5" class="legendswatches"></div><div class="legendtext">5-8 tonnes</div>
-							<div class="legendswatch legendred4" class="legendswatches"></div><div class="legendtext">3-5 tonnes</div>
-							<div class="legendswatch legendred3" class="legendswatches"></div><div class="legendtext">2-3 tonnes</div>
-							<div class="legendswatch legendred2" class="legendswatches"></div><div class="legendtext">1-2 tonnes</div>
-							<div class="legendswatch legendred1" class="legendswatches"></div><div class="legendtext">0-1 tonnes</div>
+							<div id="legendtext"></div>
 						</div>
 					</div>
 					</div>

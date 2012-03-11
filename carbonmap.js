@@ -55,11 +55,7 @@ $(function() {
   
   $("#shadedropdown").change(function() {
     var shading = $(this).val();
-    if (shading == "cc") {
-      $("#maparea").addClass("cc");
-    }
-    else {
-      $("#maparea").removeClass("cc");
-    }
+    $("#maparea").attr("class", "shading-" + shading);
+    $("#legendbox").html(carbonmap_shading[shading])
   });
 });
