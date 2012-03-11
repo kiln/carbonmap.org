@@ -79,6 +79,11 @@ body {
 	vertical-align: baseline;
 	}
 
+#credit a:hover,
+#credit a:active {
+	color: yellow;
+	}
+
 #contents {
 	font-size: 14px;
 	padding: 14px 20px 0 20px;
