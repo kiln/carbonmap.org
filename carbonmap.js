@@ -2,8 +2,7 @@ $(function() {
   var welcome = true;
   $(".unwelcome").hide();
 
-  $(".navitems a").click(function() {
-    
+  $(window).hashchange(function() {
     // If this is the first time a nav link has been clicked,
     // replace the Welcome sidebar with a data sidebar.
     //
@@ -14,14 +13,14 @@ $(function() {
       welcome = false;
     }
     
-    // Highlight the selected tab
-    $(".navitemsselected").removeClass("navitemsselected");
-    $(this).parent().addClass("navitemsselected");
-    
     // Which menu item was chosen?
-    var href = $(this).attr("href");
-    if (href.length > 1) {
-      var data = carbonmap_data[href.substring(1)];
+    var dataset = location.hash.substr(1);
+    if (dataset in carbonmap_data) {
+      var data = carbonmap_data[dataset];
+      
+      // Highlight the selected tab
+      $(".navitemsselected").removeClass("navitemsselected");
+      $("#nav-" + dataset).addClass("navitemsselected");
       
       // Update the explanatory text
       $("#about").html(data._text);
