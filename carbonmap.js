@@ -18,10 +18,15 @@ $(function() {
     $(".navitemsselected").removeClass("navitemsselected");
     $(this).parent().addClass("navitemsselected");
     
-    // Animate the map to the chosen configuration
+    // Which menu item was chosen?
     var href = $(this).attr("href");
     if (href.length > 1) {
       var data = carbonmap_data[href.substring(1)];
+      
+      // Update the explanatory text
+      $("#about").html(data._text);
+      
+      // Animate the map to the chosen configuration
       for (var k in data) {
           if (!data.hasOwnProperty(k)) continue;
           
