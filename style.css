@@ -14,7 +14,7 @@ body {
 	margin-right:auto;
 	margin-left:auto;
 	background: white;
-	height: 674px;
+	height: auto;
 	}
 
 /******** Fonts and swatches ********/
@@ -248,6 +248,18 @@ rect {
 
 #selectedcountrydatarankoutof1, #selectedcountrydatarankoutof2, #selectedcountrydatarankoutof3 {
 	} 
+
+h2 {
+	margin-top: 34px;
+	font-size: 18px;
+	}
+
+.abouttext {
+	width: 500px;
+	margin-left: 178px;
+	margin-right: auto;
+	padding: 0 0 50px 0;
+	}
 
 /******** Sidebar ********/
 
