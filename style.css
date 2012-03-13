@@ -204,6 +204,7 @@ svg {
 path {
 	stroke: white;
 	stroke-width: 7000;
+	fill: #DDD; /* Used for countries with no data */
 	}
 
 .country {
