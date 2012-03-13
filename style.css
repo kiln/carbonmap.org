@@ -14,7 +14,7 @@ body {
 	margin-right:auto;
 	margin-left:auto;
 	background: white;
-	height: 674px;
+	height: auto;
 	}
 
 /******** Fonts and swatches ********/
@@ -30,6 +30,33 @@ body {
 .cyan {color: rgb(0,193,238)}
 .purple {color: rgb(108, 59, 195)}
 
+/******** General text elements ********/
+
+a:link, a:visited {
+	color: inherit;
+	text-decoration: none;
+	}
+
+a:hover, a:active {
+	color: #333;
+	text-decoration: none;
+	}
+
+p {
+	margin: 0.5em 0 0.5em 0;
+	}
+	
+h2 {
+		margin-top: 34px;
+		font-size: 18px;
+		line-height: 1.2em;
+		}
+
+h3 {
+		margin-top: 30px;
+		font-size: 16px;
+		color: rgb(213,17,0);
+		}
 
 /******** Header area ********/
 
@@ -68,6 +95,11 @@ body {
 	text-transform: uppercase;
 	font-size: 14px;
 	vertical-align: baseline;
+	}
+
+#credit a:link,
+#credit a:visited {
+	color: white;
 	}
 
 #credit a:hover,
@@ -357,18 +389,31 @@ rect {
 	text-align: centre;
 	}
 
-/******** General text elements ********/
+/******** Metapages	********/
 
-a:link, a:visited {
-	color: inherit;
-	text-decoration: none;
+.abouttext {
+	width: 500px;
+	margin-left: 178px;
+	margin-right: auto;
+	padding: 0 0 50px 0;
+	line-height: 18px;
+	}
+	
+.abouttext a:link,
+.abouttext a:visited {
+	color: rgb(213,17,0);
+	border-bottom: dotted 1px rgb(213,17,0);
 	}
 
-a:hover, a:active {
-	color: #333;
-	text-decoration: none;
+.abouttext a:hover,
+.abouttext a:active {
+		color: black;
+		text-decoration: underline dotted 1px;		
 	}
-
-p {
-	margin: 0.5em 0 0.5em 0;
-	}
+	
+.sources {
+			font-size: 12px;
+			line-height: 16px;
+			color: #444;
+			}
+	

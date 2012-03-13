@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/ html; charset=UTF-8">
+		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<link href='shading.css' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="data.shading.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.ba-hashchange.min.js"></script>
+		<script type="text/javascript" src="carbonmap.js"></script>
+ 	</head>
+	<body>
+
+		<!--Facebook button script-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div id="wrapper">
+			<div id="masthead">
+				<a href="/">
+				<div id="site-title-the">The</div>
+				<div id="site-title">carbon map</div>
+				<div id="site-strapline">Making sense of climate change responsibility and vulnerability</div></a>
+				<div id="credit"><a href="http://thekiln.org">A Kiln Project</a></div>
+			</div>
+			<div id="contents">
+				<div class="abouttext">
+					<h2>Data sources, notes and explanation</h2>
+					
+					<h3>Area map</h3>
+					<p class="sources"><b>Description</b>: Land area (sq. km)</p>
+					<p class="sources"><b>Definition</b>: Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.</p>
+					<p class="sources"><b>Source</b>: Food and Agriculture Organization, electronic files and web site.</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/AG.LND.AGRI.K2">AG.LND.TOTL.K2</a></p>
+										
+					<h3>Population map</h3>
+					<p class="sources"><b>Description</b>: Population, total</p>
+					<p class="sources"><b>Definition</b>: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. The values shown are midyear estimates.</p>
+					<p class="sources"><b>Source</b>: (1) United Nations Population Division. 2009. World Population Prospects: The 2008 Revision.  New York, United Nations, Department of Economic and Social Affairs (advanced Excel tables).  Available at http://esa.un.org/unpd/wpp2008/index.htm. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) Secretariat of the Pacific Community: Statistics and Demography Programme, (5) U.S. Census Bureau: International Database, and (6) World bank estimates based on the data from the sources above, household surveys conducted by national agencies, Macro International, the U.S. Centers for Disease Control and Prevention, and refugees statistics from the United Nations High Commissioner for Refugees.</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/SP.POP.TOTL">SP.POP.TOTL</a></p>
+					<p class="sources"><b>Notes</b>: Data for 2010.</p>					
+					
+					<h3>Wealth map</h3>
+					<p class="sources"><b>Description</b>: GDP, PPP (current international $)</p>
+					<p class="sources"><b>Definition</b>:PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current international dollars.</p>
+					<p class="sources"><b>Source</b>: World Bank, International Comparison Program database.</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD">NY.GDP.MKTP.PP.CD</a></p>
+					<p class="sources"><b>Notes</b>: Most data for 2010, but with some infilling of blanks from 2009.</p>
+					
+					<h3>Extraction</h3>
+					<p class="sources"><b>Description</b>: Potential CO2 emissions from extracted fossil fuels</p>
+					<p class="sources"><b>Definition</b>: Potential CO2 emissions from annual fossil fuels extraction, 2010.</p>
+					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark</p>
+					<p class="sources"><b>Notes</b>: Data for 2010 for significant extractor countries. Data from non-significant extractors have been estimated by diving the remainder for each continent by the number of countries. CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>					
+											
+				</div>
+				<div id="footer">
+					<div class="footerlink"><a href=about.html>About</a></div>
+					<div class="footerlink"><a href=about.html#contact>Contact</a></div>
+					<div class="footerlink"><a href=sources.html>Data sources</a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

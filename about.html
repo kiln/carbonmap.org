@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/ html; charset=UTF-8">
+		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<link href='shading.css' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="data.shading.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.ba-hashchange.min.js"></script>
+		<script type="text/javascript" src="carbonmap.js"></script>
+ 	</head>
+	<body>
+
+		<!--Facebook button script-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div id="wrapper">
+			<div id="masthead">
+				<a href="/">
+				<div id="site-title-the">The</div>
+				<div id="site-title">carbon map</div>
+				<div id="site-strapline">Making sense of climate change responsibility and vulnerability</div></a>
+				<div id="credit"><a href="http://thekiln.org">A Kiln Project</a></div>
+			</div>
+			<div id="contents">
+				<div class="abouttext">
+					<h2><a>What's this site?</a></h2>
+					<p>This website is designed to help convey how different countries fit into the climate change picture &ndash; both the causes and the risks. We had the idea for it after becoming frustrated with he inadequacies of <a href="http://en.wikipedia.org/wiki/Choropleth_map">choropleths</a> ('shaded-in maps') at conveying data in an engaging and clear way. The impetus for actually building it came from the <a href="http://worldbank.org/appsforclimate">World Bank's Apps for Climate competition</a>. </p>
+					<h2><a>Who made it?</a></h2>
+					<p>The site was created by <a href="http://duncanclark.net">Duncan Clark</a> and <a href="http://bosker.wordpress.com">Robin Houston</a> under the banner of <a href="http://www.thekiln.org">Kiln</a>, a project focusing on interesting new ways of presenting information.</p>
+					<h2><a>Why do you have so many measures for climate change responsibility?</a></h2>
+					<p>Climate change responsibility is conventionally discussed simply in terms of national emissions or emissions per capita. We feel that doesn't give the whole picture, because it ignores other factors such as historical emissions and the importing and exporting of fossil fuels. To give a fuller and more meaningful picture, this site helps you compare lots of different ways of thinking about responsibility for emissions.</p>
+					<h2><a>Has this kind of mapping been done before?</a></h2>
+					<p>The site is based on <a href="http://en.wikipedia.org/wiki/Cartogram">cartograms</a>: maps distorted to reflect a dataset. There's nothing new about cartograms but to our knowledge this is the first website to display animated, interactive versions.</p>
+					<h2><a>How does it work?</a></h2>
+					<p>We create cartograms from datasets using <a href="http://www-personal.umich.edu/%7Emejn/cart/">some code by Michael T Gastner and M. E. J. Newman</a> (which works, ingeniously, by simulating the diffusion of chemicals between areas, as described <a href="http://www.pnas.org/content/101/20/7499.abstract">here</a>). Then we convert those to interactive SVG maps and apply animations, shading, clickability, etc.</p>
+					<h2><a>Can I make my own version?</a></h2>
+					<p>Not now but maybe one day. We're exploring the possibility of creating a tool to generate these types of maps automatically from a spreadsheet.</p>
+					<h2><a>Can I commission you to make one?</a></h2>
+					<p>Possibly. <a href="mailto:info@duncanclark.net">Drop us a line</a>.</p>
+					<h2><a>What data is behind the maps?</a></h2>
+					<p>You can see full data sources <a href="sources.html">here</a>.</p>
+					<h2><a name="contact">How can I contact you?</a></h2>
+					<p>It's best to email us at <a href="mailto:info@duncanclark.net">info@duncanclark.net</a>.</p>					
+				</div>
+				<div id="footer">
+					<div class="footerlink"><a href=about.html>About</a></div>
+					<div class="footerlink"><a href=about.html#contact>Contact</a></div>
+					<div class="footerlink"><a href=sources.html>Data sources</a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
