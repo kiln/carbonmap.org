@@ -35,8 +35,19 @@ $(function() {
       // Update the rest of the data box, if it’s visible
       var selected_country = $(".selected-country");
       if (selected_country) {
-          $("#selectedcountrydataresult2").text(carbonmap_values[dataset][selected_country.attr("id")] + " " + carbonmap_data_unit[dataset]);
-          $("#selectedcountryrank2").html("");
+          if (dataset in carbonmap_values) {
+              $("#selectedcountrydataresult2").text(carbonmap_values[dataset][selected_country.attr("id")] + " " + carbonmap_data_unit[dataset]);
+              $("#selectedcountryrank2").html("");
+          } else {
+              // Deselect country
+              $(".selected-country").each(function() {
+                 this.setAttribute("class", "country");
+              });
+              $("#selectedcountryinfo").hide();
+              $("#infoareaunselected").show();
+              $("#selectedcountrydataresult2").html("");
+              $("#selectedcountryrank2").html("");
+          }
       }
       
       // Animate the map to the chosen configuration
