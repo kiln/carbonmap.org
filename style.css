@@ -23,22 +23,22 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	}
 
-.red {color: rgb(213,17,0)}
+/*.red {color: rgb(213,17,0)}
 .green {color: rgb(0,198,62)}
 .pink {color: rgb(255,7,190)}
 .orange {color: rgb(249,130,56)}
 .cyan {color: rgb(0,193,238)}
 .purple {color: rgb(108, 59, 195)}
-
+*/
 /******** General text elements ********/
 
 a:link, a:visited {
-	color: inherit;
+	color: #555;
 	text-decoration: none;
 	}
 
 a:hover, a:active {
-	color: #333;
+	color: rgb(213,17,0);
 	text-decoration: none;
 	}
 
@@ -121,36 +121,53 @@ h3 {
 	display: inline-block;
 	padding-right: 12px;
 	}
-		
+
+#navglobe {
+	margin-bottom: -1px;
+	width: 14px;
+	height: 14px;
+	display: inline-block;	
+	background: url("globe.png") no-repeat 0 0;
+	margin-right: 5px;
+}
+
+#navglobe:hover {
+	background-position: 0 -14px;
+	}
+	
 .navtitle {
-	color: #333;
+	color: rgb(213,17,0);
 	border-bottom: dotted 1px gray;
 	text-transform: uppercase;
 	font-size: 12px;
 	padding-top: 6px;
 	padding-bottom: 0;
+	padding-left: 4px;
 	}
 
 .navitems {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 4px;
+	padding: 4px 3px;	
 	-moz-border-bottom-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	-moz-border-bottom-left-radius: 5px;
 	border-bottom-left-radius: 5px;	
 	}
-	
+		
 .navitemsselected {
 	color: white;
 	background: #666;
 	}
 
 .navitemsselected a:hover, 
-.navitemsselected a:link {
+.navitemsselected a:link,
+.navitemsselected a:visited {
 	color: white;	
 	}
+
+
 
 /******** Main Area ********/
 
