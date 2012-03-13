@@ -39,12 +39,7 @@ $(function() {
               $("#selectedcountrydataresult2").text(carbonmap_values[dataset][selected_country.attr("id")] + " " + carbonmap_data_unit[dataset]);
               $("#selectedcountryrank2").html("");
           } else {
-              // Deselect country
-              $(".selected-country").each(function() {
-                 this.setAttribute("class", "country");
-              });
-              $("#selectedcountryinfo").hide();
-              $("#infoareaunselected").show();
+              $("#selectedcountrydatadescription2").html("");
               $("#selectedcountrydataresult2").html("");
               $("#selectedcountryrank2").html("");
           }
