@@ -211,11 +211,10 @@ path {
     cursor: pointer;
 }
 .selected-country {
-    fill: #333 !important;
+    fill: #555 !important;
 }
 
 #infoarea {
-	border-top: dotted 1px gray;
 	height: 74px;
 	background: #555;
 	-moz-border-bottom-left-radius: 8px;
@@ -231,9 +230,10 @@ path {
 	}
 
 #infoareaunselected {
+	border-top: dotted 1px gray;	
 	height: 74px;
 	background: rgb(240,240,240);
-	padding: 1px 10px 0 10px;
+	padding: 0 10px 0 10px;
 	-moz-border-bottom-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	}
