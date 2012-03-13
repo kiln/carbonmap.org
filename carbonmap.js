@@ -34,6 +34,7 @@ $(function() {
       // Update the rest of the data box, if it’s visible
       if ($(".selected-country")) {
           $("#selectedcountrydataresult2").text("1,234,567" + " " + carbonmap_data_unit[dataset]);
+          $("#selectedcountryrank2").html("");
       }
       
       // Animate the map to the chosen configuration
@@ -68,7 +69,17 @@ $(function() {
   $("#shadedropdown").change(function() {
     var shading = $(this).val();
     $("#maparea").attr("class", "shading-" + shading);
-    $("#legendbox").html(carbonmap_shading[shading])
+    $("#legendbox").html(carbonmap_shading[shading]);
+    
+    if (shading in carbonmap_data_description) {
+        $("#selectedcountrydatadescription3").text(carbonmap_data_description[shading]);
+        $("#selectedcountrydataresult3").text("1,234" + " " + carbonmap_data_unit[shading]);
+        $("#selectedcountryrank3").html("");
+    } else {
+        $("#selectedcountrydatadescription3").html("");
+        $("#selectedcountrydataresult3").html("");
+        $("#selectedcountryrank3").html("");
+    }
   }).change();
   
   $(".country").click(function() {
