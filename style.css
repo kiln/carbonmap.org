@@ -110,6 +110,7 @@ h3 {
 #contents {
 	font-size: 14px;
 	padding: 14px 20px 0 20px;
+	height: auto;
 	}
 
 /******** Navigation ********/
@@ -173,7 +174,8 @@ h3 {
 
 #mainarea {
 	margin: 10px 0 0 0;
-	float: left;
+	display: inline-block;
+	width: 820px;
 	}
 	
 #maparea {
@@ -220,13 +222,6 @@ rect {
 	fill: green;
 	cursor: pointer;
 	}
-
-.country {
-    cursor: pointer;
-}
-.selected-country {
-    fill: #333 !important;
-}
 
 #infoarea {
 	border-top: dotted 1px gray;
@@ -394,14 +389,11 @@ rect {
 /******** Footer ********/
 
 #footer {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
+	padding: 20px 0 10px;
 	width: 600px;
-	height: 20px;
 	text-align: center;
-	margin-top: 538px;
 	display: block;
-	vertical-align: basline;
 	}
 
 .footerlink {
@@ -432,7 +424,7 @@ rect {
 .abouttext a:hover,
 .abouttext a:active {
 		color: black;
-		text-decoration: underline dotted 1px;
+		text-decoration: underline dotted 1px;		
 	}
 	
 .sources {
