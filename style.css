@@ -204,6 +204,13 @@ rect {
 	cursor: pointer;
 	}
 
+.country {
+    cursor: pointer;
+}
+.selected-country {
+    fill: #333 !important;
+}
+
 #infoarea {
 	border-top: dotted 1px gray;
 	height: 74px;
@@ -408,7 +415,7 @@ rect {
 .abouttext a:hover,
 .abouttext a:active {
 		color: black;
-		text-decoration: underline dotted 1px;		
+		text-decoration: underline dotted 1px;
 	}
 	
 .sources {

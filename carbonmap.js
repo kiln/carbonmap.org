@@ -14,6 +14,10 @@ $(function() {
     }
     
     // Which menu item was chosen?
+    if (!location.hash) {
+        $(".navitemsselected").removeClass("navitemsselected");
+        return;
+    }
     var dataset = location.hash.substr(1);
     if (dataset in carbonmap_data) {
       var data = carbonmap_data[dataset];
@@ -53,9 +57,31 @@ $(function() {
     $(window).hashchange();
   }
   
+  // Shading dropdown
   $("#shadedropdown").change(function() {
     var shading = $(this).val();
     $("#maparea").attr("class", "shading-" + shading);
     $("#legendbox").html(carbonmap_shading[shading])
+  }).change();
+  
+  $(".country").click(function() {
+    var already_selected = (this.getAttribute("class") == "country selected-country");
+    var something_previously_selected = false;
+    $(".selected-country").each(function() {
+       this.setAttribute("class", "country");
+       something_previously_selected = true;
+    });
+    if (already_selected) {
+        $("#selectedcountryinfo").hide();
+        $("#infoareaunselected").show();
+    } else {
+        this.setAttribute("class", "country selected-country");
+        if (!something_previously_selected) {
+            $("#infoareaunselected").hide();
+            $("#selectedcountryinfo").show();
+        }
+    }
+    
+    return false;
   });
 });
