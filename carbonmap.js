@@ -14,11 +14,10 @@ $(function() {
     }
     
     // Which menu item was chosen?
-    if (!location.hash) {
-        $(".navitemsselected").removeClass("navitemsselected");
-        return;
+    var dataset = "_raw";
+    if (location.hash && location.hash != "#") {
+        dataset = location.hash.substr(1);
     }
-    var dataset = location.hash.substr(1);
     if (dataset in carbonmap_data) {
       var data = carbonmap_data[dataset];
       

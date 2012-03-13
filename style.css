@@ -124,18 +124,21 @@ h3 {
 	}
 
 #navglobe {
-	margin-bottom: -1px;
+	margin: 0 0 -1px 0;
 	width: 14px;
 	height: 14px;
-	display: inline-block;	
+	display: inline-block;
 	background: url("globe.png") no-repeat 0 0;
-	margin-right: 5px;
 }
 
 #navglobe:hover {
 	background-position: 0 -14px;
 	}
-	
+
+.navitemsselected #navglobe {
+		background-position: 0 -28px;
+	}
+
 .navtitle {
 	color: rgb(213,17,0);
 	border-bottom: dotted 1px gray;
@@ -193,41 +196,27 @@ svg {
 	border: none;
 	}
 
-#robinson {
-	fill: white;
-	stroke: none;
-	stroke-width: 40000;
-	}
-
 #bounds {
 	fill: none;
 	stroke: none;
 	}
 
 path {
-	fill: #f7d3aa;
 	stroke: white;
 	stroke-width: 7000;
 	}
 
-path.no-data {
-	fill: #999;
-	}
-	
-circle {
-	fill: red;
-	opacity: 0.100000;
-	}
-rect {
-	fill: green;
-	cursor: pointer;
-	}
+.country {
+    cursor: pointer;
+}
+.selected-country {
+    fill: #333 !important;
+}
 
 #infoarea {
 	border-top: dotted 1px gray;
 	height: 74px;
 	background: #555;
-	padding: 0 10px 0 10px;
 	-moz-border-bottom-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	}
@@ -246,6 +235,10 @@ rect {
 	padding: 1px 10px 0 10px;
 	-moz-border-bottom-left-radius: 8px;
 	border-bottom-left-radius: 8px;
+	}
+
+#selectedcountryinfo {
+	padding: 0 10px 0 10px;
 	}
 
 #selectedcountryname {
