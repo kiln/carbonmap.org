@@ -28,6 +28,14 @@ $(function() {
       // Update the explanatory text
       $("#about").html(data._text);
       
+      // Update the heading on the country data box
+      $("#selectedcountrydatadescription2").text(carbonmap_data_description[dataset]);
+      
+      // Update the rest of the data box, if it’s visible
+      if ($(".selected-country")) {
+          $("#selectedcountrydataresult2").text("1,234,567" + " " + carbonmap_data_unit[dataset]);
+      }
+      
       // Animate the map to the chosen configuration
       for (var k in data) {
           if (!data.hasOwnProperty(k)) continue;
@@ -64,6 +72,13 @@ $(function() {
   }).change();
   
   $(".country").click(function() {
+    // XXXX for now we just hop out of welcome mode if someone clicks a country
+    if (welcome) {
+      $(".welcome").hide();
+      $(".unwelcome").show();
+      welcome = false;
+    }
+    
     var already_selected = (this.getAttribute("class") == "country selected-country");
     var something_previously_selected = false;
     $(".selected-country").each(function() {
@@ -75,6 +90,7 @@ $(function() {
         $("#infoareaunselected").show();
     } else {
         this.setAttribute("class", "country selected-country");
+        $("#selectedcountryname").text(carbonmap_data._names[this.id]);
         if (!something_previously_selected) {
             $("#infoareaunselected").hide();
             $("#selectedcountryinfo").show();
