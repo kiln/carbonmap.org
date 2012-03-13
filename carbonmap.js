@@ -83,4 +83,8 @@ $(function() {
     
     return false;
   });
+  
+  // Initially there isn't a country selected
+  $("#selectedcountryinfo").hide();
+  $("#infoareaunselected").show();
 });
