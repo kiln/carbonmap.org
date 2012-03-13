@@ -2,6 +2,7 @@ $(function() {
   var welcome = true;
   $(".unwelcome").hide();
 
+  var dataset;
   $(window).hashchange(function() {
     // If this is the first time a nav link has been clicked,
     // replace the Welcome sidebar with a data sidebar.
@@ -14,7 +15,7 @@ $(function() {
     }
     
     // Which menu item was chosen?
-    var dataset = "_raw";
+    dataset = "_raw";
     if (location.hash && location.hash != "#") {
         dataset = location.hash.substr(1);
     }
@@ -32,8 +33,9 @@ $(function() {
       $("#selectedcountrydatadescription2").text(carbonmap_data_description[dataset]);
       
       // Update the rest of the data box, if it’s visible
-      if ($(".selected-country")) {
-          $("#selectedcountrydataresult2").text("1,234,567" + " " + carbonmap_data_unit[dataset]);
+      var selected_country = $(".selected-country");
+      if (selected_country) {
+          $("#selectedcountrydataresult2").text(carbonmap_values[dataset][selected_country.attr("id")] + " " + carbonmap_data_unit[dataset]);
           $("#selectedcountryrank2").html("");
       }
       
@@ -106,6 +108,8 @@ $(function() {
             $("#infoareaunselected").hide();
             $("#selectedcountryinfo").show();
         }
+        $("#selectedcountrydataresult2").text(carbonmap_values[dataset][this.id] + " " + carbonmap_data_unit[dataset]);
+        $("#selectedcountryrank2").html("");
     }
     
     return false;
