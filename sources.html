@@ -41,6 +41,7 @@
 					<p class="sources"><b>Source</b>: Food and Agriculture Organization, electronic files and web site.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/AG.LND.AGRI.K2">AG.LND.TOTL.K2</a></p>
 					<p class="sources"><b>Notes</b>: Greenland data substituted with figure from data.un.org so that it includes the area under the Greenland Ice Sheet.</p>					
+
 					<h3>Population map</h3>
 					<p class="sources"><b>Description</b>: Population, total</p>
 					<p class="sources"><b>Definition</b>: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. The values shown are midyear estimates.</p>
@@ -49,18 +50,61 @@
 					<p class="sources"><b>Notes</b>: Data for 2010.</p>					
 					
 					<h3>Wealth map</h3>
-					<p class="sources"><b>Description</b>: GDP, PPP (current international $)</p>
+					<p class="sources"><b>Description</b>: Total GDP (PPP, current international $)</p>
 					<p class="sources"><b>Definition</b>:PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current international dollars.</p>
 					<p class="sources"><b>Source</b>: World Bank, International Comparison Program database.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD">NY.GDP.MKTP.PP.CD</a></p>
 					<p class="sources"><b>Notes</b>: Most data for 2010, but with some infilling of blanks from 2009.</p>
 					
-					<h3>Extraction</h3>
+					<h3>Extraction map</h3>
 					<p class="sources"><b>Description</b>: Potential CO2 emissions from extracted fossil fuels</p>
-					<p class="sources"><b>Definition</b>: Potential CO2 emissions from annual fossil fuels extraction, 2010.</p>
-					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark</p>
-					<p class="sources"><b>Notes</b>: Data for 2010 for significant extractor countries. Data from non-significant extractors have been estimated by diving the remainder for each continent by the number of countries. CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>					
+					<p class="sources"><b>Definition</b>: Potential CO2 emissions from annual fossil fuels extraction.</p>
+					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark, using the following conversion factors: CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>
+					<p class="sources"><b>Notes</b>: Data for 2010 for significant extractor countries. Data from non-significant extractors have been estimated by diving the remainder for each continent or region between the remaining countries in proportion to their land area.</p>					
+
+					<h3>Emissions map</h3>
+					<p class="sources"><b>Description</b>: National CO2 emissions, 2010</p>
+					<p class="sources"><b>Definition</b>: Total emissions of CO2 from fossil fuel burning and cement production in each nation.</p>
+					<p class="sources"><b>Source</b>: <a href="http://www.nature.com/nclimate/journal/v2/n1/full/nclimate1332.html">Glen Peters et al., Nature Climate Change 2, 2–4 (2012) doi:10.1038/nclimate1332.</p>
+					<p class="sources"><b>Notes</b>: This dataset was updated in March 2010 by Glen Peters. Missing data for countries with low levels of emissions have been estimated by Duncan Clark by distributing unallocated emissions between countries in proportion to their national GDP (PPP, 2010).</p>
+
+					<h3>Consumption map</h3>
+					<p class="sources"><b>Description</b>: Carbon footprint of all goods and services consumed, 2010</p>
+					<p class="sources"><b>Definition</b>: Total emissions of CO2 (from fossil fuel burning and cement production) released in the provision of goods and services consumed in each nation. This is calculated by subtracted the estimated carbon footprint of exports from each nation and adding the estimated carbon footprint of imports.</p>
+					<p class="sources"><b>Source</b>: <a href="http://www.nature.com/nclimate/journal/v2/n1/full/nclimate1332.html">Glen Peters et al., Nature Climate Change 2, 2–4 (2012) doi:10.1038/nclimate1332.</p>
+					<p class="sources"><b>Notes</b>: This dataset was updated in March 2010 by Glen Peters. Missing data for countries with small footprints have been estimated by Duncan Clark by distributing unallocated emissions between countries in proportion to their national GDP (PPP, 2010).</p>
+
+					<h3>Historical map</h3>
+					<p class="sources"><b>Description</b>: Cumulative CO2 emissions from energy use</p>
+					<p class="sources"><b>Definition</b>: Total emissions of carbon dioxide from energy provision, 1850–2008.</p>
+					<p class="sources"><b>Source</b>: <a href="http://cait.wri.org">Climate Analysis Indicators Tool (CAIT) Version 9.0. (Washington, DC: World Resources Institute, 2012)</a> (free registration required).</p>
+
+					<h3>Reserves map</h3>
+					<p class="sources"><b>Description</b>: Potential CO2 emissions from fossil fuel reserves</p>
+					<p class="sources"><b>Definition</b>: This dataset estimates how much CO2 would be released if the fossil fuel reserves for each country were extracted and burned. "Reserves" refers to proven oil, coal and gas reserves that could be extracted economically in current conditions. </p>
+					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark using the standard BP conversion factors: CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>
+					<p class="sources"><b>Notes</b>: Data for reserves as of 2010 for countries listed by BP. Data from other countries have been estimated by diving the remainder for each continent or region between the remaining countries in proportion to their land area.</p>					
+
+					<h3>People at risk map</h3>
+					<p class="sources"><b>Description</b>: People exposed to droughts, floods and extreme temperatures in 2010</p>
+					<p class="sources"><b>Definition</b>A drought is an extended period of time characterized by a deficiency in a region's water supply that is the result of constantly below average precipitation. A drought can lead to losses to agriculture, affect inland navigation and hydropower plants, and cause a lack of drinking water and famine. A flood is a significant rise of water level in a stream, lake, reservoir or coastal region. Extreme temperature events are either cold waves or heat waves. A cold wave can be both a prolonged period of excessively cold weather and the sudden invasion of very cold air over a large area. Along with frost it can cause damage to agriculture, infrastructure, and property.  A heat wave is a prolonged period of excessively hot and sometimes also humid weather relative to normal climate patterns of a certain region. Population affected is the number of people injured, left homeless or requiring immediate assistance during a period of emergency resulting from a natural disaster; it can also include displaced or evacuated people.</p>
+					<p class="sources"><b>Source</b>: EM-DAT: The OFDA/CRED International Disaster Database: www.emdat.be, Université Catholique de Louvain, Brussels (Belgium), World Bank.</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.CLC.MDAT.ZS">EN.CLC.MDAT.ZS</a> * population</p>
+					<p class="sources"><b>Notes</b>: Original dataset was % of population exposed in the period 1990–2009. This has been multiplied by the 2010 population to give an estimate of the people currently exposed.</p>
+
+					<h3>Sea level map</h3>
+					<p class="sources"><b>Description</b>: Population living less than 5m above sea level</p>
+					<p class="sources"><b>Definition</b>Population below 5m is the total population living in areas where the elevation is 5 meters or less.</p>
+					<p class="sources"><b>Source</b>: Center for International Earth Science Information Network (CIESIN), Place II dataset.</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.POP.EL5M.ZS">EN.POP.EL5M.ZS</a> * population</p>
+					<p class="sources"><b>Notes</b>: Original dataset was % of population. This has been multiplied by the 2010 population to give an estimate of the total population currently living below 5m.</p>
 											
+					<h3>Poverty</h3>
+					<p class="sources"><b>Description</b>: Population living below $1.25 a day</p>
+					<p class="sources"><b>Definition</b>Population below $1.25 a day is the percentage of the population living on less than $1.25 a day at 2005 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.</p>
+					<p class="sources"><b>Source</b>: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/jsp/index.jsp).</p>
+					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/SI.POV.DDAY">SI.POV.DDAY</a> * population</p>
+					<p class="sources"><b>Notes</b>: Calculated by multiplying the 2010 population total by the % of population living on less than $1.25 in the most recent year for which data is available.</p>
 				</div>
 			</div>
 		</div>
