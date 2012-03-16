@@ -50,7 +50,6 @@ $(function() {
     };
 
     var setDataset = function(new_dataset) {
-        console.log("setDataset(%s)", new_dataset);
         dataset = new_dataset;
         if (dataset in carbonmap_data) {
             var data = carbonmap_data[dataset];
@@ -95,6 +94,7 @@ $(function() {
             }
         }
     };
+
     $(window).hashchange(function() {
         // The big overlaid Play button should only be shown on the default no-hash view
         $("#play-intro").hide();
@@ -210,7 +210,7 @@ $(function() {
     track.addEventListener("timeupdate", function() {
         if (track.paused) return;
         
-        //console.log(this.currentTime);
+        //console.log(this.currentTime); // Handy for quickly eyeballing timecodes
         var new_dataset = "";
         var new_shading = "Continents";
         for (var i = 0; i < track_animations.length; i++) {
