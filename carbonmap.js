@@ -13,6 +13,13 @@ $(function() {
     }
     
     var track = document.getElementById("intro-track");
+    
+    var _val = function(value, unit) {
+        if (unit === "people") {
+            value = Math.round(value); // Fractional people read strangely
+        }
+        return value + " " + unit;
+    }
 
     var dataset;
     var shading = "Continents";
@@ -30,7 +37,7 @@ $(function() {
                 $("#selectedcountrydataresult2").text("No data available");
             }
             else {
-                $("#selectedcountrydataresult2").text(data_value + " " + carbonmap_data_unit[dataset]);
+                $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
             }
             $("#selectedcountryrank2").html("");
         } else {
@@ -40,7 +47,7 @@ $(function() {
 
         if (selected_country && shading in carbonmap_data_description) {
             $("#selectedcountrydatadescription3").text(carbonmap_data_description[shading]);
-            $("#selectedcountrydataresult3").text(carbonmap_values[shading][selected_country.id] + " " + carbonmap_data_unit[shading]);
+            $("#selectedcountrydataresult3").text(_val(carbonmap_values[shading][selected_country.id], carbonmap_data_unit[shading]));
             $("#selectedcountryrank3").html("");
         } else {
             $("#selectedcountrydatadescription3").html("");
