@@ -39,7 +39,9 @@ $(function() {
         }
     };
 
-    var dataset_has_changed = function() {
+    var setDataset = function(new_dataset) {
+        console.log("setDataset(%s)", new_dataset);
+        dataset = new_dataset;
         if (dataset in carbonmap_data) {
             var data = carbonmap_data[dataset];
 
@@ -84,28 +86,44 @@ $(function() {
         }
     };
     $(window).hashchange(function() {
+        // The big overlaid Play button should only be shown on the default no-hash view
+        $("#play-intro").hide();
+        
+        if (location.hash === "#intro") {
+            setDataset("_raw");
+            
+            // If we’re here, the audio is almost certainly already playing,
+            // but in the case where someone uses the Back button to go back
+            // to the intro it’s nice to resume automatically
+            track.play();
+            
+            // Similarly we reset the "welcome" condition, so the audio controls
+            // are visible in the sidebar
+            $(".unwelcome").hide();
+            $(".welcome").show();
+            welcome = true;
+            
+            return;
+        }
+        
+        // If someone clicks a tab while the intro is running, pause it.
+        track.pause();
+
         // If this is the first time a nav link has been clicked,
         // replace the Welcome sidebar with a data sidebar.
-        //
-        // XXXX This should be map-specific.
         if (welcome) {
             $(".welcome").hide();
             $(".unwelcome").show();
             welcome = false;
         }
-        
-        if (location.hash === "#intro") {
-            track.play();
-            dataset_has_changed();
-            return;
-        }
 
         // Which menu item was chosen?
-        dataset = "_raw";
         if (location.hash && location.hash != "#") {
-            dataset = location.hash.substr(1);
+            setDataset(location.hash.substr(1));
         }
-        dataset_has_changed();
+        else {
+            setDataset("_raw");
+        }
     });
 
     // Check the hash on initial load as well.
@@ -117,9 +135,6 @@ $(function() {
     }
 
     // Shading dropdown
-    var set_shading = function(new_shading) {
-        shading = new_shading;
-    };
     $("#shadedropdown").change(function() {
         shading = $(this).val();
         $("#maparea").attr("class", "shading-" + shading);
@@ -183,6 +198,8 @@ $(function() {
         [71, "PeopleAtRisk"]
     ];
     track.addEventListener("timeupdate", function() {
+        if (track.paused) return;
+        
         //console.log(this.currentTime);
         var new_dataset = "";
         var new_shading = "Continents";
@@ -197,14 +214,16 @@ $(function() {
         if (new_shading !== shading)
             $("#shadedropdown").val(new_shading).change();
         if (new_dataset !== dataset) {
-            dataset = new_dataset;
-            dataset_has_changed();
+            setDataset(new_dataset);
         }
     });
-    $("#play-intro").click(function() {
+    track.addEventListener("play", function() {
         document.location.hash = "#intro";
     });
     track.addEventListener("ended", function() {
         document.location.hash = "#";
-    })
+    });
+    $("#play-intro").click(function() {
+        track.play();
+    });
 });
