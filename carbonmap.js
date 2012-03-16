@@ -238,6 +238,9 @@ $(function() {
         document.location.hash = "#intro";
     });
     track.addEventListener("ended", function() {
+        if (shading !== "Continents") {
+            $("#shadedropdown").val("Continents").change();
+        }
         document.location.hash = "#";
     });
     $("#play-intro").click(function() {
