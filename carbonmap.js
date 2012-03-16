@@ -49,6 +49,7 @@ function carbonmapDataLoaded() {
         e.setAttribute("d", path_data);
         map.appendChild(e);
     }
+    $("#map-placeholder").hide();
     
     var _val = function(value, unit) {
         if (unit === "people") {
