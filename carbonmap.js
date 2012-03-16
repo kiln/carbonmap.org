@@ -33,7 +33,7 @@ $(function() {
       $("#selectedcountrydatadescription2").text(carbonmap_data_description[dataset]);
       
       // Update the rest of the data box, if it’s visible
-      var selected_country = $(".selected-country");
+      var selected_country = $(document.getElementsByClassName("selected-country"));
       if (selected_country) {
           if (dataset in carbonmap_values) {
               $("#selectedcountrydataresult2").text(carbonmap_values[dataset][selected_country.attr("id")] + " " + carbonmap_data_unit[dataset]);
@@ -90,7 +90,7 @@ $(function() {
     }
   }).change();
   
-  $(".country").click(function() {
+  $(document.getElementsByClassName("country")).click(function() {
     // XXXX for now we just hop out of welcome mode if someone clicks a country
     if (welcome) {
       $(".welcome").hide();
@@ -100,7 +100,7 @@ $(function() {
     
     var already_selected = (this.getAttribute("class") == "country selected-country");
     var something_previously_selected = false;
-    $(".selected-country").each(function() {
+    $(document.getElementsByClassName("selected-country")).each(function() {
        this.setAttribute("class", "country");
        something_previously_selected = true;
     });
@@ -114,7 +114,11 @@ $(function() {
             $("#infoareaunselected").hide();
             $("#selectedcountryinfo").show();
         }
-        $("#selectedcountrydataresult2").text(carbonmap_values[dataset][this.id] + " " + carbonmap_data_unit[dataset]);
+        if (dataset in carbonmap_values) {
+            $("#selectedcountrydataresult2").text(carbonmap_values[dataset][this.id] + " " + carbonmap_data_unit[dataset]);
+        } else {
+            $("#selectedcountrydataresult2").html("");
+        }
         $("#selectedcountryrank2").html("");
     }
     
