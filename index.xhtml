@@ -67,10 +67,6 @@
 		<script type="text/javascript" src="carbonmap.js"></script>
 	</head>
 	<body>
-		<audio id="intro-track" preload="auto">
-			<source src="intro.ogg" type="audio/ogg" />
-			<source src="intro.mp3" type="audio/mpeg" />
-		</audio>
 
 		<!--Facebook button script-->
 		<div id="fb-root"></div>
@@ -337,7 +333,13 @@ ountryrankdata2">23</span><span id="selectedcountryrankoutof2">/225</span>)--></
 				</div>
 				<div id="sidebar">
 					<div id="sidebarmain">
-						<div id="sidebarwelcome" class="welcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.</div>
+						<div id="sidebarwelcome" class="welcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.
+							<audio id="intro-track" preload="auto" controls="controls" style="width:100%; margin-top: 20px;">
+								<source src="intro.ogg" type="audio/ogg" />
+								<source src="intro.mp3" type="audio/mpeg" />
+							</audio>
+							
+							</div>
 						<div class="sidebarhead unwelcome">About this map</div>
 						<div class="sidebartext unwelcome" id="about"></div>
 						<div class="sidebarhead unwelcome">Shade this map by</div>

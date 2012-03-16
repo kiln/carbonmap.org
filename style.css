@@ -112,6 +112,45 @@ h3 {
 	padding: 14px 20px 20px 20px;
 	height: auto;
 	}
+	
+#contentsie {
+	background: url("palewashforie.png") no-repeat 0 0;
+	width: 1024px;
+	height: 625px;
+	}
+	
+#iemessage {
+	width: 500px;
+	padding: 10px 30px 20px 30px;
+	margin-top: 150px;
+	margin-left: 232px;
+	float: left;
+	background: #333;
+	color: white;
+	}
+	
+.iemessagehead {
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px 0;
+}
+	
+#iemessage a:link,
+#iemessage a:visited {
+	color: yellow;
+	border-bottom: dotted 1px yellow;
+	}	
+
+#iemessage a:hover,
+#iemessage a:active {
+	color: #999;
+	border-bottom: dotted 1px #999;
+	}	
+
+#iemessage p {
+	margin: 18px 0;
+}
 
 /******** Navigation ********/
 
