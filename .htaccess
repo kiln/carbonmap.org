@@ -8,3 +8,5 @@ DirectoryIndex index.xhtml
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 </IfModule>
 
+Redirect /demo/ /
+Redirect /demo /
