@@ -16,7 +16,7 @@ $(function() {
     
     var _val = function(value, unit) {
         if (unit === "people") {
-            value = Math.round(value); // Fractional people read strangely
+            value = value.replace(/\.0$/, ""); // Fractional people read strangely
         }
         return value + " " + unit;
     }
