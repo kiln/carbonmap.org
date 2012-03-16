@@ -102,7 +102,7 @@ $(function() {
         }
     };
 
-   window.addEventListener("hashchange", function() {
+    var handleHashChange = function() {
         // The big overlaid Play button should only be shown on the default no-hash view
         $("#play-intro").hide();
         
@@ -141,11 +141,12 @@ $(function() {
         else {
             setDataset("_raw");
         }
-    });
+    };
+    window.addEventListener("hashchange", handleHashChange);
 
     // Check the hash on initial load as well.
     if (location.hash) {
-        $(window).hashchange();
+        handleHashChange();
     }
     else {
         $("#about").html(carbonmap_data._raw._text);
