@@ -145,7 +145,7 @@ $(function() {
 
     // Check the hash on initial load as well.
     if (location.hash) {
-        $(window).hashchange();
+        $(window).trigger("hashchange");
     }
     else {
         $("#about").html(carbonmap_data._raw._text);
