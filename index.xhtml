@@ -4,6 +4,14 @@
 	<head>
 		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
 		<link href='style.css' rel='stylesheet' type='text/css' />
+		
+		<script type="text/javascript" src="modernizr.js"></script>
+		<script type="text/javascript">
+			if (!Modernizr.smil) {
+				document.location.href="fail.html";
+			}
+		</script>
+		
 		<link href='shading.css' rel='stylesheet' type='text/css' />
 		<script type="text/javascript" src="data.js"></script>
 		<script type="text/javascript" src="data.shading.js"></script>
@@ -56,7 +64,6 @@
 				"Population growth": "%"
 			};
 		]]></script>
-		<script type="text/javascript" src="modernizr.js"></script>
 		<script type="text/javascript" src="carbonmap.js"></script>
 	</head>
 	<body>

@@ -1,8 +1,3 @@
-if (!Modernizr.smil) {
-    document.location.href="fail.html";
-    return;
-}
-
 $(function() {
     var welcome = true;
     $(".unwelcome").hide();
