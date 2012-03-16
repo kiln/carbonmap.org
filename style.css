@@ -254,10 +254,14 @@ path {
 	}
 
 .country {
-    cursor: pointer;
+	cursor: pointer;
+	-webkit-transition: fill 0.3s ease-in;
+	-moz-transition: fill 0.3s ease-in;
+	transition: fill 0.3s ease-in;
 }
+
 .selected-country {
-    fill: #555 !important;
+	fill: #555 !important;
 }
 
 #infoarea {
