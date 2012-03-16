@@ -1,6 +1,16 @@
 $(function() {
-    var welcome = true;
-    $(".unwelcome").hide();
+    
+    // If the browser does not support HTML audio, skip the intro.
+    // I’m not sure there actually are any browsers that support
+    // SMIL but not HTML audio, but if there are we’re ready for them!
+    var welcome = Modernizr.audio;
+    if (welcome) {
+        $(".unwelcome").hide();
+    }
+    else {
+        $("#play-intro").hide();
+        $(".welcome").hide();
+    }
     
     var track = document.getElementById("intro-track");
 
