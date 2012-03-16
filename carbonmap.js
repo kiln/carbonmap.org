@@ -161,8 +161,8 @@ $(function() {
     }).change();
 
     $(document.getElementsByClassName("country")).click(function() {
-    // XXXX for now we just hop out of welcome mode if someone clicks a country
-    if (welcome) {
+    // Hop out of welcome mode if someone clicks a country, unless the intro is playing
+    if (welcome && track.paused) {
       $(".welcome").hide();
       $(".unwelcome").show();
       welcome = false;
