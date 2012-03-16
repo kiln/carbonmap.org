@@ -3,20 +3,38 @@ $(function() {
     $(".unwelcome").hide();
 
     var dataset;
+    var shading;
     var update_infobox = function(selected_country) {
-      if (selected_country && dataset in carbonmap_values) {
-          var data_value = carbonmap_values[dataset][selected_country.id];
-          if (typeof data_value === "undefined") {
-              $("#selectedcountrydataresult2").text("No data available");
-          }
-          else {
-              $("#selectedcountrydataresult2").text(data_value + " " + carbonmap_data_unit[dataset]);
-          }
-          $("#selectedcountryrank2").html("");
-      } else {
-          $("#selectedcountrydataresult2").html("");
-          $("#selectedcountryrank2").html("");
-      }
+        if (typeof selected_country === "undefined") {
+            var selected_countries = document.getElementsByClassName("selected-country");
+            if (selected_countries) {
+                selected_country = selected_countries[0];
+            }
+        }
+        
+        if (selected_country && dataset in carbonmap_values) {
+            var data_value = carbonmap_values[dataset][selected_country.id];
+            if (typeof data_value === "undefined") {
+                $("#selectedcountrydataresult2").text("No data available");
+            }
+            else {
+                $("#selectedcountrydataresult2").text(data_value + " " + carbonmap_data_unit[dataset]);
+            }
+            $("#selectedcountryrank2").html("");
+        } else {
+            $("#selectedcountrydataresult2").html("");
+            $("#selectedcountryrank2").html("");
+        }
+
+        if (selected_country && shading in carbonmap_data_description) {
+            $("#selectedcountrydatadescription3").text(carbonmap_data_description[shading]);
+            $("#selectedcountrydataresult3").text(carbonmap_values[shading][selected_country.id] + " " + carbonmap_data_unit[shading]);
+            $("#selectedcountryrank3").html("");
+        } else {
+            $("#selectedcountrydatadescription3").html("");
+            $("#selectedcountrydataresult3").html("");
+            $("#selectedcountryrank3").html("");
+        }
     };
 
     $(window).hashchange(function() {
@@ -54,10 +72,7 @@ $(function() {
             }
 
             // Update the rest of the data box, if it’s visible
-            var selected_countries = document.getElementsByClassName("selected-country");
-            if (selected_countries) {
-                update_infobox(selected_countries[0]);
-            }
+            update_infobox();
 
             // Animate the map to the chosen configuration
             for (var k in data) {
@@ -84,24 +99,15 @@ $(function() {
 
     // Check the hash on initial load as well.
     if (location.hash) {
-    $(window).hashchange();
+        $(window).hashchange();
     }
 
     // Shading dropdown
     $("#shadedropdown").change(function() {
-    var shading = $(this).val();
-    $("#maparea").attr("class", "shading-" + shading);
-    $("#legendbox").html(carbonmap_shading[shading]);
-
-    if (shading in carbonmap_data_description) {
-        $("#selectedcountrydatadescription3").text(carbonmap_data_description[shading]);
-        $("#selectedcountrydataresult3").text("1,234" + " " + carbonmap_data_unit[shading]);
-        $("#selectedcountryrank3").html("");
-    } else {
-        $("#selectedcountrydatadescription3").html("");
-        $("#selectedcountrydataresult3").html("");
-        $("#selectedcountryrank3").html("");
-    }
+        shading = $(this).val();
+        $("#maparea").attr("class", "shading-" + shading);
+        $("#legendbox").html(carbonmap_shading[shading]);
+        update_infobox();
     }).change();
 
     $(document.getElementsByClassName("country")).click(function() {
