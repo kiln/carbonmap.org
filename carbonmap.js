@@ -3,7 +3,7 @@ $(function() {
     $(".unwelcome").hide();
 
     var dataset;
-    var shading;
+    var shading = "Continents";
     var update_infobox = function(selected_country) {
         if (typeof selected_country === "undefined") {
             var selected_countries = document.getElementsByClassName("selected-country");
@@ -37,22 +37,7 @@ $(function() {
         }
     };
 
-    $(window).hashchange(function() {
-        // If this is the first time a nav link has been clicked,
-        // replace the Welcome sidebar with a data sidebar.
-        //
-        // XXXX This should be map-specific.
-        if (welcome) {
-            $(".welcome").hide();
-            $(".unwelcome").show();
-            welcome = false;
-        }
-
-        // Which menu item was chosen?
-        dataset = "_raw";
-        if (location.hash && location.hash != "#") {
-            dataset = location.hash.substr(1);
-        }
+    var dataset_has_changed = function() {
         if (dataset in carbonmap_data) {
             var data = carbonmap_data[dataset];
 
@@ -95,14 +80,38 @@ $(function() {
                 }
             }
         }
+    };
+    $(window).hashchange(function() {
+        // If this is the first time a nav link has been clicked,
+        // replace the Welcome sidebar with a data sidebar.
+        //
+        // XXXX This should be map-specific.
+        if (welcome) {
+            $(".welcome").hide();
+            $(".unwelcome").show();
+            welcome = false;
+        }
+
+        // Which menu item was chosen?
+        dataset = "_raw";
+        if (location.hash && location.hash != "#") {
+            dataset = location.hash.substr(1);
+        }
+        dataset_has_changed();
     });
 
     // Check the hash on initial load as well.
     if (location.hash) {
         $(window).hashchange();
     }
+    else {
+        $("#about").html(carbonmap_data._raw._text);
+    }
 
     // Shading dropdown
+    var set_shading = function(new_shading) {
+        shading = new_shading;
+    };
     $("#shadedropdown").change(function() {
         shading = $(this).val();
         $("#maparea").attr("class", "shading-" + shading);
@@ -143,4 +152,52 @@ $(function() {
     // Initially there isn't a country selected
     $("#selectedcountryinfo").hide();
     $("#infoareaunselected").show();
+    
+    
+    // Audio intro
+    var track_animations = [
+        [8, "Area"],
+        [14, "Population"],
+        [15.5, "GDP"],
+        
+        [25.5, "Extraction"],
+        [27.5, "Emissions"],
+        [29.5, "Consumption"],
+        [34, "Historical"],
+        [36, "Reserves"],
+        
+        [46, "PeopleAtRisk"],
+        
+        [56, "_raw"],
+        [57, "PopulationGrowth"],
+        
+        [64, "Emissions"],
+        [71, "PeopleAtRisk"]
+    ];
+    var track = document.getElementById("intro-track");
+    track.addEventListener("timeupdate", function() {
+        //console.log(this.currentTime);
+        var new_dataset = "";
+        var new_shading = "Continents";
+        for (var i = 0; i < track_animations.length; i++) {
+            if (track_animations[i][0] > this.currentTime)
+                break;
+            if (track_animations[i][1] in carbonmap_shading)
+                new_shading = track_animations[i][1];
+            else
+                new_dataset = track_animations[i][1];
+        }
+        if (new_shading !== shading)
+            $("#shadedropdown").val(new_shading).change();
+        if (new_dataset !== dataset) {
+            dataset = new_dataset;
+            dataset_has_changed();
+        }
+    });
+    $("#play-intro").click(function() {
+        $(".welcome").hide();
+        $(".unwelcome").show();
+        welcome = false;
+        track.play();
+    });
 });

@@ -180,6 +180,14 @@ h3 {
 	display: inline-block;
 	width: 820px;
 	}
+
+#play-intro {
+	background: url(playsymbol.png);
+	width: 825px;
+	height: 420px;
+	position: absolute;
+	cursor: pointer;
+}
 	
 #maparea {
 	height: 450px;
