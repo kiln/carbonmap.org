@@ -102,7 +102,7 @@ $(function() {
         }
     };
 
-    $(window).hashchange(function() {
+   window.addEventListener("hashchange", function() {
         // The big overlaid Play button should only be shown on the default no-hash view
         $("#play-intro").hide();
         
