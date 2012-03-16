@@ -41,7 +41,7 @@ $(function() {
             }
             $("#selectedcountryrank2").html("");
         } else {
-            $("#selectedcountrydataresult2").html("");
+            $("#selectedcountrydataresult2").html("Choose a tab to see some interesting info");
             $("#selectedcountryrank2").html("");
         }
 
