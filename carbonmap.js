@@ -6,6 +6,8 @@ if (!Modernizr.smil) {
 $(function() {
     var welcome = true;
     $(".unwelcome").hide();
+    
+    var track = document.getElementById("intro-track");
 
     var dataset;
     var shading = "Continents";
@@ -96,6 +98,12 @@ $(function() {
             $(".unwelcome").show();
             welcome = false;
         }
+        
+        if (location.hash === "#intro") {
+            track.play();
+            dataset_has_changed();
+            return;
+        }
 
         // Which menu item was chosen?
         dataset = "_raw";
@@ -179,7 +187,6 @@ $(function() {
         [64, "Emissions"],
         [71, "PeopleAtRisk"]
     ];
-    var track = document.getElementById("intro-track");
     track.addEventListener("timeupdate", function() {
         //console.log(this.currentTime);
         var new_dataset = "";
@@ -200,9 +207,9 @@ $(function() {
         }
     });
     $("#play-intro").click(function() {
-        $(".welcome").hide();
-        $(".unwelcome").show();
-        welcome = false;
-        track.play();
+        document.location.hash = "#intro";
     });
+    track.addEventListener("ended", function() {
+        document.location.hash = "#";
+    })
 });
