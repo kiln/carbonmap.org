@@ -52,6 +52,10 @@ function carbonmapDataLoaded() {
     $("#map-placeholder").hide();
     
     var _val = function(value, unit) {
+        if (typeof value === "undefined") {
+            return "No data available";
+        }
+        
         if (unit === "people") {
             value = value.replace(/\.0$/, ""); // Fractional people read strangely
         }
@@ -70,12 +74,7 @@ function carbonmapDataLoaded() {
         
         if (selected_country && dataset in carbonmap_values) {
             var data_value = carbonmap_values[dataset][selected_country.id];
-            if (typeof data_value === "undefined") {
-                $("#selectedcountrydataresult2").text("No data available");
-            }
-            else {
-                $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
-            }
+            $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
             $("#selectedcountryrank2").html("");
         } else {
             $("#selectedcountrydataresult2").html("Choose a tab to see some interesting info");
