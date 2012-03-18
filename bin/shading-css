@@ -1,0 +1,104 @@
+#!/usr/bin/python
+
+"""
+Generate CSS for choropleth shading.
+
+Takes two CSV files: the first is the shading spec, and the second the region data.
+"""
+
+import csv
+import sys
+
+class Rangelike(object):
+    @staticmethod
+    def parse(str):
+        if ".." in str:
+            a, b = str.split("..")
+            if a and b:
+                return Range(float(a), float(b))
+            elif a:
+                return AtMost(float(a))
+            elif b:
+                return UpTo(float(b))
+            else:
+                raise Exception("Failed to parse range: " + str)
+        else:
+            return Exact(float(str))
+
+class Exact(Rangelike):
+    def __init__(self, value):
+        self.value = value
+    def __contains__(self, item):
+        return item == self.value
+
+class Range(Rangelike):
+    def __init__(self, min, ceil):
+        self.min = min
+        self.ceil = ceil
+    def __contains__(self, item):
+        return self.min <= item < self.ceil
+
+class UpTo(Rangelike):
+    def __init__(self, ceil):
+        self.ceil = ceil
+    def __contains__(self, item):
+        return item < self.ceil
+
+class AtMost(Rangelike):
+    def __init__(self, min):
+        self.min = min
+    def __contains__(self, item):
+        return self.min <= item
+
+
+def load_shading_spec(shading_spec_filename):
+    with open(shading_spec_filename, 'r') as shading_spec_file:
+        r = csv.reader(shading_spec_file)
+        header = r.next()
+        value_col_name = header[0]
+        if header != [value_col_name, "color", "key"]:
+            raise Exception("Expected header to be %r, but found %r" % ([value_col_name, "color", "key"], header))
+        
+        shades = []
+        for range_str, color, key in r:
+            shade_range = Rangelike.parse(range_str)
+            shades.append((shade_range, color))
+        
+        return (value_col_name, shades)
+
+def load_data(data_filename, shading_spec):
+    value_col_name, shades = shading_spec
+    
+    with open(data_filename, 'r') as data_file:
+        r = csv.reader(data_file)
+        header = r.next()
+        region_key_col = header.index("Alpha-2") # XXXX Not very general!
+        value_col = header.index(value_col_name)
+        
+        region_shades = {}
+        for row in r:
+            region_key = row[region_key_col]
+            value = row[value_col]
+            
+            for shade_range, color in shades:
+                if float(value) in shade_range:
+                    region_shades.setdefault(color, []).append(region_key)
+                    break
+            else:
+                raise Exception("Value %r is not in any specified range; checked %r" % (value, shades))
+        
+        return region_shades
+
+def main():
+    css_containing_class, shading_spec_filename, data_filename = sys.argv[1:]
+    shading_spec = load_shading_spec(shading_spec_filename)
+    shades = load_data(data_filename, shading_spec)
+    
+    for color, region_keys in shades.iteritems():
+        print ", ".join([
+            ".{css_class} #{region_key}".format(css_class=css_containing_class, region_key=region_key)
+            for region_key in region_keys
+        ]), "{{ fill: {color}; }}".format(color=color)
+
+if __name__ == "__main__":
+    main()

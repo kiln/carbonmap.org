@@ -1,0 +1,41 @@
+#!/bin/bash
+
+set -ex
+
+all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGrowth"
+
+col_Continents="Continent index"
+col_EmissionsChange='CO2 emissions (% change 1990-2008)'
+
+(
+    echo >&3 "/* This file is auto-generated. Please do not edit. */"
+    echo >&3 "/* Generated at $(date) */"
+    echo >&3
+    
+    echo >&4 "// This file is auto-generated. Please do not edit."
+    echo >&4 "// Generated at $(date)"
+    echo >&4
+    echo >&4 "carbonmap_shading = {};"
+    
+    for f in $all_datasets
+    do
+        if [ -e kiln-data/Shading/With\ alpha-2/"$f".csv ]
+        then
+            echo >&3 "/* $f */"
+            bin/adhoc/shading-css "shading-$f" kiln-data/Shading/With\ alpha-2/"$f".shading.csv kiln-data/Shading/With\ alpha-2/"$f".csv >&3
+            
+            echo -n >&4 "carbonmap_shading.$f = "
+            bin/adhoc/shading-js "$f" kiln-data/Shading/With\ alpha-2/"$f".text.md kiln-data/Shading/With\ alpha-2/"$f".shading.csv >&4
+            echo >&4 ";"
+        fi
+    done
+) 3> kiln-output/shading.css 4> kiln-output/data.shading.js
+
+(
+    for f in $all_datasets
+    do
+        echo -n "carbonmap_values.$f = "
+        bin/csv-to-json --key Alpha-2 --value "$(bin/csv-header --index=0 kiln-data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" kiln-data/Shading/With\ alpha-2/$f.csv
+        echo ';'
+    done
+) >> kiln-output/data.shading.js
