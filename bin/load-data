@@ -4,8 +4,8 @@ set -ex
 
 simplification=20000
 alternate_simplification=10000
-countries_less_simplified="GB CH FR ES AT IT BY UA SK HU RO RS BG SA AE OM IR IQ JP IN CN MN LA BT NP MY VN"
-simplification_json='{"BE": 5000, "NL": 5000, "LU": 5000, "DE": 5000, "CZ": 5000, "PL": 5000, "QA": 5000, "BD": 5000}'
+countries_less_simplified="GB CH FR ES AT IT BY UA SK HU RO RS BG SA AE OM IR IQ JP MN BT NP MY ID TH"
+simplification_json='{"BE": 5000, "NL": 5000, "LU": 5000, "DE": 5000, "CZ": 5000, "PL": 5000, "QA": 5000, "IN": 5000, "BD": 5000, "KH": 500, "LA": 5000, "VN": 5000, "CN": 5000}'
 
 all_datasets="Area Population GDP  Extraction Emissions Consumption Historical Reserves  PeopleAtRisk SeaLevel Poverty"
 
