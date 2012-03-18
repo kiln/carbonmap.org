@@ -2,8 +2,15 @@ var carbonmap_data = {};
 var carbonmap_values = {};
 var carbonmap_shading = {};
 var carbonmap_data_loaded = false;
+var carbonmap_timer;
 
 $(function() {
+
+    // After five seconds, show a "loading" ticker
+    carbonmap_timer = setTimeout(function() {
+        carbonmap_timer = null;
+        $("#loading").show();
+    }, 5000);
 
     var loadAsync = function(js_file) {
         (function() {
@@ -21,11 +28,15 @@ $(function() {
 });
 
 function carbonmapDataLoaded() {
+    if (carbonmap_timer) clearTimeout(carbonmap_timer);
+    $("#loading").hide();
+    
     // If the browser does not support HTML audio, skip the intro.
     // I’m not sure there actually are any browsers that support
     // SMIL but not HTML audio, but if there are we’re ready for them!
     var welcome = Modernizr.audio;
     if (welcome) {
+        $("#play-intro").show();
         $(".unwelcome").hide();
     }
     else {
