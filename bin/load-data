@@ -88,6 +88,9 @@ done
     done
 ) > kiln-output/data.js
 
+cat kiln-output/data.shading.js >> kiln-output/data.js
+echo >> kiln-output/data.js "carbonmapDataLoaded();"
+
 bin/adhoc/dump-project-data.py carbonmap > kiln-data/dumped.csv
 
 set +x
