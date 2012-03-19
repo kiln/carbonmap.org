@@ -248,8 +248,6 @@ h3 {
 #loading {
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
-	background-color: black;
-	opacity: 0.6;
 	display: none;
 }
 #loading img {
@@ -259,7 +257,7 @@ h3 {
 	height: 19px;
 }
 #loading div {
-	color: white;
+	color: #555;
 	size: 14px;
 	font-weight: bold;
 	text-align: center;
