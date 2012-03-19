@@ -1,12 +1,19 @@
 DirectoryIndex index.xhtml
 
+# This would allow pre-compressed files, but for now let’s not
+#Options MultiViews
+#AddEncoding gzip .gz
+
+# If mod_deflate is present, compress HTML and JS files on the fly
 <IfModule mod_deflate.c>
 	AddOutputFilterByType DEFLATE text/html application/xhtml+xml application/javascript
 
+	# Work around bugs in particular ancient browsers
 	BrowserMatch ^Mozilla/4 gzip-only-text/html
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
-</IfModule>
+ </IfModule>
 
+# Redirect /demo to /. The first one is to avoid getting // from /demo/
 Redirect /demo/ /
 Redirect /demo /
