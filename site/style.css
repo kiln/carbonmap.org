@@ -109,42 +109,49 @@ h3 {
 	height: auto;
 	}
 	
-#contentsie {
+#contentsfail {
 	background: url("palewashforie.png") no-repeat 0 0;
 	width: 1024px;
 	height: 625px;
 	}
 	
-#iemessage {
+#failmessage {
 	width: 500px;
-	padding: 10px 30px 20px 30px;
-	margin-top: 150px;
+	padding: 10px 30px 10px 30px;
+	margin-top: 50px;
 	margin-left: 232px;
 	float: left;
 	background: #333;
 	color: white;
 	}
+
+#failvideo {
+	width: 420px;
+	height: 315px;
+	margin: 30px 37px 0;
+	align: middle;	
+	}
 	
-.iemessagehead {
+.failmessagehead {
 	color: yellow;
 	font-weight: bold;
 	font-size: 20px;
 	margin: 10px 0;
 }
 	
-#iemessage a:link,
-#iemessage a:visited {
+#failmessage a:link,
+#failmessage a:visited {
 	color: yellow;
 	border-bottom: dotted 1px yellow;
 	}	
 
-#iemessage a:hover,
-#iemessage a:active {
+#failmessage a:hover,
+#failmessage a:active {
 	color: #999;
 	border-bottom: dotted 1px #999;
 	}	
 
-#iemessage p {
+#failmessage p {
 	margin: 18px 0;
 }
 
