@@ -40,11 +40,11 @@ do
     then
         bin/delete-data.py "carbonmap:$f"
         eval col=\${col_$f}
-        bin/load-data.py "carbonmap:$f" kiln-data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
-        bin/density-grid.py "carbonmap:$f" world-robinson > kiln-data/Maps/Cartogram\ data/"$f".density && \
-        cart 1500 750 kiln-data/Maps/Cartogram\ data/"$f".density kiln-data/Maps/Cartogram\ data/"$f".cart
+        bin/load-data.py "carbonmap:$f" carbonmap/data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
+        bin/density-grid.py "carbonmap:$f" world-robinson > carbonmap/data/Maps/Cartogram\ data/"$f".density && \
+        cart 1500 750 carbonmap/data/Maps/Cartogram\ data/"$f".density carbonmap/data/Maps/Cartogram\ data/"$f".cart
     fi
-    bin/as-svg.py --dataset "carbonmap:$f" --cart kiln-data/Maps/Cartogram\ data/"$f".cart --map world-robinson --json --simplification "$simplification" --alternate-simplification "$alternate_simplification" --alternate-simplification-regions "$countries_less_simplified" --simplification-json "$simplification_json" > kiln-data/Maps/Cartogram\ data/$f.json
+    bin/as-svg.py --dataset "carbonmap:$f" --cart carbonmap/data/Maps/Cartogram\ data/"$f".cart --map world-robinson --json --simplification "$simplification" --alternate-simplification "$alternate_simplification" --alternate-simplification-regions "$countries_less_simplified" --simplification-json "$simplification_json" > carbonmap/data/Maps/Cartogram\ data/$f.json
 done
 
 (
@@ -59,7 +59,7 @@ done
     fi
     
     echo -n 'carbonmap_data._raw._text = "'
-    markdown_py -o html5 -s escape -e utf-8 kiln-data/Maps/Reset.text.md | perl -l40pe ''
+    markdown_py -o html5 -s escape -e utf-8 carbonmap/data/Maps/Reset.text.md | perl -l40pe ''
     echo '";'
     
     echo -n 'carbonmap_data._names = '
@@ -68,27 +68,27 @@ done
     
     for f in $all_datasets
     do
-        if [ -e kiln-data/Maps/Cartogram\ data/"$f".json ]
+        if [ -e carbonmap/data/Maps/Cartogram\ data/"$f".json ]
         then
             echo -n "carbonmap_data.$f = "
-            perl -pe 's/$/;/' kiln-data/Maps/Cartogram\ data/"$f".json
+            perl -pe 's/$/;/' carbonmap/data/Maps/Cartogram\ data/"$f".json
             
             echo -n "carbonmap_data.$f._text = \""
-            markdown_py -o html5 -s escape -e utf-8 kiln-data/Maps/"$f".text.md | perl -l40pe 's/"/\\"/g'
+            markdown_py -o html5 -s escape -e utf-8 carbonmap/data/Maps/"$f".text.md | perl -l40pe 's/"/\\"/g'
             echo '";'
             
             eval col=\${col_$f}
             echo -n "carbonmap_values.$f = "
-            bin/csv-to-json --key Alpha-2 --value "$col" --type=float --format="{:,.1f}" kiln-data/Maps/With\ alpha-2/$f.csv
+            bin/csv-to-json --key Alpha-2 --value "$col" --type=float --format="{:,.1f}" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
-) > kiln-output/data.js
+) > carbonmap/site/data.js
 
-cat kiln-output/data.shading.js >> kiln-output/data.js
-echo >> kiln-output/data.js "carbonmapDataLoaded();"
+cat carbonmap/site/data.shading.js >> carbonmap/site/data.js
+echo >> carbonmap/site/data.js "carbonmapDataLoaded();"
 
-bin/adhoc/dump-project-data.py carbonmap > kiln-data/dumped.csv
+bin/adhoc/dump-project-data.py carbonmap > carbonmap/data/dumped.csv
 
 set +x
 echo

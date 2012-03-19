@@ -19,23 +19,23 @@ col_EmissionsChange='CO2 emissions (% change 1990-2008)'
     
     for f in $all_datasets
     do
-        if [ -e kiln-data/Shading/With\ alpha-2/"$f".csv ]
+        if [ -e carbonmap/data/Shading/With\ alpha-2/"$f".csv ]
         then
             echo >&3 "/* $f */"
-            bin/adhoc/shading-css "shading-$f" kiln-data/Shading/With\ alpha-2/"$f".shading.csv kiln-data/Shading/With\ alpha-2/"$f".csv >&3
+            bin/adhoc/shading-css "shading-$f" carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
             
             echo -n >&4 "carbonmap_shading.$f = "
-            bin/adhoc/shading-js "$f" kiln-data/Shading/With\ alpha-2/"$f".text.md kiln-data/Shading/With\ alpha-2/"$f".shading.csv >&4
+            bin/adhoc/shading-js "$f" carbonmap/data/Shading/With\ alpha-2/"$f".text.md carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv >&4
             echo >&4 ";"
         fi
     done
-) 3> kiln-output/shading.css 4> kiln-output/data.shading.js
+) 3> carbonmap/site/shading.css 4> carbonmap/site/data.shading.js
 
 (
     for f in $all_datasets
     do
         echo -n "carbonmap_values.$f = "
-        bin/csv-to-json --key Alpha-2 --value "$(bin/csv-header --index=0 kiln-data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" kiln-data/Shading/With\ alpha-2/$f.csv
+        bin/csv-to-json --key Alpha-2 --value "$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" carbonmap/data/Shading/With\ alpha-2/$f.csv
         echo ';'
     done
-) >> kiln-output/data.shading.js
+) >> carbonmap/site/data.shading.js
