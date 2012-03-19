@@ -1,18 +1,66 @@
+var carbonmap_data = {};
+var carbonmap_values = {};
+var carbonmap_shading = {};
+var carbonmap_data_loaded = false;
+var carbonmap_timer;
+
 $(function() {
+
+    // After five seconds, show a "loading" ticker
+    carbonmap_timer = setTimeout(function() {
+        carbonmap_timer = null;
+        $("#loading").show();
+    }, 3000);
+
+    var loadAsync = function(js_file) {
+        (function() {
+            var d=document,
+            h=d.getElementsByTagName('head')[0],
+            s=d.createElement('script');
+            s.type='text/javascript';
+            s.async=true;
+            s.src=js_file;
+            h.appendChild(s);
+        })();
+    };
+
+    loadAsync("data.js");
+});
+
+function carbonmapDataLoaded() {
+    if (carbonmap_timer) clearTimeout(carbonmap_timer);
+    $("#loading").hide();
     
     // If the browser does not support HTML audio, skip the intro.
     // I’m not sure there actually are any browsers that support
     // SMIL but not HTML audio, but if there are we’re ready for them!
     var welcome = Modernizr.audio;
     if (welcome) {
-        $(".unwelcome").hide();
+        $("#play-intro").show();
+        $(".welcome").show();
     }
     else {
         $("#play-intro").hide();
-        $(".welcome").hide();
+        $(".unwelcome").show();
     }
     
     var track = document.getElementById("intro-track");
+    
+    // Add the countries to the map
+    var map = document.getElementById("map");
+    for (var country in carbonmap_data._raw) {
+        if (!carbonmap_data._raw.hasOwnProperty(country)) continue;
+        if (country.charAt(0) === "_") continue;
+        var path_data = carbonmap_data._raw[country];
+        if (!path_data) continue;
+        
+        var e = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        e.id = country;
+        e.setAttribute("class", "country");
+        e.setAttribute("d", path_data);
+        map.appendChild(e);
+    }
+    $("#map-placeholder").hide();
     
     var _val = function(value, unit) {
         if (typeof value === "undefined") {
@@ -246,4 +294,4 @@ $(function() {
     $("#play-intro").click(function() {
         track.play();
     });
-});
+}

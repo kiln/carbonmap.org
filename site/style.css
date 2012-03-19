@@ -5,7 +5,7 @@ html {
 	
 body {
 	background: #777;
-	font-family: Helvetica, Arial;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
 	}
 	
@@ -18,10 +18,6 @@ body {
 	}
 
 /******** Fonts and swatches ********/
-
-#wrapper, #masthead, #site-title, #site-strapline {
-	font-family: Helvetica, Arial, sans-serif;
-	}
 
 /*.red {color: rgb(213,17,0)}
 .green {color: rgb(0,198,62)}
@@ -225,33 +221,67 @@ h3 {
 	width: 825px;
 	height: 420px;
 	position: absolute;
+	top: 0;
 	cursor: pointer;
+	display: none;
 }
 	
 #maparea {
 	height: 450px;
-	}
+	position: relative;
+}
 	
 #map {
 	height: 400px;
 	width: 820px;
-	}
-	
+	position: absolute;
+	left: 0; top: 0;
+}
+
+#map-placeholder {
+	width: 819px;
+	height: 448px;
+	position: absolute;
+	left: 0; top: 0;
+}
+
+#loading {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	display: none;
+}
+#loading img {
+	position: absolute;
+	left: 300px; top: 144px;
+	width: 220px;
+	height: 19px;
+}
+#loading div {
+	color: #555;
+	size: 14px;
+	font-weight: bold;
+	text-align: center;
+
+	position: absolute;
+	left: 300px; top: 167px;
+	width: 220px;
+}
+
 svg {
 	background: white;
 	border: none;
-	}
+}
 
 #bounds {
 	fill: none;
 	stroke: none;
-	}
+}
 
 path {
 	stroke: white;
 	stroke-width: 7000;
 	fill: #DDD; /* Used for countries with no data */
-	}
+}
 
 .country {
 	cursor: pointer;
@@ -345,6 +375,10 @@ path {
 	} 
 
 /******** Sidebar ********/
+
+.welcome, .unwelcome {
+	display: none;
+}
 
 #sidebar {
 	margin: 10px 0 0 0;

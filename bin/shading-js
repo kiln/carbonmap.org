@@ -1,0 +1,33 @@
+#!/usr/bin/python
+
+import cgi
+import codecs
+import csv
+import json
+import sys
+
+import markdown
+
+def main():
+    key, md_filename, shading_spec_filename = sys.argv[1:]
+    
+    md_file = codecs.open(md_filename, mode="r", encoding="utf8")
+    md_text = md_file.read()
+    
+    key_html = u""
+    key_html += u"""<div id="legendtext">"""+ markdown.markdown(md_text) +"""</div>\n"""
+    
+    with open(shading_spec_filename, 'r') as shading_spec_file:
+        r = csv.reader(shading_spec_file)
+        header = r.next()
+        value_col_name = header[0]
+        if header != [value_col_name, "color", "key"]:
+            raise Exception("Expected header to be %r, but found %r" % ([value_col_name, "color", "key"], header))
+        
+        for range_str, color, key in r:
+            key_html += u"""  <div class="legendswatch" style="background: {color};"></div><div class="legendtext">{key}</div>""".format(color=color, key=cgi.escape(key.decode("utf-8")))
+    
+    json.dump(key_html, sys.stdout)
+
+if __name__ == "__main__":
+    main()
