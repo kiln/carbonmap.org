@@ -1,0 +1,247 @@
+Alpha-2,Country name,Continent name,Continent index
+BS,Bahamas,North America,4
+CA,Canada,North America,4
+CO,Colombia,South America,5
+KR,"Korea, Republic of",Asia,3
+BO,Bolivia,South America,5
+MM,Burma,Asia,3
+CG,Congo,Africa,2
+CN,China,Asia,3
+AF,Afghanistan,Asia,3
+CL,Chile,South America,5
+CM,Cameroon,Africa,2
+TD,Chad,Africa,2
+DK,Denmark,Europe,1
+VU,Vanuatu,Oceania,6
+NG,Nigeria,Africa,2
+NL,Netherlands,Europe,1
+EE,Estonia,Europe,1
+ER,Eritrea,Africa,2
+PT,Portugal,Europe,1
+PG,Papua New Guinea,Oceania,6
+GW,Guinea-Bissau,Africa,2
+EC,Ecuador,South America,5
+ET,Ethiopia,Africa,2
+AT,Austria,Europe,1
+CZ,Czech Republic,Europe,1
+FI,Finland,Europe,1
+CX,Christmas Island,Asia,3
+PF,French Polynesia,Oceania,6
+GH,Ghana,Africa,2
+GN,Guinea,Africa,2
+GY,Guyana,South America,5
+IT,Italy,Europe,1
+AQ,Antarctica,Antarctica,7
+ML,Mali,Africa,2
+MA,Morocco,Africa,2
+MU,Mauritius,Africa,2
+MR,Mauritania,Africa,2
+MT,Malta,Europe,1
+OM,Oman,Asia,3
+MV,Maldives,Asia,3
+MX,Mexico,North America,4
+MY,Malaysia,Asia,3
+MZ,Mozambique,Africa,2
+MW,Malawi,Africa,2
+NC,New Caledonia,Oceania,6
+SO,Somalia,Africa,2
+TH,Thailand,Asia,3
+TJ,Tajikistan,Asia,3
+NU,Niue,Oceania,6
+NE,Niger,Africa,2
+AW,Aruba,North America,4
+TN,Tunisia,Africa,2
+TR,Turkey,Asia,3
+GB,United Kingdom,Europe,1
+UA,Ukraine,Europe,1
+UZ,Uzbekistan,Asia,3
+VE,Venezuela,South America,5
+BH,Bahrain,Asia,3
+SM,San Marino,Europe,1
+RS,Serbia,Europe,1
+VA,Holy See (Vatican City),Europe,1
+SJ,Svalbard,Europe,1
+BB,Barbados,North America,4
+BM,Bermuda,North America,4
+BD,Bangladesh,Asia,3
+AG,Antigua and Barbuda,North America,4
+DZ,Algeria,Africa,2
+AZ,Azerbaijan,Asia,3
+AL,Albania,Europe,1
+AS,American Samoa,Oceania,6
+AR,Argentina,South America,5
+AM,Armenia,Asia,3
+AO,Angola,Africa,2
+AU,Australia,Oceania,6
+AI,Anguilla,North America,4
+BV,Bouvet Island,Antarctica,7
+BN,Brunei Darussalam,Asia,3
+KH,Cambodia,Asia,3
+AD,Andorra,Europe,1
+GI,Gibraltar,Europe,1
+TF,French Southern and Antarctic Lands,Antarctica,7
+BI,Burundi,Africa,2
+BZ,Belize,North America,4
+KM,Comoros,Africa,2
+IM,Isle of Man,Europe,1
+BA,Bosnia and Herzegovina,Europe,1
+HM,Heard Island and McDonald Islands,Antarctica,7
+BJ,Benin,Africa,2
+SB,Solomon Islands,Oceania,6
+BR,Brazil,South America,5
+BG,Bulgaria,Europe,1
+LU,Luxembourg,Europe,1
+LK,Sri Lanka,Asia,3
+CD,Democratic Republic of the Congo,Africa,2
+MO,Macau,Asia,3
+CV,Cape Verde,Africa,2
+MC,Monaco,Europe,1
+CK,Cook Islands,Oceania,6
+BT,Bhutan,Asia,3
+KY,Cayman Islands,North America,4
+CR,Costa Rica,North America,4
+CF,Central African Republic,Africa,2
+CU,Cuba,North America,4
+UM,United States Minor Outlying Islands,Oceania,6
+CY,Cyprus,Asia,3
+NO,Norway,Europe,1
+NP,Nepal,Asia,3
+NR,Nauru,Oceania,6
+DJ,Djibouti,Africa,2
+DM,Dominica,North America,4
+GQ,Equatorial Guinea,Africa,2
+SV,El Salvador,North America,4
+DO,Dominican Republic,North America,4
+EG,Egypt,Africa,2
+IE,Ireland,Europe,1
+FJ,Fiji,Oceania,6
+JO,Jordan,Asia,3
+GF,French Guiana,South America,5
+IO,British Indian Ocean Territory,Asia,3
+FM,"Micronesia, Federated States of",Oceania,6
+FR,France,Europe,1
+TV,Tuvalu,Oceania,6
+FK,Falkland Islands (Malvinas),South America,5
+TM,Turkmenistan,Asia,3
+TZ,United Republic of Tanzania,Africa,2
+KW,Kuwait,Asia,3
+KZ,Kazakhstan,Asia,3
+LA,Lao People's Democratic Republic,Asia,3
+MK,The former Yugoslav Republic of Macedonia,Europe,1
+GM,Gambia,Africa,2
+GA,Gabon,Africa,2
+LB,Lebanon,Asia,3
+GE,Georgia,Asia,3
+GD,Grenada,North America,4
+GL,Greenland,North America,4
+DE,Germany,Europe,1
+GU,Guam,Oceania,6
+GR,Greece,Europe,1
+GT,Guatemala,North America,4
+LV,Latvia,Europe,1
+BY,Belarus,Europe,1
+LT,Lithuania,Europe,1
+PS,Palestine,Asia,3
+HT,Haiti,North America,4
+HN,Honduras,North America,4
+HR,Croatia,Europe,1
+HU,Hungary,Europe,1
+IS,Iceland,Europe,1
+IN,India,Asia,3
+IR,Iran (Islamic Republic of),Asia,3
+NF,Norfolk Island,Oceania,6
+IL,Israel,Asia,3
+CI,Cote d'Ivoire,Africa,2
+IQ,Iraq,Asia,3
+JP,Japan,Asia,3
+JM,Jamaica,North America,4
+KE,Kenya,Africa,2
+KG,Kyrgyzstan,Asia,3
+KP,"Korea, Democratic People's Republic of",Asia,3
+KI,Kiribati,Oceania,6
+LR,Liberia,Africa,2
+MS,Montserrat,North America,4
+CC,Cocos (Keeling) Islands,Asia,3
+SK,Slovakia,Europe,1
+LI,Liechtenstein,Europe,1
+LY,Libyan Arab Jamahiriya,Africa,2
+MG,Madagascar,Africa,2
+MQ,Martinique,North America,4
+MN,Mongolia,Asia,3
+BE,Belgium,Europe,1
+HK,Hong Kong,Asia,3
+MP,Northern Mariana Islands,Oceania,6
+FO,Faroe Islands,Europe,1
+ME,Montenegro,Europe,1
+YT,Mayotte,Africa,2
+PR,Puerto Rico,North America,4
+RU,Russia,Europe,1
+AX,Åland Islands,Europe,1
+QA,Qatar,Asia,3
+RE,Reunion,Africa,2
+RO,Romania,Europe,1
+SR,Suriname,South America,5
+NI,Nicaragua,North America,4
+NZ,New Zealand,Oceania,6
+PY,Paraguay,South America,5
+PE,Peru,South America,5
+PK,Pakistan,Asia,3
+PL,Poland,Europe,1
+PA,Panama,North America,4
+MD,Republic of Moldova,Europe,1
+PH,Philippines,Asia,3
+RW,Rwanda,Africa,2
+SA,Saudi Arabia,Asia,3
+KN,Saint Kitts and Nevis,North America,4
+SC,Seychelles,Africa,2
+ZA,South Africa,Africa,2
+LS,Lesotho,Africa,2
+BW,Botswana,Africa,2
+SN,Senegal,Africa,2
+SI,Slovenia,Europe,1
+SL,Sierra Leone,Africa,2
+SG,Singapore,Asia,3
+ES,Spain,Europe,1
+LC,Saint Lucia,North America,4
+SD,Sudan,Africa,2
+SE,Sweden,Europe,1
+SY,Syrian Arab Republic,Asia,3
+CH,Switzerland,Europe,1
+VG,British Virgin Islands,North America,4
+VN,Viet Nam,Asia,3
+TT,Trinidad and Tobago,North America,4
+TK,Tokelau,Oceania,6
+TO,Tonga,Oceania,6
+TG,Togo,Africa,2
+ST,Sao Tome and Principe,Africa,2
+PM,Saint Pierre and Miquelon,North America,4
+VI,United States Virgin Islands,North America,4
+NA,Namibia,Africa,2
+WF,Wallis and Futuna Islands,Oceania,6
+WS,Samoa,Oceania,6
+SZ,Swaziland,Africa,2
+YE,Yemen,Asia,3
+ZM,Zambia,Africa,2
+ZW,Zimbabwe,Africa,2
+ID,Indonesia,Asia,3
+SH,Saint Helena,Africa,2
+UG,Uganda,Africa,2
+US,United States,North America,4
+GG,Guernsey,Europe,1
+BF,Burkina Faso,Africa,2
+UY,Uruguay,South America,5
+VC,Saint Vincent and the Grenadines,North America,4
+GP,Guadeloupe,North America,4
+AN,Netherlands Antilles,North America,4
+TL,Timor-Leste,Asia,3
+PN,Pitcairn Islands,Oceania,6
+JE,Jersey,Europe,1
+AE,United Arab Emirates,Asia,3
+PW,Palau,Oceania,6
+MH,Marshall Islands,Oceania,6
+TC,Turks and Caicos Islands,North America,4
+EH,Western Sahara,Africa,2
+MF,Saint Martin,North America,4
+BL,Saint Barthelemy,North America,4
+GS,South Georgia South Sandwich Islands,Antarctica,7
+TW,Taiwan,Asia,3

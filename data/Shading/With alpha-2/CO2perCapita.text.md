@@ -1,0 +1,1 @@
+CO2 per person from energy and cement, 2010 (tonnes)

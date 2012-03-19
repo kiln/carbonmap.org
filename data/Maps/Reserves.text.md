@@ -1,0 +1,1 @@
+Country sizes show the **potential CO2 emissions of fossil fuel reserves**, calculated by converting each nation's estimated stocks of economically recoverable oil, coal and gas into the CO2 that result if all those fuels were burned. 

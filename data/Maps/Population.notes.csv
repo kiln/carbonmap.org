@@ -1,0 +1,8 @@
+World Bank title,"Population, total"
+World Bank code,SP.POP.TOTL
+World Bank definition,"Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. The values shown are midyear estimates."
+World Bank source,"(1) United Nations Population Division. 2009. World Population Prospects: The 2008 Revision.  New York, United Nations, Department of Economic and Social Affairs (advanced Excel tables).  Available at http://esa.un.org/unpd/wpp2008/index.htm. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) Secretariat of the Pacific Community: Statistics and Demography Programme, (5) U.S. Census Bureau: International Database, and (6) World bank estimates based on the data from the sources above, household surveys conducted by national agencies, Macro International, the U.S. Centers for Disease Control and Prevention, and refugees statistics from the United Nations High Commissioner for Refugees."
+Cartogram use,Button
+Cartogram title,Population
+Cartogram definition,Total population including all residents except refugees
+Cartogram source,World Bank

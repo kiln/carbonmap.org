@@ -1,0 +1,193 @@
+Alpha-2,country_name,"CO2 emissions per capita (tonnes, 2010)"
+MW,Malawi,0.084224077
+ET,Ethiopia,0.087526995
+MG,Madagascar,0.094227958
+MZ,Mozambique,0.101061832
+UG,Uganda,0.114547557
+TZ,United Republic of Tanzania,0.14729129
+ZM,Zambia,0.149255921
+CD,Democratic Republic of the Congo,0.174290839
+BI,Burundi,0.205057995
+LR,Liberia,0.210211801
+LA,Lao People's Democratic Republic,0.241041412
+ER,Eritrea,0.274031025
+SO,Somalia,0.317180843
+KH,Cambodia,0.317407806
+BD,Bangladesh,0.337789929
+NE,Niger,0.365427624
+CF,Central African Republic,0.39598677
+SN,Senegal,0.408865736
+SL,Sierra Leone,0.415042261
+TL,Timor-Leste,0.465679965
+TG,Togo,0.500987657
+ML,Mali,0.534399689
+GN,Guinea,0.547487933
+LK,Sri Lanka,0.549908971
+KM,Comoros,0.550526225
+HT,Haiti,0.557532534
+RW,Rwanda,0.583974297
+GW,Guinea-Bissau,0.595466558
+NP,Nepal,0.601777651
+AF,Afghanistan,0.606008811
+NG,Nigeria,0.617504701
+PY,Paraguay,0.626512988
+BF,Burkina Faso,0.630406618
+TD,Chad,0.687769157
+GM,Gambia,0.70798514
+NI,Nicaragua,0.73472582
+ZW,Zimbabwe,0.737550776
+BJ,Benin,0.796795849
+LS,Lesotho,0.803130342
+GT,Guatemala,0.813087714
+KP,"Korea, Democratic People's Republic of",0.824707596
+KE,Kenya,0.847821135
+GH,Ghana,0.848304459
+EH,Western Sahara,0.870157001
+ST,Sao Tome and Principe,0.950993827
+CI,Cote d'Ivoire,0.9533263
+PK,Pakistan,0.963343427
+PH,Philippines,0.96342324
+MR,Mauritania,0.975857502
+MM,Burma,0.978940918
+KG,Kyrgyzstan,1.02476715
+GE,Georgia,1.034905579
+TJ,Tajikistan,1.085687341
+SD,Sudan,1.132305271
+DJ,Djibouti,1.136899916
+CM,Cameroon,1.149433978
+AL,Albania,1.154367908
+YE,Yemen,1.220377866
+KI,Kiribati,1.239187893
+PG,Papua New Guinea,1.240797291
+BO,Bolivia,1.269233591
+SB,Solomon Islands,1.359859972
+MA,Morocco,1.53175162
+PS,Palestine,1.546230504
+MD,Republic of Moldova,1.560996297
+UZ,Uzbekistan,1.562866609
+PE,Peru,1.57922143
+AM,Armenia,1.589062035
+CO,Colombia,1.628099897
+FM,"Micronesia, Federated States of",1.672050061
+CR,Costa Rica,1.689600922
+GY,Guyana,1.723752037
+IN,India,1.767589333
+IQ,Iraq,1.786522359
+VN,Viet Nam,1.844724296
+PA,Panama,1.930089158
+HN,Honduras,1.969029056
+ID,Indonesia,1.986720867
+CV,Cape Verde,1.999676433
+EC,Ecuador,2.022261375
+MN,Mongolia,2.025856769
+CG,Congo,2.1507242
+BR,Brazil,2.152060232
+WS,Samoa,2.206455345
+VU,Vanuatu,2.233598858
+TO,Tonga,2.273378308
+FJ,Fiji,2.336376174
+TN,Tunisia,2.422338725
+UY,Uruguay,2.436328083
+BW,Botswana,2.463999936
+SZ,Swaziland,2.58176679
+SY,Syrian Arab Republic,2.651393448
+BT,Bhutan,2.674910953
+EG,Egypt,2.876219391
+JO,Jordan,2.885887667
+LV,Latvia,2.997152618
+AO,Angola,3.077766578
+MU,Mauritius,3.152095138
+NA,Namibia,3.249581793
+SV,El Salvador,3.347016906
+BZ,Belize,3.350917006
+RO,Romania,3.653834157
+SR,Suriname,3.811897434
+JM,Jamaica,3.851341809
+CL,Chile,3.99910621
+TR,Turkey,4.061045642
+MX,Mexico,4.109664381
+TM,Turkmenistan,4.153067139
+LT,Lithuania,4.188327502
+DZ,Algeria,4.203285686
+MV,Maldives,4.277947484
+BA,Bosnia and Herzegovina,4.311840486
+TH,Thailand,4.329321454
+AZ,Azerbaijan,4.439203049
+HR,Croatia,4.66483308
+DO,Dominican Republic,4.693246886
+AR,Argentina,4.69634192
+CH,Switzerland,4.983888364
+HU,Hungary,4.987105537
+CU,Cuba,5.087412075
+SE,Sweden,5.117750276
+PT,Portugal,5.218161777
+GD,Grenada,5.278289615
+LC,Saint Lucia,5.440321511
+BG,Bulgaria,5.476835757
+HK,Hong Kong,5.479053229
+MT,Malta,5.489059085
+VC,Saint Vincent and the Grenadines,5.543145839
+FR,France,5.588398477
+MK,The former Yugoslav Republic of Macedonia,5.60116606
+RS,Serbia,5.66255289
+SK,Slovakia,5.802616964
+ES,Spain,5.962106442
+VE,Venezuela,6.06548902
+UA,Ukraine,6.098563567
+CN,China,6.157782975
+DM,Dominica,6.179063639
+BY,Belarus,6.196313884
+ME,Montenegro,6.533674264
+NZ,New Zealand,6.678883143
+IT,Italy,6.744383605
+CY,Cyprus,6.864929372
+PW,Palau,7.015666618
+MY,Malaysia,7.025853961
+SG,Singapore,7.049940385
+LB,Lebanon,7.061333133
+SI,Slovenia,7.402075066
+AT,Austria,7.547888311
+GA,Gabon,7.621538736
+IR,Iran (Islamic Republic of),7.768673034
+DK,Denmark,7.8898507
+GB,United Kingdom,7.926202331
+GR,Greece,8.053508087
+PL,Poland,8.11745643
+PR,Puerto Rico,8.180376645
+KN,Saint Kitts and Nevis,8.361035476
+LY,Libyan Arab Jamahiriya,8.372484702
+JP,Japan,8.932348459
+ZA,South Africa,9.038355878
+IE,Ireland,9.116307866
+DE,Germany,9.333181733
+BB,Barbados,9.729141568
+BE,Belgium,10.30393916
+NO,Norway,10.37084514
+CZ,Czech Republic,10.40199862
+AG,Antigua and Barbuda,10.4340412
+BH,Bahrain,10.80050855
+NL,Netherlands,10.87304917
+SA,Saudi Arabia,11.39325157
+TW,Taiwan,11.45509378
+KR,"Korea, Republic of",11.52176692
+SC,Seychelles,11.66652257
+FI,Finland,11.80994496
+RU,Russia,11.91314496
+EE,Estonia,12.09171535
+BS,Bahamas,12.74184675
+TT,Trinidad and Tobago,12.91535986
+OM,Oman,13.10821542
+IL,Israel,14.35195735
+KZ,Kazakhstan,14.71636981
+CA,Canada,15.20063645
+AU,Australia,16.36955441
+US,United States,17.06143981
+GQ,Equatorial Guinea,17.43439367
+IS,Iceland,17.51593394
+GL,Greenland,17.66024705
+LU,Luxembourg,18.38734792
+AE,United Arab Emirates,23.72260636
+BN,Brunei Darussalam,24.62053423
+KW,Kuwait,27.47585712
+MO,Macau,31.98563314
+QA,Qatar,36.81685508

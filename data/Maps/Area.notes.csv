@@ -1,0 +1,8 @@
+World Bank title,Land area (sq. km),,,
+World Bank code,AG.LND.TOTL.K2,,,
+World Bank definition,"Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.",,,
+World Bank source,"Food and Agriculture Organization, electronic files and web site.",,,
+Cartogram use,Button,,,
+Cartogram title,Area,,,
+Cartogram definition,"Total land area, excluding area under water",,,
+Cartogram source,FAO via World Bank, except for Greenland, the figure for which is drawn from data.un.org as the World Bank data excludes the Greenland Ice Sheet,,,

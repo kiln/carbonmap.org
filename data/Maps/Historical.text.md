@@ -1,0 +1,1 @@
+Country sizes show **CO2 emissions from energy use 1850–2007**. These historical (or 'cumulative') emissions remain relevant because CO2 can remain in the air for centuries. Europe and the US dominate, having released around half the CO2 ever emitted.

@@ -1,0 +1,1 @@
+Country sizes show **total population** – which includes all residents except refugees. Asia balloons enormously, emphasising that more than half of the world's people live there.

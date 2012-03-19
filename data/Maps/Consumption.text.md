@@ -1,0 +1,1 @@
+Country sizes show the **carbon footprint of all goods and services consumed** in a nation, including imports and excluding exports. Compared to the [Emissions map](#Emissions), major exporter such as China shrink, while net importers such as the UK grow.
