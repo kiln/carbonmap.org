@@ -51,9 +51,6 @@ done
     echo "// This file is auto-generated. Please do not edit."
     echo "// Generated at $(date)"
     
-    echo 'var carbonmap_data = {};'
-    echo 'var carbonmap_values = {};'
-    
     echo -n 'carbonmap_data._raw = '
     bin/as-svg.py --map world-robinson --json --simplification "$simplification" --alternate-simplification "$alternate_simplification" --alternate-simplification-regions "$countries_less_simplified" --simplification-json "$simplification_json" | perl -pe 's/$/;/'
     if [ ${PIPESTATUS[0]} -ne 0 ]
