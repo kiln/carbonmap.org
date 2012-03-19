@@ -10,7 +10,7 @@ $(function() {
     carbonmap_timer = setTimeout(function() {
         carbonmap_timer = null;
         $("#loading").show();
-    }, 5000);
+    }, 3000);
 
     var loadAsync = function(js_file) {
         (function() {
@@ -37,11 +37,11 @@ function carbonmapDataLoaded() {
     var welcome = Modernizr.audio;
     if (welcome) {
         $("#play-intro").show();
-        $(".unwelcome").hide();
+        $(".welcome").show();
     }
     else {
         $("#play-intro").hide();
-        $(".welcome").hide();
+        $(".unwelcome").show();
     }
     
     var track = document.getElementById("intro-track");

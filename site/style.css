@@ -376,6 +376,10 @@ path {
 
 /******** Sidebar ********/
 
+.welcome, .unwelcome {
+	display: none;
+}
+
 #sidebar {
 	margin: 10px 0 0 0;
 	width: 142px;
