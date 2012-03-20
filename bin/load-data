@@ -89,9 +89,3 @@ cat carbonmap/site/data.shading.js >> carbonmap/site/data.js
 echo >> carbonmap/site/data.js "carbonmapDataLoaded();"
 
 bin/adhoc/dump-project-data.py carbonmap > carbonmap/data/dumped.csv
-
-set +x
-echo
-echo "If you need to regenerate the embedded SVG, run:"
-echo "  bin/as-svg.py --map world-robinson --simplification \"$simplification\" --alternate-simplification \"$alternate_simplification\" --alternate-simplification-regions \"$countries_less_simplified\" --simplification-json '$simplification_json'"
-echo
