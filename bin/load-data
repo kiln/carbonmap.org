@@ -81,6 +81,9 @@ done
             echo -n "carbonmap_values.$f = "
             bin/csv-to-json --key Alpha-2 --value "$col" --type=float --format="{:,.1f}" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
+            echo -n "carbonmap_rank.$f = "
+            bin/csv-to-json --rank --key Alpha-2 --value "$col" --type=float carbonmap/data/Maps/With\ alpha-2/$f.csv
+            echo ';'
         fi
     done
 ) > carbonmap/site/data.js

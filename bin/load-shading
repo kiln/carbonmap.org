@@ -22,10 +22,10 @@ col_EmissionsChange='CO2 emissions (% change 1990-2008)'
         if [ -e carbonmap/data/Shading/With\ alpha-2/"$f".csv ]
         then
             echo >&3 "/* $f */"
-            bin/adhoc/shading-css "shading-$f" carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
+            carbonmap/bin/shading-css "shading-$f" carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
             
             echo -n >&4 "carbonmap_shading.$f = "
-            bin/adhoc/shading-js "$f" carbonmap/data/Shading/With\ alpha-2/"$f".text.md carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv >&4
+            carbonmap/bin/shading-js "$f" carbonmap/data/Shading/With\ alpha-2/"$f".text.md carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv >&4
             echo >&4 ";"
         fi
     done
@@ -37,5 +37,14 @@ col_EmissionsChange='CO2 emissions (% change 1990-2008)'
         echo -n "carbonmap_values.$f = "
         bin/csv-to-json --key Alpha-2 --value "$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" carbonmap/data/Shading/With\ alpha-2/$f.csv
         echo ';'
+
+        # You can make a (presumably empty) file like Continents.no-rank
+        # to indicate that it doesn’t make sense to assign ranks to a dataset.
+        if [ ! -e carbonmap/data/Shading/With\ alpha-2/"$f".no-rank ]
+        then
+            echo -n "carbonmap_rank.$f = "
+            bin/csv-to-json --rank --key Alpha-2 --value "$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float carbonmap/data/Shading/With\ alpha-2/$f.csv
+            echo ';'
+        fi
     done
 ) >> carbonmap/site/data.shading.js

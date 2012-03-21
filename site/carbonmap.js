@@ -1,5 +1,6 @@
 var carbonmap_data = {};
 var carbonmap_values = {};
+var carbonmap_rank = {};
 var carbonmap_shading = {};
 var carbonmap_data_loaded = false;
 var carbonmap_timer;
@@ -71,7 +72,35 @@ function carbonmapDataLoaded() {
             value = value.replace(/\.0$/, ""); // Fractional people read strangely
         }
         return value + " " + unit;
-    }
+    };
+    
+    var count = {};
+    var _rank = function(dataset, key) {
+        var rank = carbonmap_rank[dataset][key];
+        if (typeof rank === "undefined") return "";
+        if (!(key in count)) {
+            count[key] = 0;
+            for (var x in carbonmap_rank[dataset]) {
+                if (carbonmap_rank[dataset].hasOwnProperty(x))
+                    ++ count[key];
+            }
+        }
+        
+        var ile = (rank - 1) / count[key];
+        var describe_rank;
+        if (ile < 0.05)
+            describe_rank = "Very low";
+        else if (ile < 0.20)
+            describe_rank = "Low";
+        else if (ile < 0.80)
+            describe_rank = "Medium";
+        else if (ile < 0.95)
+            describe_rank = "High";
+        else
+            describe_rank = "Very high";
+        
+        return "Rank: " + describe_rank + " (" + rank + "/" + count[key] + ")"
+    };
 
     var dataset;
     var shading = "Continents";
@@ -86,7 +115,7 @@ function carbonmapDataLoaded() {
         if (selected_country && dataset in carbonmap_values) {
             var data_value = carbonmap_values[dataset][selected_country.id];
             $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
-            $("#selectedcountryrank2").html("");
+            $("#selectedcountryrank2").text(_rank(dataset, selected_country.id));
         } else {
             $("#selectedcountrydataresult2").html("Choose a tab to see some interesting info");
             $("#selectedcountryrank2").html("");
@@ -95,7 +124,7 @@ function carbonmapDataLoaded() {
         if (selected_country && shading in carbonmap_data_description) {
             $("#selectedcountrydatadescription3").text(carbonmap_data_description[shading]);
             $("#selectedcountrydataresult3").text(_val(carbonmap_values[shading][selected_country.id], carbonmap_data_unit[shading]));
-            $("#selectedcountryrank3").html("");
+            $("#selectedcountryrank3").text(_rank(shading, selected_country.id));
         } else {
             $("#selectedcountrydatadescription3").html("");
             $("#selectedcountrydataresult3").html("");
