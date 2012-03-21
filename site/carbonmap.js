@@ -256,11 +256,14 @@ function carbonmapDataLoaded() {
         
         [46, "PeopleAtRisk"],
         
-        [56, "_raw"],
+        [53, "_raw"],
         [57, "PopulationGrowth"],
         
         [64, "Emissions"],
-        [71, "PeopleAtRisk"]
+        [71, "PeopleAtRisk"],
+
+        [78, "_raw"],
+        [80, "Continents"]
     ];
     track.addEventListener("timeupdate", function() {
         if (track.paused) return;
