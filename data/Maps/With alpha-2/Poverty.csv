@@ -2,30 +2,30 @@ Alpha-3,Alpha-2,Country name,Population living below $1.25 a day,Notes
 AFG,AF,Afghanistan,8534373.908,Estimate based on Nepal as a neighbour with similar GDP per capita
 AGO,AO,Angola,6663668.101,
 ALB,AL,Albania,18187.16572,
-ARE,AE,United Arab Emirates,0.0000001,Estimate based on assumption of 0% for high-income countries
+ARE,AE,United Arab Emirates,0.001,Estimate based on assumption of 0% for high-income countries
 ARG,AR,Argentina,371793.8592,
 ARM,AM,Armenia,36232.80035,
-AUS,AU,Australia,0.0000001,Estimate based on assumption of 0% for high-income countries
-AUT,AT,Austria,0.0000001,Estimate based on assumption of 0% for high-income countries
+AUS,AU,Australia,0.001,Estimate based on assumption of 0% for high-income countries
+AUT,AT,Austria,0.001,Estimate based on assumption of 0% for high-income countries
 AZE,AZ,Azerbaijan,35617.22804,
 BDI,BI,Burundi,5713124.389,
-BEL,BE,Belgium,0.0000001,Estimate based on assumption of 0% for high-income countries
+BEL,BE,Belgium,0.001,Estimate based on assumption of 0% for high-income countries
 BEN,BJ,Benin,3074840.847,
 BFA,BF,Burkina Faso,7027740.438,
 BGD,BD,Bangladesh,64309346.66,
-BGR,BG,Bulgaria,0.0000001,
+BGR,BG,Bulgaria,0.001,
 BHR,BH,Bahrain,31189.51826,Estimate based on regional average
 BIH,BA,Bosnia and Herzegovina,1317.433025,
 BLR,BY,Belarus,8688.232351,
 BLZ,BZ,Belize,22302.09,Estimate based on regional aveage
 BOL,BO,Bolivia,1419017.922,
 BRA,BR,Brazil,11452621.65,
-BRN,BN,Brunei Darussalam,0.0000001,Estimate based on assumption of 0% for high-income countries
+BRN,BN,Brunei Darussalam,0.001,Estimate based on assumption of 0% for high-income countries
 BTN,BT,Bhutan,64985.2992,
 BWA,BW,Botswana,872896.6657,Estimate based on regional aveage
 CAF,CF,Central African Republic,2531429.252,
-CAN,CA,Canada,0.0000001,Estimate based on assumption of 0% for high-income countries
-CHE,CH,Switzerland,0.0000001,Estimate based on assumption of 0% for high-income countries
+CAN,CA,Canada,0.001,Estimate based on assumption of 0% for high-income countries
+CHE,CH,Switzerland,0.001,Estimate based on assumption of 0% for high-income countries
 CHL,CL,Chile,221054.0852,
 CHN,CN,China,160006943.6,
 CIV,CI,Cote d'Ivoire,4291456.269,
@@ -36,85 +36,85 @@ COL,CO,Colombia,3777659.026,
 COM,KM,Comoros,259933.1781,
 CPV,CV,Cape Verde,73228.95653,
 CRI,CR,Costa Rica,139077.8401,
-CYP,CY,Cyprus,0.0000001,Estimate based on assumption of 0% for high-income countries
+CYP,CY,Cyprus,0.001,Estimate based on assumption of 0% for high-income countries
 CZE,CZ,Czech Republic,6042.243667,Etimate based on Slovak Republic as a neighbour with similar GDP per capita
-DEU,DE,Germany,0.0000001,Estimate based on assumption of 0% for high-income countries
+DEU,DE,Germany,0.001,Estimate based on assumption of 0% for high-income countries
 DJI,DJ,Djibouti,117601.6001,
-DNK,DK,Denmark,0.0000001,Estimate based on assumption of 0% for high-income countries
+DNK,DK,Denmark,0.001,Estimate based on assumption of 0% for high-income countries
 DOM,DO,Dominican Republic,222371.968,
 DZA,DZ,Algeria,957641.616,Estimate based on regional aveage
 ECU,EC,Ecuador,666824.4679,
 EGY,EG,"Egypt, Arab Rep.",1255054.964,
 ERI,ER,Eritrea,3854459.213,Estimate based on Eritrea as a neighbour with similar GDP per capita
-ESP,ES,Spain,0.0000001,Estimate based on assumption of 0% for high-income countries
+ESP,ES,Spain,0.001,Estimate based on assumption of 0% for high-income countries
 EST,EE,Estonia,4727.971862,
 ETH,ET,Ethiopia,25914257.43,
-FIN,FI,Finland,0.0000001,Estimate based on assumption of 0% for high-income countries
+FIN,FI,Finland,0.001,Estimate based on assumption of 0% for high-income countries
 FJI,FJ,Fiji,48418.51228,
-FRA,FR,France,0.0000001,Estimate based on assumption of 0% for high-income countries
+FRA,FR,France,0.001,Estimate based on assumption of 0% for high-income countries
 FSM,FM,"Micronesia, Fed. Sts.",22245.54387,
 GAB,GA,Gabon,58428.03505,
-GBR,GB,United Kingdom,0.0000001,Estimate based on assumption of 0% for high-income countries
+GBR,GB,United Kingdom,0.001,Estimate based on assumption of 0% for high-income countries
 GEO,GE,Georgia,622464.4588,
 GHA,GH,Ghana,5844442.387,
 GIN,GN,Guinea,3789240.181,
 GMB,GM,"Gambia, The",426695.226,
 GNB,GW,Guinea-Bissau,520421.2636,
-GRC,GR,Greece,0.0000001,Estimate based on assumption of 0% for high-income countries
-GRL,GL,Greenland,0.0000001,Estimate based on assumption of 0% for high-income countries
+GRC,GR,Greece,0.001,Estimate based on assumption of 0% for high-income countries
+GRL,GL,Greenland,0.001,Estimate based on assumption of 0% for high-income countries
 GTM,GT,Guatemala,1631589.617,
 GUY,GY,Guyana,132973.7778,Estimate based on Honduras as a nighbour with roughly comparable GDP/capita
-HKG,HK,"Hong Kong SAR, China",0.0000001,Estimate based on assumption of 0% for high-income countries
+HKG,HK,"Hong Kong SAR, China",0.001,Estimate based on assumption of 0% for high-income countries
 HND,HN,Honduras,1303174.9,
 HRV,HR,Croatia,2430.102276,
 HTI,HT,Haiti,4144314.144,
 HUN,HU,Hungary,14903.56697,
 IDN,ID,Indonesia,43320691.22,
 IND,IN,India,382545444.6,
-IRL,IE,Ireland,0.0000001,Estimate based on assumption of 0% for high-income countries
+IRL,IE,Ireland,0.001,Estimate based on assumption of 0% for high-income countries
 IRN,IR,"Iran, Islamic Rep.",860103.6015,
 IRQ,IQ,Iraq,791189.8549,
-ISL,IS,Iceland,0.0000001,Estimate based on assumption of 0% for high-income countries
-ISR,IL,Israel,0.0000001,Estimate based on assumption of 0% for high-income countries
-ITA,IT,Italy,0.0000001,Estimate based on assumption of 0% for high-income countries
+ISL,IS,Iceland,0.001,Estimate based on assumption of 0% for high-income countries
+ISR,IL,Israel,0.001,Estimate based on assumption of 0% for high-income countries
+ITA,IT,Italy,0.001,Estimate based on assumption of 0% for high-income countries
 JAM,JM,Jamaica,4353.914094,
 JOR,JO,Jordan,7256.4,
-JPN,JP,Japan,0.0000001,Estimate based on assumption of 0% for high-income countries
+JPN,JP,Japan,0.001,Estimate based on assumption of 0% for high-income countries
 KAZ,KZ,Kazakhstan,17172.3163,
 KEN,KE,Kenya,14089197.29,
 KGZ,KG,Kyrgyz Republic,319810.3378,
 KHM,KH,Cambodia,2944554.145,
-KOR,KR,"Korea, Rep.",0.0000001,Estimate based on assumption of 0% for high-income countries
+KOR,KR,"Korea, Rep.",0.001,Estimate based on assumption of 0% for high-income countries
 LAO,LA,Lao PDR,1923269.048,
 LBR,LR,Liberia,2930363.491,
 LKA,LK,Sri Lanka,1286321.123,
 LSO,LS,Lesotho,691928.7641,
 LTU,LT,Lithuania,4863.91754,
-LUX,LU,Luxembourg,0.0000001,Estimate based on assumption of 0% for high-income countries
+LUX,LU,Luxembourg,0.001,Estimate based on assumption of 0% for high-income countries
 LVA,LV,Latvia,2874.639428,
-MAC,MO,"Macao SAR, China",0.0000001,Estimate based on assumption of 0% for high-income countries
+MAC,MO,"Macao SAR, China",0.001,Estimate based on assumption of 0% for high-income countries
 MAR,MA,Morocco,705267.865,
 MDA,MD,Moldova,13892.0418,
 MDG,MG,Madagascar,16838263.47,
 MEX,MX,Mexico,1194102.159,
-MKD,MK,"Macedonia, FYR",0.0000001,
+MKD,MK,"Macedonia, FYR",0.001,
 MLI,ML,Mali,7750994.679,
-MLT,MT,Malta,0.0000001,Estimate based on assumption of 0% for high-income countries
+MLT,MT,Malta,0.001,Estimate based on assumption of 0% for high-income countries
 MMR,MM,Myanmar,9989187.903,Estimate based on Cambodia as a neighbour with similar GDP per capita
 MNE,ME,Montenegro,693.7293311,
 MNG,MN,Mongolia,361801.9102,Estimate based on regional aveage
 MOZ,MZ,Mozambique,12758136.9,
 MRT,MR,Mauritania,742099.6504,
 MWI,MW,Malawi,8443977.818,
-MYS,MY,Malaysia,0.0000001,
+MYS,MY,Malaysia,0.001,
 NAM,NA,Namibia,559003.7077,
 NER,NE,Niger,6194331.943,
 NGA,NG,Nigeria,107696079.1,
 NIC,NI,Nicaragua,552787.67,
-NLD,NL,Netherlands,0.0000001,Estimate based on assumption of 0% for high-income countries
-NOR,NO,Norway,0.0000001,Estimate based on assumption of 0% for high-income countries
+NLD,NL,Netherlands,0.001,Estimate based on assumption of 0% for high-income countries
+NOR,NO,Norway,0.001,Estimate based on assumption of 0% for high-income countries
 NPL,NP,Nepal,7435914.145,
-NZL,NZ,New Zealand,0.0000001,Estimate based on assumption of 0% for high-income countries
+NZL,NZ,New Zealand,0.001,Estimate based on assumption of 0% for high-income countries
 OMN,OM,Oman,68775.0833,Estimate based on regional average
 PAK,PK,Pakistan,33436532.69,
 PAN,PA,Panama,230703.392,
@@ -122,16 +122,16 @@ PER,PE,Peru,1427656.739,
 PHL,PH,Philippines,16436521.79,
 PNG,PG,Papua New Guinea,2477205.679,Estimate based on double Indonesia's figure to reflect its neighbour's higher GDP / person
 POL,PL,Poland,18268.89426,
-PRT,PT,Portugal,0.0000001,Estimate based on assumption of 0% for high-income countries
+PRT,PT,Portugal,0.001,Estimate based on assumption of 0% for high-income countries
 PRY,PY,Paraguay,462145.6368,
 PSE,PS,West Bank and Gaza,1589.092477,
-QAT,QA,Qatar,0.0000001,Estimate based on assumption of 0% for high-income countries
+QAT,QA,Qatar,0.001,Estimate based on assumption of 0% for high-income countries
 ROU,RO,Romania,84114.44003,
-RUS,RU,Russian Federation,0.0000001,
+RUS,RU,Russian Federation,0.001,
 RWA,RW,Rwanda,6711183.959,
 SDN,SD,Sudan,8250758.435,
 SEN,SN,Senegal,3340042.575,
-SGP,SG,Singapore,0.0000001,Estimate based on assumption of 0% for high-income countries
+SGP,SG,Singapore,0.001,Estimate based on assumption of 0% for high-income countries
 SLE,SL,Sierra Leone,2298799.702,
 SLV,SV,El Salvador,531513.3765,
 SRB,RS,Serbia,18141.59049,
@@ -139,7 +139,7 @@ STP,ST,Sao Tome and Principe,31322.69463,
 SUR,SR,Suriname,33943.9492,Estimate based on regional aveage
 SVK,SK,Slovak Republic,3119.23842,
 SVN,SI,Slovenia,944.9946114,
-SWE,SE,Sweden,0.0000001,Estimate based on assumption of 0% for high-income countries
+SWE,SE,Sweden,0.001,Estimate based on assumption of 0% for high-income countries
 SWZ,SZ,Swaziland,481894.5528,
 SYC,SC,Seychelles,189.4720337,
 SYR,SY,Syrian Arab Republic,268252.8799,
@@ -151,12 +151,12 @@ TKM,TM,Turkmenistan,661902.3078,Estimate based on regional aveage
 TLS,TL,Timor-Leste,368725.1793,
 TON,TO,Tonga,13660.51143,Estimate based on regional aveage
 TUN,TN,Tunisia,114197.0831,
-TUR,TR,Turkey,0.0000001,
+TUR,TR,Turkey,0.001,
 TZA,TZ,Tanzania,26657463.74,
 UGA,UG,Uganda,12155878.02,
 UKR,UA,Ukraine,26333.45146,
 URY,UY,Uruguay,6713.168,
-USA,US,United States,0.0000001,Estimate based on assumption of 0% for high-income countries
+USA,US,United States,0.001,Estimate based on assumption of 0% for high-income countries
 UZB,UZ,Uzbekistan,1767515.495,Estimate based on Tajikistan as a nighbour with roughly comparable GDP/capita
 VEN,VE,"Venezuela, RB",1602149.686,
 VNM,VN,Vietnam,13410476.6,
