@@ -23,14 +23,32 @@ col_PeopleAtRisk="Number of people exposed to droughts, floods, extreme temps"
 col_SeaLevel="Population below 5m"
 col_Poverty='Population living below $1.25 a day'
 
-
-if [ "$1" = "--regenerate" ]
-then
-    shift
-    regenerate=true
-else
-    regenerate=false
-fi
+regenerate=false
+paths=false
+while [ $# -gt 0 ]
+do
+    case "$1" in
+        --regenerate)
+            regenerate=true
+            shift
+            ;;
+        --paths)
+            paths=true
+            shift
+            ;;
+        --)
+            shift
+            break
+            ;;
+        --*)
+            echo >&2 "$0: Unrecognised option $1"
+            exit 64
+            ;;
+        *)
+            break
+            ;;
+    esac
+done
 datasets="${1-${all_datasets}}"
 
 
@@ -44,15 +62,18 @@ do
         bin/density-grid.py "carbonmap:$f" world-robinson > carbonmap/data/Maps/Cartogram\ data/"$f".density && \
         cart 1500 750 carbonmap/data/Maps/Cartogram\ data/"$f".density carbonmap/data/Maps/Cartogram\ data/"$f".cart
     fi
-    bin/as-svg.py --dataset "carbonmap:$f" --cart carbonmap/data/Maps/Cartogram\ data/"$f".cart --map world-robinson --json --simplification "$simplification" --alternate-simplification "$alternate_simplification" --alternate-simplification-regions "$countries_less_simplified" --simplification-json "$simplification_json" > carbonmap/data/Maps/Cartogram\ data/$f.json
 done
 
+if $paths
+then
+    bin/as-js.py --map world-robinson --data-var=carbonmap_data carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
+fi
+
+cat carbonmap/site/data.paths.js > carbonmap/site/data.js
+
 (
-    echo "// This file is auto-generated. Please do not edit."
-    echo "// Generated at $(date)"
+    echo "// Text, values and ranks generated at $(date)"
     
-    echo -n 'carbonmap_data._raw = '
-    bin/as-svg.py --map world-robinson --json --simplification "$simplification" --alternate-simplification "$alternate_simplification" --alternate-simplification-regions "$countries_less_simplified" --simplification-json "$simplification_json" | perl -pe 's/$/;/'
     if [ ${PIPESTATUS[0]} -ne 0 ]
     then
         exit ${PIPESTATUS[0]}
@@ -68,11 +89,8 @@ done
     
     for f in $all_datasets
     do
-        if [ -e carbonmap/data/Maps/Cartogram\ data/"$f".json ]
+        if [ -e carbonmap/data/Maps/With\ alpha-2/$f.csv ]
         then
-            echo -n "carbonmap_data.$f = "
-            perl -pe 's/$/;/' carbonmap/data/Maps/Cartogram\ data/"$f".json
-            
             echo -n "carbonmap_data.$f._text = \""
             markdown_py -o html5 -s escape -e utf-8 carbonmap/data/Maps/"$f".text.md | perl -l40pe 's/"/\\"/g'
             echo '";'
@@ -81,12 +99,13 @@ done
             echo -n "carbonmap_values.$f = "
             bin/csv-to-json --key Alpha-2 --value "$col" --type=float --format="{:,.1f}" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
+            
             echo -n "carbonmap_rank.$f = "
             bin/csv-to-json --rank --key Alpha-2 --value "$col" --type=float carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
-) > carbonmap/site/data.js
+) >> carbonmap/site/data.js
 
 cat carbonmap/site/data.shading.js >> carbonmap/site/data.js
 echo >> carbonmap/site/data.js "carbonmapDataLoaded();"
