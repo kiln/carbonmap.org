@@ -27,6 +27,7 @@ do
     case "$1" in
         --regenerate)
             regenerate=true
+            paths=true # --regenerate implies --paths
             shift
             ;;
         --paths)
