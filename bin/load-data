@@ -2,10 +2,7 @@
 
 set -ex
 
-simplification=20000
-alternate_simplification=10000
-countries_less_simplified="GB CH FR ES AT IT BY UA SK HU RO RS BG SA AE OM IR IQ JP MN BT NP MY ID TH  NE NG TD CM  BI CD"
-simplification_json='{"BE": 5000, "NL": 5000, "LU": 5000, "DE": 5000, "CZ": 5000, "PL": 5000, "QA": 5000, "IN": 5000, "BD": 5000, "KH": 500, "LA": 5000, "VN": 5000, "CN": 5000, "UG": 5000, "RW": 5000, "TZ": 5000}'
+simplification=50000
 
 all_datasets="Area Population GDP  Extraction Emissions Consumption Historical Reserves  PeopleAtRisk SeaLevel Poverty"
 
@@ -49,24 +46,24 @@ do
             ;;
     esac
 done
-datasets="${1-${all_datasets}}"
 
 
-for f in $datasets
-do
-    if $regenerate
-    then
+if $regenerate
+then
+    datasets="${1-${all_datasets}}"
+    for f in $datasets
+    do
         bin/delete-data.py "carbonmap:$f"
         eval col=\${col_$f}
         bin/load-data.py "carbonmap:$f" carbonmap/data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
         bin/density-grid.py "carbonmap:$f" world-robinson > carbonmap/data/Maps/Cartogram\ data/"$f".density && \
         cart 1500 750 carbonmap/data/Maps/Cartogram\ data/"$f".density carbonmap/data/Maps/Cartogram\ data/"$f".cart
-    fi
-done
+    done
+fi
 
 if $paths
 then
-    bin/as-js.py --map world-robinson --data-var=carbonmap_data carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
+    bin/as-js.py --map world-robinson --data-var=carbonmap_data --simplification="$simplification" carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
 fi
 
 cat carbonmap/site/data.paths.js > carbonmap/site/data.js
