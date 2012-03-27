@@ -64,7 +64,7 @@ fi
 
 if $paths
 then
-    bin/as-js.py --map world-robinson --data-var=carbonmap_data --simplification="$simplification" carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
+    bin/as-js.py --map world-robinson --output-grid=3280x1600 --data-var=carbonmap_data --simplification="$simplification" carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
 fi
 
 cat carbonmap/site/data.paths.js > carbonmap/site/data.js
