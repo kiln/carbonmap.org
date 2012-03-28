@@ -137,6 +137,7 @@ function carbonmapDataLoaded() {
     };
     
     var timers = {};
+    var frames = 24;
     var fakeAnimation = function(country_path, new_path) {
         var country = country_path.id;
         var original_path = current_path_by_country[country];
@@ -158,18 +159,18 @@ function carbonmapDataLoaded() {
                     intermediate_path_els[j] = original_path_els[j];
                 }
                 else {
-                    intermediate_path_els[j] = Math.round( ((10-i)/10) * a + (i/10) * b );
+                    intermediate_path_els[j] = Math.round( ((frames-i)/frames) * a + (i/frames) * b );
                 }
             }
             var intermediate_path = intermediate_path_els.join(" ");
             country_path.setAttribute("d", intermediate_path);
             current_path_by_country[country] = intermediate_path;
             
-            if (i >= 10) {
+            if (i >= frames) {
                 clearInterval(timers[country]);
                 delete timers[country];
             }
-        }, 100);
+        }, 1000/frames);
     };
 
     var setDataset = function(new_dataset) {
