@@ -1,1 +1,1 @@
-Country sizes show the number of **people already suffering from floods, droughts or extreme temperatures** in a typical year. This gives one indication of vulnerability to global warming, because climate change is expected to increase the threat of floods, droughts and heat waves.
+Country sizes show the number of **people injured, left homeless, displaced or requiring emergency assistance due to floods, droughts or extreme temperatures** in a typical year. Climate change is expected to exacerbate maybe of these threats.

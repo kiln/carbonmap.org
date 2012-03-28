@@ -13,7 +13,3 @@ DirectoryIndex index.xhtml
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
  </IfModule>
-
-# Redirect /demo to /. The first one is to avoid getting // from /demo/
-Redirect /demo/ /
-Redirect /demo /

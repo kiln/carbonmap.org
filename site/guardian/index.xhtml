@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
+		<link href='style.css' rel='stylesheet' type='text/css' />
+		
+		<script type="text/javascript" src="/modernizr.js"></script>
+		<script type="text/javascript">
+			if (!Modernizr.smil || !Modernizr.hashchange) {
+				document.location.href="fail.html";
+			}
+		</script>
+
+		<link href='/shading.css' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript"><![CDATA[
+			var carbonmap_data_description = {
+				// Maps
+				"Area": "Land area",
+				"Population": "Population, total, 2010",
+				"GDP": "GDP (PPP, current international $), 2010",
+	
+				"Extraction": "CO2 from fossil fuels extracted, 2010",
+				"Emissions": "CO2 from fossil fuels burned, 2010",
+				"Consumption": "CO2 from goods and services consumed, 2010",
+				"Historical": "Cumulative CO2 from energy use, 1850–2007",
+				"Reserves": "Potential CO2 in fossil fuels reserves, 2010",
+	
+				"PeopleAtRisk": "Population already exposed to droughts, floods or extreme temps, 2010",
+				"SeaLevel": "Population living less that 5m above sea level, 2010",
+				"Poverty": "Population living on less than $1.25 a day, 2010",
+				
+				// Shading:
+				"EmissionsChange": "Change in CO2 emissions, 1990–2008",
+				"CO2perCapita": "CO2 per person (fossil fuels and cement, 2010)",
+				"GDPperCapita": "GDP per person, 2010 (PPP, current international $)",
+				"PopulationGrowth": "Population growth, 2010"
+			};
+
+			var carbonmap_data_unit = {
+				// Maps
+				"Area": "square km",
+				"Population": "people",
+				"GDP": "$",
+	
+				"Extraction": "million tonnes",
+				"Emissions": "million tonnes",
+				"PetersEmissions": "million tonnes",
+				"Consumption": "million tonnes",
+				"Historical": "million tonnes",
+				"Reserves": "million tonnes",
+	
+				"PeopleAtRisk": "people",
+				"SeaLevel": "people",
+				"Poverty": "people",
+				
+				// Shading
+				"EmissionsChange": "%",
+				"CO2perCapita": "tonnes",
+				"GDPperCapita": "$",
+				"PopulationGrowth": "%"
+			};
+		]]></script>
+		<script type="text/javascript" src="/carbonmap.js"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30249221-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</head>
+	<body>
+
+		<!--Facebook button script-->
+		<div id="fb-root"></div>
+		<script type="text/javascript"><![CDATA[(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));]]></script>
+
+		<div id="wrapper">
+			<div id="masthead">
+				<div id="site-title-the">The</div>
+				<div id="site-title">carbon map</div>
+				<div id="site-strapline">Making sense of climate change responsibility and vulnerability</div>
+				<div id="credit"><a href="http://kiln.it" target="_blank">A Kiln Project</a></div>
+			</div>
+			<div id="contents">
+				<div id="navigation">
+					<div class="navitems navitemsselected" id="nav-_raw">
+						<a href="#"><div id="navglobe"></div></a>
+					</div>
+					<div id="reference">
+						<div class="navtitle"><div>Background</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems red" id="nav-Area"><a href="#Area">Area</a></div>
+							<div class="navitems green" id="nav-Population"><a href="#Population">Population</a></div>
+							<div class="navitems pink" id="nav-GDP"><a href="#GDP">Wealth</a></div>
+						</div>
+					</div>
+					<div id="responsibility">
+						<div class="navtitle"><div>Responsibility</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems orange" id="nav-Extraction"><a href="#Extraction">Extraction</a></div>
+							<div class="navitems cyan" id="nav-Emissions"><a href="#Emissions">Emissions</a></div>
+							<div class="navitems purple" id="nav-Consumption"><a href="#Consumption">Consumption</a></div>
+							<div class="navitems red" id="nav-Historical"><a href="#Historical">Historical</a></div>
+							<div class="navitems green" id="nav-Reserves"><a href="#Reserves">Reserves</a></div>
+						</div>
+					</div>
+					<div id="vulnerability">
+						<div class="navtitle"><div>Vulnerability</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems pink" id="nav-PeopleAtRisk"><a href="#PeopleAtRisk">People at risk</a></div>
+							<div class="navitems orange" id="nav-SeaLevel"><a href="#SeaLevel">Sea level</a></div>
+							<div class="navitems cyan" id="nav-Poverty"><a href="#Poverty">Poverty</a></div>
+						</div>
+					</div>
+				</div>
+				<div id="mainarea">
+					<div id="maparea" class="shading-Continents">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map" viewBox="915 -60 2153 1625">
+							<path id="bounds" d="M 0 0 L 3280 0 3280 1800 0 1800 Z"/>
+						</svg>
+						<div id="play-intro"></div>
+						<div id="map-placeholder" />
+						<div id="loading">
+							<img src="/black-002-loading.gif" />
+							<div>Loading maps…</div>
+						</div>
+					</div>
+					<div id="infoarea">
+						<div id="infoareaunselected">
+							<div id="selectacountry">Click on a country for more information</div>
+						</div>
+						<div id="selectedcountryinfo">
+							<div id="selectedcountrydataarea1">
+								<div id="selectedcountryname">Brazil</div>
+							</div>  
+							<div id="selectedcountrydataarea2">
+								<div id="selectedcountrydatadescription2"></div>
+								<div id="selectedcountrydataresult2"></div>
+								<div id="selectedcountryrank2"></div>
+							</div>  
+							<div id="selectedcountrydataarea3">
+								<div id="selectedcountrydatadescription3"></div>
+								<div id="selectedcountrydataresult3"></div>
+								<div id="selectedcountryrank3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="sidebar">
+					<div id="sidebarmain">
+						<div id="sidebarwelcome" class="welcome">Welcome. <span class="welcomered">Click the map to play intro</span> or <span class="welcomeblue">browse by theme above</span>.
+							<audio id="intro-track" controls="controls" style="width:100%; margin-top: 20px;">
+								<source src="/intro.ogg" type="audio/ogg" />
+								<source src="/intro.mp3" type="audio/mpeg" />
+							</audio>
+							
+							</div>
+						<div class="sidebarhead unwelcome">About this map</div>
+						<div class="sidebartext unwelcome" id="about"></div>
+						<div class="sidebarhead unwelcome">Shade by</div>
+						<form class="unwelcome">
+							<select id="shadedropdown">
+								<option value="Continents" selected="selected">Continents</option>
+								<option value="EmissionsChange">Emissions change</option>
+								<option value="CO2perCapita">CO2 per person</option>
+								<option value="GDPperCapita">GDP per person</option>
+								<option value="PopulationGrowth">Population growth</option>
+							</select>
+						</form>
+						<div id="legendbox" class="unwelcome">
+							<div id="legendtext"></div>
+						</div>
+					</div>
+					<div id="sidebarbottom">
+						<div class="sidebarhead">Share this site</div>
+						<div id="twittershare">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.carbonmap.org" data-text="The earth moved for me at the Carbon Map by @theduncanclark @robinhouston">Tweet</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div id="facebookshare">
+							<div class="fb-like" data-send="false" data-layout="button_count" data-width="150" data-show-faces="true" data-action="like"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footerlink"><a href="#intro">Play intro</a></div>
+			<div class="footerlink"><a href="/about.html" target="_parent">About</a></div>
+			<div class="footerlink"><a href="/about.html#contact" target="_parent">Contact</a></div>
+			<div class="footerlink"><a href="/sources.html" target="_parent">Data sources</a></div>
+		</div>
+	</body>
+</html>

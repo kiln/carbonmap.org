@@ -25,7 +25,7 @@ $(function() {
         })();
     };
 
-    loadAsync("data.js");
+    loadAsync("/data.js");
 });
 
 function carbonmapDataLoaded() {
@@ -117,7 +117,7 @@ function carbonmapDataLoaded() {
             $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
             $("#selectedcountryrank2").text(_rank(dataset, selected_country.id));
         } else {
-            $("#selectedcountrydataresult2").html("Choose a tab to see some interesting info");
+            $("#selectedcountrydataresult2").html("Choose a map to see data here");
             $("#selectedcountryrank2").html("");
         }
 
@@ -273,15 +273,15 @@ function carbonmapDataLoaded() {
     
     // Audio intro
     var track_animations = [
-        [8, "Area"],
-        [14, "Population"],
+        [6.5, "Area"],
+        [12.5, "Population"],
         [15.5, "GDP"],
         
         [25.5, "Extraction"],
         [27.5, "Emissions"],
         [29.5, "Consumption"],
-        [34, "Historical"],
-        [36, "Reserves"],
+        [33, "Historical"],
+        [37, "Reserves"],
         
         [46, "PeopleAtRisk"],
         
@@ -292,7 +292,7 @@ function carbonmapDataLoaded() {
         [71, "PeopleAtRisk"],
 
         [78, "_raw"],
-        [80, "Continents"]
+        [78, "Continents"]
     ];
     track.addEventListener("timeupdate", function() {
         if (track.paused) return;
