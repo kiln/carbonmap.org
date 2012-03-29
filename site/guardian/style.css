@@ -196,9 +196,9 @@ h3 {
 
 .navitems {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
-	padding: 4px 3px;	
+	padding: 4px 2px;	
 	-moz-border-bottom-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	-moz-border-bottom-left-radius: 5px;
