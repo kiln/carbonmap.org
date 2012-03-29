@@ -1,1 +1,1 @@
-Country sizes show the number of **people injured, left homeless, displaced or requiring emergency assistance due to floods, droughts or extreme temperatures** in a typical year. Climate change is expected to exacerbate maybe of these threats.
+Country sizes show the number of **people injured, left homeless, displaced or requiring emergency assistance due to floods, droughts or extreme temperatures** in a typical year. Climate change is expected to exacerbate many of these threats.
