@@ -136,41 +136,52 @@ function carbonmapDataLoaded() {
         }
     };
     
-    var timers = {};
+    var timer = null;
     var frames = 24;
-    var fakeAnimation = function(country_path, new_path) {
-        var country = country_path.id;
-        var original_path = current_path_by_country[country];
-        var original_path_els = original_path.split(" ");
-        var new_path_els = new_path.split(" ");
-        
-        var i = 0;
-        
-        if (country in timers) {
-            clearInterval(timers[country]);
+    var animation_millis = 1000;
+    
+    var fakeAnimation = function(data) {
+        if (timer != null) {
+            clearInterval(timer);
         }
-        timers[country] = setInterval(function() {
-            i++;
+        
+        var start_time = new Date().getTime();
+        timer = setInterval(function() {
+            var elapsed_millis = new Date().getTime() - start_time;
+            var x = Math.min(1, elapsed_millis / animation_millis);
             
-            var intermediate_path_els = [];
-            for (var j = 0; j < original_path_els.length; j++) {
-                var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
-                if (isNaN(a)) {
-                    intermediate_path_els[j] = original_path_els[j];
-                }
-                else {
-                    intermediate_path_els[j] = Math.round( ((frames-i)/frames) * a + (i/frames) * b );
+            if (elapsed_millis >= animation_millis) {
+                clearInterval(timer);
+                timer = null
+            }
+            
+            for (var k in data) {
+                if (!data.hasOwnProperty(k)) continue;
+                
+                var country_path = document.getElementById(k);
+                var new_path = data[k];
+                if (country_path != null) {
+                    var country = country_path.id;
+                    var original_path = current_path_by_country[country];
+                    var original_path_els = original_path.split(" ");
+                    var new_path_els = new_path.split(" ");
+                    
+                    var intermediate_path_els = [];
+                    for (var j = 0; j < original_path_els.length; j++) {
+                        var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
+                        if (isNaN(a)) {
+                            intermediate_path_els[j] = original_path_els[j];
+                        }
+                        else {
+                            intermediate_path_els[j] = Math.round( (1-x) * a + x * b );
+                        }
+                    }
+                    var intermediate_path = intermediate_path_els.join(" ");
+                    country_path.setAttribute("d", intermediate_path);
+                    current_path_by_country[country] = intermediate_path;
                 }
             }
-            var intermediate_path = intermediate_path_els.join(" ");
-            country_path.setAttribute("d", intermediate_path);
-            current_path_by_country[country] = intermediate_path;
-            
-            if (i >= frames) {
-                clearInterval(timers[country]);
-                delete timers[country];
-            }
-        }, 1000/frames);
+        }, animation_millis/frames);
     };
 
     var setDataset = function(new_dataset) {
@@ -197,13 +208,13 @@ function carbonmapDataLoaded() {
             update_infobox();
 
             // Animate the map to the chosen configuration
-            for (var k in data) {
-                if (!data.hasOwnProperty(k)) continue;
+            if (Modernizr.smil) {
+                for (var k in data) {
+                    if (!data.hasOwnProperty(k)) continue;
 
-                var country_path = document.getElementById(k);
-                var new_path = data[k];
-                if (country_path != null) {
-                    if (Modernizr.smil) {
+                    var country_path = document.getElementById(k);
+                    var new_path = data[k];
+                    if (country_path != null) {
                         var animate_element = document.createElementNS("http://www.w3.org/2000/svg", "animate");
 
                         animate_element.setAttribute("dur", "1s");
@@ -216,12 +227,12 @@ function carbonmapDataLoaded() {
                         country_path.appendChild(animate_element);
                         animate_element.beginElement();
                     }
-                    else {
-                        // Fake the animation for browsers that don’t support SMIL
-                        // (I’m looking at you, IE 9)
-                        fakeAnimation(country_path, new_path);
-                    }
                 }
+            }
+            else {
+                // Fake the animation for browsers that don’t support SMIL
+                // (I’m looking at you, IE 9)
+                fakeAnimation(data);
             }
         }
     };
