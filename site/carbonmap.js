@@ -82,15 +82,15 @@ function carbonmapDataLoaded() {
     var _rank = function(dataset, key) {
         var rank = carbonmap_rank[dataset][key];
         if (typeof rank === "undefined") return "";
-        if (!(key in count)) {
-            count[key] = 0;
+        if (!(dataset in count)) {
+            count[dataset] = 0;
             for (var x in carbonmap_rank[dataset]) {
                 if (carbonmap_rank[dataset].hasOwnProperty(x))
-                    ++ count[key];
+                    ++ count[dataset];
             }
         }
         
-        var ile = (rank - 1) / count[key];
+        var ile = (rank - 1) / count[dataset];
         var describe_rank;
         if (ile < 0.05)
             describe_rank = "Very low";
@@ -103,7 +103,7 @@ function carbonmapDataLoaded() {
         else
             describe_rank = "Very high";
         
-        return "Rank: " + describe_rank + " (" + rank + "/" + count[key] + ")"
+        return "Rank: " + describe_rank + " (" + rank + "/" + count[dataset] + ")"
     };
 
     var dataset;
