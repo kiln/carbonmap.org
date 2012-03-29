@@ -48,22 +48,19 @@ function carbonmapDataLoaded() {
     var track = document.getElementById("intro-track");
     
     // Add the countries to the map
-    var map = document.getElementById("map");
-    var current_path_by_country = {}; // Only used if !Modernizr.smil
+    var map = Raphael("map", 820, 440);
+    var raph_els = {};
+    map.setViewBox(450, -40, 2153, 1652);
+    
     for (var country in carbonmap_data._raw) {
         if (!carbonmap_data._raw.hasOwnProperty(country)) continue;
         if (country.charAt(0) === "_") continue;
         var path_data = carbonmap_data._raw[country];
         if (!path_data) continue;
         
-        var e = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        e.id = country;
-        e.setAttribute("class", "country");
-        e.setAttribute("d", path_data);
-        if (!Modernizr.smil) {
-            current_path_by_country[country] = path_data;
-        }
-        map.appendChild(e);
+        var p = map.path(path_data);
+        $(p.node).attr({"id": country, "class": "country"});
+        raph_els[country] = p;
     }
     $("#map-placeholder").hide();
     
@@ -136,54 +133,6 @@ function carbonmapDataLoaded() {
         }
     };
     
-    var timer = null;
-    var frames = 24;
-    var animation_millis = 1000;
-    
-    var fakeAnimation = function(data) {
-        if (timer != null) {
-            clearInterval(timer);
-        }
-        
-        var start_time = new Date().getTime();
-        timer = setInterval(function() {
-            var elapsed_millis = new Date().getTime() - start_time;
-            var x = Math.min(1, elapsed_millis / animation_millis);
-            
-            if (elapsed_millis >= animation_millis) {
-                clearInterval(timer);
-                timer = null
-            }
-            
-            for (var k in data) {
-                if (!data.hasOwnProperty(k)) continue;
-                
-                var country_path = document.getElementById(k);
-                var new_path = data[k];
-                if (country_path != null) {
-                    var country = country_path.id;
-                    var original_path = current_path_by_country[country];
-                    var original_path_els = original_path.split(" ");
-                    var new_path_els = new_path.split(" ");
-                    
-                    var intermediate_path_els = [];
-                    for (var j = 0; j < original_path_els.length; j++) {
-                        var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
-                        if (isNaN(a)) {
-                            intermediate_path_els[j] = original_path_els[j];
-                        }
-                        else {
-                            intermediate_path_els[j] = Math.round( (1-x) * a + x * b );
-                        }
-                    }
-                    var intermediate_path = intermediate_path_els.join(" ");
-                    country_path.setAttribute("d", intermediate_path);
-                    current_path_by_country[country] = intermediate_path;
-                }
-            }
-        }, animation_millis/frames);
-    };
-
     var setDataset = function(new_dataset) {
         dataset = new_dataset;
         if (dataset in carbonmap_data) {
@@ -208,31 +157,9 @@ function carbonmapDataLoaded() {
             update_infobox();
 
             // Animate the map to the chosen configuration
-            if (Modernizr.smil) {
-                for (var k in data) {
-                    if (!data.hasOwnProperty(k)) continue;
-
-                    var country_path = document.getElementById(k);
-                    var new_path = data[k];
-                    if (country_path != null) {
-                        var animate_element = document.createElementNS("http://www.w3.org/2000/svg", "animate");
-
-                        animate_element.setAttribute("dur", "1s");
-                        animate_element.setAttribute("attributeName", "d");
-                        animate_element.setAttribute("to", new_path);
-                        animate_element.setAttribute("begin", "indefinite");
-                        animate_element.setAttribute("fill", "freeze");
-
-                        $(country_path).find("animate").not(":last").remove();
-                        country_path.appendChild(animate_element);
-                        animate_element.beginElement();
-                    }
-                }
-            }
-            else {
-                // Fake the animation for browsers that don’t support SMIL
-                // (I’m looking at you, IE 9)
-                fakeAnimation(data);
+            for (var k in data) {
+                if (!(k in raph_els)) continue;
+                raph_els[k].animate({"path": data[k]}, 1000);
             }
         }
     };
