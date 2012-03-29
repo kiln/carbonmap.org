@@ -277,7 +277,7 @@ function carbonmapDataLoaded() {
             setDataset("_raw");
         }
     };
-    window.addEventListener("hashchange", handleHashChange);
+    window.addEventListener("hashchange", handleHashChange, false);
 
     // Check the hash on initial load as well.
     if (location.hash) {
@@ -372,16 +372,16 @@ function carbonmapDataLoaded() {
         if (new_dataset !== dataset) {
             setDataset(new_dataset);
         }
-    });
+    }, false);
     track.addEventListener("play", function() {
         document.location.hash = "#intro";
-    });
+    }, false);
     track.addEventListener("ended", function() {
         if (shading !== "Continents") {
             $("#shadedropdown").val("Continents").change();
         }
         document.location.hash = "#";
-    });
+    }, false);
     $("#play-intro").click(function() {
         track.play();
     });
