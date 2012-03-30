@@ -209,6 +209,7 @@ function carbonmapDataLoaded() {
 
             // Animate the map to the chosen configuration
             if (Modernizr.smil) {
+                var animate_elements = [];
                 for (var k in data) {
                     if (!data.hasOwnProperty(k)) continue;
 
@@ -225,9 +226,12 @@ function carbonmapDataLoaded() {
 
                         $(country_path).find("animate").not(":last").remove();
                         country_path.appendChild(animate_element);
-                        animate_element.beginElement();
+                        animate_elements.push(animate_element);
                     }
                 }
+                for (var i=0; i < animate_elements.length; i++)
+                    animate_elements[i].beginElement();
+                animate_elements = [];
             }
             else {
                 // Fake the animation for browsers that don’t support SMIL
