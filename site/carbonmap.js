@@ -300,33 +300,33 @@ function carbonmapDataLoaded() {
     }).change();
 
     $(document.getElementsByClassName("country")).click(function() {
-    // Hop out of welcome mode if someone clicks a country, unless the intro is playing
-    if (welcome && track.paused) {
-      $(".welcome").hide();
-      $(".unwelcome").show();
-      welcome = false;
-    }
-
-    var already_selected = (this.getAttribute("class") == "country selected-country");
-    var something_previously_selected = false;
-    $(document.getElementsByClassName("selected-country")).each(function() {
-       this.setAttribute("class", "country");
-       something_previously_selected = true;
-    });
-    if (already_selected) {
-        $("#selectedcountryinfo").hide();
-        $("#infoareaunselected").show();
-    } else {
-        this.setAttribute("class", "country selected-country");
-        $("#selectedcountryname").text(carbonmap_data._names[this.id]);
-        if (!something_previously_selected) {
-            $("#infoareaunselected").hide();
-            $("#selectedcountryinfo").show();
+        // Hop out of welcome mode if someone clicks a country, unless the intro is playing
+        if (welcome && track.paused) {
+          $(".welcome").hide();
+          $(".unwelcome").show();
+          welcome = false;
         }
-        update_infobox(this);
-    }
 
-    return false;
+        var already_selected = (this.getAttribute("class") == "country selected-country");
+        var something_previously_selected = false;
+        $(document.getElementsByClassName("selected-country")).each(function() {
+           this.setAttribute("class", "country");
+           something_previously_selected = true;
+        });
+        if (already_selected) {
+            $("#selectedcountryinfo").hide();
+            $("#infoareaunselected").show();
+        } else {
+            this.setAttribute("class", "country selected-country");
+            $("#selectedcountryname").text(carbonmap_data._names[this.id]);
+            if (!something_previously_selected) {
+                $("#infoareaunselected").hide();
+                $("#selectedcountryinfo").show();
+            }
+            update_infobox(this);
+        }
+
+        return false;
     });
 
     // Initially there isn't a country selected
