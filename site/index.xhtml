@@ -6,7 +6,7 @@
 		
 		<script type="text/javascript" src="modernizr.js"></script>
 		<script type="text/javascript">
-			if (!Modernizr.hashchange || !Modernizr.svg) {
+			if (!Modernizr.hashchange || !Modernizr.svg || typeof document.getElementsByClassName === "undefined") {
 				document.location.href="fail.html";
 			}
 		</script>
