@@ -33,8 +33,6 @@ function carbonmapDataLoaded() {
     $("#loading").hide();
     
     // If the browser does not support HTML audio, skip the intro.
-    // I’m not sure there actually are any browsers that support
-    // SMIL but not HTML audio, but if there are we’re ready for them!
     var welcome = Modernizr.audio;
     if (welcome) {
         $("#play-intro").show();
@@ -263,7 +261,7 @@ function carbonmapDataLoaded() {
         }
         
         // If someone clicks a tab while the intro is running, pause it.
-        track.pause();
+        if (Modernizr.audio) track.pause();
 
         // If this is the first time a nav link has been clicked,
         // replace the Welcome sidebar with a data sidebar.
@@ -333,60 +331,61 @@ function carbonmapDataLoaded() {
     $("#selectedcountryinfo").hide();
     $("#infoareaunselected").show();
     
-    
-    // Audio intro
-    var track_animations = [
-        [6.5, "Area"],
-        [12.5, "Population"],
-        [15.5, "GDP"],
+    if (Modernizr.audio) {
+        // Audio intro
+        var track_animations = [
+            [6.5, "Area"],
+            [12.5, "Population"],
+            [15.5, "GDP"],
         
-        [25.5, "Extraction"],
-        [27.5, "Emissions"],
-        [29.5, "Consumption"],
-        [33, "Historical"],
-        [37, "Reserves"],
+            [25.5, "Extraction"],
+            [27.5, "Emissions"],
+            [29.5, "Consumption"],
+            [33, "Historical"],
+            [37, "Reserves"],
         
-        [46, "PeopleAtRisk"],
+            [46, "PeopleAtRisk"],
         
-        [53, "_raw"],
-        [57, "PopulationGrowth"],
+            [53, "_raw"],
+            [57, "PopulationGrowth"],
         
-        [64, "Emissions"],
-        [71, "PeopleAtRisk"],
+            [64, "Emissions"],
+            [71, "PeopleAtRisk"],
 
-        [78, "_raw"],
-        [78, "Continents"]
-    ];
-    track.addEventListener("timeupdate", function() {
-        if (track.paused) return;
+            [78, "_raw"],
+            [78, "Continents"]
+        ];
+        track.addEventListener("timeupdate", function() {
+            if (track.paused) return;
         
-        //console.log(this.currentTime); // Handy for quickly eyeballing timecodes
-        var new_dataset = "";
-        var new_shading = "Continents";
-        for (var i = 0; i < track_animations.length; i++) {
-            if (track_animations[i][0] > this.currentTime)
-                break;
-            if (track_animations[i][1] in carbonmap_shading)
-                new_shading = track_animations[i][1];
-            else
-                new_dataset = track_animations[i][1];
-        }
-        if (new_shading !== shading)
-            $("#shadedropdown").val(new_shading).change();
-        if (new_dataset !== dataset) {
-            setDataset(new_dataset);
-        }
-    }, false);
-    track.addEventListener("play", function() {
-        document.location.hash = "#intro";
-    }, false);
-    track.addEventListener("ended", function() {
-        if (shading !== "Continents") {
-            $("#shadedropdown").val("Continents").change();
-        }
-        document.location.hash = "#";
-    }, false);
-    $("#play-intro").click(function() {
-        track.play();
-    });
+            //console.log(this.currentTime); // Handy for quickly eyeballing timecodes
+            var new_dataset = "";
+            var new_shading = "Continents";
+            for (var i = 0; i < track_animations.length; i++) {
+                if (track_animations[i][0] > this.currentTime)
+                    break;
+                if (track_animations[i][1] in carbonmap_shading)
+                    new_shading = track_animations[i][1];
+                else
+                    new_dataset = track_animations[i][1];
+            }
+            if (new_shading !== shading)
+                $("#shadedropdown").val(new_shading).change();
+            if (new_dataset !== dataset) {
+                setDataset(new_dataset);
+            }
+        }, false);
+        track.addEventListener("play", function() {
+            document.location.hash = "#intro";
+        }, false);
+        track.addEventListener("ended", function() {
+            if (shading !== "Continents") {
+                $("#shadedropdown").val("Continents").change();
+            }
+            document.location.hash = "#";
+        }, false);
+        $("#play-intro").click(function() {
+            track.play();
+        });
+    }
 }
