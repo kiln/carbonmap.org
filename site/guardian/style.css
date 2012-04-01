@@ -499,6 +499,20 @@ path {
 	color: yellow;
 	} 
 
+#voteforus {
+	width: 75px;
+	height: 75px;
+	position: relative;
+	left: 250px;
+	bottom: 30px;
+	display: inline-block;
+	background: url("/voteforus.png") no-repeat 0 0;
+	}
+
+#voteforus:hover {
+	background-position: 0 -75px;
+	}
+		
 /******** Metapages	********/
 
 .abouttext {
