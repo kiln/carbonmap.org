@@ -1,38 +1,38 @@
-Alpha-3,Alpha-2,Country,Population below 5m
+Alpha-3,Alpha-2,Country,Population below 5m,Notes
 ABW,AW,Aruba,31789.38252
-ADO,AD,Andorra,0
-AFG,AF,Afghanistan,0
+ADO,AD,Andorra,0.1,Actually zero
+AFG,AF,Afghanistan,0.1,Actually zero
 AGO,AO,Angola,392510.1594
 ALB,AL,Albania,262953.222
 ARE,AE,United Arab Emirates,550046.58
 ARG,AR,Argentina,1816287.361
-ARM,AM,Armenia,0
+ARM,AM,Armenia,0.1,Actually zero
 ASM,AS,American Samoa,6743.296624
 ATG,AG,Antigua and Barbuda,28659.79696
 AUS,AU,Australia,1610848.979
-AUT,AT,Austria,0
+AUT,AT,Austria,0.1,Actually zero
 AZE,AZ,Azerbaijan,2694843.305
-BDI,BI,Burundi,0
+BDI,BI,Burundi,0.1,Actually zero
 BEL,BE,Belgium,1558052.229
 BEN,BJ,Benin,1245027.586
-BFA,BF,Burkina Faso,0
+BFA,BF,Burkina Faso,0.1,Actually zero
 BGD,BD,Bangladesh,20755681.79
 BGR,BG,Bulgaria,115218.0284
 BHR,BH,Bahrain,840828.1687
 BHS,BS,"Bahamas, The",159558.8063
 BIH,BA,Bosnia and Herzegovina,2978.201198
-BLR,BY,Belarus,0
+BLR,BY,Belarus,0.1,Actually zero
 BLZ,BZ,Belize,54407.41353
 BMU,BM,Bermuda,53142.34374
-BOL,BO,Bolivia,0
+BOL,BO,Bolivia,0.1,Actually zero
 BRA,BR,Brazil,9511036.682
 BRB,BB,Barbados,42895.82915
 BRN,BN,Brunei Darussalam,36861.02978
-BTN,BT,Bhutan,0
-BWA,BW,Botswana,0
-CAF,CF,Central African Republic,0
+BTN,BT,Bhutan,0.1,Actually zero
+BWA,BW,Botswana,0.1,Actually zero
+CAF,CF,Central African Republic,0.1,Actually zero
 CAN,CA,Canada,1361235.951
-CHE,CH,Switzerland,0
+CHE,CH,Switzerland,0.1,Actually zero
 CHL,CL,Chile,275474.5862
 CHN,CN,China,107856087
 CIV,CI,Cote d'Ivoire,640513.7163
@@ -46,7 +46,7 @@ CRI,CR,Costa Rica,39122.13703
 CUB,CU,Cuba,1130080.435
 CYM,KY,Cayman Islands,33508.58722
 CYP,CY,Cyprus,106636.2714
-CZE,CZ,Czech Republic,0
+CZE,CZ,Czech Republic,0.1,Actually zero
 DEU,DE,Germany,3609117.864
 DJI,DJ,Djibouti,67784.55556
 DMA,DM,Dominica,7069.86024
@@ -83,7 +83,7 @@ HKG,HK,"Hong Kong SAR, China",1849969.086
 HND,HN,Honduras,164567.4577
 HRV,HR,Croatia,149808.3452
 HTI,HT,Haiti,539249.7985
-HUN,HU,Hungary,0
+HUN,HU,Hungary,0.1,Actually zero
 IDN,ID,Indonesia,26781590.12
 IMY,IM,Isle of Man,23014.90904
 IND,IN,India,44050605.59
@@ -98,22 +98,22 @@ JOR,JO,Jordan,253217.0365
 JPN,JP,Japan,20684776.16
 KAZ,KZ,Kazakhstan,633063.5558
 KEN,KE,Kenya,547698.2402
-KGZ,KG,Kyrgyz Republic,0
+KGZ,KG,Kyrgyz Republic,0.1,Actually zero
 KHM,KH,Cambodia,1495704.376
 KIR,KI,Kiribati,94788.93557
 KNA,KN,St. Kitts and Nevis,11591.14423
 KOR,KR,"Korea, Rep.",2424372.04
 KWT,KW,Kuwait,623527.9877
-LAO,LA,Lao PDR,0
+LAO,LA,Lao PDR,0.1,Actually zero
 LBN,LB,Lebanon,385343.1836
 LBR,LR,Liberia,133642.3236
 LBY,LY,Libya,299483.4455
 LCA,LC,St. Lucia,13962.26982
-LIE,LI,Liechtenstein,0
+LIE,LI,Liechtenstein,0.1,Actually zero
 LKA,LK,Sri Lanka,1135252.452
-LSO,LS,Lesotho,0
+LSO,LS,Lesotho,0.1,Actually zero
 LTU,LT,Lithuania,133158.8701
-LUX,LU,Luxembourg,0
+LUX,LU,Luxembourg,0.1,Actually zero
 LVA,LV,Latvia,537018.4621
 MAC,MO,"Macao SAR, China",434371.1951
 MAR,MA,Morocco,1198278.277
@@ -123,27 +123,27 @@ MDG,MG,Madagascar,421478.1606
 MDV,MV,Maldives,315885
 MEX,MX,Mexico,3076111.297
 MHL,MH,Marshall Islands,53729.17823
-MKD,MK,"Macedonia, FYR",0
-MLI,ML,Mali,0
+MKD,MK,"Macedonia, FYR",0.1,Actually zero
+MLI,ML,Mali,0.1,Actually zero
 MLT,MT,Malta,90121.92439
 MMR,MM,Myanmar,6725949.099
-MNG,MN,Mongolia,0
+MNG,MN,Mongolia,0.1,Actually zero
 MNP,MP,Northern Mariana Islands,23928.55092
 MOZ,MZ,Mozambique,1515674.323
 MRT,MR,Mauritania,706832.6618
 MUS,MU,Mauritius,72328.20738
-MWI,MW,Malawi,0
+MWI,MW,Malawi,0.1,Actually zero
 MYS,MY,Malaysia,2691965.687
 MYT,YT,Mayotte,44013.7754
 NAM,NA,Namibia,66288.74308
 NCL,NC,New Caledonia,87087.9386
-NER,NE,Niger,0
+NER,NE,Niger,0.1,Actually zero
 NGA,NG,Nigeria,4802839.566
 NIC,NI,Nicaragua,84612.00343
 NIU,NU,Niue,153.2248488
 NLD,NL,Netherlands,10187293.43
 NOR,NO,Norway,456194.0679
-NPL,NP,Nepal,0
+NPL,NP,Nepal,0.1,Actually zero
 NRU,NR,Nauru,4138.795966
 NZL,NZ,New Zealand,548561.6112
 OMN,OM,Oman,152602.9258
@@ -157,12 +157,12 @@ POL,PL,Poland,951771.5853
 PRI,PR,Puerto Rico,449633.5109
 PRK,KP,"Korea, Dem. Rep.",1282004.493
 PRT,PT,Portugal,558580.9956
-PRY,PY,Paraguay,0
+PRY,PY,Paraguay,0.1,Actually zero
 PYF,PF,French Polynesia,53727.99836
 QAT,QA,Qatar,405870.8566
 ROM,RO,Romania,620095.0535
 RUS,RU,Russian Federation,4079207.79
-RWA,RW,Rwanda,0
+RWA,RW,Rwanda,0.1,Actually zero
 SAU,SA,Saudi Arabia,280469.2089
 SDN,SD,Sudan,97457.52849
 SEN,SN,Senegal,1836620.777
@@ -170,22 +170,22 @@ SGP,SG,Singapore,611755.5494
 SLB,SB,Solomon Islands,72059.30876
 SLE,SL,Sierra Leone,296726.8697
 SLV,SV,El Salvador,106756.4235
-SMR,SM,San Marino,0
+SMR,SM,San Marino,0.1,Actually zero
 SOM,SO,Somalia,200740.4612
 SRB,RS,Serbia,6588.72174
 STP,ST,Sao Tome and Principe,18349.22588
 SUR,SR,Suriname,357899.072
-SVK,SK,Slovak Republic,0
+SVK,SK,Slovak Republic,0.1,Actually zero
 SVN,SI,Slovenia,26770.55127
 SWE,SE,Sweden,592037.7517
-SWZ,SZ,Swaziland,0
+SWZ,SZ,Swaziland,0.1,Actually zero
 SYC,SC,Seychelles,35764.95301
 SYR,SY,Syrian Arab Republic,62365.59117
 TCA,TC,Turks and Caicos Islands,20432.20752
-TCD,TD,Chad,0
+TCD,TD,Chad,0.1,Actually zero
 TGO,TG,Togo,368795.5703
 THA,TH,Thailand,9523066.949
-TJK,TJ,Tajikistan,0
+TJK,TJ,Tajikistan,0.1,Actually zero
 TKM,TM,Turkmenistan,284172.0315
 TMP,TL,Timor-Leste,49400.06605
 TON,TO,Tonga,32581.26739
@@ -194,7 +194,7 @@ TUN,TN,Tunisia,1004957.796
 TUR,TR,Turkey,1733996.375
 TUV,TV,Tuvalu,9826.996069
 TZA,TZ,Tanzania,579658.9412
-UGA,UG,Uganda,0
+UGA,UG,Uganda,0.1,Actually zero
 UKR,UA,Ukraine,948082.6913
 URY,UY,Uruguay,157992.0928
 USA,US,United States,12679223.85
@@ -209,5 +209,5 @@ WSM,WS,Samoa,28646.48268
 YEM,YE,"Yemen, Rep.",443598.351
 ZAF,ZA,South Africa,247978.0443
 ZAR,CD,"Congo, Dem. Rep.",24372.02606
-ZMB,ZM,Zambia,0
-ZWE,ZW,Zimbabwe,0
+ZMB,ZM,Zambia,0.1,Actually zero
+ZWE,ZW,Zimbabwe,0.1,Actually zero
