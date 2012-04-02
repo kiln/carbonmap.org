@@ -71,7 +71,7 @@ function carbonmapDataLoaded() {
         }
         
         if (unit === "people") {
-            value = value.replace(/\.0$/, ""); // Fractional people read strangely
+            value = value.replace(/\.[0-9]$/, ""); // Fractional people read strangely
         }
         return value + " " + unit;
     };
