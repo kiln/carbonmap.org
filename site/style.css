@@ -478,8 +478,10 @@ path {
 #footer {
 	margin: 0 auto;
 	padding: 4px 0 40px;
-	width: 500px;
+	width: 550px;
+	height: 100px;
 	display: block;
+	position: relative;
 	}
 
 .footerlink,
@@ -501,9 +503,9 @@ path {
 #voteforus {
 	width: 75px;
 	height: 75px;
-	position: relative;
-	left: 425px;
-	bottom: 30px;
+	position: absolute;
+	right: 85px;
+	top: -10px;
 	display: inline-block;
 	background: url("voteforus.png") no-repeat 0 0;
 	}
@@ -514,7 +516,7 @@ path {
 
 #twitter-button {
 	margin: -80px auto 20px;
-	width: 100px;
+	width: 154px;
 	}
 	
 /******** Metapages	********/
