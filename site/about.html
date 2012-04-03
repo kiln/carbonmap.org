@@ -54,6 +54,11 @@
 					<p>In addition to those three perspectives on current emissions, we also give a view of the past in the form of cumulative emissions from the last 150 years (<a href="index.html#Historical">Historical</a>) and one view of potential future emissions in the form of each country's estimated stocks of fossil fuel  (<a href="index.html#Extraction">Reserves</a>).</p>
 					<h2>Has this kind of mapping been done before?</h2>
 					<p>The site is based on <a href="http://en.wikipedia.org/wiki/Cartogram">cartograms</a>: maps distorted to reflect a dataset. There's nothing new about cartograms but to our knowledge this is the first website to display animated, interactive versions. We had the idea after becoming frustrated at the limitations of <a href="http://en.wikipedia.org/wiki/Choropleth_map">choropleths</a> (shaded-in maps) a conveying national-level data in a clear and engaging way.</p>
+					<h2>Why don't you focus on per-person data rather than national data?</h2>
+					<p>Cartograms are best suited to displaying national-level data. If we distorted countries to show emissions per person, say, the result wouldn't be meaningful: Europe would look bigger than the US just because it has more countries, even though the per capita emissions in each country are lower.</p>
+					<p>However, you <em>can</em> add shading to see per capita figures on the maps. Indeed, combining per-person shading with national distorted maps gives some interesting insights. For example, try viewing the emissions map shaded by emissions per person: you can see then at a glance both individual responsibility and national totals.</p>
+					<h2>I can't see the small island states. Are they the ones most exposed to sea level rises?</h2>
+					<p>For the same reason as the one just discussed, our vulnerability maps focus on the total number of people exposed in each category, as opposed to the proportion of people exposed. That means that the small island states remain invisible, as their populations are so small. This is an inherent limitation of our approach: clearly individual people on the Maldives, say, or Tuvalu are much more exposed than those in most other countries. Another slight issue with the sea-level map is that it shows people living below 5m. We'd prefer (and may eventually add) a dataset showing people below 1m or 2m as this would more accurately convey exposure to rising sea levels in the coming decades.</p>
 					<h2>How is the site made?</h2>
 					<p>We create cartograms from datasets using <a href="http://www-personal.umich.edu/%7Emejn/cart/">a publicly available algorithm by Mark Newman</a> (which works, ingeniously, by simulating the diffusion of chemicals between areas, as described <a href="http://www.pnas.org/content/101/20/7499.abstract">in this paper by Newman and Michael Gastner</a>). Then we convert those to interactive SVG maps and apply animations, shading, clickability, etc.</p>
 					<h2><a>Can I use these maps for teaching or my own projects?</a></h2>
@@ -70,7 +75,18 @@
 					<h2>What data is behind the maps?</h2>
 					<p>You can see full data sources <a href="sources.html">here</a>.</p>
 					<h2><a name="contact">How can I contact you?</a></h2>
-					<p>It's best to email us at <a href="mailto:hello@kiln.it">hello@kiln.it</a>.</p>					
+					<p>You can email us at <a href="mailto:hello@kiln.it">hello@kiln.it</a> or <a href="https://twitter.com/#!/k_i_l_n">tweet @k_i_l_n on Twitter</a>. Why not follow us while you're at it, to stay abreast of the other cool stuff that Kiln produces?</p>					
+					<h2>Should I share this site with everyone I know?</h2>
+					<p>Doh! Yes, of course you should.</p>
+					<p style="margin-top: 20px;">
+						<div id="twittershare">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.carbonmap.org" data-text="The earth moved for me at the Carbon Map by @k_i_l_n.">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div id="facebookshare">
+							<div class="fb-like" data-href="http://carbonmap.org" data-send="false" data-layout="button_count" data-width="120" data-show-faces="true" data-font="lucida grande"></div>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -81,5 +97,9 @@
 			<div class="footerlink"><a href=sources.html>Data sources</a></div>
 			<div><a href="vote.html"><div id="voteforus"></div></a></div>
 		</div>
+		<div id="twitter-button">
+			<a href="https://twitter.com/k_i_l_n" class="twitter-follow-button" data-show-count="false">Follow @k_i_l_n</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>		
 	</body>
 </html>

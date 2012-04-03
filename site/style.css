@@ -1,6 +1,7 @@
 /******** Page layout ********/
 
 html {
+	-webkit-text-size-adjust:none
 	}
 	
 body {
@@ -477,7 +478,7 @@ path {
 
 #footer {
 	margin: 0 auto;
-	padding: 4px 0 40px;
+	padding: 4px 0 30px;
 	width: 500px;
 	display: block;
 	}
