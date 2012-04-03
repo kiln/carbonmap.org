@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/ html; charset=UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>The carbon map: making sense of climate change responsibility and vulnerability</title>
 		<link href='style.css' rel='stylesheet' type='text/css'>
-		<link href='shading.css' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="data.js"></script>
-		<script type="text/javascript" src="data.shading.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.ba-hashchange.min.js"></script>
-		<script type="text/javascript" src="carbonmap.js"></script>
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-30249221-1']);
@@ -44,30 +38,30 @@
 			</div>
 			<div id="contents">
 				<div class="abouttext">
-					<h2>What's this site?</h2>
-					<p>This website uses an animated, distorted, shaded, interactive map to help convey how different countries fit into the climate change picture &ndash; both the causes and the risks. It was created as an entry for the World Bank's <a href="http://worldbank.org/appsforclimate">Apps for Climate competition</a>.
+					<h2>What’s this site?</h2>
+					<p>This website uses an animated, distorted, shaded, interactive map to help convey how different countries fit into the climate change picture &ndash; both the causes and the risks. It was created as an entry for the World Bank’s <a href="http://worldbank.org/appsforclimate">Apps for Climate competition</a>.
 					<h2>Who made it?</h2>
 					<p>The site was created by <a href="http://duncanclark.net">Duncan Clark</a> and <a href="http://bosker.wordpress.com">Robin Houston</a> under the banner of <a href="http://www.thekiln.org">Kiln</a>, a project focusing on interesting new ways of presenting information.</p>
 					<h2>Why do you show so many ways of looking at carbon emissions?</h2>
 					<p>Climate change responsibility is conventionally discussed in terms of national emissions or emissions per capita. We feel that fails to convey the true complexity of the picture, as it ignores crucial factors such as historical emissions – most of which are still in the air – and the international trade in fossil fuels and other goods.</p>
-					<p>To give a more nuanced picture, we've assembled data from various different sources to show where the fossil fuels that become CO2 are taken out of the ground (<a href="index.html#Extraction">Extraction</a>), where they're burned (<a href="index.html#Emissions">Emissions</a>) and where the resulting goods and services are consumed (<a href="index.html#Consumption">Consumption</a>).</p>
-					<p>In addition to those three perspectives on current emissions, we also give a view of the past in the form of cumulative emissions from the last 150 years (<a href="index.html#Historical">Historical</a>) and one view of potential future emissions in the form of each country's estimated stocks of fossil fuel  (<a href="index.html#Extraction">Reserves</a>).</p>
+					<p>To give a more nuanced picture, we’ve assembled data from various different sources to show where the fossil fuels that become CO2 are taken out of the ground (<a href="index.html#Extraction">Extraction</a>), where they’re burned (<a href="index.html#Emissions">Emissions</a>) and where the resulting goods and services are consumed (<a href="index.html#Consumption">Consumption</a>).</p>
+					<p>In addition to those three perspectives on current emissions, we also give a view of the past in the form of cumulative emissions from the last 150 years (<a href="index.html#Historical">Historical</a>) and one view of potential future emissions in the form of each country’s estimated stocks of fossil fuel  (<a href="index.html#Extraction">Reserves</a>).</p>
 					<h2>Has this kind of mapping been done before?</h2>
-					<p>The site is based on <a href="http://en.wikipedia.org/wiki/Cartogram">cartograms</a>: maps distorted to reflect a dataset. There's nothing new about cartograms but to our knowledge this is the first website to display animated, interactive versions. We had the idea after becoming frustrated at the limitations of <a href="http://en.wikipedia.org/wiki/Choropleth_map">choropleths</a> (shaded-in maps) a conveying national-level data in a clear and engaging way.</p>
-					<h2>Why don't you focus on per-person data rather than national data?</h2>
-					<p>Cartograms are best suited to displaying national-level data. If we distorted countries to show emissions per person, say, the result wouldn't be meaningful: Europe would look bigger than the US just because it has more countries, even though the per capita emissions in each country are lower.</p>
+					<p>The site is based on <a href="http://en.wikipedia.org/wiki/Cartogram">cartograms</a>: maps distorted to reflect a dataset. There’s nothing new about cartograms but to our knowledge this is the first website to display animated, interactive versions. We had the idea after becoming frustrated at the limitations of <a href="http://en.wikipedia.org/wiki/Choropleth_map">choropleths</a> (shaded-in maps) a conveying national-level data in a clear and engaging way.</p>
+					<h2>Why don’t you focus on per-person data rather than national data?</h2>
+					<p>Cartograms are best suited to displaying national-level data. If we distorted countries to show emissions per person, say, the result wouldn’t be meaningful: Europe would look bigger than the US just because it has more countries, even though the per capita emissions in each country are lower.</p>
 					<p>However, you <em>can</em> add shading to see per capita figures on the maps. Indeed, combining per-person shading with national distorted maps gives some interesting insights. For example, try viewing the emissions map shaded by emissions per person: you can see then at a glance both individual responsibility and national totals.</p>
-					<h2>I can't see the small island states. Are they the ones most exposed to sea level rises?</h2>
-					<p>For the same reason as the one just discussed, our vulnerability maps focus on the total number of people exposed in each category, as opposed to the proportion of people exposed. That means that the small island states remain invisible, as their populations are so small. This is an inherent limitation of our approach: clearly individual people on the Maldives, say, or Tuvalu are much more exposed than those in most other countries. Another slight issue with the sea-level map is that it shows people living below 5m. We'd prefer (and may eventually add) a dataset showing people below 1m or 2m as this would more accurately convey exposure to rising sea levels in the coming decades.</p>
+					<h2>I can’t see the small island states. Are they the ones most exposed to sea level rises?</h2>
+					<p>For the same reason as the one just discussed, our vulnerability maps focus on the total number of people exposed in each category, as opposed to the proportion of people exposed. That means that the small island states remain invisible, as their populations are so small. This is an inherent limitation of our approach: clearly individual people on the Maldives, say, or Tuvalu are much more exposed than those in most other countries. Another slight issue with the sea-level map is that it shows people living below 5m. We’d prefer (and may eventually add) a dataset showing people below 1m or 2m as this would more accurately convey exposure to rising sea levels in the coming decades.</p>
 					<h2>How is the site made?</h2>
 					<p>We create cartograms from datasets using <a href="http://www-personal.umich.edu/%7Emejn/cart/">a publicly available algorithm by Mark Newman</a> (which works, ingeniously, by simulating the diffusion of chemicals between areas, as described <a href="http://www.pnas.org/content/101/20/7499.abstract">in this paper by Newman and Michael Gastner</a>). Then we convert those to interactive SVG maps and apply animations, shading, clickability, etc.</p>
 					<h2><a>Can I use these maps for teaching or my own projects?</a></h2>
-					<p>You're welcome to use the maps on this site for any non-commercial purpose. Help yourself to screen-grabs and if you'd like a high resolution version for printing, <a href="#contact">drop us a line</a> with your request and we'll do our best to provide whatever you need. Also please <a href="#contact">get in touch</a> if you'd like to us the maps in for any commercial purpose.</p>
-					<p>If you'd like to see a particular incarnation of these maps &ndash; such as an educational poster &ndash; then do let us know as we hope to produce some downloadable materials soon.</p>
+					<p>You’re welcome to use the maps on this site for any non-commercial purpose. Help yourself to screen-grabs and if you’d like a high resolution version for printing, <a href="#contact">drop us a line</a> with your request and we’ll do our best to provide whatever you need. Also please <a href="#contact">get in touch</a> if you’d like to use the maps for any commercial purpose.</p>
+					<p>If you’d like to see a particular incarnation of these maps &ndash; such as an educational poster &ndash; then do let us know as we hope to produce some downloadable materials soon.</p>
 					<h2>Can I download the site so that I can use it offline for teaching?</h2>
 					<p>Yes, you can <a href="http://www.carbonmap.org/downloads/carbonmap-snapshot-2012-03-30.zip">download a snapshot of the site</a>. Just open zip file and drag <em>index.xhtml</em> into your browser.</p>
 					<h2>Can I make my own interactive cartogram with your tools?</h2>
-					<p>Not now but maybe one day. We're exploring the possibility of creating a tool and interface to allow people to generate these types of maps from a spreadsheet.</p>
+					<p>Not now but maybe one day. We’re exploring the possibility of creating a tool and interface to allow people to generate these types of maps from a spreadsheet.</p>
 					<h2>I have some awesome data that you should add to the map. Shall I send it to you?</h2>
 					<p>Yes please! We’re interested in extending these squidgy maps to other sorts of topics and data in the future and would love to hear about any ideas you have or suitable data that you know about.</p>
 					<h2>Can I commission you to make a new map or something else?</h2>
@@ -75,7 +69,7 @@
 					<h2>What data is behind the maps?</h2>
 					<p>You can see full data sources <a href="sources.html">here</a>.</p>
 					<h2><a name="contact">How can I contact you?</a></h2>
-					<p>You can email us at <a href="mailto:hello@kiln.it">hello@kiln.it</a> or <a href="https://twitter.com/#!/k_i_l_n">tweet @k_i_l_n on Twitter</a>. Why not follow us while you're at it, to stay abreast of the other cool stuff that Kiln produces?</p>					
+					<p>You can email us at <a href="mailto:hello@kiln.it">hello@kiln.it</a> or <a href="https://twitter.com/#!/k_i_l_n">tweet @k_i_l_n on Twitter</a>. Why not follow us while you’re at it, to stay abreast of the other cool stuff that Kiln produces?</p>					
 					<h2>Should I share this site with everyone I know?</h2>
 					<p>Doh! Yes, of course you should.</p>
 					<p style="margin-top: 20px;">

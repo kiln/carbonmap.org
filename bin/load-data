@@ -21,6 +21,8 @@ col_PeopleAtRisk="Number of people exposed to droughts, floods, extreme temps"
 col_SeaLevel="Population below 5m"
 col_Poverty='Population living below $1.25 a day'
 
+format_SeaLevel=.0f
+
 regenerate=false
 paths=false
 while [ $# -gt 0 ]
@@ -95,12 +97,14 @@ cat carbonmap/site/data.paths.js > carbonmap/site/data.js
             echo '";'
             
             eval col=\${col_$f}
+            eval type=\${type_$f:-float}
+            eval format=\${format_$f:-.1f}
             echo -n "carbonmap_values.$f = "
-            bin/csv-to-json --key Alpha-2 --value "$col" --type=float --format="{:,.1f}" carbonmap/data/Maps/With\ alpha-2/$f.csv
+            bin/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,format}" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
             
             echo -n "carbonmap_rank.$f = "
-            bin/csv-to-json --rank --key Alpha-2 --value "$col" --type=float carbonmap/data/Maps/With\ alpha-2/$f.csv
+            bin/csv-to-json --rank --key Alpha-2 --value "$col" --type="$type" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
