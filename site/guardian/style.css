@@ -477,9 +477,8 @@ path {
 
 #footer {
 	margin: 0 auto;
-	padding: 4px 0 10px;
-	width: 600px;
-	text-align: center;
+	padding: 4px 0 30px;
+	width: 500px;
 	display: block;
 	}
 
@@ -503,7 +502,7 @@ path {
 	width: 75px;
 	height: 75px;
 	position: relative;
-	left: 250px;
+	left: 425px;
 	bottom: 30px;
 	display: inline-block;
 	background: url("../voteforus.png") no-repeat 0 0;
@@ -511,6 +510,11 @@ path {
 
 #voteforus:hover {
 	background-position: 0 -75px;
+	}
+
+#twitter-button {
+	margin: -80px auto 20px;
+	width: 100px;
 	}
 		
 /******** Metapages	********/
