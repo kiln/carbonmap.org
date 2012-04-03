@@ -506,7 +506,7 @@ path {
 	left: 250px;
 	bottom: 30px;
 	display: inline-block;
-	background: url("/voteforus.png") no-repeat 0 0;
+	background: url("../voteforus.png") no-repeat 0 0;
 	}
 
 #voteforus:hover {
