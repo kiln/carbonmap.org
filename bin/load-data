@@ -100,7 +100,7 @@ cat carbonmap/site/data.paths.js > carbonmap/site/data.js
             eval type=\${type_$f:-float}
             eval format=\${format_$f:-.1f}
             echo -n "carbonmap_values.$f = "
-            bin/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,format}" carbonmap/data/Maps/With\ alpha-2/$f.csv
+            bin/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,$format}" carbonmap/data/Maps/With\ alpha-2/$f.csv
             echo ';'
             
             echo -n "carbonmap_rank.$f = "
