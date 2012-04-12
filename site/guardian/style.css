@@ -110,7 +110,7 @@ h3 {
 	}
 	
 #contentsfail {
-	background: url(/palewashforie.png) no-repeat 0 0;
+	background: url(palewashforie.png) no-repeat 0 0;
 	width: 1024px;
 	height: 625px;
 	}
@@ -118,8 +118,8 @@ h3 {
 #failmessage {
 	width: 500px;
 	padding: 10px 30px 10px 30px;
-	margin-top: 50px;
-	margin-left: 232px;
+	margin-top: 30px;
+	margin-left: 180px;
 	float: left;
 	background: #333;
 	color: white;
@@ -478,8 +478,10 @@ path {
 #footer {
 	margin: 0 auto;
 	padding: 4px 0 30px;
-	width: 500px;
+	width: 550px;
+	height: 100px;
 	display: block;
+	position: relative;
 	}
 
 .footerlink,
@@ -501,9 +503,9 @@ path {
 #voteforus {
 	width: 75px;
 	height: 75px;
-	position: relative;
-	left: 425px;
-	bottom: 30px;
+	position: absolute;
+	right: 65px;
+	top: -10px;
 	display: inline-block;
 	background: url("../voteforus.png") no-repeat 0 0;
 	}
@@ -514,7 +516,7 @@ path {
 
 #twitter-button {
 	margin: -80px auto 20px;
-	width: 100px;
+	width: 154px;
 	}
 		
 /******** Metapages	********/
