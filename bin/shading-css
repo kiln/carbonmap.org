@@ -7,6 +7,7 @@ Takes two CSV files: the first is the shading spec, and the second the region da
 """
 
 import csv
+import optparse
 import sys
 
 class Rangelike(object):
@@ -90,13 +91,38 @@ def load_data(data_filename, shading_spec):
         return region_shades
 
 def main():
-    css_containing_class, shading_spec_filename, data_filename = sys.argv[1:]
-    shading_spec = load_shading_spec(shading_spec_filename)
-    shades = load_data(data_filename, shading_spec)
+    parser = optparse.OptionParser()
+    parser.add_option("", "--class",
+                      action="store", dest="css_class",
+                      help="the name of the CSS class to use")
+    parser.add_option("", "--shading",
+                      action="store",
+                      help="the name of the file containing the shading spec")
+    parser.add_option("", "--data",
+                      action="store",
+                      help="the name of the file containing the raw data")
+    
+    (options, args) = parser.parse_args()
+    if args:
+        parser.error("Unexpected non-option arguments")
+    if not options.shading:
+        parser.error("The --shading option must be specified")
+    if not options.data:
+        parser.error("The --data option must be specified")
+    
+    shading_spec = load_shading_spec(options.shading)
+    shades = load_data(options.data, shading_spec)
+    
+    if options.css_class:
+        def css_id(css_class, region_key):
+            return ".{css_class} #{region_key}".format(css_class=options.css_class, region_key=region_key)
+    else:
+        def css_id(css_class, region_key):
+            return "#" + region_key
     
     for color, region_keys in shades.iteritems():
         print ", ".join([
-            ".{css_class} #{region_key}".format(css_class=css_containing_class, region_key=region_key)
+            css_id(css_class=options.css_class, region_key=region_key)
             for region_key in region_keys
         ]), "{{ fill: {color}; }}".format(color=color)
 

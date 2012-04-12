@@ -4,9 +4,6 @@ set -ex
 
 all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGrowth"
 
-col_Continents="Continent index"
-col_EmissionsChange='CO2 emissions (% change 1990-2008)'
-
 (
     echo >&3 "/* This file is auto-generated. Please do not edit. */"
     echo >&3 "/* Generated at $(date) */"
@@ -22,7 +19,8 @@ col_EmissionsChange='CO2 emissions (% change 1990-2008)'
         if [ -e carbonmap/data/Shading/With\ alpha-2/"$f".csv ]
         then
             echo >&3 "/* $f */"
-            carbonmap/bin/shading-css "shading-$f" carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
+            carbonmap/bin/shading-css --class="shading-$f" --shading carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv --data carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
+            carbonmap/bin/shading-css --shading carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv --data carbonmap/data/Shading/With\ alpha-2/"$f".csv > carbonmap/data/Shading/CSS/"$f".css
             
             echo -n >&4 "carbonmap_shading.$f = "
             carbonmap/bin/shading-js "$f" carbonmap/data/Shading/With\ alpha-2/"$f".text.md carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv >&4
