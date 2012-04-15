@@ -46,3 +46,61 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
         fi
     done
 ) >> carbonmap/site/data.shading.js
+
+# Generate a spreadsheet showing all the shading data
+(
+    echo -n "Alpha-2 ISO country code,Country name"
+    for f in $all_datasets
+    do
+        echo -n ",$f"
+        if head -1 "carbonmap/data/Shading/With alpha-2/$f.csv" | egrep -q ',Notes(,|$)'
+        then
+            echo -n ",($f notes)"
+            eval has_notes_$f=true
+        else
+            eval has_notes_$f=false
+        fi
+    done
+    echo
+    
+    echo -n ","
+    for f in $all_datasets
+    do
+        col="$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)"
+        echo -n ",\"$col\""
+        eval \${has_notes_$f} && echo ,
+    done
+    echo
+
+    echo -n ,
+    for f in $all_datasets
+    do
+        echo -n ',"'
+        perl -pe 's/"/""/g' "carbonmap/data/Shading/With alpha-2/$f.text.md"
+        echo -n '"'
+        eval \${has_notes_$f} && echo -n ,
+    done
+    echo
+
+    # Generate a YAML configuration, and feed it to csv-join
+    (
+        echo "key: Alpha-2"
+        echo "files:"
+        echo "- file: data/continents.csv"
+        echo "  key: iso2"
+        echo "  values: [name]"
+        for f in $all_datasets
+        do
+            col="$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)"
+            eval has_notes=\${has_notes_$f}
+            
+            echo "- file: carbonmap/data/Shading/With alpha-2/$f.csv"
+            echo "  values:"
+            echo "  - $col"
+            if $has_notes
+            then
+                echo "  - Notes"
+            fi
+        done
+    ) | bin/csv-join
+) > carbonmap/site/shading-data.csv

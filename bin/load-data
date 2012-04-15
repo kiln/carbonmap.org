@@ -70,6 +70,63 @@ then
     bin/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$simplification" --simplification-json="$simplification_json" carbonmap/data/Maps/Cartogram\ data/*.cart > carbonmap/site/data.paths.js
 fi
 
+# Generate a spreadsheet showing all the cartogram data
+(
+    echo -n "Alpha-2 ISO country code,Country name"
+    for f in $all_datasets
+    do
+        echo -n ",$f"
+        if head -1 "carbonmap/data/Maps/With alpha-2/$f.csv" | egrep -q ',Notes(,|$)'
+        then
+            echo -n ",($f notes)"
+            eval has_notes_$f=true
+        else
+            eval has_notes_$f=false
+        fi
+    done
+    echo
+    
+    echo -n ,
+    for f in $all_datasets
+    do
+        eval col=\${col_$f}
+        echo -n ",\"$col\""
+        eval \${has_notes_$f} && echo -n ,
+    done
+    echo
+
+    echo -n ,
+    for f in $all_datasets
+    do
+        echo -n ',"'
+        perl -pe 's/"/""/g' "carbonmap/data/Maps/$f.text.md"
+        echo -n '"'
+        eval \${has_notes_$f} && echo -n ,
+    done
+    echo
+
+    # Generate a YAML configuration, and feed it to csv-join
+    (
+        echo "key: Alpha-2"
+        echo "files:"
+        echo "- file: data/continents.csv"
+        echo "  key: iso2"
+        echo "  values: [name]"
+        for f in $all_datasets
+        do
+            eval col=\${col_$f}
+            eval has_notes=\${has_notes_$f}
+            echo "- file: carbonmap/data/Maps/With alpha-2/$f.csv"
+            echo "  values:"
+            echo "  - $col"
+            if $has_notes
+            then
+                echo "  - Notes"
+            fi
+        done
+    ) | bin/csv-join
+) > carbonmap/site/map-data.csv
+
 cat carbonmap/site/data.paths.js > carbonmap/site/data.js
 
 (
