@@ -116,20 +116,22 @@ h3 {
 	}
 	
 #failmessage {
-	width: 500px;
-	padding: 10px 30px 10px 30px;
-	margin-top: 50px;
-	margin-left: 232px;
+	display: block;
+	width: 650px;
+	padding: 10px 30px 18px 30px;
+	margin-top: 20px;
+	margin-left: 158px;
 	float: left;
 	background: #333;
 	color: white;
+	font-size: 15px;
+	line-height: 1.25em;
 	}
 
 #failvideo {
-	width: 420px;
-	height: 315px;
-	margin: 30px 37px 0;
-	align: middle;	
+	width: 504px;
+	height: 378px;
+	margin: 10px 0 0 70px;
 	}
 	
 .failmessagehead {
