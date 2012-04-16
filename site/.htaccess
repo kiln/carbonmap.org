@@ -21,3 +21,6 @@ RewriteRule .* - [T=text/html]
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 </IfModule>
+
+Redirect permanent /downloads/CarbonMapScreenGrab.mov http://www.carbonmap.org/downloads/CarbonMap.mov
+
