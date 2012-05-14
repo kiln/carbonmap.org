@@ -1,219 +1,1 @@
-Alpha-3,Alpha-2,Country Name,"Population, total, 2010"
-EUU,EU,European Union,502087670.4
-AFG,AF,Afghanistan,34385068.12
-ALB,AL,Albania,3204284
-DZA,DZ,Algeria,35468208
-ASM,AS,American Samoa,68420
-AND,AD,Andorra,84864
-AGO,AO,Angola,19081912
-ATG,AG,Antigua and Barbuda,88710
-ARG,AR,Argentina,40412376
-ARM,AM,Armenia,3092072
-ABW,AW,Aruba,107488
-AUS,AU,Australia,22328800
-AUT,AT,Austria,8384745
-AZE,AZ,Azerbaijan,9047932
-BHS,BS,"Bahamas, The",342877
-BHR,BH,Bahrain,1261835
-BGD,BD,Bangladesh,148692131
-BRB,BB,Barbados,273331
-BLR,BY,Belarus,9490500
-BEL,BE,Belgium,10879159
-BLZ,BZ,Belize,344700
-BEN,BJ,Benin,8849892
-BMU,BM,Bermuda,64600
-BTN,BT,Bhutan,725940
-BOL,BO,Bolivia,9929849
-BIH,BA,Bosnia and Herzegovina,3760149
-BWA,BW,Botswana,2006945
-BRA,BR,Brazil,194946470
-BRN,BN,Brunei Darussalam,398920
-BGR,BG,Bulgaria,7543325
-BFA,BF,Burkina Faso,16468714
-BDI,BI,Burundi,8382849
-KHM,KH,Cambodia,14138255
-CMR,CM,Cameroon,19598889
-CAN,CA,Canada,34108752
-CPV,CV,Cape Verde,495999
-CYM,KY,Cayman Islands,56230
-CAF,CF,Central African Republic,4401051
-TCD,TD,Chad,11227208
-CHL,CL,Chile,17113688
-CHN,CN,China,1338299512
-COL,CO,Colombia,46294841
-COM,KM,Comoros,734750
-COD,CD,"Congo, Dem. Rep.",65965795
-COG,CG,"Congo, Rep.",4042899
-CRI,CR,Costa Rica,4658887
-CIV,CI,Cote d'Ivoire,19737800
-HRV,HR,Croatia,4424161.464
-CUB,CU,Cuba,11257979
-CUW,CW,Curacao,142668.3993
-CYP,CY,Cyprus,1103647
-CZE,CZ,Czech Republic,10525090
-DNK,DK,Denmark,5544139
-DJI,DJ,Djibouti,888716
-DMA,DM,Dominica,67757
-DOM,DO,Dominican Republic,9927320
-ECU,EC,Ecuador,14464739
-EGY,EG,"Egypt, Arab Rep.",81121077
-SLV,SV,El Salvador,6192993
-GNQ,GQ,Equatorial Guinea,700401
-ERI,ER,Eritrea,5253676
-EST,EE,Estonia,1339646
-ETH,ET,Ethiopia,82949541
-FRO,FO,Faeroe Islands,48708
-FJI,FJ,Fiji,860623
-FIN,FI,Finland,5363624
-FRA,FR,France,64876618.43
-PYF,PF,French Polynesia,270764
-GAB,GA,Gabon,1505463
-GMB,GM,"Gambia, The",1728394
-GEO,GE,Georgia,4452800
-DEU,DE,Germany,81702329
-GHA,GH,Ghana,24391823
-GIB,GI,Gibraltar,29244
-GRC,GR,Greece,11319048
-GRL,GL,Greenland,56534
-GRD,GD,Grenada,104487
-GUM,GU,Guam,179896
-GTM,GT,Guatemala,14388929
-GIN,GN,Guinea,9981590
-GNB,GW,Guinea-Bissau,1515224
-GUY,GY,Guyana,754493
-HTI,HT,Haiti,9993247
-HND,HN,Honduras,7600524
-HKG,HK,"Hong Kong SAR, China",7067800
-HUN,HU,Hungary,10008703
-ISL,IS,Iceland,317398
-IND,IN,India,1170938000
-IDN,ID,Indonesia,239870937
-IRN,IR,"Iran, Islamic Rep.",73973630
-IRQ,IQ,Iraq,32030823.3
-IRL,IE,Ireland,4481430
-IMN,IM,Isle of Man,82869
-ISR,IL,Israel,7624600
-ITA,IT,Italy,60483521
-JAM,JM,Jamaica,2702300
-JPN,JP,Japan,127450459
-JOR,JO,Jordan,6047000
-KAZ,KZ,Kazakhstan,16316050
-KEN,KE,Kenya,40512682
-KIR,KI,Kiribati,99546
-PRK,KP,"Korea, Dem. Rep.",24346229
-KOR,KR,"Korea, Rep.",48875000
-KSV,XK,Kosovo,1815000
-KWT,KW,Kuwait,2736732
-KGZ,KG,Kyrgyz Republic,5365167.495
-LAO,LA,Lao PDR,6200894
-LVA,LV,Latvia,2242916
-LBN,LB,Lebanon,4227597
-LSO,LS,Lesotho,2171318
-LBR,LR,Liberia,3994122
-LBY,LY,Libya,6355112
-LIE,LI,Liechtenstein,36032
-LTU,LT,Lithuania,3320656
-LUX,LU,Luxembourg,505831
-MAC,MO,"Macao SAR, China",543656
-MKD,MK,"Macedonia, FYR",2060563
-MDG,MG,Madagascar,20713819
-MWI,MW,Malawi,14900841
-MYS,MY,Malaysia,28401017
-MDV,MV,Maldives,315885
-MLI,ML,Mali,15369809
-MLT,MT,Malta,412961
-MHL,MH,Marshall Islands,54038
-MRT,MR,Mauritania,3459773
-MUS,MU,Mauritius,1281214
-MYT,YT,Mayotte,204114
-MEX,MX,Mexico,113423047
-FSM,FM,"Micronesia, Fed. Sts.",111064
-MDA,MD,Moldova,3562062
-MCO,MC,Monaco,35407
-MNG,MN,Mongolia,2756001
-MNE,ME,Montenegro,631490
-MAR,MA,Morocco,31951412
-MOZ,MZ,Mozambique,23390765
-MMR,MM,Myanmar,47963012
-NAM,NA,Namibia,2283289
-NPL,NP,Nepal,29959364
-NLD,NL,Netherlands,16612213
-NCL,NC,New Caledonia,254000
-NZL,NZ,New Zealand,4367800
-NIC,NI,Nicaragua,5788163
-NER,NE,Niger,15511953
-NGA,NG,Nigeria,158423182
-MNP,MP,Northern Mariana Islands,60917
-NOR,NO,Norway,4885240
-OMN,OM,Oman,2782435
-PAK,PK,Pakistan,173593383
-PLW,PW,Palau,20472
-PAN,PA,Panama,3516820
-PNG,PG,Papua New Guinea,6858266
-PRY,PY,Paraguay,6454548
-PER,PE,Peru,29076512
-PHL,PH,Philippines,93260798
-POL,PL,Poland,38187488
-PRT,PT,Portugal,10642841
-PRI,PR,Puerto Rico,3978702
-QAT,QA,Qatar,1758793
-ROU,RO,Romania,21442012
-RUS,RU,Russian Federation,141750000
-RWA,RW,Rwanda,10624005
-WSM,WS,Samoa,183081
-SMR,SM,San Marino,31534
-STP,ST,Sao Tome and Principe,165397
-SAU,SA,Saudi Arabia,27448086
-SEN,SN,Senegal,12433728
-SRB,RS,Serbia,7292574
-SYC,SC,Seychelles,86525
-SLE,SL,Sierra Leone,5867536
-SGP,SG,Singapore,5076700
-SXM,SX,Sint Maarten (Dutch part),37850.45822
-SVK,SK,Slovak Republic,5433456
-SVN,SI,Slovenia,2052821
-SLB,SB,Solomon Islands,538148
-SOM,SO,Somalia,9330872
-ZAF,ZA,South Africa,49991300
-SSD,SS,South Sudan,8079000
-ESP,ES,Spain,46081574
-LKA,LK,Sri Lanka,20859949
-KNA,KN,St. Kitts and Nevis,52402
-LCA,LC,St. Lucia,174000
-MAF,MF,St. Martin (French part),30235
-VCT,VC,St. Vincent and the Grenadines,109333
-SDN,SD,Sudan,43551941
-SUR,SR,Suriname,524636
-SWZ,SZ,Swaziland,1186056
-SWE,SE,Sweden,9379116
-CHE,CH,Switzerland,7825243
-SYR,SY,Syrian Arab Republic,20446608.57
-TJK,TJ,Tajikistan,6878637
-TZA,TZ,Tanzania,44841226
-THA,TH,Thailand,69122234
-TLS,TL,Timor-Leste,1124355
-TGO,TG,Togo,6027798
-TON,TO,Tonga,104058
-TTO,TT,Trinidad and Tobago,1341465
-TUN,TN,Tunisia,10549100
-TUR,TR,Turkey,72752325
-TKM,TM,Turkmenistan,5041995
-TCA,TC,Turks and Caicos Islands,38354
-TUV,TV,Tuvalu,9827
-UGA,UG,Uganda,33424683
-UKR,UA,Ukraine,45870700
-ARE,AE,United Arab Emirates,7511690
-GBR,GB,United Kingdom,62218761
-USA,US,United States,309050816
-URY,UY,Uruguay,3356584
-UZB,UZ,Uzbekistan,28160361.37,
-VUT,VU,Vanuatu,239651,
-VEN,VE,"Venezuela, RB",28834000,
-VNM,VN,Vietnam,86936464.42,
-VIR,VI,Virgin Islands (U.S.),109775,
-PSE,PS,West Bank and Gaza,4152102,
-YEM,YE,"Yemen, Rep.",24052514,
-ZMB,ZM,Zambia,12926409,
-ZWE,ZW,Zimbabwe,12571454,
-,EH,Western Sahara,522928,CIA World Factbook
-,TW,Taiwan,23113901,CIA World Factbook
+Alpha-3,Alpha-2,Country Name,"Population, total, 2010",NotesEUU,EU,European Union,502087670.4,2010 data from World BankAFG,AF,Afghanistan,34385068.12,2010 data from World BankALB,AL,Albania,3204284,2010 data from World BankDZA,DZ,Algeria,35468208,2010 data from World BankASM,AS,American Samoa,68420,2010 data from World BankAND,AD,Andorra,84864,2010 data from World BankAGO,AO,Angola,19081912,2010 data from World BankATG,AG,Antigua and Barbuda,88710,2010 data from World BankARG,AR,Argentina,40412376,2010 data from World BankARM,AM,Armenia,3092072,2010 data from World BankABW,AW,Aruba,107488,2010 data from World BankAUS,AU,Australia,22328800,2010 data from World BankAUT,AT,Austria,8384745,2010 data from World BankAZE,AZ,Azerbaijan,9047932,2010 data from World BankBHS,BS,"Bahamas, The",342877,2010 data from World BankBHR,BH,Bahrain,1261835,2010 data from World BankBGD,BD,Bangladesh,148692131,2010 data from World BankBRB,BB,Barbados,273331,2010 data from World BankBLR,BY,Belarus,9490500,2010 data from World BankBEL,BE,Belgium,10879159,2010 data from World BankBLZ,BZ,Belize,344700,2010 data from World BankBEN,BJ,Benin,8849892,2010 data from World BankBMU,BM,Bermuda,64600,2010 data from World BankBTN,BT,Bhutan,725940,2010 data from World BankBOL,BO,Bolivia,9929849,2010 data from World BankBIH,BA,Bosnia and Herzegovina,3760149,2010 data from World BankBWA,BW,Botswana,2006945,2010 data from World BankBRA,BR,Brazil,194946470,2010 data from World BankBRN,BN,Brunei Darussalam,398920,2010 data from World BankBGR,BG,Bulgaria,7543325,2010 data from World BankBFA,BF,Burkina Faso,16468714,2010 data from World BankBDI,BI,Burundi,8382849,2010 data from World BankKHM,KH,Cambodia,14138255,2010 data from World BankCMR,CM,Cameroon,19598889,2010 data from World BankCAN,CA,Canada,34108752,2010 data from World BankCPV,CV,Cape Verde,495999,2010 data from World BankCYM,KY,Cayman Islands,56230,2010 data from World BankCAF,CF,Central African Republic,4401051,2010 data from World BankTCD,TD,Chad,11227208,2010 data from World BankCHL,CL,Chile,17113688,2010 data from World BankCHN,CN,China,1338299512,2010 data from World BankCOL,CO,Colombia,46294841,2010 data from World BankCOM,KM,Comoros,734750,2010 data from World BankCOD,CD,"Congo, Dem. Rep.",65965795,2010 data from World BankCOG,CG,"Congo, Rep.",4042899,2010 data from World BankCRI,CR,Costa Rica,4658887,2010 data from World BankCIV,CI,Cote d'Ivoire,19737800,2010 data from World BankHRV,HR,Croatia,4424161.464,2010 data from World BankCUB,CU,Cuba,11257979,2010 data from World BankCUW,CW,Curacao,142668.3993,2010 data from World BankCYP,CY,Cyprus,1103647,2010 data from World BankCZE,CZ,Czech Republic,10525090,2010 data from World BankDNK,DK,Denmark,5544139,2010 data from World BankDJI,DJ,Djibouti,888716,2010 data from World BankDMA,DM,Dominica,67757,2010 data from World BankDOM,DO,Dominican Republic,9927320,2010 data from World BankECU,EC,Ecuador,14464739,2010 data from World BankEGY,EG,"Egypt, Arab Rep.",81121077,2010 data from World BankSLV,SV,El Salvador,6192993,2010 data from World BankGNQ,GQ,Equatorial Guinea,700401,2010 data from World BankERI,ER,Eritrea,5253676,2010 data from World BankEST,EE,Estonia,1339646,2010 data from World BankETH,ET,Ethiopia,82949541,2010 data from World BankFRO,FO,Faeroe Islands,48708,2010 data from World BankFJI,FJ,Fiji,860623,2010 data from World BankFIN,FI,Finland,5363624,2010 data from World BankFRA,FR,France,64876618.43,2010 data from World BankPYF,PF,French Polynesia,270764,2010 data from World BankGAB,GA,Gabon,1505463,2010 data from World BankGMB,GM,"Gambia, The",1728394,2010 data from World BankGEO,GE,Georgia,4452800,2010 data from World BankDEU,DE,Germany,81702329,2010 data from World BankGHA,GH,Ghana,24391823,2010 data from World BankGIB,GI,Gibraltar,29244,2010 data from World BankGRC,GR,Greece,11319048,2010 data from World BankGRL,GL,Greenland,56534,2010 data from World BankGRD,GD,Grenada,104487,2010 data from World BankGUM,GU,Guam,179896,2010 data from World BankGTM,GT,Guatemala,14388929,2010 data from World BankGIN,GN,Guinea,9981590,2010 data from World BankGNB,GW,Guinea-Bissau,1515224,2010 data from World BankGUY,GY,Guyana,754493,2010 data from World BankHTI,HT,Haiti,9993247,2010 data from World BankHND,HN,Honduras,7600524,2010 data from World BankHKG,HK,"Hong Kong SAR, China",7067800,2010 data from World BankHUN,HU,Hungary,10008703,2010 data from World BankISL,IS,Iceland,317398,2010 data from World BankIND,IN,India,1170938000,2010 data from World BankIDN,ID,Indonesia,239870937,2010 data from World BankIRN,IR,"Iran, Islamic Rep.",73973630,2010 data from World BankIRQ,IQ,Iraq,32030823.3,2010 data from World BankIRL,IE,Ireland,4481430,2010 data from World BankIMN,IM,Isle of Man,82869,2010 data from World BankISR,IL,Israel,7624600,2010 data from World BankITA,IT,Italy,60483521,2010 data from World BankJAM,JM,Jamaica,2702300,2010 data from World BankJPN,JP,Japan,127450459,2010 data from World BankJOR,JO,Jordan,6047000,2010 data from World BankKAZ,KZ,Kazakhstan,16316050,2010 data from World BankKEN,KE,Kenya,40512682,2010 data from World BankKIR,KI,Kiribati,99546,2010 data from World BankPRK,KP,"Korea, Dem. Rep.",24346229,2010 data from World BankKOR,KR,"Korea, Rep.",48875000,2010 data from World BankKSV,XK,Kosovo,1815000,2010 data from World BankKWT,KW,Kuwait,2736732,2010 data from World BankKGZ,KG,Kyrgyz Republic,5365167.495,2010 data from World BankLAO,LA,Lao PDR,6200894,2010 data from World BankLVA,LV,Latvia,2242916,2010 data from World BankLBN,LB,Lebanon,4227597,2010 data from World BankLSO,LS,Lesotho,2171318,2010 data from World BankLBR,LR,Liberia,3994122,2010 data from World BankLBY,LY,Libya,6355112,2010 data from World BankLIE,LI,Liechtenstein,36032,2010 data from World BankLTU,LT,Lithuania,3320656,2010 data from World BankLUX,LU,Luxembourg,505831,2010 data from World BankMAC,MO,"Macao SAR, China",543656,2010 data from World BankMKD,MK,"Macedonia, FYR",2060563,2010 data from World BankMDG,MG,Madagascar,20713819,2010 data from World BankMWI,MW,Malawi,14900841,2010 data from World BankMYS,MY,Malaysia,28401017,2010 data from World BankMDV,MV,Maldives,315885,2010 data from World BankMLI,ML,Mali,15369809,2010 data from World BankMLT,MT,Malta,412961,2010 data from World BankMHL,MH,Marshall Islands,54038,2010 data from World BankMRT,MR,Mauritania,3459773,2010 data from World BankMUS,MU,Mauritius,1281214,2010 data from World BankMYT,YT,Mayotte,204114,2010 data from World BankMEX,MX,Mexico,113423047,2010 data from World BankFSM,FM,"Micronesia, Fed. Sts.",111064,2010 data from World BankMDA,MD,Moldova,3562062,2010 data from World BankMCO,MC,Monaco,35407,2010 data from World BankMNG,MN,Mongolia,2756001,2010 data from World BankMNE,ME,Montenegro,631490,2010 data from World BankMAR,MA,Morocco,31951412,2010 data from World BankMOZ,MZ,Mozambique,23390765,2010 data from World BankMMR,MM,Myanmar,47963012,2010 data from World BankNAM,NA,Namibia,2283289,2010 data from World BankNPL,NP,Nepal,29959364,2010 data from World BankNLD,NL,Netherlands,16612213,2010 data from World BankNCL,NC,New Caledonia,254000,2010 data from World BankNZL,NZ,New Zealand,4367800,2010 data from World BankNIC,NI,Nicaragua,5788163,2010 data from World BankNER,NE,Niger,15511953,2010 data from World BankNGA,NG,Nigeria,158423182,2010 data from World BankMNP,MP,Northern Mariana Islands,60917,2010 data from World BankNOR,NO,Norway,4885240,2010 data from World BankOMN,OM,Oman,2782435,2010 data from World BankPAK,PK,Pakistan,173593383,2010 data from World BankPLW,PW,Palau,20472,2010 data from World BankPAN,PA,Panama,3516820,2010 data from World BankPNG,PG,Papua New Guinea,6858266,2010 data from World BankPRY,PY,Paraguay,6454548,2010 data from World BankPER,PE,Peru,29076512,2010 data from World BankPHL,PH,Philippines,93260798,2010 data from World BankPOL,PL,Poland,38187488,2010 data from World BankPRT,PT,Portugal,10642841,2010 data from World BankPRI,PR,Puerto Rico,3978702,2010 data from World BankQAT,QA,Qatar,1758793,2010 data from World BankROU,RO,Romania,21442012,2010 data from World BankRUS,RU,Russian Federation,141750000,2010 data from World BankRWA,RW,Rwanda,10624005,2010 data from World BankWSM,WS,Samoa,183081,2010 data from World BankSMR,SM,San Marino,31534,2010 data from World BankSTP,ST,Sao Tome and Principe,165397,2010 data from World BankSAU,SA,Saudi Arabia,27448086,2010 data from World BankSEN,SN,Senegal,12433728,2010 data from World BankSRB,RS,Serbia,7292574,2010 data from World BankSYC,SC,Seychelles,86525,2010 data from World BankSLE,SL,Sierra Leone,5867536,2010 data from World BankSGP,SG,Singapore,5076700,2010 data from World BankSXM,SX,Sint Maarten (Dutch part),37850.45822,2010 data from World BankSVK,SK,Slovak Republic,5433456,2010 data from World BankSVN,SI,Slovenia,2052821,2010 data from World BankSLB,SB,Solomon Islands,538148,2010 data from World BankSOM,SO,Somalia,9330872,2010 data from World BankZAF,ZA,South Africa,49991300,2010 data from World BankSSD,SS,South Sudan,8079000,2010 data from World BankESP,ES,Spain,46081574,2010 data from World BankLKA,LK,Sri Lanka,20859949,2010 data from World BankKNA,KN,St. Kitts and Nevis,52402,2010 data from World BankLCA,LC,St. Lucia,174000,2010 data from World BankMAF,MF,St. Martin (French part),30235,2010 data from World BankVCT,VC,St. Vincent and the Grenadines,109333,2010 data from World BankSDN,SD,Sudan,43551941,2010 data from World BankSUR,SR,Suriname,524636,2010 data from World BankSWZ,SZ,Swaziland,1186056,2010 data from World BankSWE,SE,Sweden,9379116,2010 data from World BankCHE,CH,Switzerland,7825243,2010 data from World BankSYR,SY,Syrian Arab Republic,20446608.57,2010 data from World BankTJK,TJ,Tajikistan,6878637,2010 data from World BankTZA,TZ,Tanzania,44841226,2010 data from World BankTHA,TH,Thailand,69122234,2010 data from World BankTLS,TL,Timor-Leste,1124355,2010 data from World BankTGO,TG,Togo,6027798,2010 data from World BankTON,TO,Tonga,104058,2010 data from World BankTTO,TT,Trinidad and Tobago,1341465,2010 data from World BankTUN,TN,Tunisia,10549100,2010 data from World BankTUR,TR,Turkey,72752325,2010 data from World BankTKM,TM,Turkmenistan,5041995,2010 data from World BankTCA,TC,Turks and Caicos Islands,38354,2010 data from World BankTUV,TV,Tuvalu,9827,2010 data from World BankUGA,UG,Uganda,33424683,2010 data from World BankUKR,UA,Ukraine,45870700,2010 data from World BankARE,AE,United Arab Emirates,7511690,2010 data from World BankGBR,GB,United Kingdom,62218761,2010 data from World BankUSA,US,United States,309050816,2010 data from World BankURY,UY,Uruguay,3356584,2010 data from World BankUZB,UZ,Uzbekistan,28160361.37,2010 data from World BankVUT,VU,Vanuatu,239651,2010 data from World BankVEN,VE,"Venezuela, RB",28834000,2010 data from World BankVNM,VN,Vietnam,86936464.42,2010 data from World BankVIR,VI,Virgin Islands (U.S.),109775,2010 data from World BankPSE,PS,West Bank and Gaza,4152102,2010 data from World BankYEM,YE,"Yemen, Rep.",24052514,2010 data from World BankZMB,ZM,Zambia,12926409,2010 data from World BankZWE,ZW,Zimbabwe,12571454,2010 data from World Bank,EH,Western Sahara,522928,Data from CIA World Factbook,TW,Taiwan,23113901,Data from CIA World Factbook

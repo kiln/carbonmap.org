@@ -1,188 +1,1 @@
-Country name,Alpha-2,"Cumulative CO2 emissions from energy, 1850â€“2007 (million tonnes)",Notes
-Afghanistan,AF,72.4,
-Albania,AL,227.9,
-Algeria,DZ,2272.4,
-Angola,AO,305.3,
-Antigua & Barbuda,AG,16.6,
-Argentina,AR,5894.8,
-Armenia,AM,505.6,
-Australia,AU,13108.5,
-Austria,AT,4541.9,
-Azerbaijan,AZ,2323.7,
-Bahamas,BS,139.6,
-Bahrain,BH,479.1,
-Bangladesh,BD,657.4,
-Barbados,BB,37.5,
-Belarus,BY,4382.1,
-Belgium,BE,10903.3
-Belize,BZ,12.4
-Benin,BJ,39.3
-Bhutan,BT,7.2
-Bolivia,BO,275.6
-Bosnia & Herzegovina,BA,679.6
-Botswana,BW,87.4
-Brazil,BR,9836.6
-Brunei,BN,176.2
-Bulgaria,BG,3170.6
-Burkina Faso,BF,25.9
-Burundi,BI,8.5
-Cambodia,KH,50.7
-Cameroon,CM,180.4
-Canada,CA,25716
-Cape Verde,CV,5.5
-Central African Republic,CF,9.1,
-Chad,TD,8.4,
-Chile,CL,1831.9,
-China,CN,105915.4,
-Colombia,CO,2213.2,
-Comoros,KM,2.6,
-Congo,CG,75.2,
-"Congo, Dem. Republic",CD,161.4,
-Cook Islands,CK,1.1,
-Costa Rica,CR,146.3,
-Cote d'Ivoire,CI,169.9,
-Croatia,HR,856.3,
-Cuba,CU,1256,
-Cyprus,CY,192.4,
-Czech Republic,CZ,10394.6,
-Denmark,DK,3537,"Reduced by 0.9% to allocate a slice to Greenland, relative to current population"
-Djibouti,DJ,14.5
-Dominica,DM,2.5
-Dominican Republic,DO,427.4
-Ecuador,EC,652
-Egypt,EG,3546.9
-El Salvador,SV,149.3
-Equatorial Guinea,GQ,45.8
-Eritrea,ER,10.7
-Estonia,EE,1177
-Ethiopia,ET,108.7
-Fiji,FJ,36.9
-Finland,FI,2514.4
-France,FR,32666.6
-Gabon,GA,145.7
-Gambia,GM,7.7
-Georgia,GE,773.9
-Germany,DE,81194.5
-Ghana,GH,181.9
-Greece,GR,2859.1
-Grenada,GD,5
-Guatemala,GT,245.4
-Guinea,GN,50.3
-Guinea-Bissau,GW,7.9
-Guyana,GY,70.8
-Haiti,HT,44.4
-Honduras,HN,137.9
-Hungary,HU,4256
-Iceland,IS,95.5
-India,IN,28824.4
-Indonesia,ID,6959.5
-Iran,IR,8630.1
-Iraq,IQ,2444.8
-Ireland,IE,1700.8
-Israel,IL,1553.3
-Italy,IT,19269.2
-Jamaica,JM,337.8
-Japan,JP,45629.1
-Jordan,JO,394
-Kazakhstan,KZ,10564.9
-Kenya,KE,317
-Kiribati,KI,1.1
-Korea (North),KP,4052.1
-Korea (South),KR,10409.2
-Kuwait,KW,1676.1
-Kyrgyzstan,KG,631.1
-Laos,LA,23.2
-Latvia,LV,636.3
-Lebanon,LB,447.2
-Lesotho,LS,4.9
-Liberia,LR,39.7
-Libya,LY,1276.6
-Lithuania,LT,1092.5
-Luxembourg,LU,686.1
-"Macedonia, FYR",MK,399.7
-Madagascar,MG,61.4
-Malawi,MW,34.5
-Malaysia,MY,2778.4
-Maldives,MV,9.1
-Mali,ML,18.6
-Malta,MT,73.8
-Mauritania,MR,59
-Mauritius,MU,63.2
-Mexico,MX,12242.8
-Moldova,MD,888.9
-Mongolia,MN,350.7
-Morocco,MA,969.5
-Mozambique,MZ,107.2
-Myanmar,MM,332.5
-Namibia,NA,36.3
-Nauru,NR,5
-Nepal,NP,55
-Netherlands,NL,9431.8
-New Zealand,NZ,1370.3
-Nicaragua,NI,111.8
-Niger,NE,30.2
-Nigeria,NG,2321.1
-Niue,NU,0.1
-Norway,NO,1878
-Oman,OM,451.9
-Pakistan,PK,2644.9
-Palau,PW,2.4
-Panama,PA,173.5
-Papua New Guinea,PG,91.7
-Paraguay,PY,94.6
-Peru,PE,1137.4
-Philippines,PH,2058.7
-Poland,PL,22664.5
-Portugal,PT,1878.5
-Qatar,QA,664.3
-Romania,RO,6966.2
-Russian Federation,RU,94678.7
-Rwanda,RW,20.6
-Saint Kitts & Nevis,KN,3.1
-Saint Lucia,LC,7.9
-Saint Vincent & Grenadines,VC,3.9
-Samoa,WS,4.5
-Sao Tome & Principe,ST,2.6
-Saudi Arabia,SA,6892.5
-Senegal,SN,122.7
-Serbia & Montenegro,RS,2273
-Seychelles,SC,9.8
-Sierra Leone,SL,32.6
-Singapore,SG,1039.5
-Slovakia,SK,3122.7
-Slovenia,SI,608.8
-Solomon Islands,SB,5.4
-South Africa,ZA,13133.6
-Spain,ES,11057
-Sri Lanka,LK,287.6
-Sudan,SD,229
-Suriname,SR,88.7
-Swaziland,SZ,23.7
-Sweden,SE,4328.3
-Switzerland,CH,2496.3
-Syria,SY,1231.6
-Taiwan,TW,5484.4
-Tajikistan,TJ,409.7
-Tanzania,TZ,113.1
-Thailand,TH,3927.9
-Togo,TG,30
-Tonga,TO,3.3
-Trinidad & Tobago,TT,773
-Tunisia,TN,557.7
-Turkey,TR,5750.7
-Turkmenistan,TM,1846.5
-Uganda,UG,53
-Ukraine,UA,25431
-United Arab Emirates,AE,2109.4
-United Kingdom,GB,68763.4,
-United States of America,US,339174,
-Uruguay,UY,283.9,
-Uzbekistan,UZ,6000.5,
-Vanuatu,VU,3.1,
-Venezuela,VE,4751.6,
-Vietnam,VN,1639.8,
-Yemen,YE,370.4,
-Zambia,ZM,183.9,
-Zimbabwe,ZW,632.7,
-Greenland,GL,32.1,"Estimated as 0.9% of Denmark's historical emissions, relative to current population"
-Somalia,SO,12.3,Estimated by allocating historical emissions at same rate as Ethiopia's relative to current population size
+Country name,Alpha-2,"Cumulative CO2 emissions from energy, 1850â€“2007 (million tonnes)",NotesAfghanistan,AF,72.4,1850Ð2008 data from WRI CAITAlbania,AL,227.9,1850Ð2008 data from WRI CAITAlgeria,DZ,2272.4,1850Ð2008 data from WRI CAITAngola,AO,305.3,1850Ð2008 data from WRI CAITAntigua & Barbuda,AG,16.6,1850Ð2008 data from WRI CAITArgentina,AR,5894.8,1850Ð2008 data from WRI CAITArmenia,AM,505.6,1850Ð2008 data from WRI CAITAustralia,AU,13108.5,1850Ð2008 data from WRI CAITAustria,AT,4541.9,1850Ð2008 data from WRI CAITAzerbaijan,AZ,2323.7,1850Ð2008 data from WRI CAITBahamas,BS,139.6,1850Ð2008 data from WRI CAITBahrain,BH,479.1,1850Ð2008 data from WRI CAITBangladesh,BD,657.4,1850Ð2008 data from WRI CAITBarbados,BB,37.5,1850Ð2008 data from WRI CAITBelarus,BY,4382.1,1850Ð2008 data from WRI CAITBelgium,BE,10903.3,1850Ð2008 data from WRI CAITBelize,BZ,12.4,1850Ð2008 data from WRI CAITBenin,BJ,39.3,1850Ð2008 data from WRI CAITBhutan,BT,7.2,1850Ð2008 data from WRI CAITBolivia,BO,275.6,1850Ð2008 data from WRI CAITBosnia & Herzegovina,BA,679.6,1850Ð2008 data from WRI CAITBotswana,BW,87.4,1850Ð2008 data from WRI CAITBrazil,BR,9836.6,1850Ð2008 data from WRI CAITBrunei,BN,176.2,1850Ð2008 data from WRI CAITBulgaria,BG,3170.6,1850Ð2008 data from WRI CAITBurkina Faso,BF,25.9,1850Ð2008 data from WRI CAITBurundi,BI,8.5,1850Ð2008 data from WRI CAITCambodia,KH,50.7,1850Ð2008 data from WRI CAITCameroon,CM,180.4,1850Ð2008 data from WRI CAITCanada,CA,25716,1850Ð2008 data from WRI CAITCape Verde,CV,5.5,1850Ð2008 data from WRI CAITCentral African Republic,CF,9.1,1850Ð2008 data from WRI CAITChad,TD,8.4,1850Ð2008 data from WRI CAITChile,CL,1831.9,1850Ð2008 data from WRI CAITChina,CN,105915.4,1850Ð2008 data from WRI CAITColombia,CO,2213.2,1850Ð2008 data from WRI CAITComoros,KM,2.6,1850Ð2008 data from WRI CAITCongo,CG,75.2,1850Ð2008 data from WRI CAIT"Congo, Dem. Republic",CD,161.4,1850Ð2008 data from WRI CAITCook Islands,CK,1.1,1850Ð2008 data from WRI CAITCosta Rica,CR,146.3,1850Ð2008 data from WRI CAITCote d'Ivoire,CI,169.9,1850Ð2008 data from WRI CAITCroatia,HR,856.3,1850Ð2008 data from WRI CAITCuba,CU,1256,1850Ð2008 data from WRI CAITCyprus,CY,192.4,1850Ð2008 data from WRI CAITCzech Republic,CZ,10394.6,1850Ð2008 data from WRI CAITDenmark,DK,3537,"1850Ð2008 data from WRI CAIT, reduced by 0.9% to allocate a slice to Greenland, relative to current population"Djibouti,DJ,14.5,1850Ð2008 data from WRI CAITDominica,DM,2.5,1850Ð2008 data from WRI CAITDominican Republic,DO,427.4,1850Ð2008 data from WRI CAITEcuador,EC,652,1850Ð2008 data from WRI CAITEgypt,EG,3546.9,1850Ð2008 data from WRI CAITEl Salvador,SV,149.3,1850Ð2008 data from WRI CAITEquatorial Guinea,GQ,45.8,1850Ð2008 data from WRI CAITEritrea,ER,10.7,1850Ð2008 data from WRI CAITEstonia,EE,1177,1850Ð2008 data from WRI CAITEthiopia,ET,108.7,1850Ð2008 data from WRI CAITFiji,FJ,36.9,1850Ð2008 data from WRI CAITFinland,FI,2514.4,1850Ð2008 data from WRI CAITFrance,FR,32666.6,1850Ð2008 data from WRI CAITGabon,GA,145.7,1850Ð2008 data from WRI CAITGambia,GM,7.7,1850Ð2008 data from WRI CAITGeorgia,GE,773.9,1850Ð2008 data from WRI CAITGermany,DE,81194.5,1850Ð2008 data from WRI CAITGhana,GH,181.9,1850Ð2008 data from WRI CAITGreece,GR,2859.1,1850Ð2008 data from WRI CAITGrenada,GD,5,1850Ð2008 data from WRI CAITGuatemala,GT,245.4,1850Ð2008 data from WRI CAITGuinea,GN,50.3,1850Ð2008 data from WRI CAITGuinea-Bissau,GW,7.9,1850Ð2008 data from WRI CAITGuyana,GY,70.8,1850Ð2008 data from WRI CAITHaiti,HT,44.4,1850Ð2008 data from WRI CAITHonduras,HN,137.9,1850Ð2008 data from WRI CAITHungary,HU,4256,1850Ð2008 data from WRI CAITIceland,IS,95.5,1850Ð2008 data from WRI CAITIndia,IN,28824.4,1850Ð2008 data from WRI CAITIndonesia,ID,6959.5,1850Ð2008 data from WRI CAITIran,IR,8630.1,1850Ð2008 data from WRI CAITIraq,IQ,2444.8,1850Ð2008 data from WRI CAITIreland,IE,1700.8,1850Ð2008 data from WRI CAITIsrael,IL,1553.3,1850Ð2008 data from WRI CAITItaly,IT,19269.2,1850Ð2008 data from WRI CAITJamaica,JM,337.8,1850Ð2008 data from WRI CAITJapan,JP,45629.1,1850Ð2008 data from WRI CAITJordan,JO,394,1850Ð2008 data from WRI CAITKazakhstan,KZ,10564.9,1850Ð2008 data from WRI CAITKenya,KE,317,1850Ð2008 data from WRI CAITKiribati,KI,1.1,1850Ð2008 data from WRI CAITKorea (North),KP,4052.1,1850Ð2008 data from WRI CAITKorea (South),KR,10409.2,1850Ð2008 data from WRI CAITKuwait,KW,1676.1,1850Ð2008 data from WRI CAITKyrgyzstan,KG,631.1,1850Ð2008 data from WRI CAITLaos,LA,23.2,1850Ð2008 data from WRI CAITLatvia,LV,636.3,1850Ð2008 data from WRI CAITLebanon,LB,447.2,1850Ð2008 data from WRI CAITLesotho,LS,4.9,1850Ð2008 data from WRI CAITLiberia,LR,39.7,1850Ð2008 data from WRI CAITLibya,LY,1276.6,1850Ð2008 data from WRI CAITLithuania,LT,1092.5,1850Ð2008 data from WRI CAITLuxembourg,LU,686.1,1850Ð2008 data from WRI CAIT"Macedonia, FYR",MK,399.7,1850Ð2008 data from WRI CAITMadagascar,MG,61.4,1850Ð2008 data from WRI CAITMalawi,MW,34.5,1850Ð2008 data from WRI CAITMalaysia,MY,2778.4,1850Ð2008 data from WRI CAITMaldives,MV,9.1,1850Ð2008 data from WRI CAITMali,ML,18.6,1850Ð2008 data from WRI CAITMalta,MT,73.8,1850Ð2008 data from WRI CAITMauritania,MR,59,1850Ð2008 data from WRI CAITMauritius,MU,63.2,1850Ð2008 data from WRI CAITMexico,MX,12242.8,1850Ð2008 data from WRI CAITMoldova,MD,888.9,1850Ð2008 data from WRI CAITMongolia,MN,350.7,1850Ð2008 data from WRI CAITMorocco,MA,969.5,1850Ð2008 data from WRI CAITMozambique,MZ,107.2,1850Ð2008 data from WRI CAITMyanmar,MM,332.5,1850Ð2008 data from WRI CAITNamibia,NA,36.3,1850Ð2008 data from WRI CAITNauru,NR,5,1850Ð2008 data from WRI CAITNepal,NP,55,1850Ð2008 data from WRI CAITNetherlands,NL,9431.8,1850Ð2008 data from WRI CAITNew Zealand,NZ,1370.3,1850Ð2008 data from WRI CAITNicaragua,NI,111.8,1850Ð2008 data from WRI CAITNiger,NE,30.2,1850Ð2008 data from WRI CAITNigeria,NG,2321.1,1850Ð2008 data from WRI CAITNiue,NU,0.1,1850Ð2008 data from WRI CAITNorway,NO,1878,1850Ð2008 data from WRI CAITOman,OM,451.9,1850Ð2008 data from WRI CAITPakistan,PK,2644.9,1850Ð2008 data from WRI CAITPalau,PW,2.4,1850Ð2008 data from WRI CAITPanama,PA,173.5,1850Ð2008 data from WRI CAITPapua New Guinea,PG,91.7,1850Ð2008 data from WRI CAITParaguay,PY,94.6,1850Ð2008 data from WRI CAITPeru,PE,1137.4,1850Ð2008 data from WRI CAITPhilippines,PH,2058.7,1850Ð2008 data from WRI CAITPoland,PL,22664.5,1850Ð2008 data from WRI CAITPortugal,PT,1878.5,1850Ð2008 data from WRI CAITQatar,QA,664.3,1850Ð2008 data from WRI CAITRomania,RO,6966.2,1850Ð2008 data from WRI CAITRussian Federation,RU,94678.7,1850Ð2008 data from WRI CAITRwanda,RW,20.6,1850Ð2008 data from WRI CAITSaint Kitts & Nevis,KN,3.1,1850Ð2008 data from WRI CAITSaint Lucia,LC,7.9,1850Ð2008 data from WRI CAITSaint Vincent & Grenadines,VC,3.9,1850Ð2008 data from WRI CAITSamoa,WS,4.5,1850Ð2008 data from WRI CAITSao Tome & Principe,ST,2.6,1850Ð2008 data from WRI CAITSaudi Arabia,SA,6892.5,1850Ð2008 data from WRI CAITSenegal,SN,122.7,1850Ð2008 data from WRI CAITSerbia & Montenegro,RS,2273,1850Ð2008 data from WRI CAITSeychelles,SC,9.8,1850Ð2008 data from WRI CAITSierra Leone,SL,32.6,1850Ð2008 data from WRI CAITSingapore,SG,1039.5,1850Ð2008 data from WRI CAITSlovakia,SK,3122.7,1850Ð2008 data from WRI CAITSlovenia,SI,608.8,1850Ð2008 data from WRI CAITSolomon Islands,SB,5.4,1850Ð2008 data from WRI CAITSouth Africa,ZA,13133.6,1850Ð2008 data from WRI CAITSpain,ES,11057,1850Ð2008 data from WRI CAITSri Lanka,LK,287.6,1850Ð2008 data from WRI CAITSudan,SD,229,1850Ð2008 data from WRI CAITSuriname,SR,88.7,1850Ð2008 data from WRI CAITSwaziland,SZ,23.7,1850Ð2008 data from WRI CAITSweden,SE,4328.3,1850Ð2008 data from WRI CAITSwitzerland,CH,2496.3,1850Ð2008 data from WRI CAITSyria,SY,1231.6,1850Ð2008 data from WRI CAITTaiwan,TW,5484.4,1850Ð2008 data from WRI CAITTajikistan,TJ,409.7,1850Ð2008 data from WRI CAITTanzania,TZ,113.1,1850Ð2008 data from WRI CAITThailand,TH,3927.9,1850Ð2008 data from WRI CAITTogo,TG,30,1850Ð2008 data from WRI CAITTonga,TO,3.3,1850Ð2008 data from WRI CAITTrinidad & Tobago,TT,773,1850Ð2008 data from WRI CAITTunisia,TN,557.7,1850Ð2008 data from WRI CAITTurkey,TR,5750.7,1850Ð2008 data from WRI CAITTurkmenistan,TM,1846.5,1850Ð2008 data from WRI CAITUganda,UG,53,1850Ð2008 data from WRI CAITUkraine,UA,25431,1850Ð2008 data from WRI CAITUnited Arab Emirates,AE,2109.4,1850Ð2008 data from WRI CAITUnited Kingdom,GB,68763.4,1850Ð2008 data from WRI CAITUnited States of America,US,339174,1850Ð2008 data from WRI CAITUruguay,UY,283.9,1850Ð2008 data from WRI CAITUzbekistan,UZ,6000.5,1850Ð2008 data from WRI CAITVanuatu,VU,3.1,1850Ð2008 data from WRI CAITVenezuela,VE,4751.6,1850Ð2008 data from WRI CAITVietnam,VN,1639.8,1850Ð2008 data from WRI CAITYemen,YE,370.4,1850Ð2008 data from WRI CAITZambia,ZM,183.9,1850Ð2008 data from WRI CAITZimbabwe,ZW,632.7,1850Ð2008 data from WRI CAITGreenland,GL,32.1,"1850Ð2008 data, estimated as 0.9% of Denmark's historical emissions, relative to current population"Somalia,SO,12.3,"1850Ð2008 data, estimated by allocating historical emissions at same rate as Ethiopia's relative to current population size"

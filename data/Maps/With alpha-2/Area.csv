@@ -1,218 +1,1 @@
-Alpha-3,Alpha-2,Country Name,Land area (sq. km)
-EUU,EU,European Union,4181730
-AFG,AF,Afghanistan,652230
-ALB,AL,Albania,27400
-DZA,DZ,Algeria,2381740
-ASM,AS,American Samoa,200
-AND,AD,Andorra,470
-AGO,AO,Angola,1246700
-ATG,AG,Antigua and Barbuda,440
-ARG,AR,Argentina,2736690
-ARM,AM,Armenia,28480
-ABW,AW,Aruba,180
-AUS,AU,Australia,7682300
-AUT,AT,Austria,82430
-AZE,AZ,Azerbaijan,82620
-BHS,BS,"Bahamas, The",10010
-BHR,BH,Bahrain,760
-BGD,BD,Bangladesh,130170
-BRB,BB,Barbados,430
-BLR,BY,Belarus,202820
-BEL,BE,Belgium,30280
-BLZ,BZ,Belize,22810
-BEN,BJ,Benin,110620
-BMU,BM,Bermuda,50
-BTN,BT,Bhutan,38390
-BOL,BO,Bolivia,1083300
-BIH,BA,Bosnia and Herzegovina,51000
-BWA,BW,Botswana,566730
-BRA,BR,Brazil,8459420
-BRN,BN,Brunei Darussalam,5270
-BGR,BG,Bulgaria,108560
-BFA,BF,Burkina Faso,273600
-BDI,BI,Burundi,25680
-KHM,KH,Cambodia,176520
-CMR,CM,Cameroon,472710
-CAN,CA,Canada,9093510
-CPV,CV,Cape Verde,4030
-CYM,KY,Cayman Islands,240
-CAF,CF,Central African Republic,622980
-TCD,TD,Chad,1259200
-CHL,CL,Chile,743530
-CHN,CN,China,9327480
-COL,CO,Colombia,1109500
-COM,KM,Comoros,1860
-COD,CD,"Congo, Dem. Rep.",2267050
-COG,CG,"Congo, Rep.",341500
-CRI,CR,Costa Rica,51060
-CIV,CI,Cote d'Ivoire,318000
-HRV,HR,Croatia,55960
-CUB,CU,Cuba,106440
-CUW,CW,Curacao,444
-CYP,CY,Cyprus,9240
-CZE,CZ,Czech Republic,77250
-DNK,DK,Denmark,42430
-DJI,DJ,Djibouti,23180
-DMA,DM,Dominica,750
-DOM,DO,Dominican Republic,48320
-ECU,EC,Ecuador,248360
-EGY,EG,"Egypt, Arab Rep.",995450
-SLV,SV,El Salvador,20720
-GNQ,GQ,Equatorial Guinea,28050
-ERI,ER,Eritrea,101000
-EST,EE,Estonia,42390
-ETH,ET,Ethiopia,1000000
-FRO,FO,Faeroe Islands,1390
-FJI,FJ,Fiji,18270
-FIN,FI,Finland,303900
-FRA,FR,France,547660
-PYF,PF,French Polynesia,3660
-GAB,GA,Gabon,257670
-GMB,GM,"Gambia, The",10000
-GEO,GE,Georgia,69490
-DEU,DE,Germany,348610
-GHA,GH,Ghana,227540
-GIB,GI,Gibraltar,10
-GRC,GR,Greece,128900
-GRL,GL,Greenland,2166086
-GRD,GD,Grenada,340
-GUM,GU,Guam,540
-GTM,GT,Guatemala,107160
-GIN,GN,Guinea,245720
-GNB,GW,Guinea-Bissau,28120
-GUY,GY,Guyana,196850
-HTI,HT,Haiti,27560
-HND,HN,Honduras,111890
-HKG,HK,"Hong Kong SAR, China",1042
-HUN,HU,Hungary,90530
-ISL,IS,Iceland,100250
-IND,IN,India,2973190
-IDN,ID,Indonesia,1811570
-IRN,IR,"Iran, Islamic Rep.",1628550
-IRQ,IQ,Iraq,434320
-IRL,IE,Ireland,68890
-IMN,IM,Isle of Man,570
-ISR,IL,Israel,21640
-ITA,IT,Italy,294140
-JAM,JM,Jamaica,10830
-JPN,JP,Japan,364500
-JOR,JO,Jordan,88780
-KAZ,KZ,Kazakhstan,2699700
-KEN,KE,Kenya,569140
-KIR,KI,Kiribati,810
-PRK,KP,"Korea, Dem. Rep.",120410
-KOR,KR,"Korea, Rep.",97100
-KSV,XK,Kosovo,10887
-KWT,KW,Kuwait,17820
-KGZ,KG,Kyrgyz Republic,191800
-LAO,LA,Lao PDR,230800
-LVA,LV,Latvia,62180
-LBN,LB,Lebanon,10230
-LSO,LS,Lesotho,30360
-LBR,LR,Liberia,96320
-LBY,LY,Libya,1759540
-LIE,LI,Liechtenstein,160
-LTU,LT,Lithuania,62670
-LUX,LU,Luxembourg,2590
-MAC,MO,"Macao SAR, China",28
-MKD,MK,"Macedonia, FYR",25220
-MDG,MG,Madagascar,581540
-MWI,MW,Malawi,94280
-MYS,MY,Malaysia,328550
-MDV,MV,Maldives,300
-MLI,ML,Mali,1220190
-MLT,MT,Malta,320
-MHL,MH,Marshall Islands,180
-MRT,MR,Mauritania,1030700
-MUS,MU,Mauritius,2030
-MYT,YT,Mayotte,370
-MEX,MX,Mexico,1943950
-FSM,FM,"Micronesia, Fed. Sts.",700
-MDA,MD,Moldova,32890
-MCO,MC,Monaco,2
-MNG,MN,Mongolia,1553560
-MNE,ME,Montenegro,13450
-MAR,MA,Morocco,446300
-MOZ,MZ,Mozambique,786380
-MMR,MM,Myanmar,653520
-NAM,NA,Namibia,823290
-NPL,NP,Nepal,143350
-NLD,NL,Netherlands,33730
-NCL,NC,New Caledonia,18280
-NZL,NZ,New Zealand,263310
-NIC,NI,Nicaragua,120340
-NER,NE,Niger,1266700
-NGA,NG,Nigeria,910770
-MNP,MP,Northern Mariana Islands,460
-NOR,NO,Norway,305470
-OMN,OM,Oman,309500
-PAK,PK,Pakistan,770880
-PLW,PW,Palau,460
-PAN,PA,Panama,74340
-PNG,PG,Papua New Guinea,452860
-PRY,PY,Paraguay,397300
-PER,PE,Peru,1280000
-PHL,PH,Philippines,298170
-POL,PL,Poland,304200
-PRT,PT,Portugal,91470
-PRI,PR,Puerto Rico,8870
-QAT,QA,Qatar,11590
-ROU,RO,Romania,230060
-RUS,RU,Russian Federation,16376870
-RWA,RW,Rwanda,24670
-WSM,WS,Samoa,2830
-SMR,SM,San Marino,60
-STP,ST,Sao Tome and Principe,960
-SAU,SA,Saudi Arabia,2149690
-SEN,SN,Senegal,192530
-SRB,RS,Serbia,87460
-SYC,SC,Seychelles,460
-SLE,SL,Sierra Leone,71620
-SGP,SG,Singapore,700
-SXM,SX,Sint Maarten (Dutch part),34
-SVK,SK,Slovak Republic,48090
-SVN,SI,Slovenia,20140
-SLB,SB,Solomon Islands,27990
-SOM,SO,Somalia,627340
-ZAF,ZA,South Africa,1214470
-ESP,ES,Spain,498800
-LKA,LK,Sri Lanka,62710
-KNA,KN,St. Kitts and Nevis,260
-LCA,LC,St. Lucia,610
-MAF,MF,St. Martin (French part),54.4
-VCT,VC,St. Vincent and the Grenadines,390
-SDN,SD,Sudan,2376000
-SUR,SR,Suriname,156000
-SWZ,SZ,Swaziland,17200
-SWE,SE,Sweden,410340
-CHE,CH,Switzerland,40000
-SYR,SY,Syrian Arab Republic,183630
-TJK,TJ,Tajikistan,139960
-TZA,TZ,Tanzania,885800
-THA,TH,Thailand,510890
-TLS,TL,Timor-Leste,14870
-TGO,TG,Togo,54390
-TON,TO,Tonga,720
-TTO,TT,Trinidad and Tobago,5130
-TUN,TN,Tunisia,155360
-TUR,TR,Turkey,769630
-TKM,TM,Turkmenistan,469930
-TCA,TC,Turks and Caicos Islands,950
-TUV,TV,Tuvalu,30
-UGA,UG,Uganda,199810
-UKR,UA,Ukraine,579320
-ARE,AE,United Arab Emirates,83600
-GBR,GB,United Kingdom,241930
-USA,US,United States,9147420
-URY,UY,Uruguay,175020
-UZB,UZ,Uzbekistan,425400
-VUT,VU,Vanuatu,12190,
-VEN,VE,"Venezuela, RB",882050,
-VNM,VN,Vietnam,310070,
-VIR,VI,Virgin Islands (U.S.),350,
-PSE,PS,West Bank and Gaza,6020,
-YEM,YE,"Yemen, Rep.",527970,
-ZMB,ZM,Zambia,743390,
-ZWE,ZW,Zimbabwe,386850,
-,EH,Western Sahara,266000,CIA World Factbook
-,TW,Taiwan,32260,CIA World Factbook
+Alpha-3,Alpha-2,Country Name,Land area (sq. km),NotesEUU,EU,European Union,4181730,World Bank dataAFG,AF,Afghanistan,652230,World Bank dataALB,AL,Albania,27400,World Bank dataDZA,DZ,Algeria,2381740,World Bank dataASM,AS,American Samoa,200,World Bank dataAND,AD,Andorra,470,World Bank dataAGO,AO,Angola,1246700,World Bank dataATG,AG,Antigua and Barbuda,440,World Bank dataARG,AR,Argentina,2736690,World Bank dataARM,AM,Armenia,28480,World Bank dataABW,AW,Aruba,180,World Bank dataAUS,AU,Australia,7682300,World Bank dataAUT,AT,Austria,82430,World Bank dataAZE,AZ,Azerbaijan,82620,World Bank dataBHS,BS,"Bahamas, The",10010,World Bank dataBHR,BH,Bahrain,760,World Bank dataBGD,BD,Bangladesh,130170,World Bank dataBRB,BB,Barbados,430,World Bank dataBLR,BY,Belarus,202820,World Bank dataBEL,BE,Belgium,30280,World Bank dataBLZ,BZ,Belize,22810,World Bank dataBEN,BJ,Benin,110620,World Bank dataBMU,BM,Bermuda,50,World Bank dataBTN,BT,Bhutan,38390,World Bank dataBOL,BO,Bolivia,1083300,World Bank dataBIH,BA,Bosnia and Herzegovina,51000,World Bank dataBWA,BW,Botswana,566730,World Bank dataBRA,BR,Brazil,8459420,World Bank dataBRN,BN,Brunei Darussalam,5270,World Bank dataBGR,BG,Bulgaria,108560,World Bank dataBFA,BF,Burkina Faso,273600,World Bank dataBDI,BI,Burundi,25680,World Bank dataKHM,KH,Cambodia,176520,World Bank dataCMR,CM,Cameroon,472710,World Bank dataCAN,CA,Canada,9093510,World Bank dataCPV,CV,Cape Verde,4030,World Bank dataCYM,KY,Cayman Islands,240,World Bank dataCAF,CF,Central African Republic,622980,World Bank dataTCD,TD,Chad,1259200,World Bank dataCHL,CL,Chile,743530,World Bank dataCHN,CN,China,9327480,World Bank dataCOL,CO,Colombia,1109500,World Bank dataCOM,KM,Comoros,1860,World Bank dataCOD,CD,"Congo, Dem. Rep.",2267050,World Bank dataCOG,CG,"Congo, Rep.",341500,World Bank dataCRI,CR,Costa Rica,51060,World Bank dataCIV,CI,Cote d'Ivoire,318000,World Bank dataHRV,HR,Croatia,55960,World Bank dataCUB,CU,Cuba,106440,World Bank dataCUW,CW,Curacao,444,World Bank dataCYP,CY,Cyprus,9240,World Bank dataCZE,CZ,Czech Republic,77250,World Bank dataDNK,DK,Denmark,42430,World Bank dataDJI,DJ,Djibouti,23180,World Bank dataDMA,DM,Dominica,750,World Bank dataDOM,DO,Dominican Republic,48320,World Bank dataECU,EC,Ecuador,248360,World Bank dataEGY,EG,"Egypt, Arab Rep.",995450,World Bank dataSLV,SV,El Salvador,20720,World Bank dataGNQ,GQ,Equatorial Guinea,28050,World Bank dataERI,ER,Eritrea,101000,World Bank dataEST,EE,Estonia,42390,World Bank dataETH,ET,Ethiopia,1000000,World Bank dataFRO,FO,Faeroe Islands,1390,World Bank dataFJI,FJ,Fiji,18270,World Bank dataFIN,FI,Finland,303900,World Bank dataFRA,FR,France,547660,World Bank dataPYF,PF,French Polynesia,3660,World Bank dataGAB,GA,Gabon,257670,World Bank dataGMB,GM,"Gambia, The",10000,World Bank dataGEO,GE,Georgia,69490,World Bank dataDEU,DE,Germany,348610,World Bank dataGHA,GH,Ghana,227540,World Bank dataGIB,GI,Gibraltar,10,World Bank dataGRC,GR,Greece,128900,World Bank dataGRL,GL,Greenland,2166086,World Bank dataGRD,GD,Grenada,340,World Bank dataGUM,GU,Guam,540,World Bank dataGTM,GT,Guatemala,107160,World Bank dataGIN,GN,Guinea,245720,World Bank dataGNB,GW,Guinea-Bissau,28120,World Bank dataGUY,GY,Guyana,196850,World Bank dataHTI,HT,Haiti,27560,World Bank dataHND,HN,Honduras,111890,World Bank dataHKG,HK,"Hong Kong SAR, China",1042,World Bank dataHUN,HU,Hungary,90530,World Bank dataISL,IS,Iceland,100250,World Bank dataIND,IN,India,2973190,World Bank dataIDN,ID,Indonesia,1811570,World Bank dataIRN,IR,"Iran, Islamic Rep.",1628550,World Bank dataIRQ,IQ,Iraq,434320,World Bank dataIRL,IE,Ireland,68890,World Bank dataIMN,IM,Isle of Man,570,World Bank dataISR,IL,Israel,21640,World Bank dataITA,IT,Italy,294140,World Bank dataJAM,JM,Jamaica,10830,World Bank dataJPN,JP,Japan,364500,World Bank dataJOR,JO,Jordan,88780,World Bank dataKAZ,KZ,Kazakhstan,2699700,World Bank dataKEN,KE,Kenya,569140,World Bank dataKIR,KI,Kiribati,810,World Bank dataPRK,KP,"Korea, Dem. Rep.",120410,World Bank dataKOR,KR,"Korea, Rep.",97100,World Bank dataKSV,XK,Kosovo,10887,World Bank dataKWT,KW,Kuwait,17820,World Bank dataKGZ,KG,Kyrgyz Republic,191800,World Bank dataLAO,LA,Lao PDR,230800,World Bank dataLVA,LV,Latvia,62180,World Bank dataLBN,LB,Lebanon,10230,World Bank dataLSO,LS,Lesotho,30360,World Bank dataLBR,LR,Liberia,96320,World Bank dataLBY,LY,Libya,1759540,World Bank dataLIE,LI,Liechtenstein,160,World Bank dataLTU,LT,Lithuania,62670,World Bank dataLUX,LU,Luxembourg,2590,World Bank dataMAC,MO,"Macao SAR, China",28,World Bank dataMKD,MK,"Macedonia, FYR",25220,World Bank dataMDG,MG,Madagascar,581540,World Bank dataMWI,MW,Malawi,94280,World Bank dataMYS,MY,Malaysia,328550,World Bank dataMDV,MV,Maldives,300,World Bank dataMLI,ML,Mali,1220190,World Bank dataMLT,MT,Malta,320,World Bank dataMHL,MH,Marshall Islands,180,World Bank dataMRT,MR,Mauritania,1030700,World Bank dataMUS,MU,Mauritius,2030,World Bank dataMYT,YT,Mayotte,370,World Bank dataMEX,MX,Mexico,1943950,World Bank dataFSM,FM,"Micronesia, Fed. Sts.",700,World Bank dataMDA,MD,Moldova,32890,World Bank dataMCO,MC,Monaco,2,World Bank dataMNG,MN,Mongolia,1553560,World Bank dataMNE,ME,Montenegro,13450,World Bank dataMAR,MA,Morocco,446300,World Bank dataMOZ,MZ,Mozambique,786380,World Bank dataMMR,MM,Myanmar,653520,World Bank dataNAM,NA,Namibia,823290,World Bank dataNPL,NP,Nepal,143350,World Bank dataNLD,NL,Netherlands,33730,World Bank dataNCL,NC,New Caledonia,18280,World Bank dataNZL,NZ,New Zealand,263310,World Bank dataNIC,NI,Nicaragua,120340,World Bank dataNER,NE,Niger,1266700,World Bank dataNGA,NG,Nigeria,910770,World Bank dataMNP,MP,Northern Mariana Islands,460,World Bank dataNOR,NO,Norway,305470,World Bank dataOMN,OM,Oman,309500,World Bank dataPAK,PK,Pakistan,770880,World Bank dataPLW,PW,Palau,460,World Bank dataPAN,PA,Panama,74340,World Bank dataPNG,PG,Papua New Guinea,452860,World Bank dataPRY,PY,Paraguay,397300,World Bank dataPER,PE,Peru,1280000,World Bank dataPHL,PH,Philippines,298170,World Bank dataPOL,PL,Poland,304200,World Bank dataPRT,PT,Portugal,91470,World Bank dataPRI,PR,Puerto Rico,8870,World Bank dataQAT,QA,Qatar,11590,World Bank dataROU,RO,Romania,230060,World Bank dataRUS,RU,Russian Federation,16376870,World Bank dataRWA,RW,Rwanda,24670,World Bank dataWSM,WS,Samoa,2830,World Bank dataSMR,SM,San Marino,60,World Bank dataSTP,ST,Sao Tome and Principe,960,World Bank dataSAU,SA,Saudi Arabia,2149690,World Bank dataSEN,SN,Senegal,192530,World Bank dataSRB,RS,Serbia,87460,World Bank dataSYC,SC,Seychelles,460,World Bank dataSLE,SL,Sierra Leone,71620,World Bank dataSGP,SG,Singapore,700,World Bank dataSXM,SX,Sint Maarten (Dutch part),34,World Bank dataSVK,SK,Slovak Republic,48090,World Bank dataSVN,SI,Slovenia,20140,World Bank dataSLB,SB,Solomon Islands,27990,World Bank dataSOM,SO,Somalia,627340,World Bank dataZAF,ZA,South Africa,1214470,World Bank dataESP,ES,Spain,498800,World Bank dataLKA,LK,Sri Lanka,62710,World Bank dataKNA,KN,St. Kitts and Nevis,260,World Bank dataLCA,LC,St. Lucia,610,World Bank dataMAF,MF,St. Martin (French part),54.4,World Bank dataVCT,VC,St. Vincent and the Grenadines,390,World Bank dataSDN,SD,Sudan,2376000,World Bank dataSUR,SR,Suriname,156000,World Bank dataSWZ,SZ,Swaziland,17200,World Bank dataSWE,SE,Sweden,410340,World Bank dataCHE,CH,Switzerland,40000,World Bank dataSYR,SY,Syrian Arab Republic,183630,World Bank dataTJK,TJ,Tajikistan,139960,World Bank dataTZA,TZ,Tanzania,885800,World Bank dataTHA,TH,Thailand,510890,World Bank dataTLS,TL,Timor-Leste,14870,World Bank dataTGO,TG,Togo,54390,World Bank dataTON,TO,Tonga,720,World Bank dataTTO,TT,Trinidad and Tobago,5130,World Bank dataTUN,TN,Tunisia,155360,World Bank dataTUR,TR,Turkey,769630,World Bank dataTKM,TM,Turkmenistan,469930,World Bank dataTCA,TC,Turks and Caicos Islands,950,World Bank dataTUV,TV,Tuvalu,30,World Bank dataUGA,UG,Uganda,199810,World Bank dataUKR,UA,Ukraine,579320,World Bank dataARE,AE,United Arab Emirates,83600,World Bank dataGBR,GB,United Kingdom,241930,World Bank dataUSA,US,United States,9147420,World Bank dataURY,UY,Uruguay,175020,World Bank dataUZB,UZ,Uzbekistan,425400,World Bank dataVUT,VU,Vanuatu,12190,World Bank dataVEN,VE,"Venezuela, RB",882050,World Bank dataVNM,VN,Vietnam,310070,World Bank dataVIR,VI,Virgin Islands (U.S.),350,World Bank dataPSE,PS,West Bank and Gaza,6020,World Bank dataYEM,YE,"Yemen, Rep.",527970,World Bank dataZMB,ZM,Zambia,743390,World Bank dataZWE,ZW,Zimbabwe,386850,World Bank data,EH,Western Sahara,266000,CIA World Factbook data,TW,Taiwan,32260,CIA World Factbook data

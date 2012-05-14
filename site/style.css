@@ -544,8 +544,15 @@ path {
 	}
 	
 .sources {
-			font-size: 12px;
-			line-height: 16px;
-			color: #444;
-			}
-	
+	font-size: 12px;
+	line-height: 16px;
+	color: #444;
+	}
+
+#sourcesbox	 {
+	background: rgb(228,228,228);
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 30px 0 40px;
+	}	
