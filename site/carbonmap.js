@@ -119,7 +119,7 @@ function carbonmapDataLoaded() {
             $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
             $("#selectedcountryrank2").text(_rank(dataset, selected_country.id));
         } else {
-            $("#selectedcountrydataresult2").html("Choose a map to see data here");
+            $("#selectedcountrydataresult2").html("Choose a topic above the map to see data here");
             $("#selectedcountryrank2").html("");
         }
 
