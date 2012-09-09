@@ -2,6 +2,8 @@
 
 set -ex
 
+export PYTHONIOENCODING=utf-8
+
 simplification=50000
 simplification_json='{"AU": 30000, "NZ": 30000}'
 
