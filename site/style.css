@@ -2,13 +2,17 @@
 
 html {
 	}
-	
+
 body {
 	background: #777;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
 	}
-	
+
+iframe {
+	border: none;
+}
+
 #wrapper {
 	width: 1024px;
 	margin-right:auto;
