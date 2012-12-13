@@ -1,0 +1,3 @@
+[submodule "cartograms"]
+	path = cartograms
+	url = git@github.com:kiln/cartograms.git
