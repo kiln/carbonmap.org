@@ -544,7 +544,7 @@ path {
 .abouttext a:hover,
 .abouttext a:active {
 		color: black;
-		text-decoration: underline dotted 1px;		
+		text-decoration: underline dotted 1px;
 	}
 	
 .sources {
