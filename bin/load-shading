@@ -16,36 +16,36 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     
     for f in $all_datasets
     do
-        if [ -e carbonmap/data/Shading/With\ alpha-2/"$f".csv ]
+        if [ -e data/Shading/With\ alpha-2/"$f".csv ]
         then
             echo >&3 "/* $f */"
-            carbonmap/bin/shading-css --class="shading-$f" --shading carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv --data carbonmap/data/Shading/With\ alpha-2/"$f".csv >&3
-            carbonmap/bin/shading-css --shading carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv --data carbonmap/data/Shading/With\ alpha-2/"$f".csv > carbonmap/data/Shading/CSS/"$f".css
+            bin/shading-css --class="shading-$f" --shading data/Shading/With\ alpha-2/"$f".shading.csv --data data/Shading/With\ alpha-2/"$f".csv >&3
+            bin/shading-css --shading data/Shading/With\ alpha-2/"$f".shading.csv --data data/Shading/With\ alpha-2/"$f".csv > data/Shading/CSS/"$f".css
             
             echo -n >&4 "carbonmap_shading.$f = "
-            carbonmap/bin/shading-js "$f" carbonmap/data/Shading/With\ alpha-2/"$f".text.md carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv >&4
+            bin/shading-js "$f" data/Shading/With\ alpha-2/"$f".text.md data/Shading/With\ alpha-2/"$f".shading.csv >&4
             echo >&4 ";"
         fi
     done
-) 3> carbonmap/site/shading.css 4> carbonmap/site/data.shading.js
+) 3> site/shading.css 4> site/data.shading.js
 
 (
     for f in $all_datasets
     do
         echo -n "carbonmap_values.$f = "
-        bin/csv-to-json --key Alpha-2 --value "$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" carbonmap/data/Shading/With\ alpha-2/$f.csv
+        cartograms/bin/csv-to-json --key Alpha-2 --value "$(cartograms/bin/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" data/Shading/With\ alpha-2/$f.csv
         echo ';'
 
         # You can make a (presumably empty) file like Continents.no-rank
         # to indicate that it doesn’t make sense to assign ranks to a dataset.
-        if [ ! -e carbonmap/data/Shading/With\ alpha-2/"$f".no-rank ]
+        if [ ! -e data/Shading/With\ alpha-2/"$f".no-rank ]
         then
             echo -n "carbonmap_rank.$f = "
-            bin/csv-to-json --rank --key Alpha-2 --value "$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float carbonmap/data/Shading/With\ alpha-2/$f.csv
+            cartograms/bin/csv-to-json --rank --key Alpha-2 --value "$(cartograms/bin/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float data/Shading/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
-) >> carbonmap/site/data.shading.js
+) >> site/data.shading.js
 
 # Generate a spreadsheet showing all the shading data
 (
@@ -53,7 +53,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     for f in $all_datasets
     do
         echo -n ",$f"
-        if head -1 "carbonmap/data/Shading/With alpha-2/$f.csv" | egrep -q ',Notes(,|$)'
+        if head -1 "data/Shading/With alpha-2/$f.csv" | egrep -q ',Notes(,|$)'
         then
             echo -n ",($f notes)"
             eval has_notes_$f=true
@@ -66,7 +66,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     echo -n ","
     for f in $all_datasets
     do
-        col="$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)"
+        col="$(cartograms/bin/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)"
         echo -n ",\"$col\""
         eval \${has_notes_$f} && echo ,
     done
@@ -76,7 +76,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     for f in $all_datasets
     do
         echo -n ',"'
-        perl -pe 's/"/""/g' "carbonmap/data/Shading/With alpha-2/$f.text.md"
+        perl -pe 's/"/""/g' "data/Shading/With alpha-2/$f.text.md"
         echo -n '"'
         eval \${has_notes_$f} && echo -n ,
     done
@@ -86,15 +86,15 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     (
         echo "key: Alpha-2"
         echo "files:"
-        echo "- file: data/continents.csv"
+        echo "- file: cartograms/data/continents.csv"
         echo "  key: iso2"
         echo "  values: [name]"
         for f in $all_datasets
         do
-            col="$(bin/csv-header --index=0 carbonmap/data/Shading/With\ alpha-2/"$f".shading.csv)"
+            col="$(cartograms/bin/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)"
             eval has_notes=\${has_notes_$f}
             
-            echo "- file: carbonmap/data/Shading/With alpha-2/$f.csv"
+            echo "- file: data/Shading/With alpha-2/$f.csv"
             echo "  values:"
             echo "  - $col"
             if $has_notes
@@ -102,5 +102,5 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
                 echo "  - Notes"
             fi
         done
-    ) | bin/csv-join
-) > carbonmap/site/shading-data.csv
+    ) | cartograms/bin/csv-join
+) > site/shading-data.csv
