@@ -153,40 +153,36 @@ function carbonmapDataLoaded() {
                 timer = null
             }
             
-            showFrame(current_path_by_country, data, x);
+            for (var k in data) {
+                if (!data.hasOwnProperty(k)) continue;
+                
+                var country_path = document.getElementById(k);
+                var new_path = data[k];
+                if (country_path != null) {
+                    var country = country_path.id;
+                    var original_path = current_path_by_country[country];
+                    var original_path_els = original_path.split(" ");
+                    var new_path_els = new_path.split(" ");
+                    
+                    var intermediate_path_els = [];
+                    for (var j = 0; j < original_path_els.length; j++) {
+                        var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
+                        if (isNaN(a)) {
+                            intermediate_path_els[j] = original_path_els[j];
+                        }
+                        else {
+                            intermediate_path_els[j] = Math.round( (1-x) * a + x * b );
+                        }
+                    }
+                    var intermediate_path = intermediate_path_els.join(" ");
+                    country_path.setAttribute("d", intermediate_path);
+                    current_path_by_country[country] = intermediate_path;
+                }
+            }
         }, animation_millis/frames);
     };
-    
-    var showFrame = function(old_data, new_data, x) {
-        for (var k in new_data) {
-            if (!new_data.hasOwnProperty(k)) continue;
-            
-            var country_path = document.getElementById(k);
-            var new_path = new_data[k];
-            if (country_path != null) {
-                var country = country_path.id;
-                var original_path = old_data[country];
-                var original_path_els = original_path.split(" ");
-                var new_path_els = new_path.split(" ");
-                
-                var intermediate_path_els = [];
-                for (var j = 0; j < original_path_els.length; j++) {
-                    var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
-                    if (isNaN(a)) {
-                        intermediate_path_els[j] = original_path_els[j];
-                    }
-                    else {
-                        intermediate_path_els[j] = Math.round( (1-x) * a + x * b );
-                    }
-                }
-                var intermediate_path = intermediate_path_els.join(" ");
-                country_path.setAttribute("d", intermediate_path);
-                current_path_by_country[country] = intermediate_path;
-            }
-        }
-    };
 
-    var setDataset = function(new_dataset, do_not_animate) {
+    var setDataset = function(new_dataset) {
         dataset = new_dataset;
         if (dataset in carbonmap_data) {
             var data = carbonmap_data[dataset];
@@ -210,10 +206,7 @@ function carbonmapDataLoaded() {
             update_infobox();
 
             // Animate the map to the chosen configuration
-            if (do_not_animate) {
-                // Do not animate
-            }
-            else if (Modernizr.smil) {
+            if (Modernizr.smil) {
                 var animate_elements = [];
                 var redundant_animate_elements = $();
                 for (var k in data) {
@@ -285,23 +278,7 @@ function carbonmapDataLoaded() {
 
         // Which menu item was chosen?
         if (location.hash && location.hash != "#") {
-            var selector = location.hash.substr(1);
-            var selector_parts = selector.split("/");
-            if (selector_parts.length == 1) {
-                setDataset(selector);
-            }
-            else {
-                var animate_elements = document.getElementsByTagName("animate");
-                while (animate_elements.length > 0) {
-                    var e = animate_elements.item();
-                    e.parentNode.removeChild(e);
-                }
-                setDataset(selector_parts[0], true);
-                showFrame(
-                    carbonmap_data[selector_parts[1]], carbonmap_data[selector_parts[0]],
-                    parseFloat(selector_parts[2])
-                );
-            }
+            setDataset(location.hash.substr(1));
         }
         else {
             setDataset("_raw");
