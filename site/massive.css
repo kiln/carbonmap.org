@@ -438,7 +438,11 @@ path {
 
 #shadedropdown,
 #shadedropdown option {
-	font-size: 33em;
+	font-size: 33px;
+	-webkit-appearance: none;
+	border: none;
+	font-weight: bold;
+	font-family: Helvetica;
 }
 
 #legendbox {
