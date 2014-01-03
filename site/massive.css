@@ -107,8 +107,8 @@ h3 {
 	}
 
 #contents {
-	font-size: 14px;
-	padding: 14px 20px 20px 20px;
+	font-size: 42px;
+	padding: 42px 60px 60px 60px;
 	height: auto;
 	}
 	
@@ -204,7 +204,7 @@ h3 {
 	display: inline-block;
 	font-size: 60px;
 	font-weight: bold;
-	padding: 12px 24px;
+	padding: 12px 18px;
 	-moz-border-bottom-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	-moz-border-bottom-left-radius: 15px;
@@ -232,16 +232,6 @@ h3 {
 	width: 3070px;
 	}
 
-#play-intro {
-	background: url(playsymbol.png);
-	width: 3094px;
-	height: 1575px;
-	position: absolute;
-	top: 0;
-	cursor: pointer;
-	display: none;
-}
-	
 #maparea {
 	height: 1688px;
 	position: relative;
@@ -445,6 +435,11 @@ path {
 	font-size: 36px;
 	font-weight: normal;
 	}
+
+#shadedropdown,
+#shadedropdown option {
+	font-size: 33em;
+}
 
 #legendbox {
 	padding: 0 0 12px 0;
