@@ -25,7 +25,7 @@ $(function() {
         })();
     };
 
-    loadAsync("data.js?v=20121213");
+    loadAsync("data-massive.js");
 });
 
 function carbonmapDataLoaded() {
