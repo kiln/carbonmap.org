@@ -20,7 +20,7 @@ do
         if [ ! -e "$filename-full.png" ]
         then
             echo >&2 "Rendering $filename..."
-            t=$(bc <<< "scale=2; $j/($FPS-1)")
+            t=$(bc <<< "scale=4; $j/($FPS-1)")
             webkit2png -F "http://carbonmap.local/massive.xhtml#$from/$to/$t" -o "$filename"
         fi
         j=$[$j+1]
