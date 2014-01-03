@@ -6,7 +6,7 @@ MAPS=(_raw Area Population GDP Extraction Emissions Consumption Historical Reser
 
 i=0
 n=${#MAPS[@]}
-while [ $i -lt $[$n+1] ]
+while [ $i -lt $[$n-1] ]
 do
     from=${MAPS[$i]}
     to=${MAPS[$i+1]}
@@ -21,10 +21,9 @@ do
             t=$(bc <<< "scale=2; $j/24")
             webkit2png -F "http://carbonmap.local/massive.xhtml#$from/$to/$t" -o "$filename"
         fi
-        ffmpeg -y -i 4k-video/"$to"-%02d-full.png -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-video/"$to".mov
         j=$[$j+1]
     done
     
-    exit
+    ffmpeg -y -i 4k-video/"$to"-%02d-full.png -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-video/"$to".mov
     i=$[$i+1]
 done
