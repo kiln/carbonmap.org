@@ -5,8 +5,15 @@ var carbonmap_shading = {};
 var carbonmap_data_loaded = false;
 var carbonmap_timer;
 
-$(function() {
+(function(query, re, match) {
+    // Collect query string parameters
+    window.params = {};
+    while (match = re.exec(query)) {
+        window.params[decodeURIComponent(match[1])] = decodeURIComponent(match[2]);
+    }
+})(window.location.search.substring(1).replace(/\+/g, "%20"), /([^&=]+)=?([^&]*)/g);
 
+$(function() {
     // After five seconds, show a "loading" ticker
     carbonmap_timer = setTimeout(function() {
         carbonmap_timer = null;
@@ -105,7 +112,7 @@ function carbonmapDataLoaded() {
     };
 
     var dataset;
-    var shading = "Continents";
+    var shading = params.shading || "Continents";
     var update_infobox = function(selected_country) {
         if (typeof selected_country === "undefined") {
             var selected_countries = document.getElementsByClassName("selected-country");
@@ -323,7 +330,7 @@ function carbonmapDataLoaded() {
         $("#maparea").attr("class", "shading-" + shading);
         $("#legendbox").html(carbonmap_shading[shading]);
         update_infobox();
-    }).change();
+    }).val(shading).change();
 
     $(document.getElementsByClassName("country")).click(function() {
         // Hop out of welcome mode if someone clicks a country, unless the intro is playing
@@ -388,7 +395,7 @@ function carbonmapDataLoaded() {
         
             //console.log(this.currentTime); // Handy for quickly eyeballing timecodes
             var new_dataset = "";
-            var new_shading = "Continents";
+            var new_shading = params.shading || "Continents";
             for (var i = 0; i < track_animations.length; i++) {
                 if (track_animations[i][0] > this.currentTime)
                     break;
