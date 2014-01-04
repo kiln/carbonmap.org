@@ -290,9 +290,6 @@ path {
 
 .country {
 	cursor: pointer;
-	-webkit-transition: fill 0.3s ease-in;
-	-moz-transition: fill 0.3s ease-in;
-	transition: fill 0.3s ease-in;
 }
 
 .selected-country {
