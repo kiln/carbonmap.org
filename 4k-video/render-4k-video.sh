@@ -25,16 +25,18 @@ do
     j=0
     while [ $j -lt $FPS ]
     do
-        filename="4k-video/$i-$(printf %02d $j)"
+        filename="4k-output/$i-$(printf %02d $j)"
         if [ ! -e "$filename-full.png" ]
         then
             echo >&2 "Rendering $filename..."
             t=$(bc <<< "scale=4; $j/($FPS-1)")
-            webkit2png -F "$url#$from/$to/$t" -o "$filename"
+            webkit2png -F "$url#$to/$from/$t" -o "$filename"
         fi
         j=$[$j+1]
     done
     
-    ffmpeg -y -i 4k-video/"$i"-%02d-full.png -r $FPS -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-output/"$i-$ft".mov
+    ffmpeg -y -i 4k-output/"$i"-%02d-full.png -r $FPS -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-output/"$ft".mov
+    rm 4k-output/"$i"-*-full.png
+    
     i=$[$i+1]
 done
