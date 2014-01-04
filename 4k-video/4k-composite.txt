@@ -1,0 +1,43 @@
+file '4k-output/_raw.freeze-6.5.mov'
+# [6.5, "Area"],
+file '4k-output/_raw-Area.mov'
+file '4k-output/Area.freeze-5.mov'
+# [12.5, "Population"],
+file '4k-output/Area-Population.mov'
+file '4k-output/Population.freeze-2.mov'
+# [15.5, "GDP"],
+file '4k-output/Population-GDP.mov'
+file '4k-output/GDP.freeze-9.mov'
+#
+# [25.5, "Extraction"],
+file '4k-output/GDP-Extraction.mov'
+file '4k-output/Extraction.freeze-1.mov'
+# [27.5, "Emissions"],
+file '4k-output/Extraction-Emissions.mov'
+file '4k-output/Emissions.freeze-1.mov'
+# [29.5, "Consumption"],
+file '4k-output/Emissions-Consumption.mov'
+file '4k-output/Consumption.freeze-2.5.mov'
+# [33, "Historical"],
+file '4k-output/Consumption-Historical.mov'
+file '4k-output/Historical.freeze-3.mov'
+# [37, "Reserves"],
+file '4k-output/Historical-Reserves.mov'
+file '4k-output/Reserves.freeze-8.mov'
+#
+# [46, "PeopleAtRisk"],
+file '4k-output/Reserves-PeopleAtRisk.mov'
+file '4k-output/PeopleAtRisk.freeze-6.mov'
+#
+# [53, "_raw"],
+file '4k-output/PeopleAtRisk-_raw.mov'
+file '4k-output/_raw.freeze-3.mov'
+
+
+# [57, "PopulationGrowth"],
+#
+# [64, "Emissions"],
+# [71, "PeopleAtRisk"],
+# 
+# [78, "_raw"],
+# [78, "Continents"]
