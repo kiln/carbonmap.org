@@ -32,12 +32,18 @@ file '4k-output/PeopleAtRisk.freeze-6.mov'
 # [53, "_raw"],
 file '4k-output/PeopleAtRisk-_raw.mov'
 file '4k-output/_raw.freeze-3.mov'
-
-
 # [57, "PopulationGrowth"],
+file '4k-output/_raw-_raw-PopulationGrowth.mov'
+file '4k-output/_raw-PopulationGrowth.freeze-6.mov'
 #
 # [64, "Emissions"],
+file '4k-output/_raw-PopulationGrowth-Emissions-PopulationGrowth.mov'
+file '4k-output/Emissions-PopulationGrowth.freeze-6.mov'
 # [71, "PeopleAtRisk"],
+file '4k-output/Emissions-PopulationGrowth-PeopleAtRisk-PopulationGrowth.mov'
+file '4k-output/PeopleAtRisk-PopulationGrowth.freeze-6.mov'
 # 
 # [78, "_raw"],
 # [78, "Continents"]
+file '4k-output/PeopleAtRisk-PopulationGrowth-_raw.mov'
+file '4k-output/_raw.freeze-9.mov'

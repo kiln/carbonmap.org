@@ -31,3 +31,4 @@ do
 done
 
 ffmpeg -f concat -i 4k-video/4k-composite.txt -c copy 4k-output/composite.mov
+ffmpeg -i 4k-output/composite.mov -i site/intro.mp3 -map 0 -map 1 -c copy 4k-output/composite-with-audio.mov
