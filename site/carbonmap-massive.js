@@ -83,6 +83,19 @@ function carbonmapDataLoaded() {
         return value + " " + unit;
     };
     
+    var ease = function(t) {
+        if (params.easing == "cubic") {
+            var t2 = t * t, t3 = t2 * t;
+            return 4 * (t < .5 ? t3 : 3 * (t - t2) + t3 - .75);
+        }
+        else if (params.easing == "sin") {
+            return Math.pow(Math.sin(t*Math.PI/2), 2);
+        }
+        else {
+            return t;
+        }
+    }
+    
     var count = {};
     var _rank = function(dataset, key) {
         var rank = carbonmap_rank[dataset][key];
@@ -118,7 +131,7 @@ function carbonmapDataLoaded() {
         
         var to_shading = parts[0],
             from_shading = parts[1],
-            t = parseFloat(parts[2]);
+            t = ease(parseFloat(parts[2]));
         
         $("#maparea").attr("class", "shading-" + from_shading);
         var countries = document.getElementsByClassName("country");
@@ -320,7 +333,7 @@ function carbonmapDataLoaded() {
                 setDataset(selector_parts[0], true);
                 showFrame(
                     carbonmap_data[selector_parts[1]], carbonmap_data[selector_parts[0]],
-                    parseFloat(selector_parts[2])
+                    ease(parseFloat(selector_parts[2]))
                 );
             }
         }
