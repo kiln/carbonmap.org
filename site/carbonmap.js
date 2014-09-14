@@ -7,6 +7,20 @@ var carbonmap_timer;
 
 $(function() {
 
+	// Query string parameters
+	var parameters = {};
+	(function (query, re, match) {
+		while (match = re.exec(query)) {
+			parameters[decodeURIComponent(match[1])] = decodeURIComponent(match[2]);
+		}
+	})(window.location.search.substring(1).replace(/\+/g, "%20"), /([^&=]+)=?([^&]*)/g);
+
+	// Hide header row if required
+	if (parameters.header == "hidden") {
+		$("#masthead").hide();
+		$("#navigation").style("top", "0px");
+	}
+
     // After five seconds, show a "loading" ticker
     carbonmap_timer = setTimeout(function() {
         carbonmap_timer = null;
