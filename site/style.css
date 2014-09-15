@@ -611,6 +611,14 @@ path {
 
 @media screen and (max-width: 800px) {
 
+	#masthead {
+		height: 50px;
+	}
+
+	#header-title {
+		top: 28px;
+	}
+	
 	.navblock {
 		display: block;
 		text-align: center;
@@ -646,17 +654,6 @@ path {
 }
 
 @media screen and (max-width: 450px) {
-
-	body {
-		width: 320px;
-	}
-
-	#masthead {
-		height: 50px;
-	}
-	#header-title {
-		top: 28px;
-	}
 	
 	.navtitle {
 		display: none;
