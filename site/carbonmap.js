@@ -264,7 +264,6 @@ function carbonmapDataLoaded() {
         track.play();
         $("#pause-icon").show();
         $("#play-icon").hide();
-        console.log(play_button_in_middle)
         if (play_button_in_middle) {
             $("#play-intro")
                 .delay(3000)
@@ -401,8 +400,24 @@ function carbonmapDataLoaded() {
             [78, "Continents"]
         ];
         track.addEventListener("timeupdate", function() {
+            // We want to do this part even if paused
+            $("#talkie-player-segment")
+                .attr("d", function() {
+                    var dot_radius = 50;
+                    var p = track.currentTime/track.duration;
+                    var s = "M 0 0 v [r]";
+                    if (p > 0.5) s += " A [r] [r] 0 0 1 0 -[r]";
+                    s += " A [r] [r] 0 0 1 [x] [y] z";
+
+                    s = s.replace(/\[r\]/g, dot_radius);
+                    s = s.replace(/\[x\]/g, -dot_radius * Math.sin(2 * Math.PI * p));
+                    s = s.replace(/\[y\]/g, dot_radius * Math.cos(2 * Math.PI * p));
+
+                    return s
+                });
+
             if (track.paused) return;
-        
+
             //console.log(this.currentTime); // Handy for quickly eyeballing timecodes
             var new_dataset = "";
             var new_shading = "Continents";
@@ -419,20 +434,6 @@ function carbonmapDataLoaded() {
             if (new_dataset !== dataset) {
                 setDataset(new_dataset);
             }
-            $("#talkie-player-segment")
-                .attr("d", function() { 
-                    var dot_radius = 50;
-                    var p = track.currentTime/track.duration;
-                    var s = "M 0 0 v [r]";
-                    if (p > 0.5) s += " A [r] [r] 0 0 1 0 -[r]";
-                    s += " A [r] [r] 0 0 1 [x] [y] z";
-
-                    s = s.replace(/\[r\]/g, dot_radius);
-                    s = s.replace(/\[x\]/g, -dot_radius * Math.sin(2 * Math.PI * p));
-                    s = s.replace(/\[y\]/g, dot_radius * Math.cos(2 * Math.PI * p));
-
-                    return s
-                })
         }, false);
         track.addEventListener("play", function() {
             document.location.hash = "#intro";
@@ -445,9 +446,27 @@ function carbonmapDataLoaded() {
             $("#pause-icon").hide();
             $("#play-icon").show();
         }, false);
-        $("#play-intro").click(function() {
+        $("#play-intro #talkie-player-inner").click(function() {
             if (track.paused) playIntro();
             else pauseIntro();
         });
+        var pt = map.createSVGPoint(),
+            scrubbing = false;
+        $("#play-intro #talkie-player-outer")
+            .on("mousedown", function() { scrubbing = true; return false; })
+            .on("mousedown mousemove", function(ev) {
+                if (!scrubbing) return;
+                var bbox = this.getBBox();
+                pt.x = ev.clientX;
+                pt.y = ev.clientY;
+                pt = pt.matrixTransform(this.getScreenCTM().inverse());
+                var x = pt.x - bbox.width/2,
+                    y = pt.y - bbox.height/2;
+                    theta = Math.PI/2 + Math.atan2(y, x);
+                while (theta < 0) theta += Math.PI * 2;
+                var t = track.duration * theta / (Math.PI*2);
+                track.currentTime = t;
+            });
+        $(document).on("mouseup mouseleave", function() { scrubbing = false; })
     }
 }

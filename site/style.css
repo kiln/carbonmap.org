@@ -235,6 +235,7 @@ h3 {
 #talkie-player-segment {
 	stroke: white;
 	fill: #eee;
+	pointer-events: none;
 }
 
 #title {
