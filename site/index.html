@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html>
 	<head>
+		<meta charset="utf-8">
 		<title>The carbon map</title>
-		<link href='style.css' rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" href="/font-awesome-4.0.3/css/font-awesome.min.css" />
-		<meta property="og:image" content="carbonmap.png" />
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/font-awesome-4.0.3/css/font-awesome.min.css">
+		<meta property="og:image" content="carbonmap.png">
 		<script type="text/javascript" src="modernizr.js"></script>
 		<script type="text/javascript">
 			if (!Modernizr.hashchange || !Modernizr.svg || typeof document.getElementsByClassName === "undefined") {
@@ -12,7 +13,7 @@
 			}
 		</script>
 
-		<link href='shading.css' rel='stylesheet' type='text/css' />
+		<link href='shading.css' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript">//<![CDATA[
 			var carbonmap_data_description = {
@@ -143,9 +144,9 @@
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map" viewBox="915 -140 2153 1880">
 						<path id="bounds" d="M 0 0 L 3280 0 3280 1800 0 1800 Z"/>
 					</svg>
-					<div id="map-placeholder" />
+					<div id="map-placeholder">
 					<div id="loading">
-						<img src="black-002-loading.gif" />
+						<img src="black-002-loading.gif">
 						<div>Loading maps…</div>
 					</div>
 
@@ -172,8 +173,8 @@
 						<path id="pause-icon" pointer-events="none" class="play-pause" transform="translate(4,6)" d="M36.499,63.559H29.98L26.72,60.3V27.701l3.26-3.26h6.519l3.157,3.26V60.3L36.499,63.559z M62.475,63.559h-6.519L52.695,60.3V27.701l3.261-3.26h6.519l3.157,3.26V60.3L62.475,63.559z"></path>
 					</svg>
 					<audio id="intro-track" style="width: 100%; margin-top: 20px;">
-						<source src="intro.ogg" type="audio/ogg" />
-						<source src="intro.mp3" type="audio/mpeg" />
+						<source src="intro.ogg" type="audio/ogg">
+						<source src="intro.mp3" type="audio/mpeg">
 					</audio>
 				</div>
 			</div>

@@ -1,12 +1,4 @@
-DirectoryIndex index.xhtml
-
-# If we serve application/xml+xhtml to IE 8 and below, they will
-# just pop up a download prompt rather than rendering the page;
-# so use text/html instead.
-RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} .*MSIE\ [5678]\..*
-RewriteCond %{REQUEST_URI} /$
-RewriteRule .* - [T=text/html]
+DirectoryIndex index.html
 
 # This would allow pre-compressed files, but for now let’s not
 #Options MultiViews
@@ -23,4 +15,6 @@ RewriteRule .* - [T=text/html]
 </IfModule>
 
 Redirect permanent /downloads/CarbonMapScreenGrab.mov http://www.carbonmap.org/downloads/CarbonMap.mov
+
+Redirect permanent /guardian /?header=hidden
 
