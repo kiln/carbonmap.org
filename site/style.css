@@ -354,24 +354,23 @@ h3 {
 
 #loading {
 	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-	display: none;
+	top: 120px;
+	left: 0;
+	width: 100%;
+	opacity: 0; /* Until we do it properly */
+
 }
 #loading img {
-	position: absolute;
-	left: 300px; top: 144px;
 	width: 220px;
-	height: 19px;
+	margin: 0 auto;
 }
+
 #loading div {
 	color: #555;
 	size: 14px;
 	font-weight: bold;
 	text-align: center;
-
-	position: absolute;
-	left: 300px; top: 167px;
-	width: 220px;
+	display: none;
 }
 
 svg {
