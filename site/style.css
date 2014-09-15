@@ -65,6 +65,7 @@ iframe {
 	font-size: 20px;
 	font-weight: bold;
 	line-height: 1.1;
+	position: relative;
 }
 
 #header-title .year,
@@ -208,7 +209,6 @@ h3 {
 	height: 200px;
 	margin: -100px 0 0 -100px;
 	z-index: 20;
-	cursor: pointer;
 	opacity: 0.9;
 }
 
@@ -216,12 +216,25 @@ h3 {
 	opacity: 1;
 }
 
+#talkier-player-inner {
+	cursor: pointer;
+}
+
 #play-icon {
 	display: block;
+	stroke: none;
+	fill: white;
 }
 
 #pause-icon {
 	display: none;
+	stroke: none;
+	fill: white;
+}
+
+#talkie-player-segment {
+	stroke: white;
+	fill: #eee;
 }
 
 #title {
@@ -370,20 +383,20 @@ svg {
 	stroke: none;
 }
 
-#map svg path {
+path {
 	stroke: white;
 	stroke-width: 1;
 	fill: #DDD; /* Used for countries with no data */
 }
 
-#map svg .country {
+.country {
 	cursor: pointer;
 	-webkit-transition: fill 0.3s ease-in;
 	-moz-transition: fill 0.3s ease-in;
 	transition: fill 0.3s ease-in;
 }
 
-#map svg .selected-country {
+.selected-country {
 	fill: #555 !important;
 }
 
@@ -405,14 +418,14 @@ svg {
 	font-size: 17px;
 }
 
-#selectedcountryname {
+.infoarea-heading {
 	font-size: 17px;
 	margin-top: 13px;
 	font-weight: bold;
 }
 
 .data-area {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .data-result {
@@ -632,9 +645,22 @@ svg {
 }
 
 @media screen and (max-width: 450px) {
+
+	body {
+		width: 320px;
+	}
+
+	#masthead {
+		height: 50px;
+	}
+	#header-title {
+		top: 28px;
+	}
+	
 	.navtitle {
 		display: none;
 	}
+	
 	.navitemscontainer {
 		display: inline;
 	}

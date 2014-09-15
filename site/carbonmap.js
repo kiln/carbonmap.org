@@ -266,6 +266,27 @@ function carbonmapDataLoaded() {
         }
     };
 
+    var play_button_in_middle = true;
+    function playIntro() {
+        track.play();
+        $("#pause-icon").show();
+        $("#play-icon").hide();
+        console.log(play_button_in_middle)
+        if (play_button_in_middle) {
+            $("#play-intro")
+                .delay(3000)
+                .animate({
+                "position": "absolute",
+                "top": "0%",
+                "left": "100%",
+                "width": "100px",
+                "height": "100px",
+                "margin": "100px 0 0 -125px"
+            }, 1000);
+            play_button_in_middle = false;
+        }
+    }
+    
     var handleHashChange = function() {
         
         if (location.hash === "#intro") {
@@ -274,7 +295,7 @@ function carbonmapDataLoaded() {
             // If we’re here, the audio is almost certainly already playing,
             // but in the case where someone uses the Back button to go back
             // to the intro it’s nice to resume automatically
-            track.play();
+            playIntro();
             
             // Similarly we reset the "welcome" condition, so the audio controls
             // are visible in the sidebar
@@ -286,7 +307,7 @@ function carbonmapDataLoaded() {
         }
         
         // If someone clicks a tab while the intro is running, pause it.
-        if (Modernizr.audio) track.pause();
+        if (Modernizr.audio) pauseIntro();
 
         // If this is the first time a nav link has been clicked,
         // replace the Welcome sidebar with a data sidebar.
@@ -367,7 +388,13 @@ function carbonmapDataLoaded() {
 
         return false;
     });
-
+    
+    function pauseIntro() {
+        track.pause();
+        $("#pause-icon").hide();
+        $("#play-icon").show();
+    }
+    
     // Initially there isn't a country selected
     $("#selectedcountryinfo").hide();
     $("#infoareaunselected").show();
@@ -441,41 +468,9 @@ function carbonmapDataLoaded() {
             $("#pause-icon").hide();
             $("#play-icon").show();
         }, false);
-        $("#pause-icon, #play-icon, #replay-icon").click(function() {
-            if (track.paused) {
-                track.play();
-                $("#pause-icon").show();
-                $("#play-icon").hide();
-                $("#talkie-player-segment")
-                    .attr("d", function() { 
-                        var dot_radius = 50;
-                        var p = track.currentTime/track.duration;
-                        var s = "M 0 0 v [r]";
-                        if (p > 0.5) s += " A [r] [r] 0 0 1 0 -[r]";
-                        s += " A [r] [r] 0 0 1 [x] [y] z";
-
-                        s = s.replace(/\[r\]/g, dot_radius);
-                        s = s.replace(/\[x\]/g, -dot_radius * Math.sin(2 * Math.PI * p));
-                        s = s.replace(/\[y\]/g, dot_radius * Math.cos(2 * Math.PI * p));
-
-                        return s
-                    })
-                $("#play-intro")
-                    .delay(3000)
-                    .animate({ 
-                    "position": "absolute",
-                    "top": "0%",
-                    "left": "100%",
-                    "width": "100px",
-                    "height": "100px",
-                    "margin": "100px 0 0 -125px"
-                }, 2000);
-            }
-            else {
-                track.pause();
-                $("#pause-icon").hide();
-                $("#play-icon").show();
-            }
+        $("#play-intro").click(function() {
+            if (track.paused) playIntro();
+            else pauseIntro();
         });
     }
 }
