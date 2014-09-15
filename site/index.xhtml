@@ -107,29 +107,6 @@
 					</div>
 				</div>
 			</div>
-			<div id="play-intro">
-				<!-- <div id="title-small">The</div>
-				<div id="title">Carbon Map</div> -->
-				<div style="width: 200px; height: 200px" id="talkie-player">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-						<!-- <defs>
-							<path id="curve" d="M 50 50 a 25 25 0 1 1 0 0.1" style="fill:none;"></path>
-						</defs> -->
-						<circle cx="50" cy="50" r="40" fill="rgba(0,0,0,0.3)"></circle>
-						<circle cx="50" cy="50" r="50" fill="rgba(0,0,0,0.3)"></circle>
-						<polygon class="play-icon" fill="white" transform="translate(4,6)" points="67.304,45.832 34.619,67.329 32.47,65.498 32.47,22.258 35.23,20.67 67.304,43.878"></polygon>
-
-						<!-- <text text-anchor="middle" font-weight="bold" x="50" y="50">
-							<textPath xlink:href="#curve">Play intro</textPath>
-						</text> -->
-					</svg>
-				</div>
-				<audio id="intro-track" style="width: 100%; margin-top: 20px;">
-					<source src="intro.ogg" type="audio/ogg" />
-					<source src="intro.mp3" type="audio/mpeg" />
-				</audio>
-				<!-- <div><span class="welcomered">Play intro</span> or <br/><span class="welcomeblue">browse by theme above</span></div> -->
-			</div>
 			<div id="navigation">
 				<div class="navitems navitemsselected" id="nav-_raw">
 					<a href="#"><div id="navglobe"><i class="fa fa-refresh"></i></div></a>
@@ -173,41 +150,54 @@
 					</div>
 
 				</div>
-			</div>
-			<div id="shade">
-				<div id="shade-head">Shade by</div>
-				<form id="shade-form">
-					<select id="shadedropdown">
-						<option value="Continents" selected="selected">Continents</option>
-						<option value="EmissionsChange">Emissions change</option>
-						<option value="CO2perCapita">CO2 per person</option>
-						<option value="GDPperCapita">GDP per person</option>
-						<option value="PopulationGrowth">Population growth</option>
-					</select>
-				</form>
-				<div id="legendbox"></div>
-			</div>
-			<div id="infoarea">
-				<i class="fa fa-info-circle" style="float: left; margin: 12px 5px 0 0; font-size: 20px"></i>
-				<div id="infoareaunselected">
-					<div id="about"></div>
-					<div>Click a country for more information</div>
+				<div id="shade">
+					<div id="shade-head">Shade by</div>
+					<form id="shade-form">
+						<select id="shadedropdown">
+							<option value="Continents" selected="selected">Continents</option>
+							<option value="EmissionsChange">Emissions change</option>
+							<option value="CO2perCapita">CO2 per person</option>
+							<option value="GDPperCapita">GDP per person</option>
+							<option value="PopulationGrowth">Population growth</option>
+						</select>
+					</form>
+					<div id="legendbox"></div>
 				</div>
-				<div id="selectedcountryinfo">
-					<div id="selectedcountrydataarea1" class="data-area">
-						<div id="selectedcountryname">Brazil</div>
+				<div id="play-intro">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+						<circle cx="50" cy="50" r="50" fill="rgba(0,0,0,0.5)"></circle>
+						<path id="talkie-player-segment" transform="translate(50,50) rotate(180)" fill="white"></path>
+						<circle cx="50" cy="50" r="37" fill="rgba(40,40,40,1)"></circle>
+						<polygon id="play-icon" class="play-pause" fill="white" transform="translate(4,6)" points="67.304,45.832 34.619,67.329 32.47,65.498 32.47,22.258 35.23,20.67 67.304,43.878"></polygon>
+						<path id="pause-icon" class="play-pause" fill="white" transform="translate(4,6)" d="M36.499,63.559H29.98L26.72,60.3V27.701l3.26-3.26h6.519l3.157,3.26V60.3L36.499,63.559z M62.475,63.559h-6.519L52.695,60.3V27.701l3.261-3.26h6.519l3.157,3.26V60.3L62.475,63.559z"></path>
+					</svg>
+					<audio id="intro-track" style="width: 100%; margin-top: 20px;">
+						<source src="intro.ogg" type="audio/ogg" />
+						<source src="intro.mp3" type="audio/mpeg" />
+					</audio>
+				</div>
+				<div id="infoarea">
+					<i class="fa fa-info-circle" style="float: left; margin: 12px 5px 0 0; font-size: 20px"></i>
+					<div id="infoareaunselected">
+						<div id="about"></div>
+						<div>Click a country for more information</div>
 					</div>
-					<div id="selectedcountrydataarea2" class="data-area">
-						<div id="selectedcountrydatadescription2" class="data-label"></div>
-						<div id="selectedcountrydataresult2" class="data-result"></div>
-						<div id="selectedcountryrank2" class="data-rank"></div>
+					<div id="selectedcountryinfo">
+						<div id="selectedcountrydataarea1" class="data-area">
+							<div id="selectedcountryname">Brazil</div>
+						</div>
+						<div id="selectedcountrydataarea2" class="data-area">
+							<div id="selectedcountrydatadescription2" class="data-label"></div>
+							<div id="selectedcountrydataresult2" class="data-result"></div>
+							<div id="selectedcountryrank2" class="data-rank"></div>
+						</div>
+						<div id="selectedcountrydataarea3" class="data-area">
+							<div id="selectedcountrydatadescription3" class="data-label"></div>
+							<div id="selectedcountrydataresult3" class="data-result"></div>
+							<div id="selectedcountryrank3" class="data-rank"></div>
+						</div>
+						<div>Click country again to return to map info</div>
 					</div>
-					<div id="selectedcountrydataarea3" class="data-area">
-						<div id="selectedcountrydatadescription3" class="data-label"></div>
-						<div id="selectedcountrydataresult3" class="data-result"></div>
-						<div id="selectedcountryrank3" class="data-rank"></div>
-					</div>
-					<div>Click country again to return to map info</div>
 				</div>
 			</div>
 		</div>
