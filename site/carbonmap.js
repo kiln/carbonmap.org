@@ -260,23 +260,25 @@ function carbonmapDataLoaded() {
     };
 
     var play_button_in_middle = true;
+    function relocatePlayButton(delay, duration) {
+        $("#play-intro")
+            .delay(delay)
+            .animate({
+            "position": "absolute",
+            "top": "0%",
+            "left": "100%",
+            "width": "100px",
+            "height": "100px",
+            "margin": "110px 0 0 -125px"
+        }, duration);
+        play_button_in_middle = false;
+    }
+    
     function playIntro() {
         track.play();
         $("#pause-icon").show();
         $("#play-icon").hide();
-        if (play_button_in_middle) {
-            $("#play-intro")
-                .delay(3000)
-                .animate({
-                "position": "absolute",
-                "top": "0%",
-                "left": "100%",
-                "width": "100px",
-                "height": "100px",
-                "margin": "100px 0 0 -125px"
-            }, 1000);
-            play_button_in_middle = false;
-        }
+        if (play_button_in_middle) relocatePlayButton(3000, 1000);
     }
     
     var handleHashChange = function() {
@@ -297,6 +299,7 @@ function carbonmapDataLoaded() {
             
             return;
         }
+        else if (play_button_in_middle) relocatePlayButton(0, 500);
         
         // If someone clicks a tab while the intro is running, pause it.
         if (Modernizr.audio) pauseIntro();
