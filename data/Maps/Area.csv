@@ -1,245 +1,259 @@
-Country Code,Country Name,Land area (sq. km),
-ARB,Arab World,13621380,
-EAS,East Asia & Pacific (all income levels),24323100,
-EAP,East Asia & Pacific (developing only),15853650,
-EMU,Euro area,2551580,
-ECS,Europe & Central Asia (all income levels),27380719,
-ECA,Europe & Central Asia (developing only),22747797,
-EUU,European Union,4181730,
-HPC,Heavily indebted poor countries (HIPC),19942170,
-HIC,High income,33992482,
-NOC,High income: nonOECD,3168282,
-OEC,High income: OECD,30824200,
-LCN,Latin America & Caribbean (all income levels),20142390,
-LAC,Latin America & Caribbean (developing only),20116230,
-LDC,Least developed countries: UN classification,20165970,
-LMY,Low & middle income,95718237,
-LIC,Low income,15046380,
-LMC,Lower middle income,22786817,
-MEA,Middle East & North Africa (all income levels),11235990,
-MNA,Middle East & North Africa (developing only),8641070,
-MIC,Middle income,80671857,
-NAC,North America,18240980,
-INX,Not classified,,
-OED,OECD members,34281310,
-SAS,South Asia,4771220,
-SSF,Sub-Saharan Africa (all income levels),23616320,
-SSA,Sub-Saharan Africa (developing only),23588270,
-UMC,Upper middle income,57885040,
-WLD,World,129710719,
-AFG,Afghanistan,652230,
-ALB,Albania,27400,
-DZA,Algeria,2381740,
-ASM,American Samoa,200,
-AND,Andorra,470,
-AGO,Angola,1246700,
-ATG,Antigua and Barbuda,440,
-ARG,Argentina,2736690,
-ARM,Armenia,28480,
-ABW,Aruba,180,
-AUS,Australia,7682300,
-AUT,Austria,82430,
-AZE,Azerbaijan,82620,
-BHS,"Bahamas, The",10010,
-BHR,Bahrain,760,
-BGD,Bangladesh,130170,
-BRB,Barbados,430,
-BLR,Belarus,202820,
-BEL,Belgium,30280,
-BLZ,Belize,22810,
-BEN,Benin,110620,
-BMU,Bermuda,50,
-BTN,Bhutan,38390,
-BOL,Bolivia,1083300,
-BIH,Bosnia and Herzegovina,51000,
-BWA,Botswana,566730,
-BRA,Brazil,8459420,
-BRN,Brunei Darussalam,5270,
-BGR,Bulgaria,108560,
-BFA,Burkina Faso,273600,
-BDI,Burundi,25680,
-KHM,Cambodia,176520,
-CMR,Cameroon,472710,
-CAN,Canada,9093510,
-CPV,Cape Verde,4030,
-CYM,Cayman Islands,240,
-CAF,Central African Republic,622980,
-TCD,Chad,1259200,
-CHI,Channel Islands,190,
-CHL,Chile,743530,
-CHN,China,9327480,
-COL,Colombia,1109500,
-COM,Comoros,1860,
-COD,"Congo, Dem. Rep.",2267050,
-COG,"Congo, Rep.",341500,
-CRI,Costa Rica,51060,
-CIV,Cote d'Ivoire,318000,
-HRV,Croatia,55960,
-CUB,Cuba,106440,
-CUW,Curacao,444,
-CYP,Cyprus,9240,
-CZE,Czech Republic,77250,
-DNK,Denmark,42430,
-DJI,Djibouti,23180,
-DMA,Dominica,750,
-DOM,Dominican Republic,48320,
-ECU,Ecuador,248360,
-EGY,"Egypt, Arab Rep.",995450,
-SLV,El Salvador,20720,
-GNQ,Equatorial Guinea,28050,
-ERI,Eritrea,101000,
-EST,Estonia,42390,
-ETH,Ethiopia,1000000,
-FRO,Faeroe Islands,1390,
-FJI,Fiji,18270,
-FIN,Finland,303900,
-FRA,France,547660,
-PYF,French Polynesia,3660,
-GAB,Gabon,257670,
-GMB,"Gambia, The",10000,
-GEO,Georgia,69490,
-DEU,Germany,348610,
-GHA,Ghana,227540,
-GIB,Gibraltar,10,
-GRC,Greece,128900,
-GRL,Greenland,2166086,
-GRD,Grenada,340,
-GUM,Guam,540,
-GTM,Guatemala,107160,
-GIN,Guinea,245720,
-GNB,Guinea-Bissau,28120,
-GUY,Guyana,196850,
-HTI,Haiti,27560,
-HND,Honduras,111890,
-HKG,"Hong Kong SAR, China",1042,
-HUN,Hungary,90530,
-ISL,Iceland,100250,
-IND,India,2973190,
-IDN,Indonesia,1811570,
-IRN,"Iran, Islamic Rep.",1628550,
-IRQ,Iraq,434320,
-IRL,Ireland,68890,
-IMN,Isle of Man,570,
-ISR,Israel,21640,
-ITA,Italy,294140,
-JAM,Jamaica,10830,
-JPN,Japan,364500,
-JOR,Jordan,88780,
-KAZ,Kazakhstan,2699700,
-KEN,Kenya,569140,
-KIR,Kiribati,810,
-PRK,"Korea, Dem. Rep.",120410,
-KOR,"Korea, Rep.",97100,
-KSV,Kosovo,10887,
-KWT,Kuwait,17820,
-KGZ,Kyrgyz Republic,191800,
-LAO,Lao PDR,230800,
-LVA,Latvia,62180,
-LBN,Lebanon,10230,
-LSO,Lesotho,30360,
-LBR,Liberia,96320,
-LBY,Libya,1759540,
-LIE,Liechtenstein,160,
-LTU,Lithuania,62670,
-LUX,Luxembourg,2590,
-MAC,"Macao SAR, China",28,
-MKD,"Macedonia, FYR",25220,
-MDG,Madagascar,581540,
-MWI,Malawi,94280,
-MYS,Malaysia,328550,
-MDV,Maldives,300,
-MLI,Mali,1220190,
-MLT,Malta,320,
-MHL,Marshall Islands,180,
-MRT,Mauritania,1030700,
-MUS,Mauritius,2030,
-MYT,Mayotte,370,
-MEX,Mexico,1943950,
-FSM,"Micronesia, Fed. Sts.",700,
-MDA,Moldova,32890,
-MCO,Monaco,2,
-MNG,Mongolia,1553560,
-MNE,Montenegro,13450,
-MAR,Morocco,446300,
-MOZ,Mozambique,786380,
-MMR,Myanmar,653520,
-NAM,Namibia,823290,
-NPL,Nepal,143350,
-NLD,Netherlands,33730,
-NCL,New Caledonia,18280,
-NZL,New Zealand,263310,
-NIC,Nicaragua,120340,
-NER,Niger,1266700,
-NGA,Nigeria,910770,
-MNP,Northern Mariana Islands,460,
-NOR,Norway,305470,
-OMN,Oman,309500,
-PAK,Pakistan,770880,
-PLW,Palau,460,
-PAN,Panama,74340,
-PNG,Papua New Guinea,452860,
-PRY,Paraguay,397300,
-PER,Peru,1280000,
-PHL,Philippines,298170,
-POL,Poland,304200,
-PRT,Portugal,91470,
-PRI,Puerto Rico,8870,
-QAT,Qatar,11590,
-ROU,Romania,230060,
-RUS,Russian Federation,16376870,
-RWA,Rwanda,24670,
-WSM,Samoa,2830,
-SMR,San Marino,60,
-STP,Sao Tome and Principe,960,
-SAU,Saudi Arabia,2149690,
-SEN,Senegal,192530,
-SRB,Serbia,87460,
-SYC,Seychelles,460,
-SLE,Sierra Leone,71620,
-SGP,Singapore,700,
-SXM,Sint Maarten (Dutch part),34,
-SVK,Slovak Republic,48090,
-SVN,Slovenia,20140,
-SLB,Solomon Islands,27990,
-SOM,Somalia,627340,
-ZAF,South Africa,1214470,
-SSD,South Sudan,,
-ESP,Spain,498800,
-LKA,Sri Lanka,62710,
-KNA,St. Kitts and Nevis,260,
-LCA,St. Lucia,610,
-MAF,St. Martin (French part),54.4,
-VCT,St. Vincent and the Grenadines,390,
-SDN,Sudan,2376000,
-SUR,Suriname,156000,
-SWZ,Swaziland,17200,
-SWE,Sweden,410340,
-CHE,Switzerland,40000,
-SYR,Syrian Arab Republic,183630,
-TJK,Tajikistan,139960,
-TZA,Tanzania,885800,
-THA,Thailand,510890,
-TLS,Timor-Leste,14870,
-TGO,Togo,54390,
-TON,Tonga,720,
-TTO,Trinidad and Tobago,5130,
-TUN,Tunisia,155360,
-TUR,Turkey,769630,
-TKM,Turkmenistan,469930,
-TCA,Turks and Caicos Islands,950,
-TUV,Tuvalu,30,
-UGA,Uganda,199810,
-UKR,Ukraine,579320,
-ARE,United Arab Emirates,83600,
-GBR,United Kingdom,241930,
-USA,United States,9147420,
-URY,Uruguay,175020,
-UZB,Uzbekistan,425400,
-VUT,Vanuatu,12190,
-VEN,"Venezuela, RB",882050,
-VNM,Vietnam,310070,
-VIR,Virgin Islands (U.S.),350,
-PSE,West Bank and Gaza,6020,
-YEM,"Yemen, Rep.",527970,
-ZMB,Zambia,743390,
-ZWE,Zimbabwe,386850,
+Country Name,Country Code,Year,Value
+Aruba,ABW,2013,180
+Andorra,AND,2013,470
+Afghanistan,AFG,2013,652230
+Angola,AGO,2013,1246700
+Albania,ALB,2013,27400
+Andean Region,ANR,,
+Arab World,ARB,2013,13621401
+United Arab Emirates,ARE,2013,83600
+Argentina,ARG,2013,2736690
+Armenia,ARM,2013,28480
+American Samoa,ASM,2013,200
+Antigua and Barbuda,ATG,2013,440
+Australia,AUS,2013,7682300
+Austria,AUT,2013,82409
+Azerbaijan,AZE,2013,82658
+Burundi,BDI,2013,25680
+Belgium,BEL,2013,30280
+Benin,BEN,2013,112760
+Burkina Faso,BFA,2013,273600
+Bangladesh,BGD,2013,130170
+Bulgaria,BGR,2013,108560
+Bahrain,BHR,2013,760
+"Bahamas, The",BHS,2013,10010
+Bosnia and Herzegovina,BIH,2013,51000
+Belarus,BLR,2013,202910
+Belize,BLZ,2013,22810
+Bermuda,BMU,2013,50
+Bolivia,BOL,2013,1083300
+Brazil,BRA,2013,8459420
+Barbados,BRB,2013,430
+Brunei Darussalam,BRN,2013,5270
+Bhutan,BTN,2013,38394
+Botswana,BWA,2013,566730
+Sub-Saharan Africa (IFC classification),CAA,,
+Central African Republic,CAF,2013,622980
+Canada,CAN,2013,9093510
+East Asia and the Pacific (IFC classification),CEA,,
+Central Europe and the Baltics,CEB,2013,1102092
+Europe and Central Asia (IFC classification),CEU,,
+Switzerland,CHE,2013,40000
+Channel Islands,CHI,2013,190
+Chile,CHL,2013,743532
+China,CHN,2013,9327489.9
+Cote d'Ivoire,CIV,2013,318000
+Latin America and the Caribbean (IFC classification),CLA,,
+Middle East and North Africa (IFC classification),CME,,
+Cameroon,CMR,2013,472710
+"Congo, Rep.",COG,2013,341500
+Colombia,COL,2013,1109500
+Comoros,COM,2013,1861
+Cabo Verde,CPV,2013,4030
+Costa Rica,CRI,2013,51060
+South Asia (IFC classification),CSA,,
+Caribbean small states,CSS,2013,404850
+Cuba,CUB,2013,106440
+Curacao,CUW,2013,444
+Cayman Islands,CYM,2013,240
+Cyprus,CYP,2013,9240
+Czech Republic,CZE,2013,77240
+Germany,DEU,2013,348570
+Djibouti,DJI,2013,23180
+Dominica,DMA,2013,750
+Denmark,DNK,2013,42430
+Dominican Republic,DOM,2013,48320
+Algeria,DZA,2013,2381740
+East Asia & Pacific (developing only),EAP,2013,15853429.9
+East Asia & Pacific (all income levels),EAS,2013,24322879.9
+Europe & Central Asia (developing only),ECA,2013,6336799
+Europe & Central Asia (all income levels),ECS,2013,27379578
+Ecuador,ECU,2013,248360
+"Egypt, Arab Rep.",EGY,2013,995450
+Euro area,EMU,2013,2613707
+Eritrea,ERI,2013,101000
+Spain,ESP,2013,498800
+Estonia,EST,2013,42390
+Ethiopia,ETH,2013,1000000
+European Union,EUU,2013,4237681
+Fragile and conflict affected situations,FCS,2013,14389168
+Finland,FIN,2013,303890
+Fiji,FJI,2013,18270
+France,FRA,2013,547660
+Faeroe Islands,FRO,2013,1396
+"Micronesia, Fed. Sts.",FSM,2013,700
+Gabon,GAB,2013,257670
+United Kingdom,GBR,2013,241930
+Georgia,GEO,2013,69490
+Ghana,GHA,2013,227540
+Guinea,GIN,2013,245720
+"Gambia, The",GMB,2013,10120
+Guinea-Bissau,GNB,2013,28120
+Equatorial Guinea,GNQ,2013,28050
+Greece,GRC,2013,128900
+Grenada,GRD,2013,340
+Greenland,GRL,2013,410450
+Guatemala,GTM,2013,107160
+Guam,GUM,2013,540
+Guyana,GUY,2013,196850
+High income,HIC,2013,51322143.4
+"Hong Kong SAR, China",HKG,2013,1042
+Honduras,HND,2013,111890
+Heavily indebted poor countries (HIPC),HPC,2013,19752631
+Croatia,HRV,2013,55960
+Haiti,HTI,2013,27560
+Hungary,HUN,2013,90530
+Indonesia,IDN,2013,1811570
+Isle of Man,IMN,2013,570
+India,IND,2013,2973190
+Not classified,INX,,
+Ireland,IRL,2013,68890
+"Iran, Islamic Rep.",IRN,2013,1628550
+Iraq,IRQ,2013,434320
+Iceland,ISL,2013,100250
+Israel,ISR,2013,21640
+Italy,ITA,2013,294140
+Jamaica,JAM,2013,10830
+Jordan,JOR,2013,88780
+Japan,JPN,2013,364500
+Kazakhstan,KAZ,2013,2699700
+Kenya,KEN,2013,569140
+Kyrgyz Republic,KGZ,2013,191800
+Cambodia,KHM,2013,176520
+Kiribati,KIR,2013,810
+St. Kitts and Nevis,KNA,2013,260
+"Korea, Rep.",KOR,2013,97100
+Kosovo,KSV,2013,10887
+Kuwait,KWT,2013,17820
+Latin America & Caribbean (developing only),LAC,2013,19196980
+Lao PDR,LAO,2013,230800
+Lebanon,LBN,2013,10230
+Liberia,LBR,2013,96320
+Libya,LBY,2013,1759540
+St. Lucia,LCA,2013,610
+Latin America & Caribbean (all income levels),LCN,2013,20142924.4
+Latin America and the Caribbean,LCR,,
+Least developed countries: UN classification,LDC,2013,20165175
+Low income,LIC,2013,14856611
+Liechtenstein,LIE,2013,160
+Sri Lanka,LKA,2013,62710
+Lower middle income,LMC,2013,20785625
+Low & middle income,LMY,2013,78388283.9
+Lesotho,LSO,2013,30360
+Lithuania,LTU,2013,62674
+Luxembourg,LUX,2013,2590
+Latvia,LVA,2013,62200
+"Macao SAR, China",MAC,2013,28
+St. Martin (French part),MAF,2013,54.4
+Morocco,MAR,2013,446300
+Mexico and Central America,MCA,,
+Monaco,MCO,2013,2
+Moldova,MDA,2013,32854
+Madagascar,MDG,2013,581540
+Maldives,MDV,2013,300
+Middle East & North Africa (all income levels),MEA,2013,11236010
+Mexico,MEX,2013,1943950
+Marshall Islands,MHL,2013,180
+Middle income,MIC,2013,63531672.9
+"Macedonia, FYR",MKD,2013,25220
+Mali,MLI,2013,1220190
+Malta,MLT,2013,320
+Myanmar,MMR,2013,653290
+Middle East & North Africa (developing only),MNA,2013,8641070
+Montenegro,MNE,2013,13450
+Mongolia,MNG,2013,1553560
+Northern Mariana Islands,MNP,2013,460
+Mozambique,MOZ,2013,786380
+Mauritania,MRT,2013,1030700
+Mauritius,MUS,2013,2030
+Malawi,MWI,2013,94280
+Malaysia,MYS,2013,328550
+North America,NAC,2013,18240980
+Namibia,NAM,2013,823290
+New Caledonia,NCL,2013,18280
+Niger,NER,2013,1266700
+Nigeria,NGA,2013,910770
+Nicaragua,NIC,2013,120340
+Netherlands,NLD,2013,33730
+High income: nonOECD,NOC,2013,19846294.4
+Norway,NOR,2013,304250
+Nepal,NPL,2013,143350
+New Zealand,NZL,2013,263310
+High income: OECD,OEC,2013,31475849
+OECD members,OED,2013,34279959
+Oman,OMN,2013,309500
+Other small states,OSS,2013,1861075
+Pakistan,PAK,2013,770880
+Panama,PAN,2013,74340
+Peru,PER,2013,1280000
+Philippines,PHL,2013,298170
+Palau,PLW,2013,460
+Papua New Guinea,PNG,2013,452860
+Poland,POL,2013,304150
+Puerto Rico,PRI,2013,8870
+"Korea, Dem. Rep.",PRK,2013,120410
+Portugal,PRT,2013,91470
+Paraguay,PRY,2013,397300
+Pacific island small states,PSS,2013,64180
+French Polynesia,PYF,2013,3660
+Qatar,QAT,2013,11610
+Romania,ROU,2013,230160
+Russian Federation,RUS,2013,16376870
+Rwanda,RWA,2013,24670
+South Asia,SAS,2013,4771224
+Saudi Arabia,SAU,2013,2149690
+Southern Cone Extended,SCE,,
+Sudan,SDN,2013,2376000
+Senegal,SEN,2013,192530
+Singapore,SGP,2013,700
+Solomon Islands,SLB,2013,27990
+Sierra Leone,SLE,2013,71620
+El Salvador,SLV,2013,20720
+San Marino,SMR,2013,60
+Somalia,SOM,2013,627340
+Serbia,SRB,2013,87460
+Sub-Saharan Africa (developing only),SSA,2013,23588781
+South Sudan,SSD,,
+Sub-Saharan Africa (all income levels),SSF,2013,23616831
+Small states,SST,2013,2330105
+Sao Tome and Principe,STP,2013,960
+Suriname,SUR,2013,156000
+Slovak Republic,SVK,2013,48088
+Slovenia,SVN,2013,20140
+Sweden,SWE,2013,410340
+Swaziland,SWZ,2013,17200
+Sint Maarten (Dutch part),SXM,2013,34
+Seychelles,SYC,2013,460
+Syrian Arab Republic,SYR,2013,183630
+Turks and Caicos Islands,TCA,2013,950
+Chad,TCD,2013,1259200
+Togo,TGO,2013,54390
+Thailand,THA,2013,510890
+Tajikistan,TJK,2013,139960
+Turkmenistan,TKM,2013,469930
+Timor-Leste,TLS,2013,14870
+Tonga,TON,2013,720
+Trinidad and Tobago,TTO,2013,5130
+Tunisia,TUN,2013,155360
+Turkey,TUR,2013,769630
+Tuvalu,TUV,2013,30
+Tanzania,TZA,2013,885800
+Uganda,UGA,2013,199810
+Ukraine,UKR,2013,579320
+Upper middle income,UMC,2013,42746047.9
+Uruguay,URY,2013,175020
+United States,USA,2013,9147420
+Uzbekistan,UZB,2013,425400
+St. Vincent and the Grenadines,VCT,2013,390
+"Venezuela, RB",VEN,2013,882050
+Virgin Islands (U.S.),VIR,2013,350
+Vietnam,VNM,2013,310070
+Vanuatu,VUT,2013,12190
+West Bank and Gaza,PSE,2013,6020
+World,WLD,2013,129710427.3
+Samoa,WSM,2013,2830
+"Yemen, Rep.",YEM,2013,527970
+South Africa,ZAF,2013,1213090
+"Congo, Dem. Rep.",COD,2013,2267050
+Zambia,ZMB,2013,743390
+Zimbabwe,ZWE,2013,386850

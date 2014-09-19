@@ -1,168 +1,259 @@
-Alpha-3,Country name,Population living below $1.25 a day,Notes
-AFG,Afghanistan,8534373.908,Estimate based on Nepal as a neighbour with similar GDP per capita
-AGO,Angola,6663668.101,
-ALB,Albania,18187.16572,
-ARE,United Arab Emirates,0,Estimate based on assumption of 0% for high-income countries
-ARG,Argentina,371793.8592,
-ARM,Armenia,36232.80035,
-AUS,Australia,0,Estimate based on assumption of 0% for high-income countries
-AUT,Austria,0,Estimate based on assumption of 0% for high-income countries
-AZE,Azerbaijan,35617.22804,
-BDI,Burundi,5713124.389,
-BEL,Belgium,0,Estimate based on assumption of 0% for high-income countries
-BEN,Benin,3074840.847,
-BFA,Burkina Faso,7027740.438,
-BGD,Bangladesh,64309346.66,
-BGR,Bulgaria,0,
-BHR,Bahrain,31189.51826,Estimate based on regional average
-BIH,Bosnia and Herzegovina,1317.433025,
-BLR,Belarus,8688.232351,
-BLZ,Belize,22302.09,Estimate based on regional aveage
-BOL,Bolivia,1419017.922,
-BRA,Brazil,11452621.65,
-BRN,Brunei Darussalam,0,Estimate based on assumption of 0% for high-income countries
-BTN,Bhutan,64985.2992,
-BWA,Botswana,872896.6657,Estimate based on regional aveage
-CAF,Central African Republic,2531429.252,
-CAN,Canada,0,Estimate based on assumption of 0% for high-income countries
-CHE,Switzerland,0,Estimate based on assumption of 0% for high-income countries
-CHL,Chile,221054.0852,
-CHN,China,160006943.6,
-CIV,Cote d'Ivoire,4291456.269,
-CMR,Cameroon,1641167.263,
-COD,"Congo, Dem. Rep.",48495572.47,
-COG,"Congo, Rep.",1753864.309,
-COL,Colombia,3777659.026,
-COM,Comoros,259933.1781,
-CPV,Cape Verde,73228.95653,
-CRI,Costa Rica,139077.8401,
-CYP,Cyprus,0,Estimate based on assumption of 0% for high-income countries
-CZE,Czech Republic,6042.243667,Etimate based on Slovak Republic as a neighbour with similar GDP per capita
-DEU,Germany,0,Estimate based on assumption of 0% for high-income countries
-DJI,Djibouti,117601.6001,
-DNK,Denmark,0,Estimate based on assumption of 0% for high-income countries
-DOM,Dominican Republic,222371.968,
-DZA,Algeria,957641.616,Estimate based on regional aveage
-ECU,Ecuador,666824.4679,
-EGY,"Egypt, Arab Rep.",1255054.964,
-ERI,Eritrea,3854459.213,Estimate based on Eritrea as a neighbour with similar GDP per capita
-ESP,Spain,0,Estimate based on assumption of 0% for high-income countries
-EST,Estonia,4727.971862,
-ETH,Ethiopia,25914257.43,
-FIN,Finland,0,Estimate based on assumption of 0% for high-income countries
-FJI,Fiji,48418.51228,
-FRA,France,0,Estimate based on assumption of 0% for high-income countries
-FSM,"Micronesia, Fed. Sts.",22245.54387,
-GAB,Gabon,58428.03505,
-GBR,United Kingdom,0,Estimate based on assumption of 0% for high-income countries
-GEO,Georgia,622464.4588,
-GHA,Ghana,5844442.387,
-GIN,Guinea,3789240.181,
-GMB,"Gambia, The",426695.226,
-GNB,Guinea-Bissau,520421.2636,
-GRC,Greece,0,Estimate based on assumption of 0% for high-income countries
-GRL,Greenland,0,Estimate based on assumption of 0% for high-income countries
-GTM,Guatemala,1631589.617,
-GUY,Guyana,132973.7778,Estimate based on Honduras as a nighbour with roughly comparable GDP/capita
-HKG,"Hong Kong SAR, China",0,Estimate based on assumption of 0% for high-income countries
-HND,Honduras,1303174.9,
-HRV,Croatia,2430.102276,
-HTI,Haiti,4144314.144,
-HUN,Hungary,14903.56697,
-IDN,Indonesia,43320691.22,
-IND,India,382545444.6,
-IRL,Ireland,0,Estimate based on assumption of 0% for high-income countries
-IRN,"Iran, Islamic Rep.",860103.6015,
-IRQ,Iraq,791189.8549,
-ISL,Iceland,0,Estimate based on assumption of 0% for high-income countries
-ISR,Israel,0,Estimate based on assumption of 0% for high-income countries
-ITA,Italy,0,Estimate based on assumption of 0% for high-income countries
-JAM,Jamaica,4353.914094,
-JOR,Jordan,7256.4,
-JPN,Japan,0,Estimate based on assumption of 0% for high-income countries
-KAZ,Kazakhstan,17172.3163,
-KEN,Kenya,14089197.29,
-KGZ,Kyrgyz Republic,319810.3378,
-KHM,Cambodia,2944554.145,
-KOR,"Korea, Rep.",0,Estimate based on assumption of 0% for high-income countries
-LAO,Lao PDR,1923269.048,
-LBR,Liberia,2930363.491,
-LKA,Sri Lanka,1286321.123,
-LSO,Lesotho,691928.7641,
-LTU,Lithuania,4863.91754,
-LUX,Luxembourg,0,Estimate based on assumption of 0% for high-income countries
-LVA,Latvia,2874.639428,
-MAC,"Macao SAR, China",0,Estimate based on assumption of 0% for high-income countries
-MAR,Morocco,705267.865,
-MDA,Moldova,13892.0418,
-MDG,Madagascar,16838263.47,
-MEX,Mexico,1194102.159,
-MKD,"Macedonia, FYR",0,
-MLI,Mali,7750994.679,
-MLT,Malta,0,Estimate based on assumption of 0% for high-income countries
-MMR,Myanmar,9989187.903,Estimate based on Cambodia as a neighbour with similar GDP per capita
-MNE,Montenegro,693.7293311,
-MNG,Mongolia,361801.9102,Estimate based on regional aveage
-MOZ,Mozambique,12758136.9,
-MRT,Mauritania,742099.6504,
-MWI,Malawi,8443977.818,
-MYS,Malaysia,0,
-NAM,Namibia,559003.7077,
-NER,Niger,6194331.943,
-NGA,Nigeria,107696079.1,
-NIC,Nicaragua,552787.67,
-NLD,Netherlands,0,Estimate based on assumption of 0% for high-income countries
-NOR,Norway,0,Estimate based on assumption of 0% for high-income countries
-NPL,Nepal,7435914.145,
-NZL,New Zealand,0,Estimate based on assumption of 0% for high-income countries
-OMN,Oman,68775.0833,Estimate based on regional average
-PAK,Pakistan,33436532.69,
-PAN,Panama,230703.392,
-PER,Peru,1427656.739,
-PHL,Philippines,16436521.79,
-PNG,Papua New Guinea,2477205.679,Estimate based on double Indonesia's figure to reflect its neighbour's higher GDP / person
-POL,Poland,18268.89426,
-PRT,Portugal,0,Estimate based on assumption of 0% for high-income countries
-PRY,Paraguay,462145.6368,
-PSE,West Bank and Gaza,1589.092477,
-QAT,Qatar,0,Estimate based on assumption of 0% for high-income countries
-ROU,Romania,84114.44003,
-RUS,Russian Federation,0,
-RWA,Rwanda,6711183.959,
-SDN,Sudan,8250758.435,
-SEN,Senegal,3340042.575,
-SGP,Singapore,0,Estimate based on assumption of 0% for high-income countries
-SLE,Sierra Leone,2298799.702,
-SLV,El Salvador,531513.3765,
-SRB,Serbia,18141.59049,
-STP,Sao Tome and Principe,31322.69463,
-SUR,Suriname,33943.9492,Estimate based on regional aveage
-SVK,Slovak Republic,3119.23842,
-SVN,Slovenia,944.9946114,
-SWE,Sweden,0,Estimate based on assumption of 0% for high-income countries
-SWZ,Swaziland,481894.5528,
-SYC,Seychelles,189.4720337,
-SYR,Syrian Arab Republic,268252.8799,
-TCD,Chad,5104945.808,
-TGO,Togo,1954023.678,
-THA,Thailand,244703.7679,
-TJK,Tajikistan,431745.0802,
-TKM,Turkmenistan,661902.3078,Estimate based on regional aveage
-TLS,Timor-Leste,368725.1793,
-TON,Tonga,13660.51143,Estimate based on regional aveage
-TUN,Tunisia,114197.0831,
-TUR,Turkey,0,
-TZA,Tanzania,26657463.74,
-UGA,Uganda,12155878.02,
-UKR,Ukraine,26333.45146,
-URY,Uruguay,6713.168,
-USA,United States,0,Estimate based on assumption of 0% for high-income countries
-UZB,Uzbekistan,1767515.495,Estimate based on Tajikistan as a nighbour with roughly comparable GDP/capita
-VEN,"Venezuela, RB",1602149.686,
-VNM,Vietnam,13410476.6,
-VUT,Vanuatu,31460.87014,Estimate based on regional aveage
-WSM,Samoa,24034.48167,Estimate based on regional aveage
-YEM,"Yemen, Rep.",3381023.781,
-ZAF,South Africa,6586421.763,
-ZMB,Zambia,7421924.417,
-ZWE,Zimbabwe,5467803.193,Estimate based on regional average
+Country Name,Country Code,Year,Value
+Aruba,ABW,,
+Andorra,AND,,
+Afghanistan,AFG,,
+Angola,AGO,2009,43.37
+Albania,ALB,2008,0.62
+Andean Region,ANR,,
+Arab World,ARB,,
+United Arab Emirates,ARE,,
+Argentina,ARG,2010,0.92
+Armenia,ARM,2010,2.47
+American Samoa,ASM,,
+Antigua and Barbuda,ATG,,
+Australia,AUS,,
+Austria,AUT,,
+Azerbaijan,AZE,2008,0.43
+Burundi,BDI,2006,81.32
+Belgium,BEL,,
+Benin,BEN,2003,47.33
+Burkina Faso,BFA,2009,44.6
+Bangladesh,BGD,2010,43.25
+Bulgaria,BGR,2007,0
+Bahrain,BHR,,
+"Bahamas, The",BHS,,
+Bosnia and Herzegovina,BIH,2007,0.04
+Belarus,BLR,2011,0.07
+Belize,BLZ,1999,12.21
+Bermuda,BMU,,
+Bolivia,BOL,2008,15.61
+Brazil,BRA,2009,6.14
+Barbados,BRB,,
+Brunei Darussalam,BRN,,
+Bhutan,BTN,2012,1.66
+Botswana,BWA,1994,31.23
+Sub-Saharan Africa (IFC classification),CAA,,
+Central African Republic,CAF,2008,62.83
+Canada,CAN,,
+East Asia and the Pacific (IFC classification),CEA,,
+Central Europe and the Baltics,CEB,,
+Europe and Central Asia (IFC classification),CEU,,
+Switzerland,CHE,,
+Channel Islands,CHI,,
+Chile,CHL,2009,1.35
+China,CHN,2009,11.8
+Cote d'Ivoire,CIV,2008,23.75
+Latin America and the Caribbean (IFC classification),CLA,,
+Middle East and North Africa (IFC classification),CME,,
+Cameroon,CMR,2007,9.56
+"Congo, Rep.",COG,2005,54.1
+Colombia,COL,2010,8.16
+Comoros,COM,2004,46.11
+Cabo Verde,CPV,2002,21.02
+Costa Rica,CRI,2009,3.12
+South Asia (IFC classification),CSA,,
+Caribbean small states,CSS,,
+Cuba,CUB,,
+Curacao,CUW,,
+Cayman Islands,CYM,,
+Cyprus,CYP,,
+Czech Republic,CZE,1996,0.13
+Germany,DEU,,
+Djibouti,DJI,2002,18.84
+Dominica,DMA,,
+Denmark,DNK,,
+Dominican Republic,DOM,2010,2.24
+Algeria,DZA,1995,6.79
+East Asia & Pacific (developing only),EAP,2010,12.48
+East Asia & Pacific (all income levels),EAS,,
+Europe & Central Asia (developing only),ECA,2010,0.66
+Europe & Central Asia (all income levels),ECS,,
+Ecuador,ECU,2010,4.61
+"Egypt, Arab Rep.",EGY,2008,1.69
+Euro area,EMU,,
+Eritrea,ERI,,
+Spain,ESP,,
+Estonia,EST,2004,0.46
+Ethiopia,ETH,2011,30.65
+European Union,EUU,,
+Fragile and conflict affected situations,FCS,,
+Finland,FIN,,
+Fiji,FJI,2009,5.88
+France,FRA,,
+Faeroe Islands,FRO,,
+"Micronesia, Fed. Sts.",FSM,2000,31.15
+Gabon,GAB,2005,4.84
+United Kingdom,GBR,,
+Georgia,GEO,2010,17.99
+Ghana,GHA,2006,28.59
+Guinea,GIN,2007,43.34
+"Gambia, The",GMB,2003,33.63
+Guinea-Bissau,GNB,2002,48.9
+Equatorial Guinea,GNQ,,
+Greece,GRC,,
+Grenada,GRD,,
+Greenland,GRL,,
+Guatemala,GTM,2006,13.53
+Guam,GUM,,
+Guyana,GUY,1998,8.7
+High income,HIC,,
+"Hong Kong SAR, China",HKG,,
+Honduras,HND,2009,17.92
+Heavily indebted poor countries (HIPC),HPC,,
+Croatia,HRV,2008,0.06
+Haiti,HTI,2001,61.71
+Hungary,HUN,2007,0.17
+Indonesia,IDN,2011,16.20166494
+Isle of Man,IMN,,
+India,IND,2010,32.68
+Not classified,INX,,
+Ireland,IRL,,
+"Iran, Islamic Rep.",IRN,2005,1.45
+Iraq,IRQ,2007,2.82
+Iceland,ISL,,
+Israel,ISR,,
+Italy,ITA,,
+Jamaica,JAM,2004,0.21
+Jordan,JOR,2010,0.12
+Japan,JPN,,
+Kazakhstan,KAZ,2009,0.11
+Kenya,KEN,2005,43.37
+Kyrgyz Republic,KGZ,2011,5.03
+Cambodia,KHM,2009,18.6
+Kiribati,KIR,,
+St. Kitts and Nevis,KNA,,
+"Korea, Rep.",KOR,,
+Kosovo,KSV,,
+Kuwait,KWT,,
+Latin America & Caribbean (developing only),LAC,2010,5.53
+Lao PDR,LAO,2008,33.88
+Lebanon,LBN,,
+Liberia,LBR,2007,83.76
+Libya,LBY,,
+St. Lucia,LCA,1995,20.93
+Latin America & Caribbean (all income levels),LCN,,
+Latin America and the Caribbean,LCR,,
+Least developed countries: UN classification,LDC,,
+Low income,LIC,2010,48.25
+Liechtenstein,LIE,,
+Sri Lanka,LKA,2010,4.11
+Lower middle income,LMC,2010,27.12
+Low & middle income,LMY,2010,20.6
+Lesotho,LSO,2003,43.41
+Lithuania,LTU,2008,0.16
+Luxembourg,LUX,,
+Latvia,LVA,2009,0.19
+"Macao SAR, China",MAC,,
+St. Martin (French part),MAF,,
+Morocco,MAR,2007,2.52
+Mexico and Central America,MCA,,
+Monaco,MCO,,
+Moldova,MDA,2010,0.39
+Madagascar,MDG,2010,81.29
+Maldives,MDV,2004,1.48
+Middle East & North Africa (all income levels),MEA,,
+Mexico,MEX,2010,0.72
+Marshall Islands,MHL,,
+Middle income,MIC,2010,17.96
+"Macedonia, FYR",MKD,2010,0.6
+Mali,MLI,2010,50.43
+Malta,MLT,,
+Myanmar,MMR,,
+Middle East & North Africa (developing only),MNA,2010,2.41
+Montenegro,MNE,2010,0
+Mongolia,MNG,,
+Northern Mariana Islands,MNP,,
+Mozambique,MOZ,2008,59.58
+Mauritania,MRT,2008,23.43
+Mauritius,MUS,,
+Malawi,MWI,2010,61.64
+Malaysia,MYS,2009,0
+North America,NAC,,
+Namibia,NAM,2004,31.91
+New Caledonia,NCL,,
+Niger,NER,2008,43.62
+Nigeria,NGA,2010,67.98
+Nicaragua,NIC,2005,11.91
+Netherlands,NLD,,
+High income: nonOECD,NOC,,
+Norway,NOR,,
+Nepal,NPL,2010,24.82
+New Zealand,NZL,,
+High income: OECD,OEC,,
+OECD members,OED,,
+Oman,OMN,,
+Other small states,OSS,,
+Pakistan,PAK,2008,21.04
+Panama,PAN,2010,6.56
+Peru,PER,2010,4.91
+Philippines,PHL,2009,18.42
+Palau,PLW,,
+Papua New Guinea,PNG,1996,35.79
+Poland,POL,2011,0.07
+Puerto Rico,PRI,,
+"Korea, Dem. Rep.",PRK,,
+Portugal,PRT,,
+Paraguay,PRY,2010,7.16
+Pacific island small states,PSS,,
+French Polynesia,PYF,,
+Qatar,QAT,,
+Romania,ROU,2011,0.4
+Russian Federation,RUS,2009,0
+Rwanda,RWA,2011,63.17
+South Asia,SAS,2010,31.03
+Saudi Arabia,SAU,,
+Southern Cone Extended,SCE,,
+Sudan,SDN,2009,19.8
+Senegal,SEN,2011,29.61
+Singapore,SGP,,
+Solomon Islands,SLB,,
+Sierra Leone,SLE,2011,51.71
+El Salvador,SLV,2009,8.97
+San Marino,SMR,,
+Somalia,SOM,,
+Serbia,SRB,2010,0.21
+Sub-Saharan Africa (developing only),SSA,2010,48.48
+South Sudan,SSD,,
+Sub-Saharan Africa (all income levels),SSF,,
+Small states,SST,,
+Sao Tome and Principe,STP,2001,28.18
+Suriname,SUR,1999,15.54
+Slovak Republic,SVK,2009,0.06
+Slovenia,SVN,2004,0.06
+Sweden,SWE,,
+Swaziland,SWZ,2010,40.63
+Sint Maarten (Dutch part),SXM,,
+Seychelles,SYC,2007,0.25
+Syrian Arab Republic,SYR,2004,1.71
+Turks and Caicos Islands,TCA,,
+Chad,TCD,2003,61.94
+Togo,TGO,2011,28.22
+Thailand,THA,2010,0.38
+Tajikistan,TJK,2009,6.56
+Turkmenistan,TKM,1998,24.82
+Timor-Leste,TLS,,
+Tonga,TON,,
+Trinidad and Tobago,TTO,1992,4.16
+Tunisia,TUN,2010,1.06
+Turkey,TUR,2010,1.34
+Tuvalu,TUV,,
+Tanzania,TZA,2007,67.87
+Uganda,UGA,2009,38.01
+Ukraine,UKR,2010,0.02
+Upper middle income,UMC,2010,8.39
+Uruguay,URY,2010,0.2
+United States,USA,,
+Uzbekistan,UZB,,
+St. Vincent and the Grenadines,VCT,,
+"Venezuela, RB",VEN,2006,6.63
+Virgin Islands (U.S.),VIR,,
+Vietnam,VNM,2008,16.85
+Vanuatu,VUT,,
+West Bank and Gaza,PSE,2009,0.04
+World,WLD,,
+Samoa,WSM,,
+"Yemen, Rep.",YEM,2005,17.53
+South Africa,ZAF,2009,13.77
+"Congo, Dem. Rep.",COD,2006,87.72
+Zambia,ZMB,2010,74.45
+Zimbabwe,ZWE,,
