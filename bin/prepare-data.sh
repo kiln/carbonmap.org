@@ -22,7 +22,14 @@ ECN="/usr/local/cartograms/bin/encode-country-names.py"
 "$WB_LATEST"            "$WB_DATA"/ny.gdp.pcap.pp.cd_Indicator_en_csv_v2.csv > data/Shading/GDPperCapita.csv
 "$WB_LATEST"            "$WB_DATA"/sp.pop.grow_Indicator_en_csv_v2.csv       > data/Shading/PopulationGrowth.csv
 
-for dataset in Area GDP PeopleAtRisk Population Poverty SeaLevel
+
+# GCB from Glen Peters
+bin/convert-gcb.py --conversion-factor=3.664 "data/Raw/GCB from Glen Peters/Global_Carbon_Budget_2014_v1.0/Territorial Emissions.csv" > data/Maps/Emissions.csv
+bin/convert-gcb.py --conversion-factor=3.664 --year=2012 data/Raw/GCB\ from\ Glen\ Peters/Global_Carbon_Budget_2014_v1.0/Consumption\ Emissions.csv > data/Maps/Consumption.csv
+
+
+# Add alpha-2 codes to the files we’ve made so far
+for dataset in Area Consumption Emissions GDP PeopleAtRisk Population Poverty SeaLevel
 do
 	"$ECN" data/Maps/"$dataset".csv > "data/Maps/With alpha-2/$dataset".csv
 done
@@ -32,9 +39,6 @@ do
 	"$ECN" data/Shading/"$dataset".csv > "data/Shading/With alpha-2/$dataset".csv
 done
 
-# GCB from Glen Peters
-bin/convert-gcb.py --conversion-factor=3.664 "data/Raw/GCB from Glen Peters/Global_Carbon_Budget_2014_v1.0/Territorial Emissions.csv" > data/Maps/Emissions.csv
-bin/convert-gcb.py --conversion-factor=3.664 --year=2012 data/Raw/GCB\ from\ Glen\ Peters/Global_Carbon_Budget_2014_v1.0/Consumption\ Emissions.csv > data/Maps/Consumption.csv
 
 # bin/csv-ratio.py --join-on=Alpha-2 data/Maps/"With alpha-2"/Emissions.csv data/Maps/"With alpha-2"Population.csv > data/Shading/CO2perCapita.csv
 

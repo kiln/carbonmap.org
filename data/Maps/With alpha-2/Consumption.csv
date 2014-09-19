@@ -1,193 +1,215 @@
-Country name,Alpha-2,"Consumption footprint, million tonnes CO2, 2010",Notes
-Austria,AT,101.8367307,"2010 data from Peters et al, Nature Climate Change paper"
-Australia,AU,352.8220215,"2010 data from Peters et al, Nature Climate Change paper"
-Belgium,BE,237.9410858,"2010 data from Peters et al, Nature Climate Change paper"
-Bulgaria,BG,43.30561749,"2010 data from Peters et al, Nature Climate Change paper"
-Canada,CA,588.354885,"2010 data from Peters et al, Nature Climate Change paper"
-Switzerland,CH,112.0256547,"2010 data from Peters et al, Nature Climate Change paper"
-Czech Republic,CZ,110.2672057,"2010 data from Peters et al, Nature Climate Change paper"
-Germany,DE,1014.894934,"2010 data from Peters et al, Nature Climate Change paper"
-Denmark,DK,70.85577091,"2010 data from Peters et al, Nature Climate Change paper"
-Estonia,EE,18.06704621,"2010 data from Peters et al, Nature Climate Change paper"
-Spain,ES,392.6980696,"2010 data from Peters et al, Nature Climate Change paper"
-Finland,FI,100.1876409,"2010 data from Peters et al, Nature Climate Change paper"
-France,FR,567.9646621,"2010 data from Peters et al, Nature Climate Change paper"
-United Kingdom,GB,718.773526,"2010 data from Peters et al, Nature Climate Change paper"
-Greece,GR,118.8580238,"2010 data from Peters et al, Nature Climate Change paper"
-Croatia,HR,29.62770291,"2010 data from Peters et al, Nature Climate Change paper"
-Hungary,HU,72.85831022,"2010 data from Peters et al, Nature Climate Change paper"
-Ireland,IE,68.33058075,"2010 data from Peters et al, Nature Climate Change paper"
-Italy,IT,595.1201847,"2010 data from Peters et al, Nature Climate Change paper"
-Japan,JP,1509.47426,"2010 data from Peters et al, Nature Climate Change paper"
-Lithuania,LT,19.5707153,"2010 data from Peters et al, Nature Climate Change paper"
-Luxembourg,LU,12.46695715,"2010 data from Peters et al, Nature Climate Change paper"
-Latvia,LV,14.53493309,"2010 data from Peters et al, Nature Climate Change paper"
-Netherlands,NL,167.1015802,"2010 data from Peters et al, Nature Climate Change paper"
-Norway,NO,49.37470783,"2010 data from Peters et al, Nature Climate Change paper"
-New Zealand,NZ,40.23077684,"2010 data from Peters et al, Nature Climate Change paper"
-Poland,PL,295.7636267,"2010 data from Peters et al, Nature Climate Change paper"
-Portugal,PT,73.20267876,"2010 data from Peters et al, Nature Climate Change paper"
-Romania,RO,82.5840323,"2010 data from Peters et al, Nature Climate Change paper"
-Russia,RU,1339.627187,"2010 data from Peters et al, Nature Climate Change paper"
-Sweden,SE,87.41041609,"2010 data from Peters et al, Nature Climate Change paper"
-Slovenia,SI,21.48597482,"2010 data from Peters et al, Nature Climate Change paper"
-Slovakia,SK,42.3574627,"2010 data from Peters et al, Nature Climate Change paper"
-Ukraine,UA,235.8809086,"2010 data from Peters et al, Nature Climate Change paper"
-United States,US,5895.320713,"2010 data from Peters et al, Nature Climate Change paper"
-Albania,AL,5.924282361,"2010 data from Peters et al, Nature Climate Change paper"
-Armenia,AM,6.344652664,"2010 data from Peters et al, Nature Climate Change paper"
-Argentina,AR,179.2058269,"2010 data from Peters et al, Nature Climate Change paper"
-Azerbaijan,AZ,36.29954946,"2010 data from Peters et al, Nature Climate Change paper"
-Bangladesh,BD,71.1294204,"2010 data from Peters et al, Nature Climate Change paper"
-Bolivia,BO,11.83435021,"2010 data from Peters et al, Nature Climate Change paper"
-Brazil,BR,443.9529822,"2010 data from Peters et al, Nature Climate Change paper"
-Botswana,BW,10.74874819,"2010 data from Peters et al, Nature Climate Change paper"
-Belarus,BY,72.24135683,"2010 data from Peters et al, Nature Climate Change paper"
-Chile,CL,81.83584572,"2010 data from Peters et al, Nature Climate Change paper"
-China,CN,5992.85834,"2010 data from Peters et al, Nature Climate Change paper"
-Colombia,CO,84.78637451,"2010 data from Peters et al, Nature Climate Change paper"
-Costa Rica,CR,13.05837096,"2010 data from Peters et al, Nature Climate Change paper"
-Cyprus,CY,12.7262124,"2010 data from Peters et al, Nature Climate Change paper"
-Ecuador,EC,34.69442398,"2010 data from Peters et al, Nature Climate Change paper"
-Egypt,EG,217.4031003,"2010 data from Peters et al, Nature Climate Change paper"
-Ethiopia,ET,12.69182481,"2010 data from Peters et al, Nature Climate Change paper"
-Georgia,GE,9.886265841,"2010 data from Peters et al, Nature Climate Change paper"
-Guatemala,GT,17.62942703,"2010 data from Peters et al, Nature Climate Change paper"
-Hong Kong,HK,98.40533097,"2010 data from Peters et al, Nature Climate Change paper"
-Indonesia,ID,483.0275592,"2010 data from Peters et al, Nature Climate Change paper"
-India,IN,1856.51854,"2010 data from Peters et al, Nature Climate Change paper"
-Iran (Islamic Republic of),IR,578.8996685,"2010 data from Peters et al, Nature Climate Change paper"
-Kyrgyzstan,KG,7.844531707,"2010 data from Peters et al, Nature Climate Change paper"
-Cambodia,KH,11.81810538,"2010 data from Peters et al, Nature Climate Change paper"
-"Korea, Republic of",KR,630.6346642,"2010 data from Peters et al, Nature Climate Change paper"
-Kazakhstan,KZ,198.9333568,"2010 data from Peters et al, Nature Climate Change paper"
-Lao People's Democratic Republic,LA,2.772093422,"2010 data from Peters et al, Nature Climate Change paper"
-Sri Lanka,LK,23.76825291,"2010 data from Peters et al, Nature Climate Change paper"
-Morocco,MA,58.94813517,"2010 data from Peters et al, Nature Climate Change paper"
-Madagascar,MG,4.387635568,"2010 data from Peters et al, Nature Climate Change paper"
-Malta,MT,4.666131791,"2010 data from Peters et al, Nature Climate Change paper"
-Mauritius,MU,6.419406274,"2010 data from Peters et al, Nature Climate Change paper"
-Malawi,MW,2.923943071,"2010 data from Peters et al, Nature Climate Change paper"
-Mexico,MX,522.5248764,"2010 data from Peters et al, Nature Climate Change paper"
-Malaysia,MY,184.2212424,"2010 data from Peters et al, Nature Climate Change paper"
-Mozambique,MZ,10.41608655,"2010 data from Peters et al, Nature Climate Change paper"
-Nigeria,NG,95.29454316,"2010 data from Peters et al, Nature Climate Change paper"
-Nicaragua,NI,5.922621643,"2010 data from Peters et al, Nature Climate Change paper"
-Panama,PA,8.017921387,"2010 data from Peters et al, Nature Climate Change paper"
-Peru,PE,51.50016658,"2010 data from Peters et al, Nature Climate Change paper"
-Philippines,PH,118.5090723,"2010 data from Peters et al, Nature Climate Change paper"
-Pakistan,PK,193.6812124,"2010 data from Peters et al, Nature Climate Change paper"
-Paraguay,PY,6.777879691,"2010 data from Peters et al, Nature Climate Change paper"
-Singapore,SG,107.2824822,"2010 data from Peters et al, Nature Climate Change paper"
-Senegal,SN,7.903309461,"2010 data from Peters et al, Nature Climate Change paper"
-Thailand,TH,261.8456889,"2010 data from Peters et al, Nature Climate Change paper"
-Tunisia,TN,29.53650186,"2010 data from Peters et al, Nature Climate Change paper"
-Turkey,TR,370.1209146,"2010 data from Peters et al, Nature Climate Change paper"
-Taiwan,TW,289.8247181,"2010 data from Peters et al, Nature Climate Change paper"
-United Republic of Tanzania,TZ,11.46167987,"2010 data from Peters et al, Nature Climate Change paper"
-Uganda,UG,5.953534911,"2010 data from Peters et al, Nature Climate Change paper"
-Uruguay,UY,11.28952693,"2010 data from Peters et al, Nature Climate Change paper"
-Venezuela,VE,157.0764167,"2010 data from Peters et al, Nature Climate Change paper"
-Viet Nam,VN,178.3010616,"2010 data from Peters et al, Nature Climate Change paper"
-South Africa,ZA,341.2219186,"2010 data from Peters et al, Nature Climate Change paper"
-Zambia,ZM,5.591230627,"2010 data from Peters et al, Nature Climate Change paper"
-Zimbabwe,ZW,0.0000001,"Data from Peters et al, Nature Climate Change paper, but converted from a small negative number to a small positive number to allow cartogram"
-Sao Tome and Principe,ST,0.154819172,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Comoros,KM,0.398141109,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Western Sahara,EH,0.447877175,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Liberia,LR,0.826414323,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Guinea-Bissau,GW,0.888083154,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Cape Verde,CV,0.976247522,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Seychelles,SC,0.993579102,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Djibouti,DJ,0.994499682,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Gambia,GM,1.204443154,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Eritrea,ER,1.417041063,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Burundi,BI,1.691950937,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Central African Republic,CF,1.715364797,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Lesotho,LS,1.716441006,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Sierra Leone,SL,2.396997041,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Somalia,SO,2.913054408,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Togo,TG,2.972385483,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Swaziland,SZ,3.013988702,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Mauritania,MR,3.323176632,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Guinea,GN,5.378902769,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Niger,NE,5.579397063,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Rwanda,RW,6.106627289,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Benin,BJ,6.940718792,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Namibia,NA,7.303108827,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Chad,TD,7.600355033,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Mali,ML,8.084517077,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Congo,CG,8.558487658,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Burkina Faso,BF,10.21879923,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Gabon,GA,11.29359378,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Democratic Republic of the Congo,CD,11.31651689,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Equatorial Guinea,GQ,12.01912967,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Cote d'Ivoire,CI,18.52079963,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Ghana,GH,20.3664542,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Cameroon,CM,22.17353314,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Kenya,KE,33.80762395,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Sudan,SD,48.53895916,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Libyan Arab Jamahiriya,LY,52.371738,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Angola,AO,57.806541,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Algeria,DZ,146.739681,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Timor-Leste,TL,0.515359664,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Maldives,MV,1.330098696,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Bhutan,BT,1.911302691,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Mongolia,MN,5.49550393,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Palestine,PS,6.31919367,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Tajikistan,TJ,7.350664149,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Brunei Darussalam,BN,9.667244389,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Bahrain,BH,13.41424362,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Macau,MO,17.11585317,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Jordan,JO,17.17666343,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Nepal,NP,17.74549258,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-"Korea, Democratic People's Republic of",KP,19.76292,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Afghanistan,AF,20.51012196,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Turkmenistan,TM,20.61060678,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Yemen,YE,28.89177429,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Lebanon,LB,29.38324098,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Oman,OM,35.899468,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Uzbekistan,UZ,43.31911258,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Burma,MM,46.21493484,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Syrian Arab Republic,SY,53.359884,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Iraq,IQ,56.324322,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Qatar,QA,63.735417,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Kuwait,KW,74.0121354,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Israel,IL,107.707914,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-United Arab Emirates,AE,175.395915,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Saudi Arabia,SA,307.807479,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Montenegro,ME,4.061097083,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Iceland,IS,5.472136216,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Republic of Moldova,MD,5.472966154,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-The former Yugoslav Republic of Macedonia,MK,11.36014202,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Bosnia and Herzegovina,BA,15.9583195,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Serbia,RS,40.6455057,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Dominica,DM,0.412093962,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Saint Kitts and Nevis,KN,0.431248248,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Grenada,GD,0.542843811,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Saint Vincent and the Grenadines,VC,0.596522714,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Antigua and Barbuda,AG,0.911054886,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Saint Lucia,LC,0.931736759,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Greenland,GL,0.982711197,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Belize,BZ,1.136905507,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Barbados,BB,2.617476722,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Bahamas,BS,4.300214769,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Haiti,HT,5.483984919,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Jamaica,JM,10.24389316,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Honduras,HN,14.73041814,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Trinidad and Tobago,TT,17.05317593,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-El Salvador,SV,20.40224273,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Puerto Rico,PR,32.03569332,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Dominican Republic,DO,45.85902711,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Cuba,CU,56.3737293,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Kiribati,KI,0.12141725,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Palau,PW,0.141367192,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-"Micronesia, Federated States of",FM,0.18278561,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Tonga,TO,0.232844831,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Samoa,WS,0.397610489,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Vanuatu,VU,0.526870448,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Solomon Islands,SB,0.720303186,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Fiji,FJ,1.979133692,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Papua New Guinea,PG,8.37595966,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Guyana,GY,1.280116285,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
-Suriname,SR,1.968424264,2010 emissions data for this country and other small emitters estimated by assigning unallocated emissions in the Peters dataset between nations relative to their GDP
+Country Name,Alpha-2,Year,Value
+Afghanistan,AF,2012.0,
+Albania,AL,2012.0,6.60741034990912
+Algeria,DZ,2012.0,
+Andorra,AD,2012.0,
+Angola,AO,2012.0,
+Anguilla,AI,2012.0,
+Antigua and Barbuda,AG,2012.0,
+Argentina,AR,2012.0,183.14068964669602
+Armenia,AM,2012.0,5.09800429339632
+Aruba,AW,2012.0,
+Australia,AU,2012.0,337.6881223082944
+Austria,AT,2012.0,93.36465443973601
+Azerbaijan,AZ,2012.0,40.9662726950496
+Bahamas,BS,2012.0,
+Bahrain,BH,2012.0,16.91487413577408
+Bangladesh,BD,2012.0,76.938380818152
+Barbados,BB,2012.0,
+Belarus,BY,2012.0,76.1087881354304
+Belgium,BE,2012.0,223.84080879440643
+Belize,BZ,2012.0,
+Benin,BJ,2012.0,9.09729022662752
+Bermuda,BM,2012.0,
+Bhutan,BT,2012.0,
+Bosnia and Herzegovina,BA,2012.0,
+Botswana,BW,2012.0,10.97612399594144
+Brazil,BR,2012.0,482.206687527488
+British Virgin Islands,VG,2012.0,
+Brunei Darussalam,BN,2012.0,
+Bulgaria,BG,2012.0,47.1973047793008
+Burkina Faso,BF,2012.0,2.166262442349616
+Burundi,BI,2012.0,
+Cambodia,KH,2012.0,12.34058773252672
+Canada,CA,2012.0,560.22903074976
+Cape Verde,CV,2012.0,
+Cayman Islands,KY,2012.0,
+Central African Republic,CF,2012.0,
+Chad,TD,2012.0,
+Chile,CL,2012.0,92.7053468396176
+China,CN,2012.0,8039.90183101664
+Colombia,CO,2012.0,89.8562948664496
+Comoros,KM,2012.0,
+Congo,CG,2012.0,
+Cook Islands,CK,2012.0,
+Costa Rica,CR,2012.0,14.04110946078416
+Côte d'Ivoire,CI,2012.0,8.693296498639361
+Croatia,HR,2012.0,28.35693525229632
+Cuba,CU,2012.0,
+Cyprus,CY,2012.0,11.79438827751648
+Czech Republic,CZ,2012.0,112.732794797048
+North Korea,KP,2012.0,
+Democratic Republic of the Congo,CD,2012.0,
+Denmark,DK,2012.0,59.4803555287344
+Djibouti,DJ,2012.0,
+Dominica,DM,2012.0,
+Dominican Republic,DO,2012.0,
+Ecuador,EC,2012.0,40.4421123197056
+Egypt,EG,2012.0,222.57275530512
+El Salvador,SV,2012.0,9.45453515188624
+Equatorial Guinea,GQ,2012.0,
+Eritrea,ER,2012.0,
+Estonia,EE,2012.0,17.3918068521312
+Ethiopia,ET,2012.0,9.89830250330688
+Faeroe Islands,FO,2012.0,
+Falkland Islands (Malvinas),FK,2012.0,
+Micronesia (Federated States of),FM,2012.0,
+Fiji,FJ,2012.0,
+Finland,FI,2012.0,82.6163236678752
+France,FR,2012.0,532.0046797222881
+French Guiana,GF,2012.0,
+French Polynesia,PF,2012.0,
+Gabon,GA,2012.0,
+Gambia,GM,2012.0,
+Georgia,GE,2012.0,9.8529573943296
+Germany,DE,2012.0,917.94012982456
+Ghana,GH,2012.0,14.16357170002688
+Gibraltar,GI,2012.0,
+Greece,GR,2012.0,78.0890274723056
+Greenland,GL,2012.0,
+Grenada,GD,2012.0,
+Guadeloupe,GP,2012.0,
+Guatemala,GT,2012.0,17.358421658076804
+Guinea,GN,2012.0,2.478243112478128
+Guinea-Bissau,GW,2012.0,
+Guyana,GY,2012.0,
+Haiti,HT,2012.0,
+Honduras,HN,2012.0,10.529940568735679
+Hong Kong,HK,2012.0,80.22805672272482
+Hungary,HU,2012.0,75.3950818047856
+Iceland,IS,2012.0,
+India,IN,2012.0,2070.9463944381923
+Indonesia,ID,2012.0,472.66711335900806
+Iraq,IQ,2012.0,
+Ireland,IE,2012.0,53.8930320823248
+Iran,IR,2012.0,588.464002658
+Israel,IL,2012.0,94.4472061565904
+Italy,IT,2012.0,571.282900287984
+Jamaica,JM,2012.0,
+Japan,JP,2012.0,1596.101178968672
+Jordan,JO,2012.0,
+Kazakhstan,KZ,2012.0,248.32685707087202
+Kenya,KE,2012.0,18.189871127282082
+Kiribati,KI,2012.0,
+Kuwait,KW,2012.0,71.6820364871344
+Kyrgyzstan,KG,2012.0,7.741132771080641
+Laos,LA,2012.0,3.651624423758608
+Latvia,LV,2012.0,14.457182705338882
+Lebanon,LB,2012.0,
+Lesotho,LS,2012.0,
+Liberia,LR,2012.0,
+Libya,LY,2012.0,
+Lithuania,LT,2012.0,21.569713864153922
+Luxembourg,LU,2012.0,9.752744156634881
+Macao,MO,2012.0,
+Madagascar,MG,2012.0,4.5687840621091205
+Malawi,MW,2012.0,2.819156493523008
+Malaysia,MY,2012.0,203.7548364124048
+Maldives,MV,2012.0,
+Mali,ML,2012.0,
+Malta,MT,2012.0,7.103767703422401
+Marshall Islands,MH,2012.0,
+Martinique,MQ,2012.0,
+Mauritania,MR,2012.0,
+Mauritius,MU,2012.0,5.6795543430584
+Mexico,MX,2012.0,484.7070862971681
+Mongolia,MN,2012.0,13.69344737644096
+Montenegro,ME,2012.0,
+Montserrat,MS,2012.0,
+Morocco,MA,2012.0,59.148274511508795
+Mozambique,MZ,2012.0,7.725807182884961
+Myanmar,MM,2012.0,
+Namibia,NA,2012.0,9.062528937058241
+Nauru,NR,2012.0,
+Nepal,NP,2012.0,7.2787697028905605
+Netherlands,NL,2012.0,142.7280988154576
+New Caledonia,NC,2012.0,
+New Zealand,NZ,2012.0,38.8906841672432
+Nicaragua,NI,2012.0,5.70687805114464
+Niger,NE,2012.0,
+Nigeria,NG,2012.0,63.011093347688
+Niue,NU,2012.0,
+Norway,NO,2012.0,55.548950332248005
+Oman,OM,2012.0,51.587543136777605
+Pakistan,PK,2012.0,178.7884343280528
+Palau,PW,2012.0,
+Panama,PA,2012.0,3.1699848263827524
+Papua New Guinea,PG,2012.0,
+Paraguay,PY,2012.0,8.728101609208961
+Peru,PE,2012.0,67.19222233519041
+Philippines,PH,2012.0,112.5467156786096
+Bolivia,BO,2012.0,14.91802298442464
+Poland,PL,2012.0,303.72080429476483
+Portugal,PT,2012.0,66.6974265620624
+Qatar,QA,2012.0,34.94991243818496
+Cameroon,CM,2012.0,9.09320743091456
+South Korea,KR,2012.0,692.9146435763521
+Moldova,MD,2012.0,
+Réunion,RE,2012.0,
+Romania,RO,2012.0,98.1877351492336
+Russian Federation,RU,2012.0,1493.320635094288
+Rwanda,RW,2012.0,1.143190940380944
+Saint Helena,SH,2012.0,
+Saint Lucia,LC,2012.0,
+Samoa,WS,2012.0,
+Sao Tome and Principe,ST,2012.0,
+Saudi Arabia,SA,2012.0,419.818923428336
+Senegal,SN,2012.0,9.10501807711552
+Serbia,RS,2012.0,
+Seychelles,SC,2012.0,
+Sierra Leone,SL,2012.0,
+Singapore,SG,2012.0,103.2692587507344
+Slovakia,SK,2012.0,50.0593148244576
+Slovenia,SI,2012.0,20.91405133500544
+Solomon Islands,SB,2012.0,
+Somalia,SO,2012.0,
+South Africa,ZA,2012.0,336.49352548023364
+Spain,ES,2012.0,355.7421829173584
+Sri Lanka,LK,2012.0,23.8504853074896
+Saint Kitts and Nevis,KN,2012.0,
+Saint Pierre and Miquelon,PM,2012.0,
+Saint Vincent and the Grenadines,VC,2012.0,
+Sudan,SD,2012.0,
+Suriname,SR,2012.0,
+Swaziland,SZ,2012.0,
+Sweden,SE,2012.0,88.0549900297472
+Switzerland,CH,2012.0,123.87804939550561
+Syria,SY,2012.0,
+Taiwan,TW,2012.0,248.0813391715328
+Tajikistan,TJ,2012.0,
+Thailand,TH,2012.0,289.2401713003008
+Timor-Leste,TL,2012.0,
+Togo,TG,2012.0,4.417443643800641
+Tonga,TO,2012.0,
+Trinidad and Tobago,TT,2012.0,
+Tunisia,TN,2012.0,27.84511756449584
+Turkey,TR,2012.0,364.31091874382884
+Turkmenistan,TM,2012.0,
+Turks and Caicos Islands,TC,2012.0,
+Uganda,UG,2012.0,5.80186577931584
+Ukraine,UA,2012.0,261.5805291494576
+United Arab Emirates,AE,2012.0,233.58979326817283
+United Kingdom,GB,2012.0,642.978278666496
+Tanzania,TZ,2012.0,12.24882861794064
+United States of America,US,2012.0,5540.67779297456
+Uruguay,UY,2012.0,10.02795547218192
+Uzbekistan,UZ,2012.0,
+Vanuatu,VU,2012.0,
+Venezuela,VE,2012.0,171.2865929831712
+Viet Nam,VN,2012.0,159.7852304793728
+Wallis and Futuna Islands,WF,2012.0,
+Western Sahara,EH,2012.0,
+Yemen,YE,2012.0,
+Zambia,ZM,2012.0,6.705031081571681
+Zimbabwe,ZW,2012.0,10.27540433894576
+World,,2012.0,35425.17188096401
