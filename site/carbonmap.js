@@ -266,10 +266,9 @@ function carbonmapDataLoaded() {
             .animate({
             "position": "absolute",
             "top": "0%",
-            "left": "100%",
-            "width": "100px",
-            "height": "100px",
-            "margin": "110px 0 0 -125px"
+            "right": "0%",
+            "width": "10%",
+            "margin": "20px 20px 0 0"
         }, duration);
         play_button_in_middle = false;
     }

@@ -30,47 +30,57 @@
 
 		<div id="wrapper">
 			<div id="masthead">
-				<a href="/">
-				<div id="site-title-the">The</div>
-				<div id="site-title">carbon map</div>
-				<div id="site-strapline">Making sense of climate change responsibility and vulnerability</div></a>
-				<div id="credit"><a href="http://kiln.it">A Kiln Project</a></div>
+				<div id="header-title"><a href="/"><span class="the">The</span> carbon map <span class="year">2014</span></a></div>
+				<div id="credit"><a href="http://kiln.it" target="_top">Created by <span id="kiln">KILN</span></a></div>
+				<div id="shares">
+					<div id="facebookshare">
+						<div class="fb-like" data-href="http://carbonmap.org" data-send="false" data-layout="button_count" data-width="120" data-show-faces="true" data-font="lucida grande"></div>
+					</div>
+					<div id="twittershare">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.carbonmap.org" data-text="The earth moved for me at the Carbon Map by @k_i_l_n.">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				</div>
 			</div>
 			<div id="contents">
 				<div class="abouttext">
 					<h2>Data sources, notes and explanation</h2>
-					
+
 					<div id="sourcesbox">
 							<p class="sources"><b>See below for details of the underlying datasets used in the map. You can download all the data &ndash; complete with notes on where and how specific datasets have been gap-filled using estimates &ndash; in the following two CSV files. Right-click the links, download the files and open them in your text or spreadsheet editor of choice.</b></p>
 							<p class="sources"><b>• <a href="http://www.carbonmap.org/map-data.csv">Map data</a></b></p>
 							<p class="sources"><b>• <a href="http://www.carbonmap.org/shading-data.csv">Shading data</a></b></p>
-					</div>											
+					</div>
 					<h3>Area map</h3>
 					<p class="sources"><b>Description</b>: Land area (sq. km)</p>
 					<p class="sources"><b>Definition</b>: Land area is a country’s total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.</p>
 					<p class="sources"><b>Source</b>: Food and Agriculture Organization, electronic files and web site.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/AG.LND.AGRI.K2">AG.LND.TOTL.K2</a></p>
 					<p class="sources"><b>Notes</b>: Greenland data substituted with figure from data.un.org so that it includes the area under the Greenland Ice Sheet.</p>
+					<div class="UPDATE_COMMENT">No need to update, I reckon</div>
 
 					<h3>Population map</h3>
 					<p class="sources"><b>Description</b>: Population, total</p>
 					<p class="sources"><b>Definition</b>: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. The values shown are midyear estimates.</p>
 					<p class="sources"><b>Source</b>: (1) United Nations Population Division. 2009. World Population Prospects: The 2008 Revision.  New York, United Nations, Department of Economic and Social Affairs (advanced Excel tables).  Available at http://esa.un.org/unpd/wpp2008/index.htm. (2) Census reports and other statistical publications from national statistical offices, (3) Eurostat: Demographic Statistics, (4) Secretariat of the Pacific Community: Statistics and Demography Programme, (5) U.S. Census Bureau: International Database, and (6) World bank estimates based on the data from the sources above, household surveys conducted by national agencies, Macro International, the U.S. Centers for Disease Control and Prevention, and refugees statistics from the United Nations High Commissioner for Refugees.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/SP.POP.TOTL">SP.POP.TOTL</a></p>
-					<p class="sources"><b>Notes</b>: Data for 2010.</p>					
-					
+					<p class="sources"><b>Notes</b>: Data for 2010.</p>
+					<div class="UPDATE_COMMENT">New data ready in sp.pop.totl_Indicator_en_csv_v2.csv. Can use 2013 (row BF) with backfill for any missing ones.</div>
+
 					<h3>Wealth map</h3>
 					<p class="sources"><b>Description</b>: Total GDP (PPP, current international $)</p>
 					<p class="sources"><b>Definition</b>: PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current international dollars.</p>
 					<p class="sources"><b>Source</b>: World Bank, International Comparison Program database.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD">NY.GDP.MKTP.PP.CD</a></p>
 					<p class="sources"><b>Notes</b>: Most data for 2010, but with some infilling of blanks from 2009.</p>
-					
+					<div class="UPDATE_COMMENT">New data ready in ny.gdp.mktp.pp.cd_Indicator_en_csv_v2.csv. Can use 2013 (row BF) with backfill for any missing ones.</div>
+
 					<h3>Extraction map</h3>
 					<p class="sources"><b>Description</b>: Potential CO2 emissions from extracted fossil fuels</p>
 					<p class="sources"><b>Definition</b>: Potential CO2 emissions from annual fossil fuels extraction.</p>
 					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&amp;contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark, using the following conversion factors: CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>
-					<p class="sources"><b>Notes</b>: Data for 2010 for significant extractor countries. Data from non-significant extractors have been estimated by diving the remainder for each continent or region between the remaining countries in proportion to their land area.</p>					
+					<p class="sources"><b>Notes</b>: Data for 2010 for significant extractor countries. Data from non-significant extractors have been estimated by diving the remainder for each continent or region between the remaining countries in proportion to their land area.</p>
+					<div class="UPDATE_COMMENT">New data ready in BP 2014. Need to add together oil, coal and gas extraction columns after multiplying by conversion factors</div>
 
 					<h3>Emissions map</h3>
 					<p class="sources"><b>Description</b>: National CO2 emissions, 2010</p>
@@ -94,6 +104,7 @@
 					<p class="sources"><b>Definition</b>: This dataset estimates how much CO2 would be released if the fossil fuel reserves for each country were extracted and burned. "Reserves" refers to proven oil, coal and gas reserves that could be extracted economically in current conditions. </p>
 					<p class="sources"><b>Source</b>: <a href="http://www.bp.com/sectionbodycopy.do?categoryId=7500&amp;contentId=7068481">BP Statistical Review of World Energy 2011</a>, converted to CO2 by Duncan Clark using the standard BP conversion factors: CO2 figures are based on the following conversion factors: oil, 3.07 tonnes CO2 per tonne; gas, 2.35 tonnes CO2 per tonne of oil equivalent; coal, 3.96 tonnes per tonne of oil equivalent.</p>
 					<p class="sources"><b>Notes</b>: Data for reserves as of 2010 for countries listed by BP. Data from other countries have been estimated by diving the remainder for each continent or region between the remaining countries in proportion to their land area.</p>
+					<div class="UPDATE_COMMENT">New data ready in BP 2014. Need to add together oil, coal and gas reserves columns after multiplying by conversion factors</div>
 
 					<h3>People at risk map</h3>
 					<p class="sources"><b>Description</b>: People exposed to droughts, floods and extreme temperatures in 2010</p>
@@ -101,6 +112,7 @@
 					<p class="sources"><b>Source</b>: EM-DAT: The OFDA/CRED International Disaster Database: www.emdat.be, Université Catholique de Louvain, Brussels (Belgium), World Bank.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.CLC.MDAT.ZS">EN.CLC.MDAT.ZS</a> * population</p>
 					<p class="sources"><b>Notes</b>: Original dataset was % of population exposed in the period 1990–2009. This has been multiplied by the 2010 population to give an estimate of the people currently exposed.</p>
+					<div class="UPDATE_COMMENT">Raw data hasn't changed. We could multiply by update population if we can be bothered, in which case raw data is 2009 (column BB) of en.clc.mdat.zs_Indicator_en_csv_v2.csv</div>
 
 					<h3>Sea level map</h3>
 					<p class="sources"><b>Description</b>: Population living less than 5m above sea level</p>
@@ -108,27 +120,29 @@
 					<p class="sources"><b>Source</b>: Center for International Earth Science Information Network (CIESIN), Place II dataset.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.POP.EL5M.ZS">EN.POP.EL5M.ZS</a> * population</p>
 					<p class="sources"><b>Notes</b>: Original dataset was % of population. This has been multiplied by the 2010 population to give an estimate of the total population currently living below 5m.</p>
-					
+					<div class="UPDATE_COMMENT">Raw data hasn't changed. We could multiply by updated population if we can be bothered, in which case raw data is 2000 (column AS) of en.pop.el5m.zs_Indicator_en_csv_v2.csv</div>
+
 					<h3>Poverty map</h3>
 					<p class="sources"><b>Description</b>: Population living below $1.25 a day</p>
 					<p class="sources"><b>Definition</b>: Population below $1.25 a day is the percentage of the population living on less than $1.25 a day at 2005 international prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.</p>
 					<p class="sources"><b>Source</b>: World Bank, Development Research Group. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are from the Luxembourg Income Study database. For more information and methodology, please see PovcalNet (http://iresearch.worldbank.org/PovcalNet/jsp/index.jsp).</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/SI.POV.DDAY">SI.POV.DDAY</a> * population</p>
 					<p class="sources"><b>Notes</b>: Calculated by multiplying the 2010 population total by the % of population living on less than $1.25 in the most recent year for which data is available.</p>
-					
+					<div class="UPDATE_COMMENT">Raw data hasn't changed much. We could multiply by updated population if we can be bothered, in which case raw data is most recent year available in si.pov.dday_Indicator_en_csv_v2.csv</div>
+
 					<h3>Emissions change shading</h3>
 					<p class="sources"><b>Description</b>: Change in CO2 emissions, 1990–2008</p>
 					<p class="sources"><b>Definition</b>: Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring. Data are in million metric tons.</p>
 					<p class="sources"><b>Source</b>: Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.ATM.CO2E.KT">EN.ATM.CO2E.KT</a></p>
-					<p class="sources"><b>Notes</b>: Data for some unavailable countries added in based on estimate from Peters et al (see Consumption source above).</p>			
-					
+					<p class="sources"><b>Notes</b>: Data for some unavailable countries added in based on estimate from Peters et al (see Consumption source above).</p>
+
 					<h3>Emissions per person shading</h3>
 					<p class="sources"><b>Description</b>: CO2 emissions per capita, 2008</p>
 					<p class="sources"><b>Definition</b>: Carbon dioxide (CO2) emissions per capita are carbon dioxide emissions divided by midyear population.</p>
 					<p class="sources"><b>Source</b>: Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States, and World Bank and United Nations population data.</p>
 					<p class="sources"><b>World Bank indicator code</b>: <a href="http://data.worldbank.org/indicator/EN.ATM.CO2E.PC">EN.ATM.CO2E.PC</a></p>
-					
+
 					<h3>GDP per person shading</h3>
 					<p class="sources"><b>Description</b>: GDP per capita, 2010</p>
 					<p class="sources"><b>Definition</b>: GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP at purchaser’s prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current international dollars.</p>

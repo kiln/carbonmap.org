@@ -96,7 +96,7 @@
 
 		<div id="wrapper">
 			<div id="masthead">
-				<div id="header-title"><a href="/"><span class="the">The</span> carbon map <span class="year">2014</span></a></div>
+				<div id="header-title"><a href="/"><span class="the">The</span> carbon map <span class="year"></span></a></div>
 				<div id="credit"><a href="http://kiln.it" target="_top">Created by <span id="kiln">KILN</span></a></div>
 				<div id="shares">
 					<div id="facebookshare">
@@ -108,38 +108,38 @@
 					</div>
 				</div>
 			</div>
-			<div id="navigation">
-				<div class="navitems navitemsselected" id="nav-_raw">
-					<a href="#"><div id="navglobe"><i class="fa fa-refresh"></i></div></a>
-				</div>
-				<div id="reference" class="navblock">
-					<div class="navtitle"><div>Background</div></div>
-					<div class="navitemscontainer">
-						<div class="navitems red" id="nav-Area"><a href="#Area">Area</a>
-						</div><div class="navitems green" id="nav-Population"><a href="#Population">Population</a>
-						</div><div class="navitems pink" id="nav-GDP"><a href="#GDP">Wealth</a></div>
-					</div>
-				</div>
-				<div id="responsibility" class="navblock">
-					<div class="navtitle"><div>Responsibility</div></div>
-					<div class="navitemscontainer">
-						<div class="navitems orange" id="nav-Extraction"><a href="#Extraction">Extraction</a>
-						</div><div class="navitems cyan" id="nav-Emissions"><a href="#Emissions">Emissions</a>
-						</div><div class="navitems purple" id="nav-Consumption"><a href="#Consumption">Consumption</a>
-						</div><div class="navitems red" id="nav-Historical"><a href="#Historical">Historical</a>
-						</div><div class="navitems green" id="nav-Reserves"><a href="#Reserves">Reserves</a></div>
-					</div>
-				</div>
-				<div id="vulnerability" class="navblock">
-					<div class="navtitle"><div>Vulnerability</div></div>
-					<div class="navitemscontainer">
-						<div class="navitems pink" id="nav-PeopleAtRisk"><a href="#PeopleAtRisk">People at risk</a>
-						</div><div class="navitems orange" id="nav-SeaLevel"><a href="#SeaLevel">Sea level</a>
-						</div><div class="navitems cyan" id="nav-Poverty"><a href="#Poverty">Poverty</a></div>
-					</div>
-				</div>
-			</div>
 			<div id="mainarea">
+				<div id="navigation">
+					<div class="navitems navitemsselected" id="nav-_raw">
+						<a href="#"><div id="navglobe"><i class="fa fa-refresh"></i></div></a>
+					</div>
+					<div id="reference" class="navblock">
+						<div class="navtitle"><div>Background</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems red" id="nav-Area"><a href="#Area">Area</a>
+							</div><div class="navitems green" id="nav-Population"><a href="#Population">Population</a>
+							</div><div class="navitems pink" id="nav-GDP"><a href="#GDP">Wealth</a></div>
+						</div>
+					</div>
+					<div id="responsibility" class="navblock">
+						<div class="navtitle"><div>Responsibility</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems orange" id="nav-Extraction"><a href="#Extraction">Extraction</a>
+							</div><div class="navitems cyan" id="nav-Emissions"><a href="#Emissions">Emissions</a>
+							</div><div class="navitems purple" id="nav-Consumption"><a href="#Consumption">Consumption</a>
+							</div><div class="navitems red" id="nav-Historical"><a href="#Historical">Historical</a>
+							</div><div class="navitems green" id="nav-Reserves"><a href="#Reserves">Reserves</a></div>
+						</div>
+					</div>
+					<div id="vulnerability" class="navblock">
+						<div class="navtitle"><div>Vulnerability</div></div>
+						<div class="navitemscontainer">
+							<div class="navitems pink" id="nav-PeopleAtRisk"><a href="#PeopleAtRisk">People at risk</a>
+							</div><div class="navitems orange" id="nav-SeaLevel"><a href="#SeaLevel">Sea level</a>
+							</div><div class="navitems cyan" id="nav-Poverty"><a href="#Poverty">Poverty</a></div>
+						</div>
+					</div>
+				</div>
 				<div id="maparea" class="shading-Continents">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map" viewBox="915 -140 2153 1880">
 						<path id="bounds" d="M 0 0 L 3280 0 3280 1800 0 1800 Z"/>
@@ -165,17 +165,19 @@
 					<div id="legendbox"></div>
 				</div>
 				<div id="play-intro">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-						<circle id="talkie-player-outer" cx="50" cy="50" r="50" fill="rgba(0,0,0,0.5)"></circle>
-						<path id="talkie-player-segment" transform="translate(50,50) rotate(180)" fill="white"></path>
-						<circle id="talkie-player-inner" cx="50" cy="50" r="37" fill="rgba(40,40,40,1)"></circle>
-						<polygon id="play-icon" pointer-events="none" class="play-pause" transform="translate(4,6)" points="67.304,45.832 34.619,67.329 32.47,65.498 32.47,22.258 35.23,20.67 67.304,43.878"></polygon>
-						<path id="pause-icon" pointer-events="none" class="play-pause" transform="translate(4,6)" d="M36.499,63.559H29.98L26.72,60.3V27.701l3.26-3.26h6.519l3.157,3.26V60.3L36.499,63.559z M62.475,63.559h-6.519L52.695,60.3V27.701l3.261-3.26h6.519l3.157,3.26V60.3L62.475,63.559z"></path>
-					</svg>
-					<audio id="intro-track" style="width: 100%; margin-top: 20px;">
-						<source src="intro.ogg" type="audio/ogg">
-						<source src="intro.mp3" type="audio/mpeg">
-					</audio>
+					<div id="play-intro-inner">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+							<circle id="talkie-player-outer" cx="50" cy="50" r="50" fill="rgba(0,0,0,0.5)"></circle>
+							<path id="talkie-player-segment" transform="translate(50,50) rotate(180)" fill="white"></path>
+							<circle id="talkie-player-inner" cx="50" cy="50" r="37" fill="rgba(40,40,40,1)"></circle>
+							<polygon id="play-icon" pointer-events="none" class="play-pause" transform="translate(4,6)" points="67.304,45.832 34.619,67.329 32.47,65.498 32.47,22.258 35.23,20.67 67.304,43.878"></polygon>
+							<path id="pause-icon" pointer-events="none" class="play-pause" transform="translate(4,6)" d="M36.499,63.559H29.98L26.72,60.3V27.701l3.26-3.26h6.519l3.157,3.26V60.3L36.499,63.559z M62.475,63.559h-6.519L52.695,60.3V27.701l3.261-3.26h6.519l3.157,3.26V60.3L62.475,63.559z"></path>
+						</svg>
+						<audio id="intro-track">
+							<source src="intro.ogg" type="audio/ogg">
+							<source src="intro.mp3" type="audio/mpeg">
+						</audio>
+					</div>
 				</div>
 			</div>
 			<div id="infoarea">
@@ -183,7 +185,6 @@
 				<div id="infoareaunselected">
 					<div class="infoarea-heading">This map shows</div>
 					<div id="about"></div>
-					<div>Click a country for more information</div>
 				</div>
 				<div id="selectedcountryinfo">
 					<div id="selectedcountrydataarea1" class="data-area">
@@ -199,7 +200,6 @@
 						<div id="selectedcountrydataresult3" class="data-result"></div>
 						<div id="selectedcountryrank3" class="data-rank"></div>
 					</div>
-					<div>Click country again to return to map info</div>
 				</div>
 			</div>
 		</div>
