@@ -18,7 +18,6 @@ $(function() {
     // Hide header row if required
     if (parameters.header == "hidden") {
         $("#masthead").hide();
-        $("#navigation").css("top", "0px");
     }
 
     // After five seconds, show a "loading" ticker
