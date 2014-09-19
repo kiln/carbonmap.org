@@ -40,5 +40,9 @@ do
 done
 
 
-# bin/csv-ratio.py --join-on=Alpha-2 data/Maps/"With alpha-2"/Emissions.csv data/Maps/"With alpha-2"Population.csv > data/Shading/CO2perCapita.csv
+
+# Input files are in millions of tonnes of CO2 and number of people; output is in tonnes of CO2 per capita
+bin/csv-ratio.py --scale=1e6 data/Maps/"With alpha-2"/Emissions.csv data/Maps/"With alpha-2"/Population.csv > data/Shading/CO2perCapita.csv
+# Already has alpha-2 codes, so no need to reencode
+cp data/Shading/CO2perCapita.csv data/Shading/"With alpha-2"/CO2perCapita.csv
 
