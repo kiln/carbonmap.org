@@ -12,9 +12,13 @@ src:url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix") format("eot"),u
 font-weight: bold;
 }
 
-/******** Hide Antarctica ********/
+/******** Map ********/
 
 #AQ { display: none; }
+
+.shading-Continents {
+	fill-opacity: 0.85;
+}
 
 /******** Page layout ********/
 
@@ -33,13 +37,15 @@ iframe {
 #wrapper {
 	width: 100%;
 	position: relative;
-	background: white;
+	/*background: rgba(150,200,255,0.2);*/
+	background-image: url("Grain.png");
 	overflow: hidden;
 }
 
 /******** Fonts and swatches ********/
 
-/*.red {color: rgb(213,17,0)}
+/*
+.red {color: rgb(213,17,0)}
 .green {color: rgb(0,198,62)}
 .pink {color: rgb(255,7,190)}
 .orange {color: rgb(249,130,56)}
@@ -395,7 +401,7 @@ svg {
 }
 
 path {
-	stroke: white;
+	stroke: rgba(255,255,255,0.7);
 	stroke-width: 1;
 	fill: #DDD; /* Used for countries with no data */
 }
