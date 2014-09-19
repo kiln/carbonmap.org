@@ -603,18 +603,6 @@ path {
 		font-size: 16px;
 		padding: 4px;
 	}
-
-	#infoarea {
-		background: rgba(225,225,225,0.8);
-		width: 100%;
-		padding: 5px 10px 10px;
-		position: relative;
-		box-sizing: border-box;
-		top: 0;
-		left: 0;
-		border-radius: 0;
-	}
-
 }
 
 @media screen and (max-width: 900px) {
@@ -661,6 +649,17 @@ path {
 	#maparea {
 		margin-top: -30px;
 		margin-bottom: -60px;
+	}
+
+	#infoarea {
+		background: rgba(225,225,225,0.8);
+		width: 100%;
+		padding: 5px 10px 10px;
+		position: relative;
+		box-sizing: border-box;
+		top: 0;
+		left: 0;
+		border-radius: 0;
 	}
 
 }
