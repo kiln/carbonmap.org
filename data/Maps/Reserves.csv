@@ -1,1 +1,89 @@
-Alpha-2,Country name,Potential CO2 emissions from proven fossil fuel reservesAU,Australia,163.1BD,Bangladesh,0.8ID,Indonesia,19.5MX,Mexico,8.3NZ,New Zealand,1.2NO,Norway,7.1PE,Peru,1.3ZA,South Africa,61.3AE,United Arab Emirates,53.7CO,Colombia,14.8TH,Thailand,3.4CA,Canada,90.4CN,China,244.7IN,India,130.0RU,Russian Federation,446.0SA,Saudi Arabia,127.7US,US,511.3VE,Venezuela,100.9PG,Papua New Guinea,0.9TT,Trinidad & Tobago,1.1DZ,Algeria,14.6AO,Angola,5.7AR,Argentina,1.8AZ,Azerbaijan,5.6BH,Bahrain,0.5BO,Bolivia,0.6BR,Brazil,16.1BN,Brunei,1.1BG,Bulgaria,4.8TD,Chad,0.6CZ,Czech Republic,2.2DK,Denmark,0.5EC,Ecuador,2.6EG,Egypt,6.6GQ,Equatorial Guinea,0.7GA,Gabon,1.5DE,Germany,82.8GR,Greece,6.1HU,Hungary,3.4IR,Iran,120.0IQ,Iraq,54.9IT,Italy,0.6JP,Japan,0.7KZ,Kazakhstan,88.8KW,Kuwait,46.3LY,Libya,22.7MY,Malaysia,7.5MM,Myanmar,0.7NL,Netherlands,2.5NG,Nigeria,26.8KP,North Korea,1.2OM,Oman,3.8PK,Pakistan,5.9PO,Poland,11.9QA,Qatar,64.4CG,Rep. of Congo (Brazzaville),0.8RO,Romania,2.1KR,South Korea,0.3ES,Spain,1.1SD,Sudan,2.8SY,Syria,1.6TN,Tunisia,0.2TR,Turkey,4.8TM,Turkmenistan,17.2UA,Ukraine,70.8GB,United Kingdom,2.2UZ,Uzbekistan,3.5VN,Vietnam,3.5YE,Yemen,2.2ZW,Zimbabwe,1.0,ASIS (T&T + Paupa New Guinea),2.1,"EU, Africa, ASIS",274.7,Other Africa,5.5,Other Asia Pacific,8.8,Other Europe & Eurasia,46.7,Other Middle East,0.5,Other S. & Cent. America,2.2,Total Africa,150.8,Total S. & Cent. America,141.3,Total Middle East,477.9,Former Soviet Union,639.8,Non-OECD,1866.1,OECD,903.3,Total Asia Pacific,593.2,Total Europe & Eurasia,810.7,Total North America,609.9,World,2783.9
+Country Name,Value
+US,237348.52455997467
+Canada,6758.34089779805
+Mexico,1222.426321208489
+Total North America,245329.2917789819
+,
+Brazil,6646.044031292227
+Colombia,6748.539170697331
+Venezuela,782.9239907267399
+Other S. & Cent. America,786.5752700059679
+Total S. & Cent. America,14978.300314032549
+,
+Bulgaria,2366.0
+Czech Republic,1052.0
+Germany,40548.04871999845
+Greece,3020.0
+Hungary,1660.0
+Kazakhstan,33631.52542984486
+Poland,5465.115000002086
+Romania,291.716000020504
+Russian Federation,157134.2782821656
+Spain,530.0
+Turkey,8702.0
+Ukraine,33873.642880022526
+United Kingdom,231.281499907372
+Other Europe & Eurasia,22195.44014115853
+Total Europe & Eurasia,310742.3936765555
+,
+South Africa,30156.0
+Zimbabwe,502.0
+Other Africa,1160.91159348975
+Middle East,1122.0
+Total Middle East & Africa,32936.0
+,
+Australia,76407.63478440046
+China,114521.35589623451
+India,60607.06453311443
+Indonesia,28023.66787624359
+Japan,347.0
+New Zealand,571.0
+North Korea,600.0
+Pakistan,2070.643508374691
+South Korea,126.0
+Thailand,1239.712005838752
+Vietnam,155.017109692099
+Other Asia Pacific,3709.385460256997
+Total Asia Pacific,288385.342304408
+Qatar,49.7411355972
+Italy,1.4299016222326
+Turkmenistan,18.079000115442
+Other Middle East,0.488200005027
+Sudan,1.5
+Kuwait,103.2840000391
+Total Africa,144.4987596199
+Angola,12.6669998169
+Peru,1.858099937436
+Argentina,2.66971713305
+Bolivia,0.317148715258
+Norway,10.72714656592
+Nigeria,42.21899938579
+Ecuador,8.19088554382
+Bangladesh,0.275715231895
+Bahrain,0.19051463902
+Uzbekistan,1.67987287045
+Saudi Arabia,274.08375358629996
+Iran,190.7799987793
+Algeria,16.70390796665
+Malaysia,4.75944542884
+Papua New Guinea,0.154801085591
+Oman,6.449999988079
+Iraq,153.58774495125
+Rep. of Congo (Brazzaville),1.60000002384
+Netherlands,0.85119998455
+Libya,50.0210001469
+Brunei,1.3880000114420001
+Trinidad & Tobago,1.181999981404
+Denmark,0.7007199153307
+Equatorial Guinea,1.70500004292
+Gabon,2.0
+South Sudan,3.5
+Syria,2.784999996424
+Yemen,3.478554755449
+Myanmar,0.283168494701
+Chad,1.5
+Egypt,5.74625873566
+United Arab Emirates,103.89100313191
+Azerbaijan,7.877882361412
+Tunisia,0.425000011921
+Total Middle East,888.7599054682
