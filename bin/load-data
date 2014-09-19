@@ -4,6 +4,8 @@ set -ex
 
 export PYTHONIOENCODING=utf-8
 
+cartograms_bin=/usr/local/cartograms/bin
+
 simplification=50000
 simplification_json='{"AU": 30000, "NZ": 30000}'
 massive_simplification=15000
@@ -66,22 +68,22 @@ then
     datasets="${1-${all_datasets}}"
     for f in $datasets
     do
-        cartograms/bin/delete-data.py "carbonmap:$f"
+        "$cartograms_bin"/delete-data.py "carbonmap:$f"
         eval col=\${col_$f}
-        cartograms/bin/load-data.py "carbonmap:$f" data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
-        cartograms/bin/density-grid.py --dataset "carbonmap:$f" --map world-robinson > data/Maps/Cartogram\ data/"$f".density && \
+        "$cartograms_bin"/load-data.py "carbonmap:$f" data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
+        "$cartograms_bin"/density-grid.py --dataset "carbonmap:$f" --map world-robinson > data/Maps/Cartogram\ data/"$f".density && \
         cart 1500 750 data/Maps/Cartogram\ data/"$f".density data/Maps/Cartogram\ data/"$f".cart
     done
 fi
 
 if $paths
 then
-    cartograms/bin/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$simplification" --simplification-json="$simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths.js
+    "$cartograms_bin"/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$simplification" --simplification-json="$simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths.js
 fi
 
 if $massive_paths
 then
-    cartograms/bin/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$massive_simplification" --simplification-json="$massive_simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths-massive.js
+    "$cartograms_bin"/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$massive_simplification" --simplification-json="$massive_simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths-massive.js
 fi
 
 # Generate a spreadsheet showing all the cartogram data
@@ -123,7 +125,7 @@ fi
     (
         echo "key: Alpha-2"
         echo "files:"
-        echo "- file: cartograms/data/continents.csv"
+        echo "- file: /usr/local/cartograms/data/continents.csv"
         echo "  key: iso2"
         echo "  values: [name]"
         for f in $all_datasets
@@ -138,7 +140,7 @@ fi
                 echo "  - Notes"
             fi
         done
-    ) | cartograms/bin/csv-join
+    ) | "$cartograms_bin"/csv-join
 ) > site/map-data.csv
 
 cat site/data.paths.js > site/data.js
@@ -157,7 +159,7 @@ cat site/data.paths-massive.js > site/data-massive.js
     echo '";'
     
     echo -n 'carbonmap_data._names = '
-    cartograms/bin/csv-to-json --key iso2 --value name cartograms/data/continents.csv
+    "$cartograms_bin"/csv-to-json --key iso2 --value name /usr/local/cartograms/data/continents.csv
     echo ';'
     
     for f in $all_datasets
@@ -172,11 +174,11 @@ cat site/data.paths-massive.js > site/data-massive.js
             eval type=\${type_$f:-float}
             eval format=\${format_$f:-.1f}
             echo -n "carbonmap_values.$f = "
-            cartograms/bin/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
             echo ';'
             
             echo -n "carbonmap_rank.$f = "
-            cartograms/bin/csv-to-json --rank --key Alpha-2 --value "$col" --type="$type" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --rank --key Alpha-2 --value "$col" --type="$type" data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done

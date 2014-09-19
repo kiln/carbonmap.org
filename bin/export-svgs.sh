@@ -20,7 +20,7 @@ do
   do
       shading=${shading_css##*/}; shading=${shading%.css}
       echo "Generating $d-$shading.svg..."
-      cartograms/bin/as-svg.py \
+      /usr/local/cartograms/bin/as-svg.py \
         --map=world-robinson \
         "${cart_option[@]}" \
         --simplification=0 \

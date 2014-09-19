@@ -37,7 +37,7 @@ finally:
 # Load in the country -> continent mapping
 continent_by_country = {}
 name_by_country = {}
-with open("cartograms/data/continents.csv", 'r') as f:
+with open("/usr/local/cartograms/data/continents.csv", 'r') as f:
     r = csv.reader(f)
     r.next() # Skip header line
     for iso2, country_name, continent_name, continent_index in r:
