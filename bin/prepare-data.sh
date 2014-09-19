@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Convert the raw spreadsheets into a form and location appropriate
+# This script converts the raw spreadsheets into a form and location appropriate
 # for load-data and load-shading
+
+# After uploading new Excel spreadsheets, you should run:
+#    bin/xls-to-csv.py data/Raw/*/*.xls*
 
 WB_LATEST=/usr/local/cartograms/bin/wb-latest.py
 WB_DATA="data/Raw/World Bank"
