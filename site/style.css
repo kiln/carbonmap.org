@@ -204,16 +204,23 @@ h3 {
 #play-intro {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	right: 50%;
 	width: 200px;
-	height: 200px;
-	margin: -100px 0 0 -100px;
+	height: auto;
+	margin: -100px -100px 0 0;
 	z-index: 20;
 	opacity: 0.9;
+	min-width: 60px;
 }
 
 #play-intro:hover {
 	opacity: 1;
+}
+
+#play-intro-inner {
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
 }
 
 #talkie-player-inner {
@@ -280,6 +287,8 @@ h3 {
 	position: relative;
 	width: 100%;
 	z-index: 1;
+	box-sizing: border-box;
+	padding-right: 12%;
 }
 
 #about {
@@ -312,7 +321,7 @@ h3 {
 
 .navitems {
 	display: inline-block;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	padding: 4px 6px;
 	border-bottom-right-radius: 5px;
@@ -335,6 +344,7 @@ h3 {
 
 #mainarea {
 	width: 100%;
+	position: relative;
 }
 
 #maparea {
@@ -530,6 +540,11 @@ path {
 
 /******** Metapages	********/
 
+.UPDATE_COMMENT {
+	color: green;
+	font-size: 20px;
+}
+
 .abouttext {
 	width: 500px;
 	margin-left: 178px;
@@ -551,8 +566,8 @@ path {
 }
 
 .sources {
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 15px;
+	line-height: 18px;
 	color: #444;
 }
 
@@ -566,14 +581,7 @@ path {
 
 /******** Responsive settings ********/
 
-@media screen and (max-width: 1090px) {
-
-	.navitems {
-		font-size: 20px;
-	}
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
 
 	.navtitle {
 		font-size: 13px;
@@ -585,7 +593,7 @@ path {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
 
 	.navtitle {
 		font-size: 13px;
@@ -609,16 +617,12 @@ path {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
-	#masthead {
-		height: 50px;
+	#navigation {
+		padding-right: 5%;
 	}
 
-	#header-title {
-		top: 28px;
-	}
-	
 	.navblock {
 		display: block;
 		text-align: center;
@@ -635,15 +639,23 @@ path {
 	}
 
 	#nav-_raw {
-		display: inline-block;
+		position: absolute;
+		text-align: center;
+		top: 30px;
+		left: 20px;
+		height: 30px;
+		width: 30px;
+		background: none;
+	}
+
+	#nav-_raw i {
+		font-size: 40px;
+		color: #333;
 	}
 
 	.navitems {
 		border-radius: 5px;
 		font-size: 16px;
-	}
-
-	#navigation {
 	}
 
 	#maparea {
@@ -653,28 +665,83 @@ path {
 
 }
 
-@media screen and (max-width: 450px) {
-	
-	.navtitle {
-		display: none;
+@media screen and (max-width: 640px) {
+
+	#masthead {
+		height: 50px;
 	}
-	
+
+	#header-title {
+		position: absolute;
+		left: 20px;
+		top: 10px;
+	}
+
+	#credit {
+		top: 35px;
+	}
+
+	#twittershare {
+		position: absolute;
+		top: 32px;
+		right: 0px;
+	}
+
+	#navigation {
+		text-align: left;
+		padding-right: 75px;
+	}
+
+	.navblock {
+		text-align: left;
+		padding-right: 0;
+	}
+
 	.navitemscontainer {
 		display: inline;
 	}
 
 	.navitems {
-		display: inline;
+		display: inline-block;
 		border-radius: 5px;
-		font-size: 13px;
-		line-height: 1.4em;
 	}
 
-	#navigation {
+	#nav-_raw {
+		display: inline;
+		position: static;
+		text-align: center;
+		background: none;
+		height: 18px;
+		width: 22px;
+	}
+
+	#nav-_raw i {
+		font-size: inherit;
+		color: #333;
+	}
+
+	#reference {
+		display: inline;
+	}
+
+	#reference .navtitle {
+		display: none;
 	}
 
 	#maparea {
 		margin-top: -20px;
 		margin-bottom: -20px;
 	}
+}
+
+@media screen and (max-width: 550px) {
+
+	.navblock {
+		display: inline;
+	}
+
+	.navtitle {
+		display: none;
+	}
+
 }
