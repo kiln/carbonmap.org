@@ -1,218 +1,216 @@
-Alpha-3,Alpha-2,Country Name,Land area (sq. km),Notes
-EUU,EU,European Union,4181730,World Bank data
-AFG,AF,Afghanistan,652230,World Bank data
-ALB,AL,Albania,27400,World Bank data
-DZA,DZ,Algeria,2381740,World Bank data
-ASM,AS,American Samoa,200,World Bank data
-AND,AD,Andorra,470,World Bank data
-AGO,AO,Angola,1246700,World Bank data
-ATG,AG,Antigua and Barbuda,440,World Bank data
-ARG,AR,Argentina,2736690,World Bank data
-ARM,AM,Armenia,28480,World Bank data
-ABW,AW,Aruba,180,World Bank data
-AUS,AU,Australia,7682300,World Bank data
-AUT,AT,Austria,82430,World Bank data
-AZE,AZ,Azerbaijan,82620,World Bank data
-BHS,BS,"Bahamas, The",10010,World Bank data
-BHR,BH,Bahrain,760,World Bank data
-BGD,BD,Bangladesh,130170,World Bank data
-BRB,BB,Barbados,430,World Bank data
-BLR,BY,Belarus,202820,World Bank data
-BEL,BE,Belgium,30280,World Bank data
-BLZ,BZ,Belize,22810,World Bank data
-BEN,BJ,Benin,110620,World Bank data
-BMU,BM,Bermuda,50,World Bank data
-BTN,BT,Bhutan,38390,World Bank data
-BOL,BO,Bolivia,1083300,World Bank data
-BIH,BA,Bosnia and Herzegovina,51000,World Bank data
-BWA,BW,Botswana,566730,World Bank data
-BRA,BR,Brazil,8459420,World Bank data
-BRN,BN,Brunei Darussalam,5270,World Bank data
-BGR,BG,Bulgaria,108560,World Bank data
-BFA,BF,Burkina Faso,273600,World Bank data
-BDI,BI,Burundi,25680,World Bank data
-KHM,KH,Cambodia,176520,World Bank data
-CMR,CM,Cameroon,472710,World Bank data
-CAN,CA,Canada,9093510,World Bank data
-CPV,CV,Cape Verde,4030,World Bank data
-CYM,KY,Cayman Islands,240,World Bank data
-CAF,CF,Central African Republic,622980,World Bank data
-TCD,TD,Chad,1259200,World Bank data
-CHL,CL,Chile,743530,World Bank data
-CHN,CN,China,9327480,World Bank data
-COL,CO,Colombia,1109500,World Bank data
-COM,KM,Comoros,1860,World Bank data
-COD,CD,"Congo, Dem. Rep.",2267050,World Bank data
-COG,CG,"Congo, Rep.",341500,World Bank data
-CRI,CR,Costa Rica,51060,World Bank data
-CIV,CI,Cote d'Ivoire,318000,World Bank data
-HRV,HR,Croatia,55960,World Bank data
-CUB,CU,Cuba,106440,World Bank data
-CUW,CW,Curacao,444,World Bank data
-CYP,CY,Cyprus,9240,World Bank data
-CZE,CZ,Czech Republic,77250,World Bank data
-DNK,DK,Denmark,42430,World Bank data
-DJI,DJ,Djibouti,23180,World Bank data
-DMA,DM,Dominica,750,World Bank data
-DOM,DO,Dominican Republic,48320,World Bank data
-ECU,EC,Ecuador,248360,World Bank data
-EGY,EG,"Egypt, Arab Rep.",995450,World Bank data
-SLV,SV,El Salvador,20720,World Bank data
-GNQ,GQ,Equatorial Guinea,28050,World Bank data
-ERI,ER,Eritrea,101000,World Bank data
-EST,EE,Estonia,42390,World Bank data
-ETH,ET,Ethiopia,1000000,World Bank data
-FRO,FO,Faeroe Islands,1390,World Bank data
-FJI,FJ,Fiji,18270,World Bank data
-FIN,FI,Finland,303900,World Bank data
-FRA,FR,France,547660,World Bank data
-PYF,PF,French Polynesia,3660,World Bank data
-GAB,GA,Gabon,257670,World Bank data
-GMB,GM,"Gambia, The",10000,World Bank data
-GEO,GE,Georgia,69490,World Bank data
-DEU,DE,Germany,348610,World Bank data
-GHA,GH,Ghana,227540,World Bank data
-GIB,GI,Gibraltar,10,World Bank data
-GRC,GR,Greece,128900,World Bank data
-GRL,GL,Greenland,2166086,World Bank data
-GRD,GD,Grenada,340,World Bank data
-GUM,GU,Guam,540,World Bank data
-GTM,GT,Guatemala,107160,World Bank data
-GIN,GN,Guinea,245720,World Bank data
-GNB,GW,Guinea-Bissau,28120,World Bank data
-GUY,GY,Guyana,196850,World Bank data
-HTI,HT,Haiti,27560,World Bank data
-HND,HN,Honduras,111890,World Bank data
-HKG,HK,"Hong Kong SAR, China",1042,World Bank data
-HUN,HU,Hungary,90530,World Bank data
-ISL,IS,Iceland,100250,World Bank data
-IND,IN,India,2973190,World Bank data
-IDN,ID,Indonesia,1811570,World Bank data
-IRN,IR,"Iran, Islamic Rep.",1628550,World Bank data
-IRQ,IQ,Iraq,434320,World Bank data
-IRL,IE,Ireland,68890,World Bank data
-IMN,IM,Isle of Man,570,World Bank data
-ISR,IL,Israel,21640,World Bank data
-ITA,IT,Italy,294140,World Bank data
-JAM,JM,Jamaica,10830,World Bank data
-JPN,JP,Japan,364500,World Bank data
-JOR,JO,Jordan,88780,World Bank data
-KAZ,KZ,Kazakhstan,2699700,World Bank data
-KEN,KE,Kenya,569140,World Bank data
-KIR,KI,Kiribati,810,World Bank data
-PRK,KP,"Korea, Dem. Rep.",120410,World Bank data
-KOR,KR,"Korea, Rep.",97100,World Bank data
-KSV,XK,Kosovo,10887,World Bank data
-KWT,KW,Kuwait,17820,World Bank data
-KGZ,KG,Kyrgyz Republic,191800,World Bank data
-LAO,LA,Lao PDR,230800,World Bank data
-LVA,LV,Latvia,62180,World Bank data
-LBN,LB,Lebanon,10230,World Bank data
-LSO,LS,Lesotho,30360,World Bank data
-LBR,LR,Liberia,96320,World Bank data
-LBY,LY,Libya,1759540,World Bank data
-LIE,LI,Liechtenstein,160,World Bank data
-LTU,LT,Lithuania,62670,World Bank data
-LUX,LU,Luxembourg,2590,World Bank data
-MAC,MO,"Macao SAR, China",28,World Bank data
-MKD,MK,"Macedonia, FYR",25220,World Bank data
-MDG,MG,Madagascar,581540,World Bank data
-MWI,MW,Malawi,94280,World Bank data
-MYS,MY,Malaysia,328550,World Bank data
-MDV,MV,Maldives,300,World Bank data
-MLI,ML,Mali,1220190,World Bank data
-MLT,MT,Malta,320,World Bank data
-MHL,MH,Marshall Islands,180,World Bank data
-MRT,MR,Mauritania,1030700,World Bank data
-MUS,MU,Mauritius,2030,World Bank data
-MYT,YT,Mayotte,370,World Bank data
-MEX,MX,Mexico,1943950,World Bank data
-FSM,FM,"Micronesia, Fed. Sts.",700,World Bank data
-MDA,MD,Moldova,32890,World Bank data
-MCO,MC,Monaco,2,World Bank data
-MNG,MN,Mongolia,1553560,World Bank data
-MNE,ME,Montenegro,13450,World Bank data
-MAR,MA,Morocco,446300,World Bank data
-MOZ,MZ,Mozambique,786380,World Bank data
-MMR,MM,Myanmar,653520,World Bank data
-NAM,NA,Namibia,823290,World Bank data
-NPL,NP,Nepal,143350,World Bank data
-NLD,NL,Netherlands,33730,World Bank data
-NCL,NC,New Caledonia,18280,World Bank data
-NZL,NZ,New Zealand,263310,World Bank data
-NIC,NI,Nicaragua,120340,World Bank data
-NER,NE,Niger,1266700,World Bank data
-NGA,NG,Nigeria,910770,World Bank data
-MNP,MP,Northern Mariana Islands,460,World Bank data
-NOR,NO,Norway,305470,World Bank data
-OMN,OM,Oman,309500,World Bank data
-PAK,PK,Pakistan,770880,World Bank data
-PLW,PW,Palau,460,World Bank data
-PAN,PA,Panama,74340,World Bank data
-PNG,PG,Papua New Guinea,452860,World Bank data
-PRY,PY,Paraguay,397300,World Bank data
-PER,PE,Peru,1280000,World Bank data
-PHL,PH,Philippines,298170,World Bank data
-POL,PL,Poland,304200,World Bank data
-PRT,PT,Portugal,91470,World Bank data
-PRI,PR,Puerto Rico,8870,World Bank data
-QAT,QA,Qatar,11590,World Bank data
-ROU,RO,Romania,230060,World Bank data
-RUS,RU,Russian Federation,16376870,World Bank data
-RWA,RW,Rwanda,24670,World Bank data
-WSM,WS,Samoa,2830,World Bank data
-SMR,SM,San Marino,60,World Bank data
-STP,ST,Sao Tome and Principe,960,World Bank data
-SAU,SA,Saudi Arabia,2149690,World Bank data
-SEN,SN,Senegal,192530,World Bank data
-SRB,RS,Serbia,87460,World Bank data
-SYC,SC,Seychelles,460,World Bank data
-SLE,SL,Sierra Leone,71620,World Bank data
-SGP,SG,Singapore,700,World Bank data
-SXM,SX,Sint Maarten (Dutch part),34,World Bank data
-SVK,SK,Slovak Republic,48090,World Bank data
-SVN,SI,Slovenia,20140,World Bank data
-SLB,SB,Solomon Islands,27990,World Bank data
-SOM,SO,Somalia,627340,World Bank data
-ZAF,ZA,South Africa,1214470,World Bank data
-ESP,ES,Spain,498800,World Bank data
-LKA,LK,Sri Lanka,62710,World Bank data
-KNA,KN,St. Kitts and Nevis,260,World Bank data
-LCA,LC,St. Lucia,610,World Bank data
-MAF,MF,St. Martin (French part),54.4,World Bank data
-VCT,VC,St. Vincent and the Grenadines,390,World Bank data
-SDN,SD,Sudan,2376000,World Bank data
-SUR,SR,Suriname,156000,World Bank data
-SWZ,SZ,Swaziland,17200,World Bank data
-SWE,SE,Sweden,410340,World Bank data
-CHE,CH,Switzerland,40000,World Bank data
-SYR,SY,Syrian Arab Republic,183630,World Bank data
-TJK,TJ,Tajikistan,139960,World Bank data
-TZA,TZ,Tanzania,885800,World Bank data
-THA,TH,Thailand,510890,World Bank data
-TLS,TL,Timor-Leste,14870,World Bank data
-TGO,TG,Togo,54390,World Bank data
-TON,TO,Tonga,720,World Bank data
-TTO,TT,Trinidad and Tobago,5130,World Bank data
-TUN,TN,Tunisia,155360,World Bank data
-TUR,TR,Turkey,769630,World Bank data
-TKM,TM,Turkmenistan,469930,World Bank data
-TCA,TC,Turks and Caicos Islands,950,World Bank data
-TUV,TV,Tuvalu,30,World Bank data
-UGA,UG,Uganda,199810,World Bank data
-UKR,UA,Ukraine,579320,World Bank data
-ARE,AE,United Arab Emirates,83600,World Bank data
-GBR,GB,United Kingdom,241930,World Bank data
-USA,US,United States,9147420,World Bank data
-URY,UY,Uruguay,175020,World Bank data
-UZB,UZ,Uzbekistan,425400,World Bank data
-VUT,VU,Vanuatu,12190,World Bank data
-VEN,VE,"Venezuela, RB",882050,World Bank data
-VNM,VN,Vietnam,310070,World Bank data
-VIR,VI,Virgin Islands (U.S.),350,World Bank data
-PSE,PS,West Bank and Gaza,6020,World Bank data
-YEM,YE,"Yemen, Rep.",527970,World Bank data
-ZMB,ZM,Zambia,743390,World Bank data
-ZWE,ZW,Zimbabwe,386850,World Bank data
-,EH,Western Sahara,266000,CIA World Factbook data
-,TW,Taiwan,32260,CIA World Factbook data
+Country Name,Alpha-2,Country Code,Year,Value
+Aruba,AW,ABW,2013,180
+Andorra,AD,AND,2013,470
+Afghanistan,AF,AFG,2013,652230
+Angola,AO,AGO,2013,1246700
+Albania,AL,ALB,2013,27400
+United Arab Emirates,AE,ARE,2013,83600
+Argentina,AR,ARG,2013,2736690
+Armenia,AM,ARM,2013,28480
+American Samoa,AS,ASM,2013,200
+Antigua and Barbuda,AG,ATG,2013,440
+Australia,AU,AUS,2013,7682300
+Austria,AT,AUT,2013,82409
+Azerbaijan,AZ,AZE,2013,82658
+Burundi,BI,BDI,2013,25680
+Belgium,BE,BEL,2013,30280
+Benin,BJ,BEN,2013,112760
+Burkina Faso,BF,BFA,2013,273600
+Bangladesh,BD,BGD,2013,130170
+Bulgaria,BG,BGR,2013,108560
+Bahrain,BH,BHR,2013,760
+"Bahamas, The",BS,BHS,2013,10010
+Bosnia and Herzegovina,BA,BIH,2013,51000
+Belarus,BY,BLR,2013,202910
+Belize,BZ,BLZ,2013,22810
+Bermuda,BM,BMU,2013,50
+Bolivia,BO,BOL,2013,1083300
+Brazil,BR,BRA,2013,8459420
+Barbados,BB,BRB,2013,430
+Brunei Darussalam,BN,BRN,2013,5270
+Bhutan,BT,BTN,2013,38394
+Botswana,BW,BWA,2013,566730
+Central African Republic,CF,CAF,2013,622980
+Canada,CA,CAN,2013,9093510
+Switzerland,CH,CHE,2013,40000
+Chile,CL,CHL,2013,743532
+China,CN,CHN,2013,9327489.9
+Cote d'Ivoire,CI,CIV,2013,318000
+Cameroon,CM,CMR,2013,472710
+"Congo, Rep.",CG,COG,2013,341500
+Colombia,CO,COL,2013,1109500
+Comoros,KM,COM,2013,1861
+Cabo Verde,CV,CPV,2013,4030
+Costa Rica,CR,CRI,2013,51060
+Cuba,CU,CUB,2013,106440
+Curacao,CW,CUW,2013,444
+Cayman Islands,KY,CYM,2013,240
+Cyprus,CY,CYP,2013,9240
+Czech Republic,CZ,CZE,2013,77240
+Germany,DE,DEU,2013,348570
+Djibouti,DJ,DJI,2013,23180
+Dominica,DM,DMA,2013,750
+Denmark,DK,DNK,2013,42430
+Dominican Republic,DO,DOM,2013,48320
+Algeria,DZ,DZA,2013,2381740
+Ecuador,EC,ECU,2013,248360
+"Egypt, Arab Rep.",EG,EGY,2013,995450
+Eritrea,ER,ERI,2013,101000
+Spain,ES,ESP,2013,498800
+Estonia,EE,EST,2013,42390
+Ethiopia,ET,ETH,2013,1000000
+European Union,EU,EUU,2013,4237681
+Finland,FI,FIN,2013,303890
+Fiji,FJ,FJI,2013,18270
+France,FR,FRA,2013,547660
+Faeroe Islands,FO,FRO,2013,1396
+"Micronesia, Fed. Sts.",FM,FSM,2013,700
+Gabon,GA,GAB,2013,257670
+United Kingdom,GB,GBR,2013,241930
+Georgia,GE,GEO,2013,69490
+Ghana,GH,GHA,2013,227540
+Guinea,GN,GIN,2013,245720
+"Gambia, The",GM,GMB,2013,10120
+Guinea-Bissau,GW,GNB,2013,28120
+Equatorial Guinea,GQ,GNQ,2013,28050
+Greece,GR,GRC,2013,128900
+Grenada,GD,GRD,2013,340
+Greenland,GL,GRL,2013,410450
+Guatemala,GT,GTM,2013,107160
+Guam,GU,GUM,2013,540
+Guyana,GY,GUY,2013,196850
+"Hong Kong SAR, China",HK,HKG,2013,1042
+Honduras,HN,HND,2013,111890
+Croatia,HR,HRV,2013,55960
+Haiti,HT,HTI,2013,27560
+Hungary,HU,HUN,2013,90530
+Indonesia,ID,IDN,2013,1811570
+Isle of Man,IM,IMN,2013,570
+India,IN,IND,2013,2973190
+Ireland,IE,IRL,2013,68890
+"Iran, Islamic Rep.",IR,IRN,2013,1628550
+Iraq,IQ,IRQ,2013,434320
+Iceland,IS,ISL,2013,100250
+Israel,IL,ISR,2013,21640
+Italy,IT,ITA,2013,294140
+Jamaica,JM,JAM,2013,10830
+Jordan,JO,JOR,2013,88780
+Japan,JP,JPN,2013,364500
+Kazakhstan,KZ,KAZ,2013,2699700
+Kenya,KE,KEN,2013,569140
+Kyrgyz Republic,KG,KGZ,2013,191800
+Cambodia,KH,KHM,2013,176520
+Kiribati,KI,KIR,2013,810
+St. Kitts and Nevis,KN,KNA,2013,260
+"Korea, Rep.",KR,KOR,2013,97100
+Kosovo,XK,KSV,2013,10887
+Kuwait,KW,KWT,2013,17820
+Lao PDR,LA,LAO,2013,230800
+Lebanon,LB,LBN,2013,10230
+Liberia,LR,LBR,2013,96320
+Libya,LY,LBY,2013,1759540
+St. Lucia,LC,LCA,2013,610
+Liechtenstein,LI,LIE,2013,160
+Sri Lanka,LK,LKA,2013,62710
+Lesotho,LS,LSO,2013,30360
+Lithuania,LT,LTU,2013,62674
+Luxembourg,LU,LUX,2013,2590
+Latvia,LV,LVA,2013,62200
+"Macao SAR, China",MO,MAC,2013,28
+St. Martin (French part),MF,MAF,2013,54.4
+Morocco,MA,MAR,2013,446300
+Monaco,MC,MCO,2013,2
+Moldova,MD,MDA,2013,32854
+Madagascar,MG,MDG,2013,581540
+Maldives,MV,MDV,2013,300
+Mexico,MX,MEX,2013,1943950
+Marshall Islands,MH,MHL,2013,180
+"Macedonia, FYR",MK,MKD,2013,25220
+Mali,ML,MLI,2013,1220190
+Malta,MT,MLT,2013,320
+Myanmar,MM,MMR,2013,653290
+Montenegro,ME,MNE,2013,13450
+Mongolia,MN,MNG,2013,1553560
+Northern Mariana Islands,MP,MNP,2013,460
+Mozambique,MZ,MOZ,2013,786380
+Mauritania,MR,MRT,2013,1030700
+Mauritius,MU,MUS,2013,2030
+Malawi,MW,MWI,2013,94280
+Malaysia,MY,MYS,2013,328550
+Namibia,NA,NAM,2013,823290
+New Caledonia,NC,NCL,2013,18280
+Niger,NE,NER,2013,1266700
+Nigeria,NG,NGA,2013,910770
+Nicaragua,NI,NIC,2013,120340
+Netherlands,NL,NLD,2013,33730
+Norway,NO,NOR,2013,304250
+Nepal,NP,NPL,2013,143350
+New Zealand,NZ,NZL,2013,263310
+Oman,OM,OMN,2013,309500
+Pakistan,PK,PAK,2013,770880
+Panama,PA,PAN,2013,74340
+Peru,PE,PER,2013,1280000
+Philippines,PH,PHL,2013,298170
+Palau,PW,PLW,2013,460
+Papua New Guinea,PG,PNG,2013,452860
+Poland,PL,POL,2013,304150
+Puerto Rico,PR,PRI,2013,8870
+"Korea, Dem. Rep.",KP,PRK,2013,120410
+Portugal,PT,PRT,2013,91470
+Paraguay,PY,PRY,2013,397300
+French Polynesia,PF,PYF,2013,3660
+Qatar,QA,QAT,2013,11610
+Romania,RO,ROU,2013,230160
+Russian Federation,RU,RUS,2013,16376870
+Rwanda,RW,RWA,2013,24670
+Saudi Arabia,SA,SAU,2013,2149690
+Sudan,SD,SDN,2013,2376000
+Senegal,SN,SEN,2013,192530
+Singapore,SG,SGP,2013,700
+Solomon Islands,SB,SLB,2013,27990
+Sierra Leone,SL,SLE,2013,71620
+El Salvador,SV,SLV,2013,20720
+San Marino,SM,SMR,2013,60
+Somalia,SO,SOM,2013,627340
+Serbia,RS,SRB,2013,87460
+South Sudan,SS,SSD,,
+Sao Tome and Principe,ST,STP,2013,960
+Suriname,SR,SUR,2013,156000
+Slovak Republic,SK,SVK,2013,48088
+Slovenia,SI,SVN,2013,20140
+Sweden,SE,SWE,2013,410340
+Swaziland,SZ,SWZ,2013,17200
+Sint Maarten (Dutch part),SX,SXM,2013,34
+Seychelles,SC,SYC,2013,460
+Syrian Arab Republic,SY,SYR,2013,183630
+Turks and Caicos Islands,TC,TCA,2013,950
+Chad,TD,TCD,2013,1259200
+Togo,TG,TGO,2013,54390
+Thailand,TH,THA,2013,510890
+Tajikistan,TJ,TJK,2013,139960
+Turkmenistan,TM,TKM,2013,469930
+Timor-Leste,TL,TLS,2013,14870
+Tonga,TO,TON,2013,720
+Trinidad and Tobago,TT,TTO,2013,5130
+Tunisia,TN,TUN,2013,155360
+Turkey,TR,TUR,2013,769630
+Tuvalu,TV,TUV,2013,30
+Tanzania,TZ,TZA,2013,885800
+Uganda,UG,UGA,2013,199810
+Ukraine,UA,UKR,2013,579320
+Uruguay,UY,URY,2013,175020
+United States,US,USA,2013,9147420
+Uzbekistan,UZ,UZB,2013,425400
+St. Vincent and the Grenadines,VC,VCT,2013,390
+"Venezuela, RB",VE,VEN,2013,882050
+Virgin Islands (U.S.),VI,VIR,2013,350
+Vietnam,VN,VNM,2013,310070
+Vanuatu,VU,VUT,2013,12190
+West Bank and Gaza,PS,PSE,2013,6020
+World,,WLD,2013,129710427.3
+Samoa,WS,WSM,2013,2830
+"Yemen, Rep.",YE,YEM,2013,527970
+South Africa,ZA,ZAF,2013,1213090
+"Congo, Dem. Rep.",CD,COD,2013,2267050
+Zambia,ZM,ZMB,2013,743390
+Zimbabwe,ZW,ZWE,2013,386850

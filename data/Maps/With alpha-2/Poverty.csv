@@ -1,168 +1,216 @@
-Alpha-3,Alpha-2,Country name,Population living below $1.25 a day,Notes
-ARE,AE,United Arab Emirates,0.001,2010 estimate based on assumption of 0% for high-income countries
-AUS,AU,Australia,0.001,2010 estimate based on assumption of 0% for high-income countries
-AUT,AT,Austria,0.001,2010 estimate based on assumption of 0% for high-income countries
-BEL,BE,Belgium,0.001,2010 estimate based on assumption of 0% for high-income countries
-BRN,BN,Brunei Darussalam,0.001,2010 estimate based on assumption of 0% for high-income countries
-CAN,CA,Canada,0.001,2010 estimate based on assumption of 0% for high-income countries
-CHE,CH,Switzerland,0.001,2010 estimate based on assumption of 0% for high-income countries
-CYP,CY,Cyprus,0.001,2010 estimate based on assumption of 0% for high-income countries
-DEU,DE,Germany,0.001,2010 estimate based on assumption of 0% for high-income countries
-DNK,DK,Denmark,0.001,2010 estimate based on assumption of 0% for high-income countries
-ESP,ES,Spain,0.001,2010 estimate based on assumption of 0% for high-income countries
-FIN,FI,Finland,0.001,2010 estimate based on assumption of 0% for high-income countries
-FRA,FR,France,0.001,2010 estimate based on assumption of 0% for high-income countries
-GBR,GB,United Kingdom,0.001,2010 estimate based on assumption of 0% for high-income countries
-GRC,GR,Greece,0.001,2010 estimate based on assumption of 0% for high-income countries
-GRL,GL,Greenland,0.001,2010 estimate based on assumption of 0% for high-income countries
-HKG,HK,"Hong Kong SAR, China",0.001,2010 estimate based on assumption of 0% for high-income countries
-IRL,IE,Ireland,0.001,2010 estimate based on assumption of 0% for high-income countries
-ISL,IS,Iceland,0.001,2010 estimate based on assumption of 0% for high-income countries
-ISR,IL,Israel,0.001,2010 estimate based on assumption of 0% for high-income countries
-ITA,IT,Italy,0.001,2010 estimate based on assumption of 0% for high-income countries
-JPN,JP,Japan,0.001,2010 estimate based on assumption of 0% for high-income countries
-KOR,KR,"Korea, Rep.",0.001,2010 estimate based on assumption of 0% for high-income countries
-LUX,LU,Luxembourg,0.001,2010 estimate based on assumption of 0% for high-income countries
-MAC,MO,"Macao SAR, China",0.001,2010 estimate based on assumption of 0% for high-income countries
-MLT,MT,Malta,0.001,2010 estimate based on assumption of 0% for high-income countries
-NLD,NL,Netherlands,0.001,2010 estimate based on assumption of 0% for high-income countries
-NOR,NO,Norway,0.001,2010 estimate based on assumption of 0% for high-income countries
-NZL,NZ,New Zealand,0.001,2010 estimate based on assumption of 0% for high-income countries
-PRT,PT,Portugal,0.001,2010 estimate based on assumption of 0% for high-income countries
-QAT,QA,Qatar,0.001,2010 estimate based on assumption of 0% for high-income countries
-SGP,SG,Singapore,0.001,2010 estimate based on assumption of 0% for high-income countries
-SWE,SE,Sweden,0.001,2010 estimate based on assumption of 0% for high-income countries
-USA,US,United States,0.001,2010 estimate based on assumption of 0% for high-income countries
-MMR,MM,Myanmar,9989187.903,Data unavailable so this 2010 placeholder estimate based on Cambodia as a neighbour with similar GDP/capita
-PNG,PG,Papua New Guinea,2477205.679,Data unavailable so this 2010 placeholder estimate based on double Indonesia's figure to reflect its neighbour's higher GDP / person
-ERI,ER,Eritrea,3854459.213,Data unavailable so this 2010 placeholder estimate based on Eritrea as a neighbour with similar GDP per capita
-GUY,GY,Guyana,132973.7778,Data unavailable so this 2010 placeholder estimate based on Honduras as a nighbour with roughly comparable GDP/capita
-AFG,AF,Afghanistan,8534373.908,Data unavailable so this 2010 placeholder estimate based on Nepal as a neighbour with similar GDP/capita
-BLZ,BZ,Belize,22302.09,2010 estimate based on regional average
-BWA,BW,Botswana,872896.6657,2010 estimate based on regional average
-DZA,DZ,Algeria,957641.616,2010 estimate based on regional average
-MNG,MN,Mongolia,361801.9102,2010 estimate based on regional average
-SUR,SR,Suriname,33943.9492,2010 estimate based on regional average
-TKM,TM,Turkmenistan,661902.3078,2010 estimate based on regional average
-TON,TO,Tonga,13660.51143,2010 estimate based on regional average
-VUT,VU,Vanuatu,31460.87014,2010 estimate based on regional average
-WSM,WS,Samoa,24034.48167,2010 estimate based on regional average
-BHR,BH,Bahrain,31189.51826,2010 estimate based on regional average
-OMN,OM,Oman,68775.0833,2010 estimate based on regional average
-ZWE,ZW,Zimbabwe,5467803.193,2010 estimate based on regional average
-UZB,UZ,Uzbekistan,1767515.495,Data unavailable so this 2010 placeholder estimate based on Tajikistan as a nighbour with roughly comparable GDP/capita
-CZE,CZ,Czech Republic,6042.243667,Data unavailable so this 2010 placeholder estimate was based on Slovak Republic as a neighbour with similar GDP per capita
-AGO,AO,Angola,6663668.101,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ALB,AL,Albania,18187.16572,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ARG,AR,Argentina,371793.8592,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ARM,AM,Armenia,36232.80035,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-AZE,AZ,Azerbaijan,35617.22804,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BDI,BI,Burundi,5713124.389,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BEN,BJ,Benin,3074840.847,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BFA,BF,Burkina Faso,7027740.438,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BGD,BD,Bangladesh,64309346.66,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BGR,BG,Bulgaria,0.001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BIH,BA,Bosnia and Herzegovina,1317.433025,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BLR,BY,Belarus,8688.232351,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BOL,BO,Bolivia,1419017.922,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BRA,BR,Brazil,11452621.65,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-BTN,BT,Bhutan,64985.2992,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CAF,CF,Central African Republic,2531429.252,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CHL,CL,Chile,221054.0852,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CHN,CN,China,160006943.6,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CIV,CI,Cote d'Ivoire,4291456.269,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CMR,CM,Cameroon,1641167.263,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-COD,CD,"Congo, Dem. Rep.",48495572.47,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-COG,CG,"Congo, Rep.",1753864.309,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-COL,CO,Colombia,3777659.026,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-COM,KM,Comoros,259933.1781,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CPV,CV,Cape Verde,73228.95653,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-CRI,CR,Costa Rica,139077.8401,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-DJI,DJ,Djibouti,117601.6001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-DOM,DO,Dominican Republic,222371.968,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ECU,EC,Ecuador,666824.4679,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-EGY,EG,"Egypt, Arab Rep.",1255054.964,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-EST,EE,Estonia,4727.971862,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ETH,ET,Ethiopia,25914257.43,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-FJI,FJ,Fiji,48418.51228,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-FSM,FM,"Micronesia, Fed. Sts.",22245.54387,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GAB,GA,Gabon,58428.03505,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GEO,GE,Georgia,622464.4588,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GHA,GH,Ghana,5844442.387,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GIN,GN,Guinea,3789240.181,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GMB,GM,"Gambia, The",426695.226,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GNB,GW,Guinea-Bissau,520421.2636,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-GTM,GT,Guatemala,1631589.617,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-HND,HN,Honduras,1303174.9,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-HRV,HR,Croatia,2430.102276,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-HTI,HT,Haiti,4144314.144,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-HUN,HU,Hungary,14903.56697,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-IDN,ID,Indonesia,43320691.22,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-IND,IN,India,382545444.6,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-IRN,IR,"Iran, Islamic Rep.",860103.6015,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-IRQ,IQ,Iraq,791189.8549,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-JAM,JM,Jamaica,4353.914094,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-JOR,JO,Jordan,7256.4,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-KAZ,KZ,Kazakhstan,17172.3163,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-KEN,KE,Kenya,14089197.29,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-KGZ,KG,Kyrgyz Republic,319810.3378,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-KHM,KH,Cambodia,2944554.145,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LAO,LA,Lao PDR,1923269.048,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LBR,LR,Liberia,2930363.491,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LKA,LK,Sri Lanka,1286321.123,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LSO,LS,Lesotho,691928.7641,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LTU,LT,Lithuania,4863.91754,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-LVA,LV,Latvia,2874.639428,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MAR,MA,Morocco,705267.865,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MDA,MD,Moldova,13892.0418,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MDG,MG,Madagascar,16838263.47,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MEX,MX,Mexico,1194102.159,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MKD,MK,"Macedonia, FYR",0.001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MLI,ML,Mali,7750994.679,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MNE,ME,Montenegro,693.7293311,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MOZ,MZ,Mozambique,12758136.9,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MRT,MR,Mauritania,742099.6504,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MWI,MW,Malawi,8443977.818,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-MYS,MY,Malaysia,0.001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-NAM,NA,Namibia,559003.7077,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-NER,NE,Niger,6194331.943,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-NGA,NG,Nigeria,107696079.1,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-NIC,NI,Nicaragua,552787.67,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-NPL,NP,Nepal,7435914.145,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PAK,PK,Pakistan,33436532.69,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PAN,PA,Panama,230703.392,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PER,PE,Peru,1427656.739,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PHL,PH,Philippines,16436521.79,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-POL,PL,Poland,18268.89426,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PRY,PY,Paraguay,462145.6368,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-PSE,PS,West Bank and Gaza,1589.092477,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ROU,RO,Romania,84114.44003,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-RUS,RU,Russian Federation,0.001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-RWA,RW,Rwanda,6711183.959,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SDN,SD,Sudan,8250758.435,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SEN,SN,Senegal,3340042.575,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SLE,SL,Sierra Leone,2298799.702,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SLV,SV,El Salvador,531513.3765,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SRB,RS,Serbia,18141.59049,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-STP,ST,Sao Tome and Principe,31322.69463,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SVK,SK,Slovak Republic,3119.23842,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SVN,SI,Slovenia,944.9946114,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SWZ,SZ,Swaziland,481894.5528,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SYC,SC,Seychelles,189.4720337,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-SYR,SY,Syrian Arab Republic,268252.8799,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TCD,TD,Chad,5104945.808,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TGO,TG,Togo,1954023.678,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-THA,TH,Thailand,244703.7679,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TJK,TJ,Tajikistan,431745.0802,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TLS,TL,Timor-Leste,368725.1793,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TUN,TN,Tunisia,114197.0831,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TUR,TR,Turkey,0.001,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-TZA,TZ,Tanzania,26657463.74,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-UGA,UG,Uganda,12155878.02,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-UKR,UA,Ukraine,26333.45146,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-URY,UY,Uruguay,6713.168,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-VEN,VE,"Venezuela, RB",1602149.686,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-VNM,VN,Vietnam,13410476.6,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-YEM,YE,"Yemen, Rep.",3381023.781,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ZAF,ZA,South Africa,6586421.763,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
-ZMB,ZM,Zambia,7421924.417,2010 estimate based on most recent World Bank data for the country adjusted for intervening years in line with average global trend
+Country Name,Alpha-2,Country Code,Year,Value
+Aruba,AW,ABW,,
+Andorra,AD,AND,,
+Afghanistan,AF,AFG,,
+Angola,AO,AGO,2009,43.37
+Albania,AL,ALB,2008,0.62
+United Arab Emirates,AE,ARE,,
+Argentina,AR,ARG,2010,0.92
+Armenia,AM,ARM,2010,2.47
+American Samoa,AS,ASM,,
+Antigua and Barbuda,AG,ATG,,
+Australia,AU,AUS,,
+Austria,AT,AUT,,
+Azerbaijan,AZ,AZE,2008,0.43
+Burundi,BI,BDI,2006,81.32
+Belgium,BE,BEL,,
+Benin,BJ,BEN,2003,47.33
+Burkina Faso,BF,BFA,2009,44.6
+Bangladesh,BD,BGD,2010,43.25
+Bulgaria,BG,BGR,2007,0
+Bahrain,BH,BHR,,
+"Bahamas, The",BS,BHS,,
+Bosnia and Herzegovina,BA,BIH,2007,0.04
+Belarus,BY,BLR,2011,0.07
+Belize,BZ,BLZ,1999,12.21
+Bermuda,BM,BMU,,
+Bolivia,BO,BOL,2008,15.61
+Brazil,BR,BRA,2009,6.14
+Barbados,BB,BRB,,
+Brunei Darussalam,BN,BRN,,
+Bhutan,BT,BTN,2012,1.66
+Botswana,BW,BWA,1994,31.23
+Central African Republic,CF,CAF,2008,62.83
+Canada,CA,CAN,,
+Switzerland,CH,CHE,,
+Chile,CL,CHL,2009,1.35
+China,CN,CHN,2009,11.8
+Cote d'Ivoire,CI,CIV,2008,23.75
+Cameroon,CM,CMR,2007,9.56
+"Congo, Rep.",CG,COG,2005,54.1
+Colombia,CO,COL,2010,8.16
+Comoros,KM,COM,2004,46.11
+Cabo Verde,CV,CPV,2002,21.02
+Costa Rica,CR,CRI,2009,3.12
+Cuba,CU,CUB,,
+Curacao,CW,CUW,,
+Cayman Islands,KY,CYM,,
+Cyprus,CY,CYP,,
+Czech Republic,CZ,CZE,1996,0.13
+Germany,DE,DEU,,
+Djibouti,DJ,DJI,2002,18.84
+Dominica,DM,DMA,,
+Denmark,DK,DNK,,
+Dominican Republic,DO,DOM,2010,2.24
+Algeria,DZ,DZA,1995,6.79
+Ecuador,EC,ECU,2010,4.61
+"Egypt, Arab Rep.",EG,EGY,2008,1.69
+Eritrea,ER,ERI,,
+Spain,ES,ESP,,
+Estonia,EE,EST,2004,0.46
+Ethiopia,ET,ETH,2011,30.65
+European Union,EU,EUU,,
+Finland,FI,FIN,,
+Fiji,FJ,FJI,2009,5.88
+France,FR,FRA,,
+Faeroe Islands,FO,FRO,,
+"Micronesia, Fed. Sts.",FM,FSM,2000,31.15
+Gabon,GA,GAB,2005,4.84
+United Kingdom,GB,GBR,,
+Georgia,GE,GEO,2010,17.99
+Ghana,GH,GHA,2006,28.59
+Guinea,GN,GIN,2007,43.34
+"Gambia, The",GM,GMB,2003,33.63
+Guinea-Bissau,GW,GNB,2002,48.9
+Equatorial Guinea,GQ,GNQ,,
+Greece,GR,GRC,,
+Grenada,GD,GRD,,
+Greenland,GL,GRL,,
+Guatemala,GT,GTM,2006,13.53
+Guam,GU,GUM,,
+Guyana,GY,GUY,1998,8.7
+"Hong Kong SAR, China",HK,HKG,,
+Honduras,HN,HND,2009,17.92
+Croatia,HR,HRV,2008,0.06
+Haiti,HT,HTI,2001,61.71
+Hungary,HU,HUN,2007,0.17
+Indonesia,ID,IDN,2011,16.20166494
+Isle of Man,IM,IMN,,
+India,IN,IND,2010,32.68
+Ireland,IE,IRL,,
+"Iran, Islamic Rep.",IR,IRN,2005,1.45
+Iraq,IQ,IRQ,2007,2.82
+Iceland,IS,ISL,,
+Israel,IL,ISR,,
+Italy,IT,ITA,,
+Jamaica,JM,JAM,2004,0.21
+Jordan,JO,JOR,2010,0.12
+Japan,JP,JPN,,
+Kazakhstan,KZ,KAZ,2009,0.11
+Kenya,KE,KEN,2005,43.37
+Kyrgyz Republic,KG,KGZ,2011,5.03
+Cambodia,KH,KHM,2009,18.6
+Kiribati,KI,KIR,,
+St. Kitts and Nevis,KN,KNA,,
+"Korea, Rep.",KR,KOR,,
+Kosovo,XK,KSV,,
+Kuwait,KW,KWT,,
+Lao PDR,LA,LAO,2008,33.88
+Lebanon,LB,LBN,,
+Liberia,LR,LBR,2007,83.76
+Libya,LY,LBY,,
+St. Lucia,LC,LCA,1995,20.93
+Liechtenstein,LI,LIE,,
+Sri Lanka,LK,LKA,2010,4.11
+Lesotho,LS,LSO,2003,43.41
+Lithuania,LT,LTU,2008,0.16
+Luxembourg,LU,LUX,,
+Latvia,LV,LVA,2009,0.19
+"Macao SAR, China",MO,MAC,,
+St. Martin (French part),MF,MAF,,
+Morocco,MA,MAR,2007,2.52
+Monaco,MC,MCO,,
+Moldova,MD,MDA,2010,0.39
+Madagascar,MG,MDG,2010,81.29
+Maldives,MV,MDV,2004,1.48
+Mexico,MX,MEX,2010,0.72
+Marshall Islands,MH,MHL,,
+"Macedonia, FYR",MK,MKD,2010,0.6
+Mali,ML,MLI,2010,50.43
+Malta,MT,MLT,,
+Myanmar,MM,MMR,,
+Montenegro,ME,MNE,2010,0
+Mongolia,MN,MNG,,
+Northern Mariana Islands,MP,MNP,,
+Mozambique,MZ,MOZ,2008,59.58
+Mauritania,MR,MRT,2008,23.43
+Mauritius,MU,MUS,,
+Malawi,MW,MWI,2010,61.64
+Malaysia,MY,MYS,2009,0
+Namibia,NA,NAM,2004,31.91
+New Caledonia,NC,NCL,,
+Niger,NE,NER,2008,43.62
+Nigeria,NG,NGA,2010,67.98
+Nicaragua,NI,NIC,2005,11.91
+Netherlands,NL,NLD,,
+Norway,NO,NOR,,
+Nepal,NP,NPL,2010,24.82
+New Zealand,NZ,NZL,,
+Oman,OM,OMN,,
+Pakistan,PK,PAK,2008,21.04
+Panama,PA,PAN,2010,6.56
+Peru,PE,PER,2010,4.91
+Philippines,PH,PHL,2009,18.42
+Palau,PW,PLW,,
+Papua New Guinea,PG,PNG,1996,35.79
+Poland,PL,POL,2011,0.07
+Puerto Rico,PR,PRI,,
+"Korea, Dem. Rep.",KP,PRK,,
+Portugal,PT,PRT,,
+Paraguay,PY,PRY,2010,7.16
+French Polynesia,PF,PYF,,
+Qatar,QA,QAT,,
+Romania,RO,ROU,2011,0.4
+Russian Federation,RU,RUS,2009,0
+Rwanda,RW,RWA,2011,63.17
+Saudi Arabia,SA,SAU,,
+Sudan,SD,SDN,2009,19.8
+Senegal,SN,SEN,2011,29.61
+Singapore,SG,SGP,,
+Solomon Islands,SB,SLB,,
+Sierra Leone,SL,SLE,2011,51.71
+El Salvador,SV,SLV,2009,8.97
+San Marino,SM,SMR,,
+Somalia,SO,SOM,,
+Serbia,RS,SRB,2010,0.21
+South Sudan,SS,SSD,,
+Sao Tome and Principe,ST,STP,2001,28.18
+Suriname,SR,SUR,1999,15.54
+Slovak Republic,SK,SVK,2009,0.06
+Slovenia,SI,SVN,2004,0.06
+Sweden,SE,SWE,,
+Swaziland,SZ,SWZ,2010,40.63
+Sint Maarten (Dutch part),SX,SXM,,
+Seychelles,SC,SYC,2007,0.25
+Syrian Arab Republic,SY,SYR,2004,1.71
+Turks and Caicos Islands,TC,TCA,,
+Chad,TD,TCD,2003,61.94
+Togo,TG,TGO,2011,28.22
+Thailand,TH,THA,2010,0.38
+Tajikistan,TJ,TJK,2009,6.56
+Turkmenistan,TM,TKM,1998,24.82
+Timor-Leste,TL,TLS,,
+Tonga,TO,TON,,
+Trinidad and Tobago,TT,TTO,1992,4.16
+Tunisia,TN,TUN,2010,1.06
+Turkey,TR,TUR,2010,1.34
+Tuvalu,TV,TUV,,
+Tanzania,TZ,TZA,2007,67.87
+Uganda,UG,UGA,2009,38.01
+Ukraine,UA,UKR,2010,0.02
+Uruguay,UY,URY,2010,0.2
+United States,US,USA,,
+Uzbekistan,UZ,UZB,,
+St. Vincent and the Grenadines,VC,VCT,,
+"Venezuela, RB",VE,VEN,2006,6.63
+Virgin Islands (U.S.),VI,VIR,,
+Vietnam,VN,VNM,2008,16.85
+Vanuatu,VU,VUT,,
+West Bank and Gaza,PS,PSE,2009,0.04
+World,,WLD,,
+Samoa,WS,WSM,,
+"Yemen, Rep.",YE,YEM,2005,17.53
+South Africa,ZA,ZAF,2009,13.77
+"Congo, Dem. Rep.",CD,COD,2006,87.72
+Zambia,ZM,ZMB,2010,74.45
+Zimbabwe,ZW,ZWE,,
