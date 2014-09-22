@@ -13,20 +13,6 @@ massive_simplification_json='{"AU": 10000, "NZ": 10000}'
 
 all_datasets="Area Population GDP  Extraction Emissions Consumption Historical Reserves  PeopleAtRisk SeaLevel Poverty"
 
-col_Area="Land area (sq. km)"
-col_Population='Population, total, 2010'
-col_GDP='GDP, PPP (current international $), 2010'
-
-col_Extraction="CO2 from fossil fuels extracted, 2010"
-col_Emissions="CO2 from fossil fuel use (million tonnes, 2010)"
-col_Consumption="Consumption footprint, million tonnes CO2, 2010"
-col_Historical="Cumulative CO2 emissions from energy, 1850–2007 (million tonnes)"
-col_Reserves="Potential CO2 from proven reserves (MT)"
-
-col_PeopleAtRisk="Number of people exposed to droughts, floods, extreme temps"
-col_SeaLevel="Population below 5m"
-col_Poverty='Population living below $1.25 a day'
-
 format_SeaLevel=.0f
 
 regenerate=false
@@ -69,8 +55,7 @@ then
     for f in $datasets
     do
         "$cartograms_bin"/delete-data.py "carbonmap:$f"
-        eval col=\${col_$f}
-        "$cartograms_bin"/load-data.py "carbonmap:$f" data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "$col"
+        "$cartograms_bin"/load-data.py "carbonmap:$f" data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "Value"
         "$cartograms_bin"/density-grid.py --dataset "carbonmap:$f" --map world-robinson > data/Maps/Cartogram\ data/"$f".density && \
         cart 1500 750 data/Maps/Cartogram\ data/"$f".density data/Maps/Cartogram\ data/"$f".cart
     done
@@ -106,7 +91,7 @@ fi
     for f in $all_datasets
     do
         eval col=\${col_$f}
-        echo -n ",\"$col\""
+        echo -n ",\"Value\""
         eval \${has_notes_$f} && echo -n ,
     done
     echo
@@ -134,7 +119,7 @@ fi
             eval has_notes=\${has_notes_$f}
             echo "- file: data/Maps/With alpha-2/$f.csv"
             echo "  values:"
-            echo "  - $col"
+            echo "  - Value"
             if $has_notes
             then
                 echo "  - Notes"
@@ -174,11 +159,11 @@ cat site/data.paths-massive.js > site/data-massive.js
             eval type=\${type_$f:-float}
             eval format=\${format_$f:-.1f}
             echo -n "carbonmap_values.$f = "
-            "$cartograms_bin"/csv-to-json --key Alpha-2 --value "$col" --type="$type" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --key Alpha-2 --value "Value" --type="$type" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
             echo ';'
             
             echo -n "carbonmap_rank.$f = "
-            "$cartograms_bin"/csv-to-json --rank --key Alpha-2 --value "$col" --type="$type" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --rank --key Alpha-2 --value "Value" --type="$type" data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
