@@ -1,1 +1,259 @@
-Country code,Country name,"Number of people exposed to droughts, floods, extreme temps"DNK,Denmark,0EST,Estonia,0LBY,Libya,0LTU,Lithuania,0LUX,Luxembourg,0LVA,Latvia,0MUS,Mauritius,0SVN,Slovenia,0SWE,Sweden,0WSM,Samoa,0ASM,American Samoa,0VCT,St. Vincent and the Grenadines,10TTO,Trinidad and Tobago,11KWT,Kuwait,16FIN,Finland,21TKM,Turkmenistan,24CYP,Cyprus,30MHL,Marshall Islands,32CPV,Cape Verde,49ISR,Israel,62SYC,Seychelles,68MNE,Montenegro,77MDV,Maldives,97BTN,Bhutan,98HRV,Croatia,110CIV,Cote d'Ivoire,149COM,Comoros,163BEL,Belgium,184PRT,Portugal,192IRL,Ireland,220VUT,Vanuatu,253TMP,Timor-Leste,282CHE,Switzerland,304HKG,"Hong Kong SAR, China",308NOR,Norway,332NZL,New Zealand,474SLB,Solomon Islands,486BGR,Bulgaria,645PRI,Puerto Rico,656GRC,Greece,745SRB,Serbia,777NLD,Netherlands,787LBN,Lebanon,976FSM,"Micronesia, Fed. Sts.",1499SAU,Saudi Arabia,1554SUR,Suriname,1783BLR,Belarus,2084SVK,Slovak Republic,2441BLZ,Belize,2779AUT,Austria,3199GMB,"Gambia, The",3408CAN,Canada,3664FRA,France,3709ITA,Italy,4296IRQ,Iraq,4753KIR,Kiribati,4980MKD,"Macedonia, FYR",6276PAN,Panama,6906DOM,Dominican Republic,7813CAF,Central African Republic,8032GNB,Guinea-Bissau,8196HUN,Hungary,8818URY,Uruguay,8886EGY,"Egypt, Arab Rep.",9908TUN,Tunisia,10386COG,"Congo, Rep.",10629ZAR,"Congo, Dem. Rep.",11802POL,Poland,12227MDA,Moldova,12247DZA,Algeria,13912CMR,Cameroon,14184SLE,Sierra Leone,14494ARM,Armenia,14787BWA,Botswana,14860FJI,Fiji,14877CZE,Czech Republic,16392GIN,Guinea,17988ROM,Romania,18219BIH,Bosnia and Herzegovina,18546GBR,United Kingdom,20163SLV,El Salvador,22334JOR,Jordan,22342YEM,"Yemen, Rep.",23911MAR,Morocco,24191JPN,Japan,26703DEU,Germany,26818MYS,Malaysia,27528TGO,Togo,30650JAM,Jamaica,30900CRI,Costa Rica,32661GEO,Georgia,34306UZB,Uzbekistan,34833KAZ,Kazakhstan,35432KOR,"Korea, Rep.",39225MMR,Myanmar,44323CHL,Chile,44576VEN,"Venezuela, RB",44752PRY,Paraguay,46135NIC,Nicaragua,48250ECU,Ecuador,48669PNG,Papua New Guinea,50120GUY,Guyana,54102DJI,Djibouti,60405ARG,Argentina,67565MNG,Mongolia,70591LSO,Lesotho,73882SEN,Senegal,74313LBR,Liberia,74782BEN,Benin,75956NAM,Namibia,77665CUB,Cuba,81895HTI,Haiti,83975NGA,Nigeria,87185HND,Honduras,95409TUR,Turkey,99353AZE,Azerbaijan,100031MLI,Mali,100343SYR,Syrian Arab Republic,103822MRT,Mauritania,106629SWZ,Swaziland,109432KGZ,Kyrgyz Republic,110816UKR,Ukraine,123502BOL,Bolivia,128833RWA,Rwanda,137684LAO,Lao PDR,166996ALB,Albania,168852MEX,Mexico,169957MDG,Madagascar,179095GTM,Guatemala,188038RUS,Russian Federation,188103AGO,Angola,193064BDI,Burundi,199295BFA,Burkina Faso,205865NPL,Nepal,210853GHA,Ghana,237683UGA,Uganda,284512COL,Colombia,304219TCD,Chad,304778ESP,Spain,336024AFG,Afghanistan,364238TJK,Tajikistan,369939ERI,Eritrea,384752IDN,Indonesia,385208SOM,Somalia,429564LKA,Sri Lanka,450581ZMB,Zambia,542867PER,Peru,567684PRK,"Korea, Dem. Rep.",607896USA,United States,661850TZA,Tanzania,670764AUS,Australia,680381PHL,Philippines,752041MOZ,Mozambique,856675ZAF,South Africa,902668KHM,Cambodia,939316BRA,Brazil,940521NER,Niger,1167285SDN,Sudan,1204392MWI,Malawi,1314328VNM,Vietnam,1390428PAK,Pakistan,1832005IRN,"Iran, Islamic Rep.",2261220THA,Thailand,2592843KEN,Kenya,2624352ETH,Ethiopia,2706659BGD,Bangladesh,6817080IND,India,51007336CHN,China,106407812ABW,Aruba,ADO,Andorra,ARE,United Arab Emirates,ATG,Antigua and Barbuda,BHR,Bahrain,BHS,"Bahamas, The",BMU,Bermuda,BRB,Barbados,BRN,Brunei Darussalam,CHI,Channel Islands,COK,Cook Islands,CUW,Curacao,CYM,Cayman Islands,DMA,Dominica,EAP,East Asia & Pacific,ECA,Europe & Central Asia,EMU,Euro area,FRO,Faeroe Islands,GAB,Gabon,GIB,Gibraltar,GNQ,Equatorial Guinea,GRD,Grenada,GRL,Greenland,GUM,Guam,HIC,High income,IMY,Isle of Man,ISL,Iceland,KNA,St. Kitts and Nevis,KSV,Kosovo,LAC,Latin America & Caribbean,LCA,St. Lucia,LIC,Low income,LIE,Liechtenstein,LMC,Lower middle income,LMY,Low & middle income,MAC,"Macao SAR, China",MAF,St. Martin (French part),MCO,Monaco,MIC,Middle income,MLT,Malta,MNA,Middle East & North Africa,MNP,Northern Mariana Islands,MYT,Mayotte,NCL,New Caledonia,NIU,Niue,NRU,Nauru,OMN,Oman,PLW,Palau,PYF,French Polynesia,QAT,Qatar,SAS,South Asia,SGP,Singapore,SID,Small island developing states,SMR,San Marino,SSA,Sub-Saharan Africa,STP,Sao Tome and Principe,SXM,Sint Maarten (Dutch part),TCA,Turks and Caicos Islands,TON,Tonga,TUV,Tuvalu,UMC,Upper middle income,VIR,Virgin Islands (U.S.),WBG,West Bank and Gaza,WLD,World,ZWE,Zimbabwe,
+Country Name,Country Code,Year,Value
+Aruba,ABW,,
+Andorra,AND,,
+Afghanistan,AFG,2009,1.05929016894999
+Angola,AGO,2009,1.01176467635625
+Albania,ALB,2009,5.26957699339956
+Andean Region,ANR,,
+Arab World,ARB,,
+United Arab Emirates,ARE,,
+Argentina,ARG,2009,0.167189950512828
+Armenia,ARM,2009,0.478231100921505
+American Samoa,ASM,2009,0.000261754979888492
+Antigua and Barbuda,ATG,,
+Australia,AUS,2009,3.04709860649413
+Austria,AUT,2009,0.0381529782796336
+Azerbaijan,AZE,2009,1.10556506666241
+Burundi,BDI,2009,2.37741128892302
+Belgium,BEL,2009,0.00169216806014967
+Benin,BEN,2009,0.858274799264925
+Burkina Faso,BFA,2009,1.250036827358
+Bangladesh,BGD,2009,4.58469425909382
+Bulgaria,BGR,2009,0.00855316044646202
+Bahrain,BHR,,
+"Bahamas, The",BHS,,
+Bosnia and Herzegovina,BIH,2009,0.493228498579901
+Belarus,BLR,2009,0.0219585515265367
+Belize,BLZ,2009,0.806085588817727
+Bermuda,BMU,,
+Bolivia,BOL,2009,1.29742916356694
+Brazil,BRA,2009,0.482451027992547
+Barbados,BRB,,
+Brunei Darussalam,BRN,,
+Bhutan,BTN,2009,0.0135011025337857
+Botswana,BWA,2009,0.740418784027821
+Sub-Saharan Africa (IFC classification),CAA,,
+Central African Republic,CAF,2009,0.18249850803147
+Canada,CAN,2009,0.0107432376669766
+East Asia and the Pacific (IFC classification),CEA,,
+Central Europe and the Baltics,CEB,,
+Europe and Central Asia (IFC classification),CEU,,
+Switzerland,CHE,2009,0.00388788412428912
+Channel Islands,CHI,,
+Chile,CHL,2009,0.260470805127432
+China,CHN,2009,7.95097147464036
+Cote d'Ivoire,CIV,2009,0.000757403639121069
+Latin America and the Caribbean (IFC classification),CLA,,
+Middle East and North Africa (IFC classification),CME,,
+Cameroon,CMR,2009,0.0723722046654969
+"Congo, Rep.",COG,2009,0.262896436973433
+Colombia,COL,2009,0.657133753962299
+Comoros,COM,2009,0.0221911585453536
+Cabo Verde,CPV,2009,0.00984122358979819
+Costa Rica,CRI,2009,0.701045625679748
+South Asia (IFC classification),CSA,,
+Caribbean small states,CSS,,
+Cuba,CUB,2009,0.727438085825858
+Curacao,CUW,,
+Cayman Islands,CYM,,
+Cyprus,CYP,2009,0.0026781550232895
+Czech Republic,CZE,2009,0.155745987792062
+Germany,DEU,2009,0.0328245736854824
+Djibouti,DJI,2009,6.79684704554282
+Dominica,DMA,,
+Denmark,DNK,2009,0
+Dominican Republic,DOM,2009,0.0787054349701715
+Algeria,DZA,2009,0.0392229403642657
+East Asia & Pacific (developing only),EAP,,
+East Asia & Pacific (all income levels),EAS,,
+Europe & Central Asia (developing only),ECA,,
+Europe & Central Asia (all income levels),ECS,,
+Ecuador,ECU,2009,0.336468818221031
+"Egypt, Arab Rep.",EGY,2009,0.0122134765201198
+Euro area,EMU,,
+Eritrea,ERI,2009,7.32348285594532
+Spain,ESP,2009,0.729193518337962
+Estonia,EST,2009,0
+Ethiopia,ETH,2009,3.26301816870463
+European Union,EUU,,
+Fragile and conflict affected situations,FCS,,
+Finland,FIN,2009,0.000387043470111034
+Fiji,FJI,2009,1.72863661924856
+France,FRA,2009,0.00571764592926749
+Faeroe Islands,FRO,,
+"Micronesia, Fed. Sts.",FSM,2009,1.34981355700244
+Gabon,GAB,,
+United Kingdom,GBR,2009,0.0324070189450731
+Georgia,GEO,2009,0.770433848504126
+Ghana,GHA,2009,0.974438236973891
+Guinea,GIN,2009,0.180212227284055
+"Gambia, The",GMB,2009,0.19719002671623
+Guinea-Bissau,GNB,2009,0.540905804297409
+Equatorial Guinea,GNQ,,
+Greece,GRC,2009,0.00658313866180501
+Grenada,GRD,,
+Greenland,GRL,,
+Guatemala,GTM,2009,1.30682366289927
+Guam,GUM,,
+Guyana,GUY,2009,7.17062421244385
+High income,HIC,,
+"Hong Kong SAR, China",HKG,2009,0.00435437265407691
+Honduras,HND,2009,1.25529122608881
+Heavily indebted poor countries (HIPC),HPC,,
+Croatia,HRV,2009,0.00249428868861808
+Haiti,HTI,2009,0.840315026319036
+Hungary,HUN,2009,0.088105351286893
+Indonesia,IDN,2009,0.160589721908345
+Isle of Man,IMN,,
+India,IND,2009,4.3561089920649
+Not classified,INX,,
+Ireland,IRL,2009,0.00490736939920962
+"Iran, Islamic Rep.",IRN,2009,3.05679191703282
+Iraq,IRQ,2009,0.0148379593241009
+Iceland,ISL,,
+Israel,ISR,2009,0.000810924778617535
+Italy,ITA,2009,0.00710221906895916
+Jamaica,JAM,2009,1.14346077633162
+Jordan,JOR,2009,0.369473469445725
+Japan,JPN,2009,0.0209515501455421
+Kazakhstan,KAZ,2009,0.217161218770403
+Kenya,KEN,2009,6.47785323086186
+Kyrgyz Republic,KGZ,2009,2.0654640264514
+Cambodia,KHM,2009,6.64379105434942
+Kiribati,KIR,2009,5.0029987647945
+St. Kitts and Nevis,KNA,,
+"Korea, Rep.",KOR,2009,0.0802554113253908
+Kosovo,KSV,,
+Kuwait,KWT,2009,0.000567073206173783
+Latin America & Caribbean (developing only),LAC,,
+Lao PDR,LAO,2009,2.69310157959222
+Lebanon,LBN,2009,0.0230823251765737
+Liberia,LBR,2009,1.87230419871342
+Libya,LBY,2009,0
+St. Lucia,LCA,,
+Latin America & Caribbean (all income levels),LCN,,
+Latin America and the Caribbean,LCR,,
+Least developed countries: UN classification,LDC,,
+Low income,LIC,,
+Liechtenstein,LIE,,
+Sri Lanka,LKA,2009,2.16003002858256
+Lower middle income,LMC,,
+Low & middle income,LMY,,
+Lesotho,LSO,2009,3.40265096330442
+Lithuania,LTU,2009,0
+Luxembourg,LUX,2009,0
+Latvia,LVA,2009,0
+"Macao SAR, China",MAC,,
+St. Martin (French part),MAF,,
+Morocco,MAR,2009,0.0757125863581121
+Mexico and Central America,MCA,,
+Monaco,MCO,,
+Moldova,MDA,2009,0.343810821553105
+Madagascar,MDG,2009,0.864615090391493
+Maldives,MDV,2009,0.0306479542537
+Middle East & North Africa (all income levels),MEA,,
+Mexico,MEX,2009,0.149843277332355
+Marshall Islands,MHL,2009,0.0584142289273103
+Middle income,MIC,,
+"Macedonia, FYR",MKD,2009,0.30457878073609
+Mali,MLI,2009,0.652855128388168
+Malta,MLT,,
+Myanmar,MMR,2009,0.0924109354429813
+Middle East & North Africa (developing only),MNA,,
+Montenegro,MNE,2009,0.0121742824623754
+Mongolia,MNG,2009,2.56134223793038
+Northern Mariana Islands,MNP,,
+Mozambique,MOZ,2009,3.66244795624385
+Mauritania,MRT,2009,3.08197364994656
+Mauritius,MUS,2009,0
+Malawi,MWI,2009,8.82049278721445
+Malaysia,MYS,2009,0.0969269043603107
+North America,NAC,,
+Namibia,NAM,2009,3.40143396341144
+New Caledonia,NCL,,
+Niger,NER,2009,7.52506573921943
+Nigeria,NGA,2009,0.0550332644274809
+Nicaragua,NIC,2009,0.833598367171441
+Netherlands,NLD,2009,0.00473786081084586
+High income: nonOECD,NOC,,
+Norway,NOR,2009,0.00679558795672088
+Nepal,NPL,2009,0.703796514298647
+New Zealand,NZL,2009,0.0108539845293594
+High income: OECD,OEC,,
+OECD members,OED,,
+Oman,OMN,,
+Other small states,OSS,,
+Pakistan,PAK,2009,1.05534239110308
+Panama,PAN,2009,0.196361451621855
+Peru,PER,2009,1.9523808134554
+Philippines,PHL,2009,0.806384865170547
+Palau,PLW,,
+Papua New Guinea,PNG,2009,0.730797898489713
+Poland,POL,2009,0.0320171021577574
+Puerto Rico,PRI,2009,0.0164973212565454
+"Korea, Dem. Rep.",PRK,2009,2.49688110166948
+Portugal,PRT,2009,0.00180233530282191
+Paraguay,PRY,2009,0.71477345485624
+Pacific island small states,PSS,,
+French Polynesia,PYF,,
+Qatar,QAT,,
+Romania,ROU,2009,0.0849709878995111
+Russian Federation,RUS,2009,0.13270049736118
+Rwanda,RWA,2009,1.29597316565611
+South Asia,SAS,,
+Saudi Arabia,SAU,2009,0.00566049114062582
+Southern Cone Extended,SCE,,
+Sudan,SDN,2009,2.76541558191951
+Senegal,SEN,2009,0.597670115011869
+Singapore,SGP,,
+Solomon Islands,SLB,2009,0.0903440566097328
+Sierra Leone,SLE,2009,0.247016283746712
+El Salvador,SLV,2009,0.360637004160202
+San Marino,SMR,,
+Somalia,SOM,2009,4.60368934052831
+Serbia,SRB,2009,0.0106605743396642
+Sub-Saharan Africa (developing only),SSA,,
+South Sudan,SSD,,
+Sub-Saharan Africa (all income levels),SSF,,
+Small states,SST,,
+Sao Tome and Principe,STP,,
+Suriname,SUR,2009,0.339835427358562
+Slovak Republic,SVK,2009,0.0449271354961759
+Slovenia,SVN,2009,0
+Sweden,SWE,2009,0
+Swaziland,SWZ,2009,9.22658630792033
+Sint Maarten (Dutch part),SXM,,
+Seychelles,SYC,2009,0.0780213239541665
+Syrian Arab Republic,SYR,2009,0.507772234430497
+Turks and Caicos Islands,TCA,,
+Chad,TCD,2009,2.71464102500458
+Togo,TGO,2009,0.508477884982821
+Thailand,THA,2009,3.75109895493503
+Tajikistan,TJK,2009,5.37808586974649
+Turkmenistan,TKM,2009,0.000475378280002606
+Timor-Leste,TLS,2009,0.0251203812721842
+Tonga,TON,,
+Trinidad and Tobago,TTO,2009,0.000817749398671874
+Tunisia,TUN,2009,0.0984503364680408
+Turkey,TUR,2009,0.136563067437583
+Tuvalu,TUV,,
+Tanzania,TZA,2009,1.49586357405237
+Uganda,UGA,2009,0.851203469913909
+Ukraine,UKR,2009,0.269239353924442
+Upper middle income,UMC,,
+Uruguay,URY,2009,0.264742966821956
+United States,USA,2009,0.214155722534503
+Uzbekistan,UZB,2009,0.123694001358125
+St. Vincent and the Grenadines,VCT,2009,0.00923653993672047
+"Venezuela, RB",VEN,2009,0.155204204310207
+Virgin Islands (U.S.),VIR,,
+Vietnam,VNM,2009,1.59936168053814
+Vanuatu,VUT,2009,0.105703889988763
+West Bank and Gaza,PSE,,
+World,WLD,,
+Samoa,WSM,2009,0
+"Yemen, Rep.",YEM,2009,0.0994106985454189
+South Africa,ZAF,2009,1.8056505619928
+"Congo, Dem. Rep.",COD,2009,0.0178909622770062
+Zambia,ZMB,2009,4.19967674421609
+Zimbabwe,ZWE,,

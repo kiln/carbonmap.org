@@ -1,214 +1,70 @@
-Alpha-2,Country name,"CO2 from fossil fuels extracted, 2010",Notes
-FR,France,0.05,2010 data from BP Statistical Review
-JP,Japan,2,2010 data from BP Statistical Review
-KR,"Korea, Republic of",3.7,2010 data from BP Statistical Review
-HU,Hungary,7.4,2010 data from BP Statistical Review
-TN,Tunisia,11.6,2010 data from BP Statistical Review
-NZ,New Zealand,12.9,2010 data from BP Statistical Review
-ES,Spain,13.1,2010 data from BP Statistical Review
-BG,Bulgaria,19.2,2010 data from BP Statistical Review
-TD,Chad,19.7,2010 data from BP Statistical Review
-MM,Burma,25.6,2010 data from BP Statistical Review
-BH,Bahrain,27.7,2010 data from BP Statistical Review
-BO,Bolivia,30.4,2010 data from BP Statistical Review
-IT,Italy,31.8,2010 data from BP Statistical Review
-GR,Greece,34.9,2010 data from BP Statistical Review
-PE,Peru,36.5,2010 data from BP Statistical Review
-GA,Gabon,37.6,2010 data from BP Statistical Review
-GQ,Equatorial Guinea,41.6,2010 data from BP Statistical Review
-BD,Bangladesh,42.3,2010 data from BP Statistical Review
-CG,Congo,46.2,2010 data from BP Statistical Review
-YE,Yemen,51.4,2010 data from BP Statistical Review
-BN,Brunei Darussalam,51.5,2010 data from BP Statistical Review
-DK,Denmark,54.6,2010 data from BP Statistical Review
-RO,Romania,59.2,2010 data from BP Statistical Review
-TR,Turkey,68.9,2010 data from BP Statistical Review
-SD,Sudan,73.5,2010 data from BP Statistical Review
-SY,Syrian Arab Republic,75.2,2010 data from BP Statistical Review
-CZ,Czech Republic,76.6,2010 data from BP Statistical Review
-EC,Ecuador,77.4,2010 data from BP Statistical Review
-PK,Pakistan,89.3,2010 data from BP Statistical Review
-TT,Trinidad and Tobago,109.6,2010 data from BP Statistical Review
-TM,Turkmenistan,122.4,2010 data from BP Statistical Review
-UZ,Uzbekistan,136.2,2010 data from BP Statistical Review
-TH,Thailand,139,2010 data from BP Statistical Review
-NL,Netherlands,149.1,2010 data from BP Statistical Review
-VN,Viet Nam,172.7,2010 data from BP Statistical Review
-OM,Oman,183.1,2010 data from BP Statistical Review
-AR,Argentina,184.7,2010 data from BP Statistical Review
-AZ,Azerbaijan,188.1,2010 data from BP Statistical Review
-UA,Ukraine,190.2,2010 data from BP Statistical Review
-DE,Germany,195.6,2010 data from BP Statistical Review
-EG,Egypt,237.3,2010 data from BP Statistical Review
-MY,Malaysia,239.2,2010 data from BP Statistical Review
-LY,Libyan Arab Jamahiriya,271.2,2010 data from BP Statistical Review
-AO,Angola,278.6,2010 data from BP Statistical Review
-CO,Colombia,337.7,2010 data from BP Statistical Review
-GB,United Kingdom,357.9,2010 data from BP Statistical Review
-BR,Brazil,363.2,2010 data from BP Statistical Review
-IQ,Iraq,372.4,2010 data from BP Statistical Review
-KW,Kuwait,400.5,2010 data from BP Statistical Review
-DZ,Algeria,408.5,2010 data from BP Statistical Review
-NG,Nigeria,424.8,2010 data from BP Statistical Review
-QA,Qatar,448.5,2010 data from BP Statistical Review
-VE,Venezuela,460.4,2010 data from BP Statistical Review
-AE,United Arab Emirates,509.4,2010 data from BP Statistical Review
-NO,Norway,527.5,2010 data from BP Statistical Review
-KZ,Kazakhstan,544.1,2010 data from BP Statistical Review
-ZA,South Africa,566.5,2010 data from BP Statistical Review
-MX,Mexico,583.7,2010 data from BP Statistical Review
-IR,Iran (Islamic Republic of),916.9,2010 data from BP Statistical Review
-CA,Canada,975.8,2010 data from BP Statistical Review
-ID,Indonesia,1065.1,2010 data from BP Statistical Review
-IN,India,1082.7,2010 data from BP Statistical Review
-AU,Australia,1112,2010 data from BP Statistical Review
-SA,Saudi Arabia,1613.6,2010 data from BP Statistical Review
-RU,Russia,3385.6,2010 data from BP Statistical Review
-US,United States,4536.3,2010 data from BP Statistical Review
-CN,China,7957.6,2010 data from BP Statistical Review
-MC,Monaco,8.67E-05,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BM,Bermuda,0.000312177,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MF,Saint Martin,0.000339649,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GI,Gibraltar,0.000433596,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AW,Aruba,0.001123837,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-YT,Mayotte,0.00138491,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KY,Cayman Islands,0.00149845,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KN,Saint Kitts and Nevis,0.00162332,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SC,Seychelles,0.00172178,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MO,Macau,0.001830461,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TV,Tuvalu,0.001961208,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GD,Grenada,0.002122804,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-VI,United States Virgin Islands,0.002185239,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-VC,Saint Vincent and the Grenadines,0.002434981,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SM,San Marino,0.002601576,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BB,Barbados,0.002684722,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AG,Antigua and Barbuda,0.002747158,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ST,Sao Tome and Principe,0.00359328,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LC,Saint Lucia,0.003808559,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-DM,Dominica,0.004682655,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TC,Turks and Caicos Islands,0.005931363,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LI,Liechtenstein,0.006937536,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KM,Comoros,0.00696198,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MU,Mauritius,0.00759829,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MH,Marshall Islands,0.011767248,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AS,American Samoa,0.01307472,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MT,Malta,0.013875072,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CV,Cape Verde,0.01508429,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MV,Maldives,0.01961208,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AD,Andorra,0.020379012,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-IM,Isle of Man,0.024714972,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MP,Northern Mariana Islands,0.030071856,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PW,Palau,0.030071856,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GU,Guam,0.035301744,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GM,Gambia,0.03743,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SG,Singapore,0.04576152,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-FM,"Micronesia, Federated States of",0.04576152,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TO,Tonga,0.047068992,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KI,Kiribati,0.052952616,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PR,Puerto Rico,0.0553802,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-FO,Faroe Islands,0.060269844,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BS,Bahamas,0.062497835,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SZ,Swaziland,0.0643796,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-JM,Jamaica,0.067617538,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-HK,Hong Kong,0.068119291,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-DJ,Djibouti,0.08676274,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-RW,Rwanda,0.09233981,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BI,Burundi,0.09612024,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GW,Guinea-Bissau,0.10525316,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LU,Luxembourg,0.112301364,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LS,Lesotho,0.11363748,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SV,El Salvador,0.129366149,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BZ,Belize,0.142415147,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-HT,Haiti,0.172071962,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-WS,Samoa,0.185007288,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TG,Togo,0.20358177,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PF,French Polynesia,0.239267376,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SL,Sierra Leone,0.26807366,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-DO,Dominican Republic,0.301687853,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CR,Costa Rica,0.318795152,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MW,Malawi,0.35289004,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LR,Liberia,0.36052576,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ER,Eritrea,0.378043,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BJ,Benin,0.41405066,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PA,Panama,0.464144764,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ME,Montenegro,0.58318662,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PS,Palestine,0.60313778,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CY,Cyprus,0.604052064,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CU,Cuba,0.664562398,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GT,Guatemala,0.669057746,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-HN,Honduras,0.698589691,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SN,Senegal,0.72063979,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-UG,Uganda,0.74788883,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-NI,Nicaragua,0.751347604,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-VU,Vanuatu,0.796904184,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GH,Ghana,0.85168222,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SI,Slovenia,0.873262344,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GN,Guinea,0.91972996,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TL,Timor-Leste,0.972105432,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SR,Suriname,0.97399224,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-EH,Western Sahara,0.995638,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BF,Burkina Faso,1.0240848,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LB,Lebanon,1.02493347,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-UY,Uruguay,1.092744371,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MK,The former Yugoslav Republic of Macedonia,1.093529112,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AL,Albania,1.18805304,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CI,Cote d'Ivoire,1.190274,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-FJ,Fiji,1.194375672,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-NC,New Caledonia,1.195029408,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GY,Guyana,1.229040849,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AM,Armenia,1.234881408,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BE,Belgium,1.312928688,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MD,Republic of Moldova,1.426097244,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ZW,Zimbabwe,1.44797955,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MA,Morocco,1.6705009,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CH,Switzerland,1.734384,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CM,Cameroon,1.76935353,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SB,Solomon Islands,1.829807064,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-EE,Estonia,1.838013444,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SK,Slovakia,2.085163164,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TW,Taiwan,2.108952336,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BW,Botswana,2.12127039,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KE,Kenya,2.13029102,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-IL,Israel,2.16808996,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MG,Madagascar,2.17670422,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BA,Bosnia and Herzegovina,2.2113396,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CF,Central African Republic,2.33181414,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SO,Somalia,2.34813362,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-HR,Croatia,2.426403216,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PY,Paraguay,2.480558442,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BT,Bhutan,2.509692504,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LV,Latvia,2.696099928,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LT,Lithuania,2.717346132,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ZM,Zambia,2.78250877,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MZ,Mozambique,2.94342034,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-IE,Ireland,2.987042844,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GE,Georgia,3.013058604,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-NA,Namibia,3.08157447,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TZ,United Republic of Tanzania,3.3155494,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AT,Austria,3.574131828,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ET,Ethiopia,3.743,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-RS,Serbia,3.792230616,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MR,Mauritania,3.8579101,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PT,Portugal,3.966102612,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LK,Sri Lanka,4.099578456,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-IS,Iceland,4.3467999,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-ML,Mali,4.56717117,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CL,Chile,4.642259296,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-NE,Niger,4.7412581,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-TJ,Tajikistan,6.068609616,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KP,"Korea, Democratic People's Republic of",7.871635176,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KG,Kyrgyzstan,8.31637128,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-CD,Democratic Republic of the Congo,8.48556815,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-BY,Belarus,8.794194072,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-JO,Jordan,8.89477942,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-NP,Nepal,9.37130556,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-KH,Cambodia,11.53974787,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-FI,Finland,13.17698244,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PL,Poland,13.18999032,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-GL,Greenland,13.52404458,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-LA,Lao People's Democratic Republic,15.08822688,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-SE,Sweden,17.79217826,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PH,Philippines,19.49244631,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-AF,Afghanistan,28.28043191,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-PG,Papua New Guinea,29.6050885,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
-MN,Mongolia,101.56181,2010 estimate calculated by distributing unallocated extraction for each continent by county relative to land area
+Country Name,Alpha-2,Value
+US,US,3411.382551551551
+Canada,CA,512.1473292691838
+Mexico,MX,209.91872067744913
+Brazil,BR,90.8705224492256
+Colombia,CO,215.35243778480066
+Venezuela,VE,116.04251645916406
+Bulgaria,BG,75.42478944000001
+Czech Republic,CZ,117.63081792000001
+France,FR,0.30269052
+Germany,DE,402.08602014
+Greece,GR,119.17880568000001
+Hungary,HU,19.4107914
+Kazakhstan,KZ,294.02092125717303
+Poland,PL,291.10522421183083
+Romania,RO,94.588823516
+Russian Federation,RU,2054.996932512535
+Spain,ES,13.373232840000002
+Turkey,TR,154.62813168000002
+Ukraine,UA,207.375419657385
+United Kingdom,GB,145.71528915719335
+South Africa,ZA,511.13865132000006
+Zimbabwe,ZW,5.20476145992
+Australia,AU,950.3077778567495
+China,CN,7423.105901374001
+India,IN,1263.6895555705744
+Indonesia,ID,881.4767988837125
+Japan,JP,2.58306948108
+New Zealand,NZ,10.045227768840002
+Pakistan,PK,81.72327006000678
+South Korea,KR,4.23360432
+Thailand,TH,120.14096203361623
+Vietnam,VN,113.0054176893357
+Qatar,QA,309.27289593259997
+Italy,IT,16.965048889659702
+Turkmenistan,TM,117.831014284234
+Sudan,SD,6.002384070453804
+Kuwait,KW,84.241855100638
+Angola,AO,35.0890007417173
+Peru,PE,23.559775474134486
+Argentina,AR,87.2979276574952
+Bolivia,BO,30.479888925000004
+Norway,NO,232.0190381720724
+Nigeria,NG,126.71899736557667
+Ecuador,EC,11.226332611542025
+Bangladesh,BD,38.210506785877506
+Bahrain,BH,25.294668252934503
+Uzbekistan,UZ,110.02655121180001
+Saudi Arabia,SA,395.8577851473526
+Iran,IR,391.49537158139583
+Algeria,DZ,187.43321290000003
+Malaysia,MY,136.31175391727692
+Oman,OM,68.83235166866427
+Iraq,IQ,58.90853899986665
+Netherlands,NL,122.19797936373303
+Libya,LY,24.370615532260686
+Brunei,BN,27.759220334124496
+Trinidad & Tobago,TT,84.53920086936199
+Denmark,DK,17.1272557822097
+Equatorial Guinea,GQ,5.825963063881246
+Gabon,GA,5.310824497953172
+South Sudan,SS,0.0
+Syria,SY,20.30787727156416
+Yemen,YE,22.317635110281483
+Myanmar,MM,24.314473618357503
+Chad,TD,2.500437697840582
+Egypt,EG,131.45369747170162
+United Arab Emirates,AE,162.90691135669817
+Azerbaijan,AZ,47.2904274873185
+Tunisia,TN,1.3588813534274036

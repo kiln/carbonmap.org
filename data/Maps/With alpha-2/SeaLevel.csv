@@ -1,213 +1,216 @@
-Alpha-3,Alpha-2,Country,Population below 5m,Notes
-ADO,AD,Andorra,0.1,Figure of zero increased to small positive number to allow cartogram generation
-AFG,AF,Afghanistan,0.1,Figure of zero increased to small positive number to allow cartogram generation
-ARM,AM,Armenia,0.1,Figure of zero increased to small positive number to allow cartogram generation
-AUT,AT,Austria,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BDI,BI,Burundi,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BFA,BF,Burkina Faso,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BLR,BY,Belarus,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BOL,BO,Bolivia,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BTN,BT,Bhutan,0.1,Figure of zero increased to small positive number to allow cartogram generation
-BWA,BW,Botswana,0.1,Figure of zero increased to small positive number to allow cartogram generation
-CAF,CF,Central African Republic,0.1,Figure of zero increased to small positive number to allow cartogram generation
-CHE,CH,Switzerland,0.1,Figure of zero increased to small positive number to allow cartogram generation
-CZE,CZ,Czech Republic,0.1,Figure of zero increased to small positive number to allow cartogram generation
-HUN,HU,Hungary,0.1,Figure of zero increased to small positive number to allow cartogram generation
-KGZ,KG,Kyrgyz Republic,0.1,Figure of zero increased to small positive number to allow cartogram generation
-LAO,LA,Lao PDR,0.1,Figure of zero increased to small positive number to allow cartogram generation
-LIE,LI,Liechtenstein,0.1,Figure of zero increased to small positive number to allow cartogram generation
-LSO,LS,Lesotho,0.1,Figure of zero increased to small positive number to allow cartogram generation
-LUX,LU,Luxembourg,0.1,Figure of zero increased to small positive number to allow cartogram generation
-MKD,MK,"Macedonia, FYR",0.1,Figure of zero increased to small positive number to allow cartogram generation
-MLI,ML,Mali,0.1,Figure of zero increased to small positive number to allow cartogram generation
-MNG,MN,Mongolia,0.1,Figure of zero increased to small positive number to allow cartogram generation
-MWI,MW,Malawi,0.1,Figure of zero increased to small positive number to allow cartogram generation
-NER,NE,Niger,0.1,Figure of zero increased to small positive number to allow cartogram generation
-NPL,NP,Nepal,0.1,Figure of zero increased to small positive number to allow cartogram generation
-PRY,PY,Paraguay,0.1,Figure of zero increased to small positive number to allow cartogram generation
-RWA,RW,Rwanda,0.1,Figure of zero increased to small positive number to allow cartogram generation
-SMR,SM,San Marino,0.1,Figure of zero increased to small positive number to allow cartogram generation
-SVK,SK,Slovak Republic,0.1,Figure of zero increased to small positive number to allow cartogram generation
-SWZ,SZ,Swaziland,0.1,Figure of zero increased to small positive number to allow cartogram generation
-TCD,TD,Chad,0.1,Figure of zero increased to small positive number to allow cartogram generation
-TJK,TJ,Tajikistan,0.1,Figure of zero increased to small positive number to allow cartogram generation
-UGA,UG,Uganda,0.1,Figure of zero increased to small positive number to allow cartogram generation
-ZMB,ZM,Zambia,0.1,Figure of zero increased to small positive number to allow cartogram generation
-ZWE,ZW,Zimbabwe,0.1,Figure of zero increased to small positive number to allow cartogram generation
-ABW,AW,Aruba,31789.38252,World Bank data
-AGO,AO,Angola,392510.1594,World Bank data
-ALB,AL,Albania,262953.222,World Bank data
-ARE,AE,United Arab Emirates,550046.58,World Bank data
-ARG,AR,Argentina,1816287.361,World Bank data
-ASM,AS,American Samoa,6743.296624,World Bank data
-ATG,AG,Antigua and Barbuda,28659.79696,World Bank data
-AUS,AU,Australia,1610848.979,World Bank data
-AZE,AZ,Azerbaijan,2694843.305,World Bank data
-BEL,BE,Belgium,1558052.229,World Bank data
-BEN,BJ,Benin,1245027.586,World Bank data
-BGD,BD,Bangladesh,20755681.79,World Bank data
-BGR,BG,Bulgaria,115218.0284,World Bank data
-BHR,BH,Bahrain,840828.1687,World Bank data
-BHS,BS,"Bahamas, The",159558.8063,World Bank data
-BIH,BA,Bosnia and Herzegovina,2978.201198,World Bank data
-BLZ,BZ,Belize,54407.41353,World Bank data
-BMU,BM,Bermuda,53142.34374,World Bank data
-BRA,BR,Brazil,9511036.682,World Bank data
-BRB,BB,Barbados,42895.82915,World Bank data
-BRN,BN,Brunei Darussalam,36861.02978,World Bank data
-CAN,CA,Canada,1361235.951,World Bank data
-CHL,CL,Chile,275474.5862,World Bank data
-CHN,CN,China,107856087,World Bank data
-CIV,CI,Cote d'Ivoire,640513.7163,World Bank data
-CMR,CM,Cameroon,68359.88609,World Bank data
-COG,CG,"Congo, Rep.",39061.00639,World Bank data
-COK,CK,Cook Islands,12572.70691,World Bank data
-COL,CO,Colombia,928015.2719,World Bank data
-COM,KM,Comoros,103136.931,World Bank data
-CPV,CV,Cape Verde,68667.58956,World Bank data
-CRI,CR,Costa Rica,39122.13703,World Bank data
-CUB,CU,Cuba,1130080.435,World Bank data
-CYM,KY,Cayman Islands,33508.58722,World Bank data
-CYP,CY,Cyprus,106636.2714,World Bank data
-DEU,DE,Germany,3609117.864,World Bank data
-DJI,DJ,Djibouti,67784.55556,World Bank data
-DMA,DM,Dominica,7069.86024,World Bank data
-DNK,DK,Denmark,1026136.412,World Bank data
-DOM,DO,Dominican Republic,296170.7714,World Bank data
-DZA,DZ,Algeria,1252021.358,World Bank data
-ECU,EC,Ecuador,1056212.204,World Bank data
-EGY,EG,"Egypt, Arab Rep.",20772763.42,World Bank data
-ERI,ER,Eritrea,64676.84943,World Bank data
-ESP,ES,Spain,3045348.282,World Bank data
-EST,EE,Estonia,96440.66006,World Bank data
-ETH,ET,Ethiopia,327482.5482,World Bank data
-FIN,FI,Finland,234188.9111,World Bank data
-FJI,FJ,Fiji,94625.75704,World Bank data
-FRA,FR,France,2619636.108,World Bank data
-FRO,FO,Faeroe Islands,5376.51081,World Bank data
-FSM,FM,"Micronesia, Fed. Sts.",60918.72617,World Bank data
-GAB,GA,Gabon,89181.15916,World Bank data
-GBR,GB,United Kingdom,5377728.038,World Bank data
-GEO,GE,Georgia,145685.9089,World Bank data
-GHA,GH,Ghana,561281.9465,World Bank data
-GIB,GI,Gibraltar,29243.99708,World Bank data
-GIN,GN,Guinea,362284.1048,World Bank data
-GMB,GM,"Gambia, The",577481.4971,World Bank data
-GNB,GW,Guinea-Bissau,284827.4134,World Bank data
-GNQ,GQ,Equatorial Guinea,18372.91903,World Bank data
-GRC,GR,Greece,1120691.359,World Bank data
-GRD,GD,Grenada,22722.55802,World Bank data
-GRL,GL,Greenland,29502.64102,World Bank data
-GTM,GT,Guatemala,44537.28932,World Bank data
-GUM,GU,Guam,47798.52911,World Bank data
-GUY,GY,Guyana,236164.8348,World Bank data
-HKG,HK,"Hong Kong SAR, China",1849969.086,World Bank data
-HND,HN,Honduras,164567.4577,World Bank data
-HRV,HR,Croatia,149808.3452,World Bank data
-HTI,HT,Haiti,539249.7985,World Bank data
-IDN,ID,Indonesia,26781590.12,World Bank data
-IMY,IM,Isle of Man,23014.90904,World Bank data
-IND,IN,India,44050605.59,World Bank data
-IRL,IE,Ireland,296859.6479,World Bank data
-IRN,IR,"Iran, Islamic Rep.",3682692.84,World Bank data
-IRQ,IQ,Iraq,2078202.737,World Bank data
-ISL,IS,Iceland,41544.57336,World Bank data
-ISR,IL,Israel,629601.5737,World Bank data
-ITA,IT,Italy,4560828.852,World Bank data
-JAM,JM,Jamaica,157954.6234,World Bank data
-JOR,JO,Jordan,253217.0365,World Bank data
-JPN,JP,Japan,20684776.16,World Bank data
-KAZ,KZ,Kazakhstan,633063.5558,World Bank data
-KEN,KE,Kenya,547698.2402,World Bank data
-KHM,KH,Cambodia,1495704.376,World Bank data
-KIR,KI,Kiribati,94788.93557,World Bank data
-KNA,KN,St. Kitts and Nevis,11591.14423,World Bank data
-KOR,KR,"Korea, Rep.",2424372.04,World Bank data
-KWT,KW,Kuwait,623527.9877,World Bank data
-LBN,LB,Lebanon,385343.1836,World Bank data
-LBR,LR,Liberia,133642.3236,World Bank data
-LBY,LY,Libya,299483.4455,World Bank data
-LCA,LC,St. Lucia,13962.26982,World Bank data
-LKA,LK,Sri Lanka,1135252.452,World Bank data
-LTU,LT,Lithuania,133158.8701,World Bank data
-LVA,LV,Latvia,537018.4621,World Bank data
-MAC,MO,"Macao SAR, China",434371.1951,World Bank data
-MAR,MA,Morocco,1198278.277,World Bank data
-MCO,MC,Monaco,35406.99646,World Bank data
-MDA,MD,Moldova,33490.40719,World Bank data
-MDG,MG,Madagascar,421478.1606,World Bank data
-MDV,MV,Maldives,315885,World Bank data
-MEX,MX,Mexico,3076111.297,World Bank data
-MHL,MH,Marshall Islands,53729.17823,World Bank data
-MLT,MT,Malta,90121.92439,World Bank data
-MMR,MM,Myanmar,6725949.099,World Bank data
-MNP,MP,Northern Mariana Islands,23928.55092,World Bank data
-MOZ,MZ,Mozambique,1515674.323,World Bank data
-MRT,MR,Mauritania,706832.6618,World Bank data
-MUS,MU,Mauritius,72328.20738,World Bank data
-MYS,MY,Malaysia,2691965.687,World Bank data
-MYT,YT,Mayotte,44013.7754,World Bank data
-NAM,NA,Namibia,66288.74308,World Bank data
-NCL,NC,New Caledonia,87087.9386,World Bank data
-NGA,NG,Nigeria,4802839.566,World Bank data
-NIC,NI,Nicaragua,84612.00343,World Bank data
-NIU,NU,Niue,153.2248488,World Bank data
-NLD,NL,Netherlands,10187293.43,World Bank data
-NOR,NO,Norway,456194.0679,World Bank data
-NRU,NR,Nauru,4138.795966,World Bank data
-NZL,NZ,New Zealand,548561.6112,World Bank data
-OMN,OM,Oman,152602.9258,World Bank data
-PAK,PK,Pakistan,2214044.725,World Bank data
-PAN,PA,Panama,139018.1362,World Bank data
-PER,PE,Peru,498607.8077,World Bank data
-PHL,PH,Philippines,9822161.963,World Bank data
-PLW,PW,Palau,11376.57701,World Bank data
-PNG,PG,Papua New Guinea,138601.1666,World Bank data
-POL,PL,Poland,951771.5853,World Bank data
-PRI,PR,Puerto Rico,449633.5109,World Bank data
-PRK,KP,"Korea, Dem. Rep.",1282004.493,World Bank data
-PRT,PT,Portugal,558580.9956,World Bank data
-PYF,PF,French Polynesia,53727.99836,World Bank data
-QAT,QA,Qatar,405870.8566,World Bank data
-ROM,RO,Romania,620095.0535,World Bank data
-RUS,RU,Russian Federation,4079207.79,World Bank data
-SAU,SA,Saudi Arabia,280469.2089,World Bank data
-SDN,SD,Sudan,97457.52849,World Bank data
-SEN,SN,Senegal,1836620.777,World Bank data
-SGP,SG,Singapore,611755.5494,World Bank data
-SLB,SB,Solomon Islands,72059.30876,World Bank data
-SLE,SL,Sierra Leone,296726.8697,World Bank data
-SLV,SV,El Salvador,106756.4235,World Bank data
-SOM,SO,Somalia,200740.4612,World Bank data
-SRB,RS,Serbia,6588.72174,World Bank data
-STP,ST,Sao Tome and Principe,18349.22588,World Bank data
-SUR,SR,Suriname,357899.072,World Bank data
-SVN,SI,Slovenia,26770.55127,World Bank data
-SWE,SE,Sweden,592037.7517,World Bank data
-SYC,SC,Seychelles,35764.95301,World Bank data
-SYR,SY,Syrian Arab Republic,62365.59117,World Bank data
-TCA,TC,Turks and Caicos Islands,20432.20752,World Bank data
-TGO,TG,Togo,368795.5703,World Bank data
-THA,TH,Thailand,9523066.949,World Bank data
-TKM,TM,Turkmenistan,284172.0315,World Bank data
-TMP,TL,Timor-Leste,49400.06605,World Bank data
-TON,TO,Tonga,32581.26739,World Bank data
-TTO,TT,Trinidad and Tobago,100045.7085,World Bank data
-TUN,TN,Tunisia,1004957.796,World Bank data
-TUR,TR,Turkey,1733996.375,World Bank data
-TUV,TV,Tuvalu,9826.996069,World Bank data
-TZA,TZ,Tanzania,579658.9412,World Bank data
-UKR,UA,Ukraine,948082.6913,World Bank data
-URY,UY,Uruguay,157992.0928,World Bank data
-USA,US,United States,12679223.85,World Bank data
-UZB,UZ,Uzbekistan,143.9960367,World Bank data
-VCT,VC,St. Vincent and the Grenadines,24007.03401,World Bank data
-VEN,VE,"Venezuela, RB",1060929.73,World Bank data
-VIR,VI,Virgin Islands (U.S.),24084.36056,World Bank data
-VNM,VN,Vietnam,37218291.54,World Bank data
-VUT,VU,Vanuatu,25980.46905,World Bank data
-WBG,PS,West Bank and Gaza,466501.116,World Bank data
-WSM,WS,Samoa,28646.48268,World Bank data
-YEM,YE,"Yemen, Rep.",443598.351,World Bank data
-ZAF,ZA,South Africa,247978.0443,World Bank data
-ZAR,CD,"Congo, Dem. Rep.",24372.02606,World Bank data
+Country Name,Alpha-2,Country Code,Year,Value
+Aruba,AW,ABW,2000,29.57482
+Andorra,AD,AND,2000,0
+Afghanistan,AF,AFG,2000,0
+Angola,AO,AGO,2000,2.056975
+Albania,AL,ALB,2000,8.206302
+United Arab Emirates,AE,ARE,2000,7.322541
+Argentina,AR,ARG,2000,4.494384
+Armenia,AM,ARM,2000,0
+American Samoa,AS,ASM,2000,9.855739
+Antigua and Barbuda,AG,ATG,2000,32.30729
+Australia,AU,AUS,2000,7.214221
+Austria,AT,AUT,2000,0
+Azerbaijan,AZ,AZE,2000,29.78408
+Burundi,BI,BDI,2000,0
+Belgium,BE,BEL,2000,14.32144
+Benin,BJ,BEN,2000,14.06828
+Burkina Faso,BF,BFA,2000,0
+Bangladesh,BD,BGD,2000,13.95883
+Bulgaria,BG,BGR,2000,1.527417
+Bahrain,BH,BHR,2000,66.63535
+"Bahamas, The",BS,BHS,2000,46.53529
+Bosnia and Herzegovina,BA,BIH,2000,0.07920434
+Belarus,BY,BLR,2000,0
+Belize,BZ,BLZ,2000,15.78399
+Bermuda,BM,BMU,2000,82.26369
+Bolivia,BO,BOL,2000,0
+Brazil,BR,BRA,2000,4.878794
+Barbados,BB,BRB,2000,15.69373
+Brunei Darussalam,BN,BRN,2000,9.240206
+Bhutan,BT,BTN,2000,0
+Botswana,BW,BWA,2000,0
+Central African Republic,CF,CAF,2000,0
+Canada,CA,CAN,2000,3.99087
+Switzerland,CH,CHE,2000,0
+Chile,CL,CHL,2000,1.609674
+China,CN,CHN,2000,8.059189
+Cote d'Ivoire,CI,CIV,2000,3.245112
+Cameroon,CM,CMR,2000,0.3487947
+"Congo, Rep.",CG,COG,2000,0.9661633
+Colombia,CO,COL,2000,2.004576
+Comoros,KM,COM,2000,14.03701
+Cabo Verde,CV,CPV,2000,13.8443
+Costa Rica,CR,CRI,2000,0.8397314
+Cuba,CU,CUB,2000,10.03804
+Curacao,CW,CUW,,
+Cayman Islands,KY,CYM,2000,59.59201
+Cyprus,CY,CYP,2000,9.662172
+Czech Republic,CZ,CZE,2000,0
+Germany,DE,DEU,2000,4.417399
+Djibouti,DJ,DJI,2000,7.627246
+Dominica,DM,DMA,2000,10.43414
+Denmark,DK,DNK,2000,18.50849
+Dominican Republic,DO,DOM,2000,2.983391
+Algeria,DZ,DZA,2000,3.529982
+Ecuador,EC,ECU,2000,7.301979
+"Egypt, Arab Rep.",EG,EGY,2000,25.60711
+Eritrea,ER,ERI,2000,1.231078
+Spain,ES,ESP,2000,6.608603
+Estonia,EE,EST,2000,7.198966
+Ethiopia,ET,ETH,2000,0.3947973
+European Union,EU,EUU,2000,7.35753297275851
+Finland,FI,FIN,2000,4.366244
+Fiji,FJ,FJI,2000,10.99503
+France,FR,FRA,2000,4.037874
+Faeroe Islands,FO,FRO,2000,11.03825
+"Micronesia, Fed. Sts.",FM,FSM,2000,54.85011
+Gabon,GA,GAB,2000,5.923836
+United Kingdom,GB,GBR,2000,8.643258
+Georgia,GE,GEO,2000,3.271782
+Ghana,GH,GHA,2000,2.301107
+Guinea,GN,GIN,2000,3.629523
+"Gambia, The",GM,GMB,2000,33.41145
+Guinea-Bissau,GW,GNB,2000,18.79771
+Equatorial Guinea,GQ,GNQ,2000,2.6232
+Greece,GR,GRC,2000,9.900933
+Grenada,GD,GRD,2000,21.74678
+Greenland,GL,GRL,2000,52.18566
+Guatemala,GT,GTM,2000,0.3095247
+Guam,GU,GUM,2000,26.57009
+Guyana,GY,GUY,2000,31.30113
+"Hong Kong SAR, China",HK,HKG,2000,26.17461
+Honduras,HN,HND,2000,2.165212
+Croatia,HR,HRV,2000,3.386141
+Haiti,HT,HTI,2000,5.396142
+Hungary,HU,HUN,2000,0
+Indonesia,ID,IDN,2000,11.165
+Isle of Man,IM,IMN,2000,27.77264
+India,IN,IND,2000,3.761993
+Ireland,IE,IRL,2000,6.624217
+"Iran, Islamic Rep.",IR,IRN,2000,4.978386
+Iraq,IQ,IRQ,2000,6.488134
+Iceland,IS,ISL,2000,13.08911
+Israel,IL,ISR,2000,8.257503
+Italy,IT,ITA,2000,7.540614
+Jamaica,JM,JAM,2000,5.845192
+Jordan,JO,JOR,2000,4.187482
+Japan,JP,JPN,2000,16.22966
+Kazakhstan,KZ,KAZ,2000,3.880005
+Kenya,KE,KEN,2000,1.351918
+Kyrgyz Republic,KG,KGZ,2000,0
+Cambodia,KH,KHM,2000,10.57913
+Kiribati,KI,KIR,2000,95.22124
+St. Kitts and Nevis,KN,KNA,2000,22.11966
+"Korea, Rep.",KR,KOR,2000,4.960352
+Kosovo,XK,KSV,,
+Kuwait,KW,KWT,2000,22.78367
+Lao PDR,LA,LAO,2000,0
+Lebanon,LB,LBN,2000,9.114946
+Liberia,LR,LBR,2000,3.345975
+Libya,LY,LBY,2000,4.712481
+St. Lucia,LC,LCA,2000,8.024293
+Liechtenstein,LI,LIE,2000,0
+Sri Lanka,LK,LKA,2000,5.442259
+Lesotho,LS,LSO,2000,0
+Lithuania,LT,LTU,2000,4.010017
+Luxembourg,LU,LUX,2000,0
+Latvia,LV,LVA,2000,23.94287
+"Macao SAR, China",MO,MAC,2000,79.89817
+St. Martin (French part),MF,MAF,,
+Morocco,MA,MAR,2000,3.750314
+Monaco,MC,MCO,2000,99.99999
+Moldova,MD,MDA,2000,0.9401972
+Madagascar,MG,MDG,2000,2.034768
+Maldives,MV,MDV,2000,100
+Mexico,MX,MEX,2000,2.712069
+Marshall Islands,MH,MHL,2000,99.42851
+"Macedonia, FYR",MK,MKD,2000,0
+Mali,ML,MLI,2000,0
+Malta,MT,MLT,2000,21.82335
+Myanmar,MM,MMR,2000,14.0232
+Montenegro,ME,MNE,,
+Mongolia,MN,MNG,2000,0
+Northern Mariana Islands,MP,MNP,2000,39.28058
+Mozambique,MZ,MOZ,2000,6.479798
+Mauritania,MR,MRT,2000,20.43003
+Mauritius,MU,MUS,2000,5.645287
+Malawi,MW,MWI,2000,0
+Malaysia,MY,MYS,2000,9.478413
+Namibia,NA,NAM,2000,2.903213
+New Caledonia,NC,NCL,2000,34.28659
+Niger,NE,NER,2000,0
+Nigeria,NG,NGA,2000,3.031652
+Nicaragua,NI,NIC,2000,1.461811
+Netherlands,NL,NLD,2000,61.32412
+Norway,NO,NOR,2000,9.338212
+Nepal,NP,NPL,2000,0
+New Zealand,NZ,NZL,2000,12.55922
+Oman,OM,OMN,2000,5.48451
+Pakistan,PK,PAK,2000,1.27542
+Panama,PA,PAN,2000,3.95295
+Peru,PE,PER,2000,1.714813
+Philippines,PH,PHL,2000,10.53193
+Palau,PW,PLW,2000,55.5714
+Papua New Guinea,PG,PNG,2000,2.020936
+Poland,PL,POL,2000,2.492365
+Puerto Rico,PR,PRI,2000,11.30101
+"Korea, Dem. Rep.",KP,PRK,2000,5.265721
+Portugal,PT,PRT,2000,5.24842
+Paraguay,PY,PRY,2000,0
+French Polynesia,PF,PYF,2000,19.84311
+Qatar,QA,QAT,2000,23.07667
+Romania,RO,ROU,2000,2.891963
+Russian Federation,RU,RUS,2000,2.877748
+Rwanda,RW,RWA,2000,0
+Saudi Arabia,SA,SAU,2000,1.021817
+Sudan,SD,SDN,2000,0.2237731
+Senegal,SN,SEN,2000,14.77128
+Singapore,SG,SGP,2000,12.05026
+Solomon Islands,SB,SLB,2000,13.39024
+Sierra Leone,SL,SLE,2000,5.057095
+El Salvador,SV,SLV,2000,1.723826
+San Marino,SM,SMR,2000,0
+Somalia,SO,SOM,2000,2.151358
+Serbia,RS,SRB,2000,0.09034837
+South Sudan,SS,SSD,,
+Sao Tome and Principe,ST,STP,2000,11.09405
+Suriname,SR,SUR,2000,68.21855
+Slovak Republic,SK,SVK,2000,0
+Slovenia,SI,SVN,2000,1.304086
+Sweden,SE,SWE,2000,6.312298
+Swaziland,SZ,SWZ,2000,0
+Sint Maarten (Dutch part),SX,SXM,,
+Seychelles,SC,SYC,2000,41.33482
+Syrian Arab Republic,SY,SYR,2000,0.3050168
+Turks and Caicos Islands,TC,TCA,2000,53.27269
+Chad,TD,TCD,2000,0
+Togo,TG,TGO,2000,6.118247
+Thailand,TH,THA,2000,13.77714
+Tajikistan,TJ,TJK,2000,0
+Turkmenistan,TM,TKM,2000,5.636103
+Timor-Leste,TL,TLS,2000,4.393636
+Tonga,TO,TON,2000,31.31068
+Trinidad and Tobago,TT,TTO,2000,7.457944
+Tunisia,TN,TUN,2000,9.526479
+Turkey,TR,TUR,2000,2.383424
+Tuvalu,TV,TUV,2000,99.99996
+Tanzania,TZ,TZA,2000,1.292692
+Uganda,UG,UGA,2000,0
+Ukraine,UA,UKR,2000,2.066859
+Uruguay,UY,URY,2000,4.706931
+United States,US,USA,2000,4.102634
+Uzbekistan,UZ,UZB,2000,0.000511343
+St. Vincent and the Grenadines,VC,VCT,2000,21.95772
+"Venezuela, RB",VE,VEN,2000,3.67944
+Virgin Islands (U.S.),VI,VIR,2000,21.93975
+Vietnam,VN,VNM,2000,42.81091
+Vanuatu,VU,VUT,2000,10.84096
+West Bank and Gaza,PS,PSE,2000,11.2353
+World,,WLD,2000,6.56740233347143
+Samoa,WS,WSM,2000,15.64689
+"Yemen, Rep.",YE,YEM,2000,1.844291
+South Africa,ZA,ZAF,2000,0.4960424
+"Congo, Dem. Rep.",CD,COD,2000,0.03694646
+Zambia,ZM,ZMB,2000,0
+Zimbabwe,ZW,ZWE,2000,0

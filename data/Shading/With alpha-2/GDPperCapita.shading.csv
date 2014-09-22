@@ -1,4 +1,4 @@
-"GDP per capita, PPP (current international $), 2010",color,key
+Value,color,key
 ..500,#F7FCFD,< $500
 500..1000,#E0ECF4,$500–1000
 1000..2500,#BFD3E6,$1000–2500

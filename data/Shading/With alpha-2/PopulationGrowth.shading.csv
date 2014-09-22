@@ -1,4 +1,4 @@
-"Population growth (annual %), 2010",color,key
+Value,color,key
 ..-0.25,#66BD63,Down >0.25%
 -0.25..-0.1,#A6D96A,Down 0.25–0.1%
 -0.1..0,#D9EF8B,Down <0.1%

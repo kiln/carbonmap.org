@@ -1,0 +1,86 @@
+,Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean),,,,,,,,,,,,
+,"All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide (CO2) per year, multiply the numbers below by 3.664.",,,,,,,,,,,,
+,1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2,,,,,,,,,,,,
+,Methods:,,,,,,,,,,,,
+,"The ocean CO2 sink for the 1990s is based on observations (see cited studies below). The average anomalies from the model results, normalised to the observed mean for 1990-1999 are used for the annual values. ",,,,,,,,,,,,
+,Cite individual estimates as:,,,,,,,,,,,,
+,Observational data sources used to compute the 1990-1999 average of 2.2 PgC/yr:,,,,,,,,,,,,
+,"McNeil, B. I., Matear, R. J., Key, R. M., Bullister, J. L., and Sarmiento, J. L. 2003. Anthropogenic CO2 uptake by the ocean based on the global chlorofluorocarbon data set, Science, 299, 235-239, 10.1126/science.1077429.",,,,,,,,,,,,
+,"Manning, A. C., and Keeling, R. F. 2006. Global oceanic and land biotic carbon sinks from the Scripps atmospheric oxygen flask sampling network, Tellus Series B-Chemical and Physical Meteorology, 58, 95-116, 10.1111/j.1600-0889.2006.00175.x.",,,,,,,,,,,,
+,"Mikaloff Fletcher, S. E., Gruber, N., Jacobson, A. R., Doney, S. C., Dutkiewicz, S., Gerber, M., Follows, M., Joos, F., Lindsay, K., Menemenlis, D., Mouchet, A., Müller, S. A., and Sarmiento, J. L. 2006. Inverse estimates of anthropogenic CO2 uptake, transport, and storage by the oceans, Global Biogeochemical Cycles, 20.",,,,,,,,,,,,
+,Model results used to compute the annual values:,,,,,,,,,,,,
+,NEMO-PlankTOM5,,"Buitenhuis, ET, Rivkin, RB, Sailley, SF, Le Quéré, C 2010. Biogeochemical fluxes through microzooplankton. Global Biogeochemical Cycles 24.",,,,,,,,,,
+,LSCE,,"Aumont, O and Bopp, L 2006. Globalizing results from ocean in situ iron fertilization studies. Global Biogeochemical Cycles 20(2).",,,,,,,,,,
+,CCSM-BEC,,"Doney, SC, Lima, ID, Feely, RA, Glover, DM, Lindsay, K, Mahowald, N, Moore, JK and Wanninkhof, R 2009. Mechanisms governing interannual variability in upper-ocean inorganic carbon system and air-sea CO2 fluxes: physical climate and atmospheric dust. Deep-Sea Res., II(56): 640-655.",,,,,,,,,,
+,MICOM-HAMOCC,,"Assmann, KM, Bentsen, M, Segschneider, J and Heinze, C 2010. An isopycnic ocean carbon cycle model. Geoscientific Model Development, 3: 143-167.",,,,,,,,,,
+,MPIOM-HAMOCC,,"Ilyina, T, Six, K, Segschneider, J, Maier-Reimer, E, Li, H, and Núñez-Riboni, I 2013 The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, doi: 10.1002/jame.20017.",,,,,,,,,,
+,CNRM,,"Séférian R, Bopp, L, Gehlen, M, Orr, J, Ethé, C, Cadule, P, Aumont, O, Salas Y Mélia, D, Voldoire, A and Madec, G 2013 Skill assessment of three earth system models with common marine biogeochemistry. Climate Dynamics, 40, 2549–2573.",,,,,,,,,,
+,CSIRO,,"Oke PR, Griffin, DA, Schiller, A, Matear, R ., Fiedler, R, Mansbridge, J, Lenton, A, Cahill, M, Chamberlain, MA and Ridgway, K 2013. Evaluation of a near-global eddy-resolving ocean model. Geosci. Model Dev., 6, 591-615.",,,,,,,,,,
+,Data products used to evaluate the results:,,,,,,,,,,,,
+,Landschützer,,"Landschützer P, Gruber N, Bakker DCE, Schuster U (2014) Recent variability of the global ocean carbon sink. Global Biogeochemical Cycles.
+",,,,,,,,,,
+,Rödenbeck,,"Rödenbeck, C, Bakker, DCE, Metzl, N, Olsen, A, Sabine, C, Cassar, N, Reum, F, Keeling, RF, and Heimann, M 2014. Interannual sea-air CO2 flux variability from an observation-driven
+ocean mixed-layer scheme., Biogeosciences Discussions, doi: 10.5194/bgd-11-3167-2014, 2014. 3167-3207",,,,,,,,,,
+,Park,,"Park, GH, Wanninkhof, R, Doney, SC, Takahashi, T, Lee, K, Feely, RA, Sabine, CL, Trinanes, J, and Lima, ID 2010. Variability of global net sea-air CO2 fluxes over the last three decades using empirical relationships, Tellus Series B-Chemical and Physical Meteorology, 62, 352-368, Doi 10.1111/J.1600-0889.2010.00498.X.",,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Ocean CO2 sink based on combining observations,,Individual model values,,,,,,,,Data-based products,,
+year,and models used in the global carbon budget,,NEMO-PlankTOM5,LSCE,CCSM-BEC,MICOM-HAMOCC,MPIOM-HAMOCC,CNRM,CSIRO,,Landschützer,Rödenbeck,Park
+1959.0,0.836110022654,,0.91,0.498,0.944,0.734,0.569419,0.562,0.724,,,,
+1960.0,0.855955945192,,0.93,0.507,0.7,0.9808,0.558056,0.762,0.728,,,,
+1961.0,0.716989595169,,0.89,0.414,0.63,0.9822,0.396274,0.521,0.564,,,,
+1962.0,0.780742135338,,1.0,0.382,0.575,1.0675,0.464646,0.604,0.709,,,,
+1963.0,0.965114611632,,1.12,0.578,0.754,1.1116,0.701366,0.638,0.944,,,,
+1964.0,1.24809308103,,1.34,0.937,1.053,1.337,0.949206,0.949,0.922,,,,
+1965.0,1.47678267333,,1.53,0.958,1.28,1.3829,1.12647,1.209,1.296,,,,
+1966.0,1.45770687962,,1.58,0.948,1.231,1.4344,1.029287,1.198,1.301,,,,
+1967.0,1.17262969239,,1.3,0.769,1.013,1.3668,0.696083,0.975,0.981,,,,
+1968.0,1.18013268437,,1.28,0.696,0.93,1.4657,0.759124,0.932,1.114,,,,
+1969.0,1.2192349144,,1.4,0.955,0.967,1.3595,0.744208,0.755,1.243,,,,
+1970.0,1.13331013648,,1.19,0.86,0.895,1.4483,0.699431,1.004,0.802,,,,
+1971.0,1.26606160738,,1.29,0.847,1.034,1.6166,0.897837,1.048,0.935,,,,
+1972.0,1.57417248861,,1.65,1.116,1.28,1.713,1.122795,1.113,1.495,,,,
+1973.0,1.51071226227,,1.7,1.269,0.97,1.8161,1.054579,1.141,1.274,,,,
+1974.0,1.45023986928,,1.43,1.0,1.022,1.8536,0.949793,1.378,1.19,,,,
+1975.0,1.51901663515,,1.64,1.163,1.116,1.8036,1.126539,1.202,1.15,,,,
+1976.0,1.62723509724,,1.68,1.192,1.149,1.8254,1.137532,1.366,1.496,,,,
+1977.0,1.72227085328,,1.76,1.329,1.389,1.8541,1.354961,1.093,1.58,,,,
+1978.0,1.70344037645,,1.73,1.401,1.296,1.9358,1.14017,1.313,1.505,,,,
+1979.0,1.47666517962,,1.54,1.227,0.892,1.5731,0.92592,1.229,1.602,,,,
+1980.0,1.81845237018,,1.78,1.558,1.33,2.2117,1.512982,1.197,1.416,,,,
+1981.0,1.8198421879,,1.69,1.397,1.349,2.1973,1.34349,1.52,1.507,,,,
+1982.0,1.89556447148,,1.87,1.643,1.444,1.9922,1.30111,1.413,1.777,,1.308,,
+1983.0,2.11145851108,,2.07,1.818,1.665,2.234,1.458978,1.659,1.813,,1.34,,
+1984.0,1.99166377658,,1.86,1.608,1.491,2.3501,1.415771,1.711,1.602,,1.379,,
+1985.0,1.95713641109,,1.98,1.689,1.305,2.2023,1.374309,1.626,1.691,,1.346,,
+1986.0,1.96078985141,,1.94,1.762,1.386,2.0743,1.279866,1.59,1.837,,1.425,1.395,
+1987.0,1.96952310761,,2.05,1.806,1.283,2.0514,1.348974,1.546,1.852,,1.568,1.26745,
+1988.0,1.85763310222,,1.81,1.698,1.212,2.4347,1.254724,1.484,1.482,,1.371,1.4696,
+1989.0,1.9502327962,,1.9,1.703,1.137,2.2352,1.45093,1.712,1.7,,1.275,1.3364,
+1990.0,2.02768768773,,2.0,1.84,1.364,2.3495,1.454093,1.502,1.813,,1.394,1.25076,0.8266865
+1991.0,2.15063681326,,2.06,1.922,1.483,2.5125,1.559586,1.593,1.926,,1.472,1.52781,1.006698
+1992.0,2.44625148446,,2.23,2.124,1.882,2.7414,1.877102,1.867,2.006,,1.472,2.10046,1.150603
+1993.0,2.42952490264,,2.23,2.078,1.852,2.6021,1.711169,2.014,2.138,,1.485,1.77756,1.280023
+1994.0,2.20323512051,,2.0,1.932,1.629,2.6071,1.460087,1.854,1.877,,1.316,1.24487,1.163889
+1995.0,2.07786438212,,1.9,1.845,1.461,2.4983,1.357278,1.672,1.911,,1.156,1.02476,1.084181
+1996.0,2.06237606483,,1.77,1.776,1.464,2.6677,1.426342,1.704,1.748,,1.044,0.83336,1.033911
+1997.0,2.17681813018,,2.02,1.983,1.542,2.6443,1.451258,1.591,2.034,,1.239,1.19229,1.401198
+1998.0,2.28674362304,,2.39,2.353,1.478,2.5722,1.420242,1.592,2.179,,1.125,1.92304,1.226785
+1999.0,2.13886179123,,2.11,2.07,1.335,2.5407,1.375913,1.843,1.781,,0.847,1.17544,0.9917058
+2000.0,2.11744889826,,1.87,1.801,1.441,2.6087,1.618972,1.717,1.781,,0.893,1.07099,1.066261
+2001.0,1.96713445095,,1.73,1.748,1.338,2.5242,1.295001,1.511,1.877,,0.867,0.63944,1.125466
+2002.0,2.33989144258,,2.11,2.203,1.681,2.9913,1.774902,1.317,2.199,,1.168,1.41859,1.365276
+2003.0,2.45524895088,,2.11,2.225,1.543,3.0676,1.835187,1.854,2.323,,1.378,1.64448,1.304941
+2004.0,2.3068736003,,2.05,2.157,1.522,2.9413,1.659713,1.643,2.114,,1.369,1.78193,1.256311
+2005.0,2.35730858271,,2.18,2.235,1.553,3.1563,1.688217,1.548,2.097,,1.443,1.12108,1.290671
+2006.0,2.50568352702,,2.22,2.37,1.622,3.1542,1.830935,1.864,2.22,,1.536,1.20223,1.317887
+2007.0,2.51482261331,,2.36,2.415,1.687,3.1108,1.726499,1.927,2.116,,1.49,0.8192,1.182584
+2008.0,2.43490064348,,2.23,2.323,1.444,2.9221,1.671671,2.0,2.269,,1.593,1.22666,1.112652
+2009.0,2.56304755432,,2.32,2.422,1.715,3.0721,1.802884,1.867,2.408,,1.794,1.1827,1.268642
+2010.0,2.54777171207,,2.31,2.479,1.672,3.0215,1.821054,1.892,2.308,,1.8,1.76403,
+2011.0,2.68766715548,,2.38,2.505,1.856,3.3414,1.827752,2.063,2.408,,1.867,2.11015,
+2012.0,2.84845013223,,2.66,2.644,1.878,3.3039,2.166912,2.037,2.597,,1.891,2.00738,
+2013.0,2.87566803573,,2.56,2.705,1.92,3.5402,2.156308,2.07,2.545,,1.759,1.86833,
+,,,,,,,,,,,,,
+,,,,,,,,,,,Note: the data-based products include a pre-industrial steady state source of CO2 (of about 0.45 GtC/yr),,
+,,average 1990-1999,2.071,1.9923,1.549,2.57358,1.509307,1.7232,1.9413,,1.255,1.405035,1.11656803

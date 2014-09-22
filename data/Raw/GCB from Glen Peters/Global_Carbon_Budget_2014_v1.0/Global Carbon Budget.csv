@@ -1,0 +1,75 @@
+,"All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide (GtCO2) per year, multiply the numbers below by 3.664. ",,,,
+,Note: 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2,,,,
+,All uncertainties represent ± 1 sigma error (68 % chances of being in the range provided) ,,,,
+,Emissions from fossil fuel combustion and cement production (uncertainty of ±5% for a ± 1 sigma confidence level):,,,,
+,,"Cite as: Boden, TA, Marland, G and Andres, RJ 2013. Global, Regional, and National Fossil-Fuel CO2 Emissions, Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., USA doi 10.3334/CDIAC/00001_V2013",,,
+,,1959-2010 estimates for fossil fuel combustion are from the Carbon Dioxide Information Analysis Center (CDIAC) at Oak Ridge National Laboratory.  http://cdiac.ornl.gov/trends/emis/meth_reg.html,,,
+,,"2010, 2012 and 2013 estimates are based on energy statistics published by BP (data in red in Column B). http://www.bp.com/sectionbodycopy.do?categoryId=7500&contentId=7068481",,,
+,,Emissions from cement production were estimated by CDIAC based on cement production data from the US Geological Survey. ,,,
+,Emissions from land-use change (uncertainty of ±0.5 GtC/yr):,,,,
+,,"Cite as: Houghton, RA, van der Werf, GR, DeFries, RS, Hansen, MC, House, JI, Le Quéré, C, Pongratz, J and Ramankutty, N 2012. Chapter G2 Carbon emissions from land use and land-cover change, Biogeosciences, 9, 5125-5142. Doi: 10.5194/bgd-9-835-2012    ",,,
+,,1959-2010 estimates are mainly based on agriculture statistics of the Food and Agriculture Organization,,,
+,,1997-2013 include interannual variability as captured by satellite-based fire emissions,,,
+,"The atmospheric CO2 growth rate (variable uncertainty averaging 0.18 GtC/yr during 1980-2011) is estimated directly from atmospheric CO2 concentration measurements, and provided by the US National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA/ESRL).  http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html",,,,
+,,"Cite as: Edward Dlugokencky and Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/)",,,
+,,1959-1980 are based on Mauna Loa and South Pole stations as observed by the CO2 Program at Scripps Institution of Oceanography. http://scrippsco2.ucsd.edu/data/atmospheric_co2.html,,,
+,,1980-2013 are global averages estimated from multiple stations by NOAA/ESRL.,,,
+,The ocean sink  (uncertainty of ±0.5 GtC/yr) was estimated a combination of global ocean biogeochemistry models. How to cite: Le Quéré et al. 2013 (see Summary) ,,,,
+,The land sink (uncertainty of ±0.8 GtC/yr on average) was estimated from the residual of the other budget terms: land_sink = fossil_fuel + land_use_change - atm_growth - ocean_sink.  How to cite: Le Quéré et al. 2013 (see Summary) ,,,,
+,,,,,
+Year,fossil fuel and cement emissions,land-use change emissions,atmospheric growth,ocean sink,land sink
+1959.0,2.454,1.4727759,2.0352,0.836110022654,1.05546587735
+1960.0,2.569,1.4606345,1.5052,0.855955945192,1.66847855481
+1961.0,2.58,1.530231,1.6536,0.716989595169,1.73964140483
+1962.0,2.686,1.5198038,1.1872,0.780742135338,2.23786166466
+1963.0,2.833,1.5262845,1.2084,0.965114611632,2.18576988837
+1964.0,2.995,1.5173337,1.0388,1.24809308103,2.22544061897
+1965.0,3.13,1.5484721,2.332,1.47678267333,0.869689426672
+1966.0,3.288,1.5508256,2.332,1.45770687962,1.04911872038
+1967.0,3.393,1.594899,1.2932,1.17262969239,2.52206930761
+1968.0,3.566,1.5460563,2.0988,1.18013268437,1.83312361563
+1969.0,3.78,1.5427741,2.7984,1.2192349144,1.3051391856
+1970.0,4.053,1.5310014,2.3956,1.13331013648,2.05509126352
+1971.0,4.208,1.4047031,1.5476,1.26606160738,2.79904149262
+1972.0,4.376,1.3261336,3.1164,1.57417248861,1.01156111139
+1973.0,4.614,1.3175873,3.0952,1.51071226227,1.32567503773
+1974.0,4.623,1.2897675,1.4416,1.45023986928,3.02092763072
+1975.0,4.596,1.3024158,2.6076,1.51901663515,1.77179916485
+1976.0,4.864,1.3194059,2.0564,1.62723509724,2.49977080276
+1977.0,5.026,1.3512792,4.0704,1.72227085328,0.584608346723
+1978.0,5.087,1.2985151,2.7348,1.70344037645,1.94727472355
+1979.0,5.369,1.2515593,4.5368,1.47666517962,0.607094120382
+1980.0,5.315,1.2433824,3.6464,1.81845237018,1.09353002982
+1981.0,5.152,1.2520549,2.438,1.8198421879,2.1462127121
+1982.0,5.113,1.2573836,2.12,1.89556447148,2.35481912852
+1983.0,5.094,1.4321564,3.8584,2.11145851108,0.556297888917
+1984.0,5.28,1.46034,2.65,1.99166377658,2.09867622342
+1985.0,5.439,1.4988356,3.4768,1.95713641109,1.50389918891
+1986.0,5.607,1.529187,2.1836,1.96078985141,2.99179714859
+1987.0,5.752,1.5147715,5.7452,1.96952310761,-0.447951607611
+1988.0,5.965,1.5141773,4.7488,1.85763310222,0.872744197775
+1989.0,6.097,1.5312021,2.8832,1.9502327962,2.7947693038
+1990.0,6.127,1.4442218,2.4804,2.02768768773,3.06313411227
+1991.0,6.217,1.6358689,1.6748,2.15063681326,4.02743208674
+1992.0,6.164,1.6820379,1.4204,2.44625148446,3.97938641554
+1993.0,6.162,1.5457908,2.5864,2.42952490264,2.69186589736
+1994.0,6.266,1.5028061,3.5828,2.20323512051,1.98277097949
+1995.0,6.398,1.4851806,4.1128,2.07786438212,1.69251621788
+1996.0,6.542,1.4693037,2.2896,2.06237606483,3.65932763517
+1997.0,6.651,2.29292044286,4.1764,2.17681813018,2.59070231267
+1998.0,6.643,1.59024054286,6.0208,2.28674362304,-0.0743030801874
+1999.0,6.61,1.33856974286,2.8408,2.13886179123,2.96890795163
+2000.0,6.765,1.22953914286,2.65,2.11744889826,3.22709024459
+2001.0,6.927,0.974148242857,3.816,1.96713445095,2.11801379191
+2002.0,6.996,1.05193274286,5.0456,2.33989144258,0.662441300274
+2003.0,7.416,0.899424842857,4.7488,2.45524895088,1.11137589198
+2004.0,7.807,1.03051304286,3.4132,2.3068736003,3.11743944256
+2005.0,8.093,1.02596464286,5.1516,2.35730858271,1.61005606014
+2006.0,8.37,1.00890974286,3.6888,2.50568352702,3.18442621584
+2007.0,8.566,0.935555442857,4.4308,2.51482261331,2.55593282954
+2008.0,8.783,0.658861842857,3.7524,2.43490064348,3.25456119938
+2009.0,8.74,0.714334742857,3.5828,2.56304755432,3.30848718854
+2010.0,9.167,0.833502642857,5.1092,2.54777171207,2.34353093078
+2011.0,9.45724630828,0.884029842857,3.6252,2.68766715548,4.02840899565
+2012.0,9.66844210725,0.931029842857,5.088,2.84845013223,2.66302181788
+2013.0,9.86108217082,0.885029842857,5.3636,2.87566803573,2.50684397795
