@@ -28,6 +28,7 @@ html {
 body {
 	font-family: 'TradeGothic';
 	margin: 0;
+	background: orange;
 }
 
 iframe {
@@ -37,9 +38,10 @@ iframe {
 #wrapper {
 	width: 100%;
 	position: relative;
-	/*background: rgba(150,200,255,0.2);*/
-	background-image: url("Grain.png");
+	/*background-image: url("Grain.png");*/
 	overflow: hidden;
+	background: white;
+	min-height: 650px;
 }
 
 /******** Fonts and swatches ********/
@@ -217,6 +219,7 @@ h3 {
 	z-index: 20;
 	opacity: 0.9;
 	min-width: 60px;
+	text-align: center;
 }
 
 #play-intro:hover {
@@ -227,6 +230,7 @@ h3 {
 	width: 100%;
 	height: 0px;
 	padding-bottom: 100%;
+	display: inline-block;
 }
 
 #talkie-player-inner {
@@ -354,12 +358,13 @@ h3 {
 }
 
 #maparea {
-	width: 100%;
+	width: 90%;
 	position: relative;
 	height: 0;
-	padding-bottom: 60%;
+	padding-bottom: 50%;
+	margin-right: 10%;
 	margin-top: -40px;
-	margin-bottom: -70px;
+	margin-bottom: 50px;
 }
 
 #map {
@@ -417,16 +422,26 @@ path {
 	fill: #555 !important;
 }
 
-#infoarea {
-	background: rgba(225,225,225,0.6);
-	width: 135px;
-	padding: 5px 15px;
+/******** Info panels ********/
+
+
+#info-and-shade {
 	position: absolute;
+	top: 180px;
+	right: 20px;
+	width: 175px;
+}
+
+.panel {
+	background: rgba(225,225,225,0.2);
+	padding: 5px 15px;
 	border-radius: 10px;
-	top: 360px;
-	left: 20px;
 	font-size: 14px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#infoarea {
+	margin-top: 20px;
 }
 
 #selectacountry {
@@ -456,12 +471,7 @@ path {
 	text-decoration: italic;
 }
 
-/******** Sidebar ********/
-
 #shade {
-	background: rgba(255,255,255,0.6);
-	padding: 10px 10px 30px;
-	text-align: center;
 	position: relative;
 }
 
@@ -483,14 +493,8 @@ path {
 	padding: 0 0 4px 0;
 }
 
-#shade {
-	margin-top: 6px;
-}
-
 .legendtext {
-	font-size: 12px;
-	display: inline;
-	vertical-align: middle;
+	font-size: 13px;
 }
 
 #legendtext {
@@ -504,8 +508,7 @@ path {
 	height: 12px;
 	margin: 0 4px 0 6px;
 	font-size: 12px;
-	display: inline-block;
-	vertical-align: middle;
+	float: left;
 }
 
 .legendswatch:first-child {
@@ -587,7 +590,7 @@ path {
 
 /******** Responsive settings ********/
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1175px) {
 
 	.navtitle {
 		font-size: 13px;
@@ -599,22 +602,61 @@ path {
 
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1100px) {
 
 	.navtitle {
 		font-size: 13px;
 	}
 
 	.navitems {
+		font-size: 17px;
+		padding: 4px;
+	}
+
+	#maparea {
+		margin-top: -10px;
+		margin-right: 15%;
+		width: 85%;
+	}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+	.navtitle {
+		font-size: 13px;
+	}
+
+	.navitems {
+		font-size: 17px;
+		padding: 4px;
+	}
+
+	#maparea {
+		margin-top: -10px;
+		margin-right: 15%;
+		width: 85%;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#navigation {
+		text-align: left;
+	}
+	
+	.navitems {
 		font-size: 16px;
 		padding: 4px;
 	}
+
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
 
 	#navigation {
-		padding-right: 5%;
+		padding-right: 10%;
 	}
 
 	.navblock {
@@ -653,29 +695,80 @@ path {
 	}
 
 	#maparea {
-		margin-top: -30px;
-		margin-bottom: -60px;
-	}
-
-	#infoarea {
-		background: rgba(225,225,225,0.8);
-		width: 100%;
-		padding: 5px 10px 10px;
-		position: relative;
-		box-sizing: border-box;
-		top: 0;
-		left: 0;
-		border-radius: 0;
+		width: 80%;
+		margin-right: 20%;
 	}
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
+
+	#navigation {
+		padding-right: 0%;
+	}
+
+
+	#maparea {
+		width: 100%;
+		margin-right: 0;
+		padding-bottom: 60%;
+		margin-bottom: -60px;
+	}
+
+	#info-and-shade {
+		width: 100%;
+		position: static;
+	}
+
+	.panel {
+		box-shadow: none;
+		border-radius: 0;
+	}
+
+	#shade {
+		text-align: center;
+		padding: 20px;
+	}
+
+	.legendswatch {
+		float: none;
+		display: inline-block;
+	}
+
+	.legendtext {
+		display: inline;
+	}
+
+	#infoarea {
+		border-top: 1px #999 dotted;
+		margin-top: 0px;
+	}
+	
+	#selectedcountrydataarea2,
+	#selectedcountrydataarea3 {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+	#selectedcountrydataarea3 {
+		padding-left: 3%;
+	}
+	
+	#play-intro {
+		top: 30px!important;
+		right: 30px!important;
+		margin: 0!important;
+		width: 50px!important;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
 
 	#masthead {
 		height: 50px;
 	}
-
+	
 	#header-title {
 		position: absolute;
 		left: 20px;
@@ -694,7 +787,8 @@ path {
 
 	#navigation {
 		text-align: left;
-		padding-right: 75px;
+		width: 90%;
+		padding-right: 10%;
 	}
 
 	.navblock {
@@ -733,13 +827,24 @@ path {
 		display: none;
 	}
 
-	#maparea {
-		margin-top: -20px;
-		margin-bottom: -20px;
-	}
 }
 
 @media screen and (max-width: 550px) {
+
+	.navitems {
+		font-size: 15px;
+		line-height: 17px;
+	}
+	
+	#maparea {
+		margin-bottom: -20px;
+	}
+
+	#navigation {
+		text-align: left;
+		width: 85%;
+		padding-right: 15%;
+	}
 
 	.navblock {
 		display: inline;
@@ -747,6 +852,13 @@ path {
 
 	.navtitle {
 		display: none;
+	}
+
+	#play-intro {
+		top: 20px!important;
+		right: 20px!important;
+		margin: 0!important;
+		width: 40px!important;
 	}
 
 }

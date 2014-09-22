@@ -151,19 +151,6 @@
 					</div>
 
 				</div>
-				<div id="shade">
-					<div id="shade-head">Shade by</div>
-					<form id="shade-form">
-						<select id="shadedropdown">
-							<option value="Continents" selected="selected">Continents</option>
-							<option value="EmissionsChange">Emissions change</option>
-							<option value="CO2perCapita">CO₂ per person</option>
-							<option value="GDPperCapita">GDP per person</option>
-							<option value="PopulationGrowth">Population growth</option>
-						</select>
-					</form>
-					<div id="legendbox"></div>
-				</div>
 				<div id="play-intro">
 					<div id="play-intro-inner">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
@@ -180,25 +167,40 @@
 					</div>
 				</div>
 			</div>
-			<div id="infoarea">
-				<i class="fa fa-info-circle" style="float: left; margin: 12px 5px 0 0; font-size: 20px"></i>
-				<div id="infoareaunselected">
-					<div class="infoarea-heading">This map shows</div>
-					<div id="about"></div>
+			<div id="info-and-shade">
+				<div id="shade" class="panel">
+					<div id="shade-head">Shade by</div>
+					<form id="shade-form">
+						<select id="shadedropdown">
+							<option value="Continents" selected="selected">Continents</option>
+							<option value="EmissionsChange">Emissions change</option>
+							<option value="CO2perCapita">CO₂ per person</option>
+							<option value="GDPperCapita">GDP per person</option>
+							<option value="PopulationGrowth">Population growth</option>
+						</select>
+					</form>
+					<div id="legendbox"></div>
 				</div>
-				<div id="selectedcountryinfo">
-					<div id="selectedcountrydataarea1" class="data-area">
-						<div id="selectedcountryname" class="infoarea-heading"></div>
+				<div id="infoarea" class="panel">
+					<i class="fa fa-info-circle" style="float: left; margin: 12px 5px 0 0; font-size: 20px"></i>
+					<div id="infoareaunselected">
+						<div class="infoarea-heading">This map</div>
+						<div id="about"></div>
 					</div>
-					<div id="selectedcountrydataarea2" class="data-area">
-						<div id="selectedcountrydatadescription2" class="data-label"></div>
-						<div id="selectedcountrydataresult2" class="data-result"></div>
-						<div id="selectedcountryrank2" class="data-rank"></div>
-					</div>
-					<div id="selectedcountrydataarea3" class="data-area">
-						<div id="selectedcountrydatadescription3" class="data-label"></div>
-						<div id="selectedcountrydataresult3" class="data-result"></div>
-						<div id="selectedcountryrank3" class="data-rank"></div>
+					<div id="selectedcountryinfo">
+						<div id="selectedcountrydataarea1" class="data-area">
+							<div id="selectedcountryname" class="infoarea-heading"></div>
+						</div>
+						<div id="selectedcountrydataarea2" class="data-area">
+							<div id="selectedcountrydatadescription2" class="data-label"></div>
+							<div id="selectedcountrydataresult2" class="data-result"></div>
+							<div id="selectedcountryrank2" class="data-rank"></div>
+						</div>
+						<div id="selectedcountrydataarea3" class="data-area">
+							<div id="selectedcountrydatadescription3" class="data-label"></div>
+							<div id="selectedcountrydataresult3" class="data-result"></div>
+							<div id="selectedcountryrank3" class="data-rank"></div>
+						</div>
 					</div>
 				</div>
 			</div>

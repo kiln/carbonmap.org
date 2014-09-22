@@ -266,8 +266,9 @@ function carbonmapDataLoaded() {
             "position": "absolute",
             "top": "0%",
             "right": "0%",
-            "width": "10%",
-            "margin": "20px 20px 0 0"
+            "width": "120px",
+            "margin-top": "10px",
+            "margin-right": "50px"
         }, duration);
         play_button_in_middle = false;
     }
