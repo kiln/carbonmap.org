@@ -636,7 +636,7 @@ path {
 	#navigation {
 		text-align: left;
 	}
-	
+
 	.navitems {
 		font-size: 16px;
 		padding: 4px;
@@ -694,6 +694,10 @@ path {
 
 @media screen and (max-width: 750px) {
 
+	#wrapper {
+		min-height: initial;
+	}
+
 	#navigation {
 		padding-right: 0%;
 	}
@@ -734,7 +738,7 @@ path {
 		border-top: 1px #999 dotted;
 		margin-top: 0px;
 	}
-	
+
 	#selectedcountrydataarea2,
 	#selectedcountrydataarea3 {
 		display: inline-block;
@@ -744,7 +748,7 @@ path {
 	#selectedcountrydataarea3 {
 		padding-left: 3%;
 	}
-	
+
 	#play-intro {
 		top: 30px!important;
 		right: 30px!important;
@@ -760,7 +764,7 @@ path {
 	#masthead {
 		height: 50px;
 	}
-	
+
 	#header-title {
 		position: absolute;
 		left: 20px;
@@ -827,7 +831,7 @@ path {
 		font-size: 15px;
 		line-height: 17px;
 	}
-	
+
 	#maparea {
 		margin-bottom: -20px;
 	}
