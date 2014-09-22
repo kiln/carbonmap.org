@@ -229,6 +229,7 @@ h3 {
 	height: 0px;
 	padding-bottom: 100%;
 	display: inline-block;
+	overflow: visible;
 }
 
 #talkie-player-inner {
