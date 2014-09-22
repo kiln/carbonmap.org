@@ -212,7 +212,7 @@ h3 {
 	top: 50%;
 	right: 50%;
 	width: 200px;
-	height: auto;
+	height: 200px;
 	margin: -100px -100px 0 0;
 	z-index: 20;
 	opacity: 0.9;
@@ -222,14 +222,6 @@ h3 {
 
 #play-intro:hover {
 	opacity: 1;
-}
-
-#play-intro-inner {
-	width: 100%;
-	height: 0px;
-	padding-bottom: 100%;
-	display: inline-block;
-	overflow: visible;
 }
 
 #talkie-player-inner {
@@ -758,6 +750,7 @@ path {
 		right: 30px!important;
 		margin: 0!important;
 		width: 50px!important;
+		height: 50px!important;
 	}
 
 }
