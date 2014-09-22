@@ -20,7 +20,7 @@ $(function() {
         $("#masthead").hide();
     }
 
-    // After five seconds, show a "loading" ticker
+    // After three seconds, show a "loading" ticker
     carbonmap_timer = setTimeout(function() {
         carbonmap_timer = null;
         $("#loading").show();
