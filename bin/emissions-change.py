@@ -6,6 +6,7 @@ from __future__ import division
 """
 
 import csv
+import math
 import sys
 
 FROM_YEAR = 1990
@@ -38,4 +39,5 @@ w = csv.writer(sys.stdout)
 w.writerow(["Country Name", "Value"])
 for country in header[1:]:
 	if from_data[country] and to_data[country]:
-		w.writerow([country, percentage_change(float(from_data[country]), float(to_data[country]))])
+		change = percentage_change(float(from_data[country]), float(to_data[country]))
+		if not math.isnan(change): w.writerow([country, change])

@@ -1,9 +1,9 @@
-#JP, #BS, #FI, #AT, #GW, #US, #IL, #FO, #MT, #CO, #CA, #CI, #SB, #AW { fill: #FEE08B; }
-#AF, #KP, #LV, #UA, #GE, #KG { fill: #66BD63; }
-#GA, #AL, #ZW, #BI, #RO, #BG, #BM, #SG, #CD, #MR, #ZM, #CZ, #DE, #EE, #LT, #RU, #SI, #BY { fill: #A6D96A; }
-#JM, #FJ, #SN, #EC, #NO, #KM, #CG, #NI, #BN, #KW, #AR, #KE, #PY, #TG, #CY, #PH, #LB, #BR, #TR, #TN, #BH, #SY, #PE, #MG, #NC, #ST, #IQ, #EH, #ER, #LS, #TJ, #TM, #UZ, #MD, #MK, #BA, #RS { fill: #F46D43; }
-#PW, #DK, #GB, #CH, #CU, #FR, #SE, #BE, #PG, #NE, #RW, #GL, #IT, #NL, #LU, #IS, #MN { fill: #FFFFBF; }
-#LR, #BB, #PT, #MO, #WS, #ZA, #DJ, #CF, #VU, #GN, #KI, #GY, #GR, #SR, #BZ, #NZ, #VE, #AU, #HK, #ML, #DZ, #PF, #IE, #LY, #ES, #MX, #AG { fill: #FDAE61; }
-#SO, #GQ, #NA { fill: #A50026; }
-#YE, #MW, #SA, #GD, #MA, #JO, #MH, #UY, #KR, #CL, #NG, #GM, #GH, #DM, #KY, #PA, #BW, #DO, #TO, #MZ, #BO, #SV, #GT, #ET, #IR, #PK, #LC, #HT, #VC, #IN, #SD, #SZ, #MU, #CR, #ID, #TZ, #EG, #CN, #TT, #AE, #TH, #MM, #BD, #CM, #LK, #BF, #HN, #TD, #SL, #CV, #MY, #KN, #OM, #GI, #UG, #AO, #NP, #BJ, #BT, #QA, #VN, #MV, #SC, #LA, #KH { fill: #D73027; }
-#PL, #HU, #HR, #AZ, #KZ { fill: #D9EF8B; }
+#AU, #CA, #CU, #FO, #GL, #GN, #IE, #JP, #MO, #MT, #MQ, #MN, #PT { fill: #FEE08B; }
+#KP, #GE, #LV, #MD, #RO, #SG, #TJ, #UA { fill: #66BD63; }
+#AL, #BY, #BM, #BG, #CZ, #CD, #EE, #GA, #DE, #HU, #KG, #LT, #NR, #RU, #RS, #SK, #PM, #ZW { fill: #A6D96A; }
+#DZ, #AG, #AR, #BN, #CO, #KM, #CG, #CY, #FK, #FJ, #PF, #LR, #LY, #ML, #NI, #NE, #NG, #NO, #PG, #SH, #WS, #SL, #SY, #TM, #UY, #VU, #VE, # { fill: #F46D43; }
+#AT, #BE, #BI, #CI, #FI, #GR, #GW, #IS, #JM, #KZ, #LU, #ME, #NL, #RW, #ES, #CH, #US, #ZM { fill: #FFFFBF; }
+#AW, #BS, #BB, #BZ, #CF, #DJ, #GP, #GY, #HK, #MX, #NZ, #SB, #ZA, #SR, #EH { fill: #FDAE61; }
+#GQ, #NA, #SO { fill: #A50026; }
+#AF, #AO, #BH, #BD, #BJ, #BT, #BA, #BW, #BR, #VG, #BF, #KH, #CV, #KY, #TD, #CL, #CN, #CK, #CR, #DM, #DO, #EC, #EG, #SV, #ET, #GM, #GH, #GI, #GD, #GT, #HT, #HN, #IN, #ID, #IQ, #IR, #IL, #JO, #KE, #KI, #KW, #LA, #LB, #MG, #MW, #MY, #MV, #MH, #MU, #MS, #MA, #MZ, #MM, #NP, #NC, #NU, #OM, #PK, #PA, #PY, #PE, #PH, #BO, #QA, #CM, #KR, #RE, #LC, #ST, #SA, #SN, #SC, #LK, #KN, #VC, #SD, #SZ, #TW, #TH, #TG, #TO, #TT, #TN, #TR, #UG, #AE, #TZ, #VN, #YE { fill: #D73027; }
+#AM, #AZ, #HR, #DK, #FR, #GF, #IT, #MR, #PL, #SI, #SE, #GB, #UZ { fill: #D9EF8B; }
