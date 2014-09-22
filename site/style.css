@@ -28,7 +28,6 @@ html {
 body {
 	font-family: 'TradeGothic';
 	margin: 0;
-	background: orange;
 }
 
 iframe {
@@ -38,10 +37,9 @@ iframe {
 #wrapper {
 	width: 100%;
 	position: relative;
-	/*background-image: url("Grain.png");*/
 	overflow: hidden;
-	background: white;
 	min-height: 650px;
+	/*background-image: url("Grain.png");*/
 }
 
 /******** Fonts and swatches ********/
