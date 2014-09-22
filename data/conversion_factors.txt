@@ -1,0 +1,25 @@
+SOURCE: BP STATISTICAL REVIEW 2014
+
+Oil conversion factors
+-----------------------
+
+Barrels to TOE = 0.1364
+TOE to CO2 = 3.07
+Barrels to CO2 = 0.1364 * 3.07 = 0.418748
+
+
+Gas conversion factors
+----------------------
+
+Trillion cubic metres to TOE = 0.90
+TOE to CO2 = 2.35
+Trillion cubic metres to CO2 = 0.90 * 2.35 = 2.115
+
+
+Coal conversion factors
+-----------------------
+
+Tonne to TOE = 0.513
+TOE to CO2 = 3.96
+Tonne to CO2 = 0.513 * 3.96 = 2.03148
+
