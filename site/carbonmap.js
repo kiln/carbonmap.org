@@ -267,6 +267,7 @@ function carbonmapDataLoaded() {
             "top": "0%",
             "right": "0%",
             "width": "120px",
+            "height": "120px",
             "margin-top": "10px",
             "margin-right": "50px"
         }, duration);
