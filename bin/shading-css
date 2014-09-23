@@ -80,7 +80,7 @@ def load_data(data_filename, shading_spec):
         for row in r:
             region_key = row[region_key_col]
             value = row[value_col]
-            if value == "": continue
+            if region_key == "" or value == "": continue
             
             for shade_range, color in shades:
                 if float(value) in shade_range:
