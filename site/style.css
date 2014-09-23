@@ -115,12 +115,15 @@ iframe {
 	position: absolute;
 	top: 5px;
 	right: 10px;
+	background: #eee;
+	border-radius: 3px;
+	padding: 0 4px 2px;
 }
 
 #twittershare {
 	position: absolute;
 	top: 5px;
-	right: 100px;
+	right: 65px;
 }
 
 /******** General text elements ********/

@@ -83,16 +83,13 @@
 
 		<!--Facebook button script-->
 		<div id="fb-root"></div>
-		<script type="text/javascript">//<![CDATA[
-		(function(d, s, id) {
+		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
 		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=703862873033616&version=v2.0";
 		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		//]]>
-		</script>
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<div id="wrapper">
 			<div id="masthead">
@@ -100,7 +97,7 @@
 				<div id="credit"><a href="http://kiln.it" target="_top">Created by <span id="kiln">KILN</span></a></div>
 				<div id="shares">
 					<div id="facebookshare">
-						<div class="fb-like" data-href="http://carbonmap.org" data-send="false" data-layout="button_count" data-width="120" data-show-faces="true" data-font="lucida grande"></div>
+						<div class="fb-share-button" data-href="http://www.carbonmap.org" data-width="200px"></div>
 					</div>
 					<div id="twittershare">
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.carbonmap.org" data-text="The earth moved for me at the Carbon Map by @k_i_l_n.">Tweet</a>
