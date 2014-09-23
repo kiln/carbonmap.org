@@ -84,7 +84,7 @@ function carbonmapDataLoaded() {
             return "No data available";
         }
         
-        if (unit === "people") {
+        if (unit === "people" && typeof value == "string") {
             value = value.replace(/\.[0-9]$/, ""); // Fractional people read strangely
         }
         return value + " " + unit;
