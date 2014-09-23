@@ -15,6 +15,8 @@ all_datasets="Area Population GDP  Extraction Emissions Consumption Historical R
 
 format_SeaLevel=.0f
 
+blur_SeaLevel=0.2
+
 regenerate=false
 paths=false
 massive_paths=false
@@ -54,10 +56,11 @@ then
     datasets="${1-${all_datasets}}"
     for f in $datasets
     do
+        eval blur=\${blur_$f:-0.5}
         "$cartograms_bin"/delete-data.py "carbonmap:$f"
         "$cartograms_bin"/load-data.py "carbonmap:$f" data/Maps/With\ alpha-2/$f.csv countries "Alpha-2" "Value"
         "$cartograms_bin"/density-grid.py --dataset "carbonmap:$f" --map world-robinson > data/Maps/Cartogram\ data/"$f".density && \
-        cart --blur=1 --progress=detailed 1500 750 data/Maps/Cartogram\ data/"$f".density data/Maps/Cartogram\ data/"$f".cart
+        cart --blur="$blur" --progress=detailed 1500 750 data/Maps/Cartogram\ data/"$f".density data/Maps/Cartogram\ data/"$f".cart
     done
 fi
 
