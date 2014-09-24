@@ -8,8 +8,6 @@ cartograms_bin=/usr/local/cartograms/bin
 
 simplification=50000
 simplification_json='{"AU": 30000, "NZ": 30000}'
-massive_simplification=15000
-massive_simplification_json='{"AU": 10000, "NZ": 10000}'
 
 all_datasets="Area Population GDP  Extraction Emissions Consumption Historical Reserves  PeopleAtRisk SeaLevel Poverty"
 
@@ -19,7 +17,6 @@ blur_SeaLevel=0.2
 
 regenerate=false
 paths=false
-massive_paths=false
 while [ $# -gt 0 ]
 do
     case "$1" in
@@ -30,10 +27,6 @@ do
             ;;
         --paths)
             paths=true
-            shift
-            ;;
-        --massive-paths)
-            massive_paths=true
             shift
             ;;
         --)
@@ -67,11 +60,6 @@ fi
 if $paths
 then
     "$cartograms_bin"/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$simplification" --simplification-json="$simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths.js
-fi
-
-if $massive_paths
-then
-    "$cartograms_bin"/as-js.py --map world-robinson --output-grid=3660x1856 --data-var=carbonmap_data --simplification="$massive_simplification" --simplification-json="$massive_simplification_json" data/Maps/Cartogram\ data/*.cart > site/data.paths-massive.js
 fi
 
 # Generate a spreadsheet showing all the cartogram data
@@ -132,7 +120,6 @@ fi
 ) > site/map-data.csv
 
 cat site/data.paths.js > site/data.js
-cat site/data.paths-massive.js > site/data-massive.js
 
 (
     echo "// Text, values and ranks generated at $(date)"
@@ -170,10 +157,9 @@ cat site/data.paths-massive.js > site/data-massive.js
             echo ';'
         fi
     done
-) | tee -a site/data-massive.js >> site/data.js
+) >> site/data.js
 
-cat site/data.shading.js | tee -a site/data-massive.js >> site/data.js
+cat site/data.shading.js >> site/data.js
 echo >> site/data.js "carbonmapDataLoaded();"
-echo >> site/data-massive.js "carbonmapDataLoaded();"
 
 bin/dump-project-data.py carbonmap > data/dumped.csv
