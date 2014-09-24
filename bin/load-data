@@ -162,11 +162,11 @@ cat site/data.paths-massive.js > site/data-massive.js
             eval type=\${type_$f:-float}
             eval format=\${format_$f:-.1f}
             echo -n "carbonmap_values.$f = "
-            "$cartograms_bin"/csv-to-json --key Alpha-2 --value "Value" --type="$type" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --key Alpha-2 --value "Value" --type="$type" --exclude=",EU" --format="{:,$format}" data/Maps/With\ alpha-2/$f.csv
             echo ';'
             
             echo -n "carbonmap_rank.$f = "
-            "$cartograms_bin"/csv-to-json --rank --key Alpha-2 --value "Value" --type="$type" data/Maps/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --rank --desc --key Alpha-2 --value "Value" --type="$type" --exclude=",EU" data/Maps/With\ alpha-2/$f.csv
             echo ';'
         fi
     done

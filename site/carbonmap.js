@@ -105,15 +105,15 @@ function carbonmapDataLoaded() {
         var ile = (parseInt(rank) - 1) / count[dataset];
         var describe_rank;
         if (ile < 0.05)
-            describe_rank = "Very low";
+            describe_rank = "Very high";
         else if (ile < 0.20)
-            describe_rank = "Low";
+            describe_rank = "High";
         else if (ile < 0.80)
             describe_rank = "Medium";
         else if (ile < 0.95)
-            describe_rank = "High";
+            describe_rank = "Low";
         else
-            describe_rank = "Very high";
+            describe_rank = "Very low";
         
         return "Rank: " + describe_rank + " (" + rank + "/" + count[dataset] + ")"
     };
