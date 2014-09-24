@@ -1,44 +1,29 @@
-Welcome to the Carbon Map.
-
-We're used to seeing the world like this – though if countries are resized to show their true area, it actually looks more like this.
-* Area
+We're used to seeing the world like this – though if countries are resized to represent their true area, it actually looks more like this.
 
 But area is only one way of looking at the world. This site gives some others, such as where the people are …
-* Population
 
 … and where the money is.
-* Wealth
 
-Mainly, though, this site is about climate change. It shows how each country drive global carbon emissions, from extracting fossil fuels …
-* Extraction
+Mainly, though, this site is about climate change. Browse the Responsibility maps to see how each country helps drive global carbon emissions, from extracting fossil fuels …
 
 … and burning them
-* Emissions 
 
-… to consuming the goods and services that result.
-* Consumption
+… through to consuming the goods and services that result.
 
-It also shows historical emissions – most of which are still in the air …
-* Historical
+You can also see historical emissions – most of which are still in the air …
 
-… and potential emissions currently locked up in coal, oil and gas reserves
-* Reserves
+… and potential emissions that are currently locked up in coal, oil and gas reserves.
 
-In addition, the site shows which people are most at risk from climate change – such as those exposed to droughts, floods and extreme temperatures.
-* PeopleAtRisk
+In addition, you’ll find some Vulnerability maps, which show the people most at risk from climate change – such as those already exposed to droughts, floods and extreme temperatures.
 
-You can click on a country to see its national data.
-* Reset map
+Click on a country to see its national data. And, if you like, use the shading dropdown to overlay extra information.
 
-And use the shading feature to overlay extra information.  For example, we can add shading to show where the population is rising – the red areas – or falling – the green areas:
-* Apply population shading
+For example, we can add shading to show where population is rising – the red areas – or falling – the green areas:
 
 If we then click the emissions map…
-* Emissions map
 
-… we can see that the countries with the fastest-growing populations currently release almost zero CO2. But click to the People At Risk map:
-* People At Risk map
+… we can see that the countries with the fastest-growing populations currently release very little CO2. But click to the People At Risk map:
 
-… and we can see that those same booming populations are very exposed to climate change impacts.
+… and we can see that those same booming populations are very exposed to climate change impacts.
 
 So that's the Carbon Map. Click around to get a better handle on this crucial but complex topic.
