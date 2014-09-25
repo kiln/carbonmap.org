@@ -1,4 +1,3 @@
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=411dcd77-eeeb-4bf0-a0c2-7cdf19f88192");
 @font-face{
 font-family:"TradeGothic";
 src:url("fonts/087e5c21-3358-4cf3-9d2c-289a03a48292.eot?#iefix");
@@ -115,15 +114,15 @@ iframe {
 	position: absolute;
 	top: 5px;
 	right: 10px;
-	background: #eee;
+/*	background: #eee;
 	border-radius: 3px;
 	padding: 0 4px 2px;
-}
+*/}
 
 #twittershare {
 	position: absolute;
 	top: 5px;
-	right: 65px;
+	right: 105px;
 }
 
 /******** General text elements ********/
@@ -537,15 +536,19 @@ path {
 }
 
 #twitter-button {
-	margin: -80px auto 20px;
 	width: 154px;
 }
 
 /******** Metapages	********/
 
-.UPDATE_COMMENT {
-	color: green;
+.back-to {
+	margin: 40px 0 10px;
 	font-size: 20px;
+}
+
+.abouttext .back-to a:link,
+.abouttext .back-to a:visited {
+	border-bottom: none;
 }
 
 .abouttext {
