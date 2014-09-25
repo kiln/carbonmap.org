@@ -35,7 +35,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
     for f in $all_datasets
     do
         echo -n "carbonmap_values.$f = "
-        "$cartograms_bin"/csv-to-json --key Alpha-2 --value "$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" data/Shading/With\ alpha-2/$f.csv
+        "$cartograms_bin"/csv-to-json --key Alpha-2 --exclude=",EU" --value "$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" data/Shading/With\ alpha-2/$f.csv
         echo ';'
 
         # You can make a (presumably empty) file like Continents.no-rank
@@ -43,7 +43,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
         if [ ! -e data/Shading/With\ alpha-2/"$f".no-rank ]
         then
             echo -n "carbonmap_rank.$f = "
-            "$cartograms_bin"/csv-to-json --rank --key Alpha-2 --value "$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float data/Shading/With\ alpha-2/$f.csv
+            "$cartograms_bin"/csv-to-json --rank --desc --key Alpha-2 --exclude=",EU" --value "$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float data/Shading/With\ alpha-2/$f.csv
             echo ';'
         fi
     done
