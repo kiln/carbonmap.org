@@ -1,5 +1,5 @@
 // This file is auto-generated. Please do not edit.
-// Generated at Wed 24 Sep 2014 15:09:06 BST
+// Generated at Thu 25 Sep 2014 09:34:54 BST
 
 carbonmap_shading = {};
 carbonmap_shading.Continents = "<div id=\"legendtext\"></div>\n  <div class=\"legendswatch\" style=\"background: #CC3333;\"></div><div class=\"legendtext\">Europe</div>  <div class=\"legendswatch\" style=\"background: orange;\"></div><div class=\"legendtext\">Africa</div>  <div class=\"legendswatch\" style=\"background: #00A86B;\"></div><div class=\"legendtext\">Asia</div>  <div class=\"legendswatch\" style=\"background: #0067A5;\"></div><div class=\"legendtext\">North America</div>  <div class=\"legendswatch\" style=\"background: #FF70DB;\"></div><div class=\"legendtext\">South America</div>  <div class=\"legendswatch\" style=\"background: purple;\"></div><div class=\"legendtext\">Oceania</div>";
