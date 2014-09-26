@@ -1,1 +1,0 @@
-Country sizes show the number of **people living less than 5m above sea level**. Some low-lying populations will find themselves exposed to rising sea levels in the coming decades and centuries.

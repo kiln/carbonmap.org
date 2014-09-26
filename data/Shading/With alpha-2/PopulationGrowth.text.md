@@ -1,1 +1,0 @@
-Annual rate of population change, 2013

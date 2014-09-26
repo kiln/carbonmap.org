@@ -1,1 +1,0 @@
-Gross domestic product per person based on PPP, 2010

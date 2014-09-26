@@ -7,33 +7,33 @@ cartograms_bin=/usr/local/cartograms/bin
 all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGrowth"
 
 (
-    echo >&3 "/* This file is auto-generated. Please do not edit. */"
-    echo >&3 "/* Generated at $(date) */"
-    echo >&3
-    
-    echo >&4 "// This file is auto-generated. Please do not edit."
-    echo >&4 "// Generated at $(date)"
-    echo >&4
-    echo >&4 "carbonmap_shading = {};"
+    echo "/* This file is auto-generated. Please do not edit. */"
+    echo "/* Generated at $(date) */"
+    echo
     
     for f in $all_datasets
     do
         if [ -e data/Shading/With\ alpha-2/"$f".csv ]
         then
-            echo >&3 "/* $f */"
-            bin/shading-css --class="shading-$f" --shading data/Shading/With\ alpha-2/"$f".shading.csv --data data/Shading/With\ alpha-2/"$f".csv >&3
+            echo "/* $f */"
+            bin/shading-css --class="shading-$f" --shading data/Shading/With\ alpha-2/"$f".shading.csv --data data/Shading/With\ alpha-2/"$f".csv
             bin/shading-css --shading data/Shading/With\ alpha-2/"$f".shading.csv --data data/Shading/With\ alpha-2/"$f".csv > data/Shading/CSS/"$f".css
-            
-            echo -n >&4 "carbonmap_shading.$f = "
-            bin/shading-js "$f" data/Shading/With\ alpha-2/"$f".text.md data/Shading/With\ alpha-2/"$f".shading.csv >&4
-            echo >&4 ";"
         fi
     done
-) 3> site/shading.css 4> site/data.shading.js
+) > site/shading.css
 
 (
+    echo "// This file is auto-generated. Please do not edit."
+    echo "// Generated at $(date)"
+    echo
+    echo "carbonmap_shading = {};"
+    
     for f in $all_datasets
     do
+        echo -n "carbonmap_shading.$f = "
+        bin/shading-js data/Shading/With\ alpha-2/"$f".shading.csv
+        echo ';'
+
         echo -n "carbonmap_values.$f = "
         "$cartograms_bin"/csv-to-json --key Alpha-2 --exclude=",EU" --value "$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)" --type=float --format="{:,.1f}" data/Shading/With\ alpha-2/$f.csv
         echo ';'
@@ -47,7 +47,7 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
             echo ';'
         fi
     done
-) >> site/data.shading.js
+) > site/data.shading.js
 
 # Generate a spreadsheet showing all the shading data
 (
@@ -71,16 +71,6 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
         col="$("$cartograms_bin"/csv-header --index=0 data/Shading/With\ alpha-2/"$f".shading.csv)"
         echo -n ",\"$col\""
         eval \${has_notes_$f} && echo ,
-    done
-    echo
-
-    echo -n ,
-    for f in $all_datasets
-    do
-        echo -n ',"'
-        perl -pe 's/"/""/g' "data/Shading/With alpha-2/$f.text.md"
-        echo -n '"'
-        eval \${has_notes_$f} && echo -n ,
     done
     echo
 

@@ -328,6 +328,10 @@ h3 {
 	border-bottom-left-radius: 5px;
 }
 
+body.lang-pt .navitems {
+	font-size: 19px;
+}
+
 .navitemsselected {
 	color: white;
 	background: #666;
@@ -479,18 +483,23 @@ path {
 	vertical-align: middle;
 }
 
+#shadedropdown {
+	width: 100%;
+}
+
 #legendbox {
 	padding: 0 0 4px 0;
 }
 
-.legendtext {
-	font-size: 13px;
-}
-
-#legendtext {
+#legenddesc {
 	font-size: 12px;
 	line-height: 1.1em;
 	margin-bottom: 5px;
+}
+
+.legendtext {
+	display: inline;
+	font-size: 13px;
 }
 
 .legendswatch {
@@ -498,7 +507,7 @@ path {
 	height: 12px;
 	margin: 0 4px 0 6px;
 	font-size: 12px;
-	float: left;
+	display: inline-block;
 }
 
 .legendswatch:first-child {
@@ -510,7 +519,7 @@ path {
 #footer {
 	margin: 0 auto;
 	padding: 15px 0 0;
-	width: 550px;
+	width: 100%;
 	height: 100px;
 	display: block;
 	position: relative;
@@ -519,7 +528,7 @@ path {
 .footerlink,
 .footerlink a:link,
 .footerlink a:visited {
-	display: inline;
+	display: inline-block;
 	margin: 0 4px;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -630,6 +639,10 @@ path {
 		padding: 4px;
 	}
 
+	body.lang-pt .navitems {
+		font-size: 16px;
+	}
+
 	#maparea {
 		margin-top: -10px;
 		margin-right: 15%;
@@ -649,6 +662,9 @@ path {
 		padding: 4px;
 	}
 
+	body.lang-pt .navitems {
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 940px) {
@@ -732,13 +748,9 @@ path {
 		padding: 20px;
 	}
 
-	.legendswatch {
-		float: none;
+	.legendrow {
 		display: inline-block;
-	}
-
-	.legendtext {
-		display: inline;
+		margin-left: 12px;
 	}
 
 	#infoarea {

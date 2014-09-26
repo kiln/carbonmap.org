@@ -1,1 +1,0 @@
-Country sizes show **total GDP**, the sum of all the economic activity in each nation. The map is dominated by North America and Western Europe, which account for more than half the world's GDP, despite being home to less than a fifth of the global population.

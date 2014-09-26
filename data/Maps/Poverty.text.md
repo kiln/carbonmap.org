@@ -1,1 +1,0 @@
-Country sizes show the number of **people living on less than 1.25 dollars a day**. Poverty adds to climate change vulnerability because lack of access to health services increases the risks of climatic changes, and lack of access to capital makes it harder to implement adaptation measures.

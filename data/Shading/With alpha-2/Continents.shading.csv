@@ -1,7 +1,7 @@
 Continent index,color,key
-1,#CC3333,Europe
-2,orange,Africa
-3,#00A86B,Asia
-4,#0067A5,North America
-5,#FF70DB,South America
-6..8,purple,Oceania
+1,#CC3333,{{continent_1}}
+2,orange,{{continent_2}}
+3,#00A86B,{{continent_3}}
+4,#0067A5,{{continent_4}}
+5,#FF70DB,{{continent_5}}
+6..8,purple,{{continent_6}}
