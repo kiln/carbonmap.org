@@ -465,7 +465,6 @@ function init() {
         shading = $(this).val();
         $("#maparea").attr("class", "shading-" + shading);
         var legendbox = $("#legendbox").html("");
-        console.log("Shading", shading);
         legendbox.html($("<div id='legenddesc'>" + carbonmap_text["map_text_" + shading] + "</div>"));
         var shading_key = carbonmap_shading[shading];
         for (var i=0; i < shading_key.length; i++) {
