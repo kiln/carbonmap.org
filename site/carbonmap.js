@@ -5,7 +5,63 @@ var carbonmap_shading = {};
 var carbonmap_data_loaded = false;
 var carbonmap_timer;
 
+var lang = "en";
+
+var TIMELINE = {
+    "en": [
+        [6.5, "Area"],
+        [12.5, "Population"],
+        [15.5, "GDP"],
+    
+        [25.5, "Extraction"],
+        [27.5, "Emissions"],
+        [29.5, "Consumption"],
+        [33, "Historical"],
+        [37, "Reserves"],
+    
+        [46, "PeopleAtRisk"],
+    
+        [53, "_raw"],
+        [57, "PopulationGrowth"],
+    
+        [64, "Emissions"],
+        [71, "PeopleAtRisk"],
+
+        [78, "_raw"],
+        [78, "Continents"]
+    ],
+
+    "pt": [
+        [8, "Area"],
+        [18, "Population"],
+        [21, "GDP"],
+    
+        [32.69, "Extraction"],
+        [35.35, "Emissions"],
+        [36.62, "Consumption"],
+        [41, "Historical"],
+        [47.54, "Reserves"],
+    
+        [65, "PeopleAtRisk"],
+    
+        [70, "_raw"],
+        [78, "PopulationGrowth"],
+    
+        [86.62, "Emissions"],
+        [96.65, "PeopleAtRisk"],
+
+        [109.39, "_raw"],
+        [109.39, "Continents"]
+    ],
+};
+
 $(function() {
+
+    var LANGUAGES = {
+        "en": "English",
+        "pt": "Português",
+        "es": "Español"
+    };
 
     // Query string parameters
     var parameters = {};
@@ -18,6 +74,11 @@ $(function() {
     // Hide header row if required
     if (parameters.header == "hidden") {
         $("#masthead").hide();
+    }
+    
+    // Set language
+    if (parameters.lang && parameters.lang in LANGUAGES) {
+        lang = parameters.lang;
     }
 
     // After three seconds, show a "loading" ticker
@@ -38,8 +99,16 @@ $(function() {
         })();
     };
 
+    initLanguage();
     loadAsync("data.js?v=201409230944");
 });
+
+function initLanguage() {
+    var audio = $('<audio id="intro-track"></audio>');
+    audio.append('<source type="audio/ogg">').attr("src", "intro-" + lang + ".ogg");
+    audio.append('<source type="audio/mpeg">').attr("src", "intro-" + lang + ".mp3");
+    $("#play-intro-inner").append(audio);
+}
 
 function carbonmapDataLoaded() {
     if (carbonmap_timer) clearTimeout(carbonmap_timer);
@@ -380,28 +449,7 @@ function carbonmapDataLoaded() {
     
     if (Modernizr.audio) {
         // Audio intro
-        var track_animations = [
-            [6.5, "Area"],
-            [12.5, "Population"],
-            [15.5, "GDP"],
-        
-            [25.5, "Extraction"],
-            [27.5, "Emissions"],
-            [29.5, "Consumption"],
-            [33, "Historical"],
-            [37, "Reserves"],
-        
-            [46, "PeopleAtRisk"],
-        
-            [53, "_raw"],
-            [57, "PopulationGrowth"],
-        
-            [64, "Emissions"],
-            [71, "PeopleAtRisk"],
-
-            [78, "_raw"],
-            [78, "Continents"]
-        ];
+        var track_animations = TIMELINE[lang];
         track.addEventListener("timeupdate", function() {
             // We want to do this part even if paused
             $("#talkie-player-segment")
