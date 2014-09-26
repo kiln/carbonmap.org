@@ -136,6 +136,9 @@ function initLanguage() {
     $("#play-intro-inner").append(audio);
 
     $.get("text.json", textLoaded);
+
+    $("#twittershare a").attr("data-lang", lang);
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 }
 
 var data_loaded = false, text_loaded = false;
@@ -206,7 +209,7 @@ function init() {
     
     var _val = function(value, unit) {
         if (typeof value === "undefined") {
-            return "No data available";
+            return carbonmap_text.no_data;
         }
         
         if (unit === "people" && typeof value == "string") {
@@ -258,7 +261,7 @@ function init() {
             $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
             $("#selectedcountryrank2").text(_rank(dataset, selected_country.id));
         } else {
-            $("#selectedcountrydataresult2").html("Choose a topic above the map to see data here");
+            $("#selectedcountrydataresult2").html(carbonmap_text.choose);
             $("#selectedcountryrank2").html("");
         }
 
