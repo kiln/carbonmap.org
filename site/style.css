@@ -497,6 +497,7 @@ path {
 }
 
 .legendtext {
+	display: inline;
 	font-size: 13px;
 }
 
@@ -505,7 +506,7 @@ path {
 	height: 12px;
 	margin: 0 4px 0 6px;
 	font-size: 12px;
-	float: left;
+	display: inline-block;
 }
 
 .legendswatch:first-child {
@@ -730,13 +731,9 @@ path {
 		padding: 20px;
 	}
 
-	.legendswatch {
-		float: none;
+	.legendrow {
 		display: inline-block;
-	}
-
-	.legendtext {
-		display: inline;
+		margin-left: 12px;
 	}
 
 	#infoarea {
