@@ -130,6 +130,8 @@ $(function() {
 });
 
 function initLanguage() {
+    $("body").addClass("lang-" + lang);
+
     var audio = $('<audio id="intro-track"></audio>');
     audio.append('<source type="audio/ogg">').attr("src", "intro-" + lang + ".ogg");
     audio.append('<source type="audio/mpeg">').attr("src", "intro-" + lang + ".mp3");
