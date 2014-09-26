@@ -1,1 +1,0 @@
-CO₂ per person from energy and cement, 2008 (tonnes)

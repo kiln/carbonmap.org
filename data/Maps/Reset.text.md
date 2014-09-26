@@ -1,1 +1,0 @@
-This is the world as seen in one of the most common maps: the Robinson projection.

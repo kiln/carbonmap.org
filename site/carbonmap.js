@@ -1,11 +1,37 @@
 var carbonmap_data = {};
+var carbonmap_data_description = {};
 var carbonmap_values = {};
 var carbonmap_rank = {};
 var carbonmap_shading = {};
 var carbonmap_data_loaded = false;
 var carbonmap_timer;
+var carbonmap_text;
 
 var lang = "en";
+
+var DATASETS = [
+	// Maps
+	"Area",
+	"Population",
+	"GDP",
+
+	"Extraction",
+	"Emissions",
+	"PetersEmissions",
+	"Consumption",
+	"Historical",
+	"Reserves",
+
+	"PeopleAtRisk",
+	"SeaLevel",
+	"Poverty",
+
+	// Shading
+	"EmissionsChange",
+	"CO2perCapita",
+	"GDPperCapita",
+	"PopulationGrowth"
+];
 
 var TIMELINE = {
     "en": [
@@ -108,9 +134,35 @@ function initLanguage() {
     audio.append('<source type="audio/ogg">').attr("src", "intro-" + lang + ".ogg");
     audio.append('<source type="audio/mpeg">').attr("src", "intro-" + lang + ".mp3");
     $("#play-intro-inner").append(audio);
+
+    $.get("text.json", textLoaded);
 }
 
-function carbonmapDataLoaded() {
+var data_loaded = false, text_loaded = false;
+function carbonmapDataLoaded() {    // Called from data.js
+    data_loaded = true;
+    if (data_loaded && text_loaded) init();
+}
+
+function textLoaded(text) {
+   carbonmap_text = text[lang];
+   $(".text").each(function() {
+       this.innerHTML = carbonmap_text[this.getAttribute("data-id")];
+   });
+
+    for (var i=0; i<DATASETS.length; i++) {
+        var dataset = DATASETS[i];
+        carbonmap_data_description[dataset] = carbonmap_text["desc_" + dataset];
+        carbonmap_data_unit[dataset] = carbonmap_data_unit[dataset].replace(/\{\{((?:[^\}]|\}[^\}])+)\}\}/g, function(m, id) {
+            return carbonmap_text[id];
+        });
+    }
+
+    text_loaded = true;
+    if (data_loaded && text_loaded) init();
+}
+
+function init() {
     if (carbonmap_timer) clearTimeout(carbonmap_timer);
     $("#loading").hide();
     
@@ -174,17 +226,17 @@ function carbonmapDataLoaded() {
         var ile = (parseInt(rank) - 1) / count[dataset];
         var describe_rank;
         if (ile < 0.05)
-            describe_rank = "Very high";
+            describe_rank = carbonmap_text.rank_vh;
         else if (ile < 0.20)
-            describe_rank = "High";
+            describe_rank = carbonmap_text.rank_h;
         else if (ile < 0.80)
-            describe_rank = "Medium";
+            describe_rank = carbonmap_text.rank_m;
         else if (ile < 0.95)
-            describe_rank = "Low";
+            describe_rank = carbonmap_text.rank_l;
         else
-            describe_rank = "Very low";
+            describe_rank = carbonmap_text.rank_vl;
         
-        return "Rank: " + describe_rank + " (" + rank + "/" + count[dataset] + ")"
+        return carbonmap_text.rank + ": " + describe_rank + " (" + rank + "/" + count[dataset] + ")"
     };
 
     var dataset;
@@ -426,7 +478,7 @@ function carbonmapDataLoaded() {
             $("#infoareaunselected").show();
         } else {
             this.setAttribute("class", "country selected-country");
-            $("#selectedcountryname").text(carbonmap_data._names[this.id]);
+            $("#selectedcountryname").text(carbonmap_text["country_" + this.id]);
             if (!something_previously_selected) {
                 $("#infoareaunselected").hide();
                 $("#selectedcountryinfo").show();

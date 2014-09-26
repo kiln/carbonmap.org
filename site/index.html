@@ -16,49 +16,26 @@
 		<link href='shading.css?v=201409230944' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript">//<![CDATA[
-			var carbonmap_data_description = {
-				// Maps
-				"Area": "Land area",
-				"Population": "Total population, 2013",
-				"GDP": "GDP (PPP), 2013",
-
-				"Extraction": "CO₂ from fossil fuels extracted, 2013",
-				"Emissions": "CO₂ from fossil fuels burned, 2013",
-				"Consumption": "CO₂ from goods/services consumed, 2012",
-				"Historical": "Cumulative CO₂ from energy use, 1850–2011",
-				"Reserves": "Potential CO₂ in fossil fuels reserves, end of 2013",
-
-				"PeopleAtRisk": "Population already suffering from droughts, floods or extreme temps, 2009",
-				"SeaLevel": "Population living less than 5m above sea level, 2010",
-				"Poverty": "Population living on less than $1.25 a day, 2010",
-
-				// Shading:
-				"EmissionsChange": "Change in CO₂ emissions, 1990–2013",
-				"CO2perCapita": "CO₂ per person, 2013",
-				"GDPperCapita": "GDP (PPP) per person, 2010",
-				"PopulationGrowth": "Population growth, 2013"
-			};
-
 			var carbonmap_data_unit = {
 				// Maps
-				"Area": "square km",
-				"Population": "people",
+				"Area": "{{unit_sqkm}}",
+				"Population": "{{unit_people}}",
 				"GDP": "$",
 
-				"Extraction": "million tonnes",
-				"Emissions": "million tonnes",
-				"PetersEmissions": "million tonnes",
-				"Consumption": "million tonnes",
-				"Historical": "million tonnes",
-				"Reserves": "million tonnes",
+				"Extraction": "{{unit_mT}}",
+				"Emissions": "{{unit_mT}}",
+				"PetersEmissions": "{{unit_mT}}",
+				"Consumption": "{{unit_mT}}",
+				"Historical": "{{unit_mT}}",
+				"Reserves": "{{unit_mT}}",
 
-				"PeopleAtRisk": "people",
-				"SeaLevel": "people",
-				"Poverty": "people",
+				"PeopleAtRisk": "{{unit_people}}",
+				"SeaLevel": "{{unit_people}}",
+				"Poverty": "{{unit_people}}",
 
 				// Shading
 				"EmissionsChange": "%",
-				"CO2perCapita": "tonnes",
+				"CO2perCapita": "{{unit_T}}",
 				"GDPperCapita": "$",
 				"PopulationGrowth": "%"
 			};
@@ -93,8 +70,8 @@
 
 		<div id="wrapper">
 			<div id="masthead">
-				<div id="header-title"><a href="/"><span class="the">The</span> carbon map <span class="year"></span></a></div>
-				<div id="credit"><a href="http://kiln.it" target="_top">Created by <span id="kiln">KILN</span></a></div>
+				<div id="header-title"><a href="/"><span class="text" data-id="title"></span></a></div>
+				<div id="credit"><a href="http://kiln.it" target="_top"><span class="text" data-id="credit"></span></a></div>
 				<div id="shares">
 					<div id="facebookshare">
 						<div class="fb-share-button" data-href="http://www.carbonmap.org" data-width="200px"></div>
@@ -111,29 +88,29 @@
 						<a href="#"><div id="navglobe"><i class="fa fa-refresh"></i></div></a>
 					</div>
 					<div id="reference" class="navblock">
-						<div class="navtitle"><div>Background</div></div>
+						<div class="navtitle"><div class="text" data-id="navtitle_reference"></div></div>
 						<div class="navitemscontainer">
-							<div class="navitems red" id="nav-Area"><a href="#Area">Area</a>
-							</div><div class="navitems green" id="nav-Population"><a href="#Population">Population</a>
-							</div><div class="navitems pink" id="nav-GDP"><a href="#GDP">Wealth</a></div>
+							<div class="navitems red" id="nav-Area"><a href="#Area" class="text" data-id="map_Area"></a>
+							</div><div class="navitems green" id="nav-Population"><a href="#Population"class="text" data-id="map_Population"></a>
+							</div><div class="navitems pink" id="nav-GDP"><a href="#GDP"class="text" data-id="map_GDP"></a></div>
 						</div>
 					</div>
 					<div id="responsibility" class="navblock">
-						<div class="navtitle"><div>Responsibility</div></div>
+						<div class="navtitle"><div class="text" data-id="navtitle_responsibility"></div></div>
 						<div class="navitemscontainer">
-							<div class="navitems orange" id="nav-Extraction"><a href="#Extraction">Extraction</a>
-							</div><div class="navitems cyan" id="nav-Emissions"><a href="#Emissions">Emissions</a>
-							</div><div class="navitems purple" id="nav-Consumption"><a href="#Consumption">Consumption</a>
-							</div><div class="navitems red" id="nav-Historical"><a href="#Historical">Historical</a>
-							</div><div class="navitems green" id="nav-Reserves"><a href="#Reserves">Reserves</a></div>
+							<div class="navitems orange" id="nav-Extraction"><a href="#Extraction"class="text" data-id="map_Extraction"></a>
+							</div><div class="navitems cyan" id="nav-Emissions"><a href="#Emissions" class="text" data-id="map_Emissions"></a>
+							</div><div class="navitems purple" id="nav-Consumption"><a href="#Consumption" class="text" data-id="map_Consumption"></a>
+							</div><div class="navitems red" id="nav-Historical"><a href="#Historical" class="text" data-id="map_Historical"></a>
+							</div><div class="navitems green" id="nav-Reserves"><a href="#Reserves" class="text" data-id="map_Reserves"></a></div>
 						</div>
 					</div>
 					<div id="vulnerability" class="navblock">
-						<div class="navtitle"><div>Vulnerability</div></div>
+						<div class="navtitle"><div class="text" data-id="navtitle_vulnerability"></div></div>
 						<div class="navitemscontainer">
-							<div class="navitems pink" id="nav-PeopleAtRisk"><a href="#PeopleAtRisk">People at risk</a>
-							</div><div class="navitems orange" id="nav-SeaLevel"><a href="#SeaLevel">Sea level</a>
-							</div><div class="navitems cyan" id="nav-Poverty"><a href="#Poverty">Poverty</a></div>
+							<div class="navitems pink" id="nav-PeopleAtRisk"><a href="#PeopleAtRisk" class="text" data-id="map_PeopleAtRisk"></a>
+							</div><div class="navitems orange" id="nav-SeaLevel"><a href="#SeaLevel" class="text" data-id="map_SeaLevel"></a>
+							</div><div class="navitems cyan" id="nav-Poverty"><a href="#Poverty" class="text" data-id="map_Poverty"></a></div>
 						</div>
 					</div>
 				</div>
@@ -144,7 +121,7 @@
 					<div id="map-placeholder"></div>
 					<div id="loading">
 						<img src="black-002-loading.gif">
-						<div>Loading maps…</div>
+						<div class="text" data-id="loading"></div>
 					</div>
 
 				</div>
@@ -165,11 +142,11 @@
 					<div id="shade-head">Shade by</div>
 					<form id="shade-form">
 						<select id="shadedropdown">
-							<option value="Continents" selected="selected">Continents</option>
-							<option value="EmissionsChange">Emissions change</option>
-							<option value="CO2perCapita">CO₂ per person</option>
-							<option value="GDPperCapita">GDP per person</option>
-							<option value="PopulationGrowth">Population growth</option>
+							<option value="Continents" selected="selected" class="text" data-id="shading_Continents"></option>
+							<option value="EmissionsChange" class="text" data-id="shading_EmissionsChange"></option>
+							<option value="CO2perCapita" class="text" data-id="shading_CO2perCapita"></option>
+							<option value="GDPperCapita" class="text" data-id="shading_GDPperCapita"></option>
+							<option value="PopulationGrowth" class="text" data-id="shading_PopulationGrowth"></option>
 						</select>
 					</form>
 					<div id="legendbox"></div>
@@ -177,7 +154,7 @@
 				<div id="infoarea" class="panel">
 					<i class="fa fa-info-circle" style="float: left; margin: 12px 5px 0 0; font-size: 20px"></i>
 					<div id="infoareaunselected">
-						<div class="infoarea-heading">This map</div>
+						<div class="infoarea-heading text" data-id="infobox_heading"></div>
 						<div id="about"></div>
 					</div>
 					<div id="selectedcountryinfo">
@@ -197,8 +174,8 @@
 					</div>
 				</div>
 				<div id="footer">
-					<div class="footerlink"><a target="_top" href="http://www.carbonmap.org/about.html">About this tool</a></div>
-					<div class="footerlink"><a target="_top" href="http://www.carbonmap.org/sources.html">Data sources</a></div>
+					<div class="footerlink"><a target="_top" href="http://www.carbonmap.org/about.html" class="text" data-id="link_about"></a></div>
+					<div class="footerlink"><a target="_top" href="http://www.carbonmap.org/sources.html" class="text" data-id="link_sources"></a></div>
 				</div>
 			</div>
 		</div>

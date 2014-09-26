@@ -133,10 +133,6 @@ cat site/data.paths.js > site/data.js
     markdown_py -o html5 -s escape -e utf-8 data/Maps/Reset.text.md | perl -l40pe ''
     echo '";'
     
-    echo -n 'carbonmap_data._names = '
-    "$cartograms_bin"/csv-to-json --key iso2 --value name /usr/local/cartograms/data/continents.csv
-    echo ';'
-    
     for f in $all_datasets
     do
         if [ -e data/Maps/With\ alpha-2/$f.csv ]

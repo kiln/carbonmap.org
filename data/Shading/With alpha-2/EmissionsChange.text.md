@@ -1,1 +1,0 @@
-Change in CO₂ emissions, 1990–2008

@@ -1,1 +1,0 @@
-Country sizes show the eventual **CO₂ emissions from oil, coal and gas extracted** each year. Many of these fuels are exported rather than used domestically, but arguably the countries extracting and selling fossil fuels bear a degree of responsibility for the resulting emissions.
