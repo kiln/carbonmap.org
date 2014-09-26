@@ -153,13 +153,17 @@ function textLoaded(text) {
     for (var i=0; i<DATASETS.length; i++) {
         var dataset = DATASETS[i];
         carbonmap_data_description[dataset] = carbonmap_text["desc_" + dataset];
-        carbonmap_data_unit[dataset] = carbonmap_data_unit[dataset].replace(/\{\{((?:[^\}]|\}[^\}])+)\}\}/g, function(m, id) {
-            return carbonmap_text[id];
-        });
+        carbonmap_data_unit[dataset] = processTemplatedText(carbonmap_data_unit[dataset]);
     }
 
     text_loaded = true;
     if (data_loaded && text_loaded) init();
+}
+
+function processTemplatedText(text) {
+    return text.replace(/\{\{((?:[^\}]|\}[^\}])+)\}\}/g, function(m, id) {
+        return carbonmap_text[id];
+    });
 }
 
 function init() {
@@ -327,7 +331,7 @@ function init() {
             $("#nav-" + dataset).addClass("navitemsselected");
 
             // Update the explanatory text
-            $("#about").html(data._text);
+            $("#about").html(carbonmap_text[dataset == "_raw" ? "map_text_Reset" : "map_text_" + dataset]);
 
             // Update the heading on the country data box
             if (dataset in carbonmap_data_description) {
@@ -455,7 +459,17 @@ function init() {
     $("#shadedropdown").change(function() {
         shading = $(this).val();
         $("#maparea").attr("class", "shading-" + shading);
-        $("#legendbox").html(carbonmap_shading[shading]);
+        var legendbox = $("#legendbox").html("");
+        console.log("Shading", shading);
+        legendbox.html($("<div id='legenddesc'>" + carbonmap_text["map_text_" + shading] + "</div>"));
+        var shading_key = carbonmap_shading[shading];
+        for (var i=0; i < shading_key.length; i++) {
+            legendbox.append(
+                $("<div class='legendrow'></div>")
+                .append($("<div class='legendswatch'></div>").css("background", shading_key[i][0]))
+                .append($("<div class='legendtext'></div>").text(processTemplatedText(shading_key[i][1])))
+            );
+        }
         update_infobox();
     }).change();
 

@@ -87,16 +87,6 @@ fi
     done
     echo
 
-    echo -n ,
-    for f in $all_datasets
-    do
-        echo -n ',"'
-        perl -pe 's/"/""/g' "data/Maps/$f.text.md"
-        echo -n '"'
-        eval \${has_notes_$f} && echo -n ,
-    done
-    echo
-
     # Generate a YAML configuration, and feed it to csv-join
     (
         echo "key: Alpha-2"
@@ -129,18 +119,10 @@ cat site/data.paths.js > site/data.js
         exit ${PIPESTATUS[0]}
     fi
     
-    echo -n 'carbonmap_data._raw._text = "'
-    markdown_py -o html5 -s escape -e utf-8 data/Maps/Reset.text.md | perl -l40pe ''
-    echo '";'
-    
     for f in $all_datasets
     do
         if [ -e data/Maps/With\ alpha-2/$f.csv ]
         then
-            echo -n "carbonmap_data.$f._text = \""
-            markdown_py -o html5 -s escape -e utf-8 data/Maps/"$f".text.md | perl -l40pe 's/"/\\"/g'
-            echo '";'
-            
             eval col=\${col_$f}
             eval type=\${type_$f:-float}
             eval format=\${format_$f:-.1f}

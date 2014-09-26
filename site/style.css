@@ -482,18 +482,22 @@ path {
 	vertical-align: middle;
 }
 
+#shadedropdown {
+	width: 100%;
+}
+
 #legendbox {
 	padding: 0 0 4px 0;
 }
 
-.legendtext {
-	font-size: 13px;
-}
-
-#legendtext {
+#legenddesc {
 	font-size: 12px;
 	line-height: 1.1em;
 	margin-bottom: 5px;
+}
+
+.legendtext {
+	font-size: 13px;
 }
 
 .legendswatch {
