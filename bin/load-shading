@@ -7,10 +7,9 @@ cartograms_bin=/usr/local/cartograms/bin
 all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGrowth"
 
 (
-    echo "// This file is auto-generated. Please do not edit."
-    echo "// Generated at $(date)"
+    echo "/* This file is auto-generated. Please do not edit. */"
+    echo "/* Generated at $(date) */"
     echo
-    echo "carbonmap_shading = {};"
     
     for f in $all_datasets
     do
@@ -24,9 +23,10 @@ all_datasets="Continents EmissionsChange CO2perCapita GDPperCapita PopulationGro
 ) > site/shading.css
 
 (
-    echo "/* This file is auto-generated. Please do not edit. */"
-    echo "/* Generated at $(date) */"
+    echo "// This file is auto-generated. Please do not edit."
+    echo "// Generated at $(date)"
     echo
+    echo "carbonmap_shading = {};"
     
     for f in $all_datasets
     do
