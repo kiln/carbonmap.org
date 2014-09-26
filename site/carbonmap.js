@@ -455,7 +455,7 @@ function init() {
         handleHashChange();
     }
     else {
-        $("#about").html(carbonmap_data._raw._text);
+        $("#about").html(carbonmap_text.map_text_Reset);
     }
 
     // Shading dropdown
