@@ -179,6 +179,12 @@
 			</div>
 		</div>
 		<script src="//interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js"></script>
-		<script>iframeMessenger.enableAutoResize();</script>
+		<script>
+			iframeMessenger.enableAutoResize();
+			iframeMessenger.getLocation(function(parent_url_obj) {
+				var hash = parent_url_obj.hash;
+				if (hash != "") window.location = hash;
+			});
+		</script>
 	</body>
 </html>
