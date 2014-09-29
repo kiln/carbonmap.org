@@ -138,9 +138,6 @@ function initLanguage() {
     $("#play-intro-inner").append(audio);
 
     $.get("text.json", textLoaded);
-
-    $("#twittershare a").attr("data-lang", lang);
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 }
 
 var data_loaded = false, text_loaded = false;
@@ -160,6 +157,9 @@ function textLoaded(text) {
         carbonmap_data_description[dataset] = carbonmap_text["desc_" + dataset];
         carbonmap_data_unit[dataset] = processTemplatedText(carbonmap_data_unit[dataset]);
     }
+
+    $("#twittershare a").attr("data-lang", lang).attr("data-text", carbonmap_text.tweet);
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     text_loaded = true;
     if (data_loaded && text_loaded) init();
