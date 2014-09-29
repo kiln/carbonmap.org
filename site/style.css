@@ -800,14 +800,6 @@ path {
 
 }
 
-@media screen and (max-width: 800px) {
-	body.lang-pt #header-title, body.lang-es #header-title {
-		position: absolute;
-		left: 105px;
-		top: 5px;
-	}
-}
-
 @media screen and (max-width: 650px) {
 
 	#masthead {
