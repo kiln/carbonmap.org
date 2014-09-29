@@ -79,6 +79,29 @@ var TIMELINE = {
         [109.39, "_raw"],
         [109.39, "Continents"]
     ],
+
+    "es": [
+        [8, "Area"],
+        [18, "Population"],
+        [21, "GDP"],
+
+        [32, "Extraction"],
+        [36, "Emissions"],
+        [38, "Consumption"],
+        [43, "Historical"],
+        [47, "Reserves"],
+
+        [65, "PeopleAtRisk"],
+
+        [70, "_raw"],
+        [78, "PopulationGrowth"],
+
+        [88, "Emissions"],
+        [97, "PeopleAtRisk"],
+
+        [108, "_raw"],
+        [108, "Continents"]
+    ]
 };
 
 $(function() {
