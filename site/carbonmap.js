@@ -9,6 +9,11 @@ var carbonmap_text;
 
 var lang = "en";
 
+var LANGUAGES = {
+    "en": "English",
+    "pt": "Português",
+    "es": "Español"
+};
 var DATASETS = [
 	// Maps
 	"Area",
@@ -105,12 +110,6 @@ var TIMELINE = {
 };
 
 $(function() {
-
-    var LANGUAGES = {
-        "en": "English",
-        "pt": "Português",
-        "es": "Español"
-    };
 
     // Query string parameters
     var parameters = {};
