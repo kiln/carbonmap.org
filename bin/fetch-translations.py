@@ -22,7 +22,7 @@ for row in r:
 	key = row[0]
 	if key == "": continue
 	for lang, value in zip(header[1:], row[1:]):
-		value = value.decode("utf-8")
+		value = value.decode("utf-8").strip()
 		if key.startswith("map_text_"):
 			value = markdown.markdown(value)
 		languages.setdefault(lang, {})[key] = value
