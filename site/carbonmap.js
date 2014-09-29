@@ -125,15 +125,10 @@ $(function() {
         $("#masthead").hide();
     }
 
-    // Set language and init language menu
+    // Set language if specified
     if (parameters.lang && parameters.lang in LANGUAGES) {
         lang = parameters.lang;
     }
-    $("#current-language").html(LANGUAGES[lang]);
-    $("#lang-menu").on("click", function() { $("#menu-container").toggle(); });
-    $(".language").on("click", function() {
-        window.location = "?lang=" + $(this).attr("data-target");
-    });
 
     // After three seconds, show a "loading" ticker
     carbonmap_timer = setTimeout(function() {
@@ -159,6 +154,12 @@ $(function() {
 
 function initLanguage() {
     $("body").addClass("lang-" + lang);
+
+    $("#current-language").html(LANGUAGES[lang]);
+    $("#lang-menu").on("click", function() { $("#menu-container").toggle(); });
+    $(".language").on("click", function() {
+        window.location = "?lang=" + $(this).attr("data-target");
+    });
 
     var audio = $('<audio id="intro-track"></audio>');
     audio.append('<source type="audio/ogg">').attr("src", "intro-" + lang + ".ogg");
