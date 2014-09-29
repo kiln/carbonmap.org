@@ -166,6 +166,9 @@ function initLanguage() {
     audio.append('<source type="audio/mpeg">').attr("src", "intro-" + lang + ".mp3");
     $("#play-intro-inner").append(audio);
 
+    // Spanish has a translated sources page
+    if (lang == "es") $("#sources-link a").attr("href", "http://www.carbonmap.org/sources-es.html");
+
     $.get("text.json", textLoaded);
 }
 

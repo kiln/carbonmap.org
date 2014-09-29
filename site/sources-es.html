@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>El Mapa de Carbono: Las fuentes de datos</title>
+		<link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30249221-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+ 	</head>
+	<body>
+
+		<!--Facebook button script-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=703862873033616&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div id="wrapper">
+			<div id="masthead">
+				<div id="header-title"><a href="/"><span class="the">El</span> mapa de carbono <span class="year"></span></a></div>
+				<div id="credit"><a href="http://kiln.it" target="_top">Creado por <span id="kiln">KILN</span></a></div>
+				<div id="shares">
+					<div id="facebookshare">
+						<div class="fb-share-button" data-layout="button_count" data-href="http://www.carbonmap.org" data-width="200px"></div>
+					</div>
+					<div id="twittershare">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.carbonmap.org" data-text="The earth moved for me at the Carbon Map by @k_i_l_n." data-lang="es">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				</div>
+			</div>
+			<div id="contents">
+				<div class="abouttext">
+					<div class="back-to"><a href="/"><i class="fa fa-arrow-left"></i>Back to the maps</a></div>
+
+					<h2>Las fuentes de datos, notas y explicaciones</h2>
+
+					<div id="sourcesbox">
+							<p class="sources"><b>Vea a continuación los detalles de los conjuntos de datos utilizados en el mapa. Puede descargar todos los datos – completa con notas sobre dónde y cómo los conjuntos de datos específicos se han completado utilizando estimaciones – en los dos siguientes archivos CSV. Haga clic en los enlaces, descargar los archivos y abrirlos en su texto u hoja de cálculo editor de elección.</b></p>
+							<p class="sources"><b>• <a href="http://www.carbonmap.org/map-data.csv">Los datos del mapa</a></b></p>
+							<p class="sources"><b>• <a href="http://www.carbonmap.org/shading-data.csv">Datos de sombreado</a></b></p>
+					</div>
+
+					<h3>Mapa de superficie</h3>
+					<p class="sources"><b>Descripción</b>: Superficie del terreno (Kilómetros cuadrados)</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/AG.LND.AGRI.K2">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: Los datos de Groenlandia sustituidos con la figura de data.un.org de modo que incluya el área bajo la capa de hielo de Groenlandia.</p>
+
+					<h3>Mapa de población</h3>
+					<p class="sources"><b>Descripción</b>: Población, total, 2013</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/SP.POP.TOTL">Banco Mundial</a></p>
+
+					<h3>Mapa de riqueza</h3>
+					<p class="sources"><b>Descripción</b>: El PIB total (PPA, $ internacionales actuales)</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: La mayoría de los datos correspondientes a 2013, pero con estimaciones para los espacios en blanco de años anteriores.</p>
+
+					<h3>Mapa de la extracción</h3>
+					<p class="sources"><b>Descripción</b>: emisiones CO₂ potenciales de los combustibles fósiles extraídos anuales de 2013.</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://www.bp.com/en/global/corporate/about-bp/energy-economics/statistical-review-of-world-energy.html">BP Statistical Review of World Energy 2014</a>, se convirtió al CO₂ por Duncan Clark, utilizando los siguientes factores de conversión de BP: petroleo, 3,07 toneladas CO₂ por tonelada; gas, 2,35 toneladas CO₂ por tonelada de equivalente de petróleo; carbón, 3,96 toneladas por tonelada de equivalente de petróleo.</p>
+
+					<h3>Emisiones mapa</h3>
+					<p class="sources"><b>Descripción</b>: Total emisiones de CO₂ de quema de combustibles fósiles y producción de cemento, 2013</p>
+					<p class="sources"><b>Fuente</b>: Glen Peters et al., Global Carbon Project</p>
+
+					<h3>Mapa consumo</h3>
+					<p class="sources"><b>Descripción</b>: La huella de carbono de todos los bienes y servicios consumidos, 2012</p>
+					<p class="sources"><b>Fuente</b>: Glen Peters et al., Global Carbon Project</p>
+
+					<h3>Mapa histórico</h3>
+					<p class="sources"><b>Descripción</b>: Emisiones CO₂ acumulados desde el uso de energía, 1850-2011</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://cait.wri.org">WRI, Clima Herramienta indicadores del análisis</a>.</p>
+
+					<h3>Reservas Mapa</h3>
+					<p class="sources"><b>Descripción</b>: emisiones CO₂ potenciales de las reservas de combustibles fósiles "probados", a finales de 2013</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://www.bp.com/en/global/corporate/about-bp/energy-economics/statistical-review-of-world-energy.html">BP Statistical Review of World Energy 2014</a>, se convirtió al CO₂ por Duncan Clark, utilizando los siguientes factores de conversión de BP: petróleo, 3,07 toneladas CO₂ por tonelada; gas, 2,35 toneladas CO₂ por tonelada de equivalente de petróleo; carbón, 3,96 toneladas por tonelada de equivalente de petróleo.</p>
+
+					<h3>Las personas en riesgo</h3>
+					<p class="sources"><b>Descripción</b>: Las personas expuestas a sequías, inundaciones y temperaturas extremas</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/EN.CLC.MDAT.ZS">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: conjunto de datos original fue% de la población expuesta en el período 1990-2009. Esto se ha multiplicado por la población de 2013 para dar una estimación de las personas que actualmente expuestos.</p>
+
+					<h3>Mapa del nivel del mar</h3>
+					<p class="sources"><b>Descripción</b>: Población que vive a menos de 5 metros sobre el nivel del mar</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/EN.POP.EL5M.ZS">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: conjunto de datos original fue% de la población. Esto se ha multiplicado por la población 2013 para dar una estimación de la población total que vive actualmente por debajo de 5 m.</p>
+
+					<h3>Mapa de la pobreza</h3>
+					<p class="sources"><b>Descripción</b>: Población que vive por debajo de $ 1,25 al día</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/SI.POV.DDAY">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: se calcula multiplicando el 2013 la población total por el% de población que vive con menos de 1,25 dólares en el año más reciente para el cual hay datos disponibles.</p>
+
+					<h3>Cambios en las emisiones</h3>
+					<p class="sources"><b>Descripción</b>: Cambio en las emisiones CO₂, 1990-2008</p>
+					<p class="sources"><b>Fuente</b>: Glen Peters et al., Global Carbon Project</p>
+
+					<h3>Las emisiones por persona de sombreado</h3>
+					<p class="sources"><b>Descripción</b>: Emisiones CO₂ per cápita, 2013</p>
+					<p class="sources"><b>Fuentes</b>: ver las emisiones de carbono y Población anteriores.
+
+					<h3>PIB por persona sombreado</h3>
+					<p class="sources"><b>Descripción</b>: el PIB per cápita, 2013</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD">Banco Mundial</a></p>
+					<p class="sources"><b>Notas</b>: Los datos de 2013 con algunas estimaciones para llenar lagunas de años anteriores.</p>
+
+					<h3>Sombreado crecimiento de la población</h3>
+					<p class="sources"><b>Descripción</b>: Tasa de crecimiento anual de la población, 2013</p>
+					<p class="sources"><b>Fuente</b>: <a href="http://data.worldbank.org/indicator/SP.POP.GROW">Banco Mundial</a></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
