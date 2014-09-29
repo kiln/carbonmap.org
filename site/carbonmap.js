@@ -128,8 +128,8 @@ $(function() {
     // Set language and init language menu
     if (parameters.lang && parameters.lang in LANGUAGES) {
         lang = parameters.lang;
-        $("#current-language").html(LANGUAGES[lang]);
     }
+    $("#current-language").html(LANGUAGES[lang]);
     $("#lang-menu").on("click", function() { $("#menu-container").toggle(); });
     $(".language").on("click", function() {
         window.location = "?lang=" + $(this).attr("data-target");
