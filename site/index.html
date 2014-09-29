@@ -193,7 +193,7 @@
 			iframeMessenger.enableAutoResize();
 			iframeMessenger.getLocation(function(parent_url_obj) {
 				var hash = parent_url_obj.hash;
-				if (hash != "") window.location = hash;
+				if (hash != "") window.location.hash = hash;
 			});
 		</script>
 	</body>
