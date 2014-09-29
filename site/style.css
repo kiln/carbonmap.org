@@ -64,7 +64,7 @@ iframe {
 	color: #ddd;
 }
 
-#header-title, body.lang-pt #header-title {
+body #header-title {
 	text-transform: uppercase;
 	display: inline;
 	font-size: 20px;
@@ -624,11 +624,11 @@ path {
 
 @media screen and (max-width: 1230px) {
 
-	body.lang-pt .navtitle {
+	body.lang-pt .navtitle, body.lang-es .navtitle {
 		font-size: 14px;
 	}
 
-	body.lang-pt .navitems {
+	body.lang-pt .navitems, body.lang-es .navitems {
 		font-size: 19px;
 	}
 
@@ -644,7 +644,7 @@ path {
 		font-size: 18px;
 	}
 
-	body.lang-pt .navitems {
+	body.lang-pt .navitems, body.lang-es .navitems {
 		font-size: 17px;
 	}
 
@@ -661,7 +661,7 @@ path {
 		padding: 4px;
 	}
 
-	body.lang-pt .navitems {
+	body.lang-pt .navitems, body.lang-es .navitems {
 		font-size: 16px;
 	}
 
@@ -684,7 +684,7 @@ path {
 		padding: 4px;
 	}
 
-	body.lang-pt .navitems {
+	body.lang-pt .navitems, body.lang-es .navitems {
 		font-size: 15px;
 	}
 }
@@ -801,7 +801,7 @@ path {
 }
 
 @media screen and (max-width: 800px) {
-	body.lang-pt #header-title {
+	body.lang-pt #header-title, body.lang-es #header-title {
 		position: absolute;
 		left: 105px;
 		top: 5px;
@@ -814,7 +814,7 @@ path {
 		height: 50px;
 	}
 
-	#header-title, body.lang-pt #header-title {
+	body #header-title {
 		position: absolute;
 		left: 10px;
 		top: 10px;
