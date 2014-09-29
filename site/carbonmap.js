@@ -38,18 +38,18 @@ var TIMELINE = {
         [6.5, "Area"],
         [12.5, "Population"],
         [15.5, "GDP"],
-    
+
         [25.5, "Extraction"],
         [27.5, "Emissions"],
         [29.5, "Consumption"],
         [33, "Historical"],
         [37, "Reserves"],
-    
+
         [46, "PeopleAtRisk"],
-    
+
         [53, "_raw"],
         [57, "PopulationGrowth"],
-    
+
         [64, "Emissions"],
         [71, "PeopleAtRisk"],
 
@@ -61,18 +61,18 @@ var TIMELINE = {
         [8, "Area"],
         [18, "Population"],
         [21, "GDP"],
-    
+
         [32.69, "Extraction"],
         [35.35, "Emissions"],
         [36.62, "Consumption"],
         [41, "Historical"],
         [47.54, "Reserves"],
-    
+
         [65, "PeopleAtRisk"],
-    
+
         [70, "_raw"],
         [78, "PopulationGrowth"],
-    
+
         [86.62, "Emissions"],
         [96.65, "PeopleAtRisk"],
 
@@ -101,11 +101,16 @@ $(function() {
     if (parameters.header == "hidden") {
         $("#masthead").hide();
     }
-    
-    // Set language
+
+    // Set language and init language menu
     if (parameters.lang && parameters.lang in LANGUAGES) {
         lang = parameters.lang;
+        $("#current-language").html(LANGUAGES[lang]);
     }
+    $("#lang-menu").on("click", function() { $("#menu-container").toggle(); });
+    $(".language").on("click", function() {
+        window.location = "?lang=" + $(this).attr("data-target");
+    });
 
     // After three seconds, show a "loading" ticker
     carbonmap_timer = setTimeout(function() {
@@ -174,7 +179,7 @@ function processTemplatedText(text) {
 function init() {
     if (carbonmap_timer) clearTimeout(carbonmap_timer);
     $("#loading").hide();
-    
+
     // If the browser does not support HTML audio, skip the intro.
     var welcome = Modernizr.audio;
     if (welcome) {
@@ -185,10 +190,10 @@ function init() {
         $("#play-intro").hide();
         $(".unwelcome").show();
     }
-    
+
     var track = document.getElementById("intro-track");
     window.track = track;
-    
+
     // Add the countries to the map
     var map = document.getElementById("map");
     var current_path_by_country = {}; // Only used if !Modernizr.smil
@@ -197,7 +202,7 @@ function init() {
         if (country.charAt(0) === "_") continue;
         var path_data = carbonmap_data._raw[country];
         if (!path_data) continue;
-        
+
         var e = document.createElementNS("http://www.w3.org/2000/svg", "path");
         e.id = country;
         e.setAttribute("class", "country");
@@ -208,18 +213,18 @@ function init() {
         map.appendChild(e);
     }
     $("#map-placeholder").hide();
-    
+
     var _val = function(value, unit) {
         if (typeof value === "undefined") {
             return carbonmap_text.no_data;
         }
-        
+
         if (unit === "people" && typeof value == "string") {
             value = value.replace(/\.[0-9]$/, ""); // Fractional people read strangely
         }
         return value + " " + unit;
     };
-    
+
     var count = {};
     var _rank = function(dataset, key) {
         var rank = carbonmap_rank[dataset][key];
@@ -231,7 +236,7 @@ function init() {
                     ++ count[dataset];
             }
         }
-        
+
         var ile = (parseInt(rank) - 1) / count[dataset];
         var describe_rank;
         if (ile < 0.05)
@@ -244,7 +249,7 @@ function init() {
             describe_rank = carbonmap_text.rank_l;
         else
             describe_rank = carbonmap_text.rank_vl;
-        
+
         return carbonmap_text.rank + ": " + describe_rank + " (" + rank + "/" + count[dataset] + ")"
     };
 
@@ -257,7 +262,7 @@ function init() {
                 selected_country = selected_countries[0];
             }
         }
-        
+
         if (selected_country && dataset in carbonmap_values) {
             var data_value = carbonmap_values[dataset][selected_country.id];
             $("#selectedcountrydataresult2").text(_val(data_value, carbonmap_data_unit[dataset]));
@@ -277,29 +282,29 @@ function init() {
             $("#selectedcountryrank3").html("");
         }
     };
-    
+
     var timer = null;
     var frames = 24;
     var animation_millis = 1000;
-    
+
     var fakeAnimation = function(data) {
         if (timer != null) {
             clearInterval(timer);
         }
-        
+
         var start_time = new Date().getTime();
         timer = setInterval(function() {
             var elapsed_millis = new Date().getTime() - start_time;
             var x = Math.min(1, elapsed_millis / animation_millis);
-            
+
             if (elapsed_millis >= animation_millis) {
                 clearInterval(timer);
                 timer = null
             }
-            
+
             for (var k in data) {
                 if (!data.hasOwnProperty(k)) continue;
-                
+
                 var country_path = document.getElementById(k);
                 var new_path = data[k];
                 if (country_path != null) {
@@ -307,7 +312,7 @@ function init() {
                     var original_path = current_path_by_country[country];
                     var original_path_els = original_path.split(" ");
                     var new_path_els = new_path.split(" ");
-                    
+
                     var intermediate_path_els = [];
                     for (var j = 0; j < original_path_els.length; j++) {
                         var a = parseInt(original_path_els[j]), b = parseInt(new_path_els[j]);
@@ -403,34 +408,34 @@ function init() {
         }, duration);
         play_button_in_middle = false;
     }
-    
+
     function playIntro() {
         track.play();
         $("#pause-icon").show();
         $("#play-icon").hide();
         if (play_button_in_middle) relocatePlayButton(3000, 1000);
     }
-    
+
     var handleHashChange = function() {
-        
+
         if (location.hash === "#intro") {
             setDataset("_raw");
-            
+
             // If we’re here, the audio is almost certainly already playing,
             // but in the case where someone uses the Back button to go back
             // to the intro it’s nice to resume automatically
             playIntro();
-            
+
             // Similarly we reset the "welcome" condition, so the audio controls
             // are visible in the sidebar
             $(".unwelcome").hide();
             $(".welcome").show();
             welcome = true;
-            
+
             return;
         }
         else if (play_button_in_middle) relocatePlayButton(0, 500);
-        
+
         // If someone clicks a tab while the intro is running, pause it.
         if (Modernizr.audio) pauseIntro();
 
@@ -506,17 +511,17 @@ function init() {
 
         return false;
     });
-    
+
     function pauseIntro() {
         track.pause();
         $("#pause-icon").hide();
         $("#play-icon").show();
     }
-    
+
     // Initially there isn't a country selected
     $("#selectedcountryinfo").hide();
     $("#infoareaunselected").show();
-    
+
     if (Modernizr.audio) {
         // Audio intro
         var track_animations = TIMELINE[lang];
