@@ -85,12 +85,41 @@ iframe {
 	margin-left: 10px;
 }
 
-#credit {
+#credit-and-langs {
 	position: absolute;
-	left: 20px;
-	top: 8px;
+	top: 5px;
+	left: 10px;
+	background: #333;
+	z-index: 20;
+}
+
+#credit {
 	font-size: 14px;
-	vertical-align: baseline;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#lang-menu {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 2px 5px;
+	background: inherit;
+	text-align: left;
+	position: relative;
+}
+
+#lang-menu #menu-container {
+	position: absolute;
+	display: none;
+	background: inherit;
+	width: inherit;
+}
+
+.language {
+	padding: 4px 5px;
 }
 
 #kiln {
@@ -780,11 +809,11 @@ path {
 
 	#header-title {
 		position: absolute;
-		left: 20px;
+		left: 10px;
 		top: 10px;
 	}
 
-	#credit {
+	#credit-and-langs {
 		top: 35px;
 	}
 
