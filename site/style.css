@@ -24,7 +24,7 @@ font-weight: bold;
 html {
 }
 
-body {
+body.lang-any {
 	font-family: 'TradeGothic';
 	margin: 0;
 }
@@ -64,7 +64,7 @@ iframe {
 	color: #ddd;
 }
 
-body #header-title {
+body.lang-any #header-title {
 	text-transform: uppercase;
 	display: inline;
 	font-size: 20px;
@@ -357,6 +357,10 @@ h3 {
 	border-bottom-left-radius: 5px;
 }
 
+body.lang-es .navitems {
+	font-size: 19px;
+}
+
 .navitemsselected {
 	color: white;
 	background: #666;
@@ -636,36 +640,43 @@ path {
 
 @media screen and (max-width: 1175px) {
 
-	.navtitle {
+	body.lang-any .navtitle {
 		font-size: 13px;
 	}
 
-	.navitems {
+	body.lang-any .navitems {
 		font-size: 18px;
 	}
 
-	body.lang-pt .navitems, body.lang-es .navitems {
+	body.lang-pt .navitems {
 		font-size: 17px;
 	}
 
+	body.lang-es .navitems {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 1100px) {
 
-	.navtitle {
+	body.lang-any .navtitle {
 		font-size: 13px;
 	}
 
-	.navitems {
+	body.lang-any .navitems {
 		font-size: 17px;
 		padding: 4px;
 	}
 
-	body.lang-pt .navitems, body.lang-es .navitems {
+	body.lang-pt .navitems {
 		font-size: 16px;
 	}
 
-	#maparea {
+	body.lang-es .navitems {
+		font-size: 15px;
+	}
+
+	body.lang-any #maparea {
 		margin-top: -10px;
 		margin-right: 15%;
 		width: 85%;
@@ -673,13 +684,60 @@ path {
 
 }
 
+@media screen and (max-width: 1040px) {
+
+	body.lang-es #navigation {
+		padding-right: 10%;
+	}
+
+	body.lang-es .navblock {
+		display: block;
+		text-align: center;
+	}
+
+	body.lang-es .navtitle {
+		display: inline-block;
+		border: 0;
+		margin-right: 10px;
+	}
+
+	body.lang-es .navitemscontainer {
+		display: inline-block;
+	}
+
+	body.lang-es #nav-_raw {
+		position: absolute;
+		text-align: center;
+		top: 30px;
+		left: 20px;
+		height: 30px;
+		width: 30px;
+		background: none;
+	}
+
+	body.lang-es #nav-_raw i {
+		font-size: 40px;
+		color: #333;
+	}
+
+	body.lang-es .navitems {
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	body.lang-es #maparea {
+		width: 80%;
+		margin-right: 20%;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 
-	#navigation {
+	body.lang-any #navigation {
 		text-align: left;
 	}
 
-	.navitems {
+	body.lang-any .navitems {
 		font-size: 16px;
 		padding: 4px;
 	}
@@ -691,26 +749,26 @@ path {
 
 @media screen and (max-width: 940px) {
 
-	#navigation {
+	body.lang-any #navigation {
 		padding-right: 10%;
 	}
 
-	.navblock {
+	body.lang-any .navblock {
 		display: block;
 		text-align: center;
 	}
 
-	.navtitle {
+	body.lang-any .navtitle {
 		display: inline-block;
 		border: 0;
 		margin-right: 10px;
 	}
 
-	.navitemscontainer {
+	body.lang-any .navitemscontainer {
 		display: inline-block;
 	}
 
-	#nav-_raw {
+	body.lang-any #nav-_raw {
 		position: absolute;
 		text-align: center;
 		top: 30px;
@@ -720,17 +778,17 @@ path {
 		background: none;
 	}
 
-	#nav-_raw i {
+	body.lang-any #nav-_raw i {
 		font-size: 40px;
 		color: #333;
 	}
 
-	.navitems {
+	body.lang-any .navitems {
 		border-radius: 5px;
 		font-size: 16px;
 	}
 
-	#maparea {
+	body.lang-any #maparea {
 		width: 80%;
 		margin-right: 20%;
 	}
@@ -739,58 +797,58 @@ path {
 
 @media screen and (max-width: 750px) {
 
-	#wrapper {
+	body.lang-any #wrapper {
 		min-height: initial;
 	}
 
-	#navigation {
+	body.lang-any #navigation {
 		padding-right: 0%;
 	}
 
 
-	#maparea {
+	body.lang-any #maparea {
 		width: 100%;
 		margin-right: 0;
 		padding-bottom: 60%;
 		margin-bottom: -60px;
 	}
 
-	#info-and-shade {
+	body.lang-any #info-and-shade {
 		width: 100%;
 		position: static;
 	}
 
-	.panel {
+	body.lang-any .panel {
 		box-shadow: none;
 		border-radius: 0;
 	}
 
-	#shade {
+	body.lang-any #shade {
 		text-align: center;
 		padding: 20px;
 	}
 
-	.legendrow {
+	body.lang-any .legendrow {
 		display: inline-block;
 		margin-left: 12px;
 	}
 
-	#infoarea {
+	body.lang-any #infoarea {
 		border-top: 1px #999 dotted;
 		margin-top: 0px;
 	}
 
-	#selectedcountrydataarea2,
-	#selectedcountrydataarea3 {
+	body.lang-any #selectedcountrydataarea2,
+	body.lang-any #selectedcountrydataarea3 {
 		display: inline-block;
 		vertical-align: top;
 		width: 48%;
 	}
-	#selectedcountrydataarea3 {
+	body.lang-any #selectedcountrydataarea3 {
 		padding-left: 3%;
 	}
 
-	#play-intro {
+	body.lang-any #play-intro {
 		top: 30px!important;
 		right: 30px!important;
 		margin: 0!important;
@@ -802,47 +860,47 @@ path {
 
 @media screen and (max-width: 650px) {
 
-	#masthead {
+	body.lang-any #masthead {
 		height: 50px;
 	}
 
-	body #header-title {
+	body.lang-any #header-title {
 		position: absolute;
 		left: 10px;
 		top: 10px;
 	}
 
-	#credit-and-langs {
+	body.lang-any #credit-and-langs {
 		top: 35px;
 	}
 
-	#twittershare {
+	body.lang-any #twittershare {
 		position: absolute;
 		top: 32px;
 		right: 0px;
 	}
 
-	#navigation {
+	body.lang-any #navigation {
 		text-align: left;
 		width: 90%;
 		padding-right: 10%;
 	}
 
-	.navblock {
+	body.lang-any .navblock {
 		text-align: left;
 		padding-right: 0;
 	}
 
-	.navitemscontainer {
+	body.lang-any .navitemscontainer {
 		display: inline;
 	}
 
-	.navitems {
+	body.lang-any .navitems {
 		display: inline-block;
 		border-radius: 5px;
 	}
 
-	#nav-_raw {
+	body.lang-any #nav-_raw {
 		display: inline;
 		position: static;
 		text-align: center;
@@ -851,16 +909,16 @@ path {
 		width: 22px;
 	}
 
-	#nav-_raw i {
+	body.lang-any #nav-_raw i {
 		font-size: inherit;
 		color: #333;
 	}
 
-	#reference {
+	body.lang-any #reference {
 		display: inline;
 	}
 
-	#reference .navtitle {
+	body.lang-any #reference .navtitle {
 		display: none;
 	}
 
@@ -868,30 +926,30 @@ path {
 
 @media screen and (max-width: 550px) {
 
-	.navitems {
+	body.lang-any .navitems {
 		font-size: 15px;
 		line-height: 17px;
 	}
 
-	#maparea {
+	body.lang-any #maparea {
 		margin-bottom: -20px;
 	}
 
-	#navigation {
+	body.lang-any #navigation {
 		text-align: left;
 		width: 85%;
 		padding-right: 15%;
 	}
 
-	.navblock {
+	body.lang-any .navblock {
 		display: inline;
 	}
 
-	.navtitle {
+	body.lang-any .navtitle {
 		display: none;
 	}
 
-	#play-intro {
+	body.lang-any #play-intro {
 		top: 20px!important;
 		right: 20px!important;
 		margin: 0!important;
