@@ -632,10 +632,13 @@ path {
 		font-size: 14px;
 	}
 
-	body.lang-pt .navitems, body.lang-es .navitems {
+	body.lang-pt .navitems {
 		font-size: 19px;
 	}
 
+	body.lang-es .navitems {
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: 1175px) {
@@ -684,7 +687,7 @@ path {
 
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1050px) {
 
 	body.lang-es #navigation {
 		padding-right: 10%;
