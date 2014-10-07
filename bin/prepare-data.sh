@@ -68,7 +68,7 @@ do
 done
 
 # Convert all values into millions of tonnes of CO₂
-bin/csv-sum.py --key="Alpha-2" --multipliers=$(bc -l <<<"0.1364 * 3.07 * 0.001"),$(bc -l <<<"0.90 * 2.35"),$(bc -l <<<"0.513 * 3.96") data/Working/"With alpha-2"/Reserves-{oil,gas,coal}.csv > data/Maps/Reserves.csv
+bin/csv-sum.py --key="Alpha-2" --multipliers=$(bc -l <<<"0.1364 * 3.07 * 1000"),$(bc -l <<<"0.90 * 2.35"),$(bc -l <<<"0.513 * 3.96") data/Working/"With alpha-2"/Reserves-{oil,gas,coal}.csv > data/Maps/Reserves.csv
 cp data/Maps/Reserves.csv data/Maps/"With alpha-2"/Reserves.csv
 
 
