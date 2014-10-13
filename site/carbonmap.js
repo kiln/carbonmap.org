@@ -189,7 +189,9 @@ function textLoaded(text) {
         carbonmap_data_unit[dataset] = processTemplatedText(carbonmap_data_unit[dataset]);
     }
 
-    $("#twittershare a").attr("data-lang", lang).attr("data-text", carbonmap_text.tweet);
+    var url = "http://www.carbonmap.org";
+    if (lang != "en") url += "/?lang=" + lang;
+    $("#twittershare a").attr("data-lang", lang).attr("data-text", carbonmap_text.tweet).attr("data-url", url);
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     text_loaded = true;
