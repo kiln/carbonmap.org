@@ -26,7 +26,7 @@ do
     duration=${line#* }
     if [ ! -e 4k-output/$map.freeze-$duration.mov ]
     then
-        ffmpeg -f image2 -r 1/$duration -i 4k-output/$map-full.png -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-output/$map.freeze-$duration.mov </dev/null
+        ffmpeg -loop 1 -i 4k-output/$map-full.png -t $duration -r 30 -vcodec prores -vf "pad=3840:2160:0:0:white" -bufsize 4000k 4k-output/$map.freeze-$duration.mov </dev/null
     fi
 done
 
