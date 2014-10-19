@@ -32,7 +32,9 @@ do
         then
             echo >&2 "Rendering $filename..."
             t=$(bc <<< "scale=4; $j/($FPS-1)")
-            webkit2png -F "http://carbonmap.local/massive.xhtml?easing=sin&shading=$to_shading/$from_shading/$t#$to/$from/$t" -o "$filename"
+            # The "-z 0.5" is needed when run on a Mac with retina display, to compensate for the
+            # pixel-doubling.
+            webkit2png -z 0.5 -F "http://carbonmap.local/massive.xhtml?easing=sin&shading=$to_shading/$from_shading/$t#$to/$from/$t" -o "$filename"
         fi
         j=$[$j+1]
     done
