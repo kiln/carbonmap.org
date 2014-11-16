@@ -13,7 +13,7 @@ var LANGUAGES = {
     "en": "English",
     "pt": "Português",
     "es": "Español",
-    "sk": "Slovenský"
+    "sk": "Slovenčina"
 };
 var DATASETS = [
 	// Maps
