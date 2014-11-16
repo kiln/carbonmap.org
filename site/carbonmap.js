@@ -12,7 +12,8 @@ var lang = "en";
 var LANGUAGES = {
     "en": "English",
     "pt": "Português",
-    "es": "Español"
+    "es": "Español",
+    "sk": "Slovenský"
 };
 var DATASETS = [
 	// Maps
