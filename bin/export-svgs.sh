@@ -22,12 +22,13 @@ do
       echo "Generating $d-$shading.svg..."
       /usr/local/cartograms/bin/as-svg.py \
         --map=world-robinson \
+        --no-bounds \
         "${cart_option[@]}" \
-        --simplification=0 \
+        --simplification=10000 \
         --static \
         --output-grid=64605x32767 \
-        --stroke-width=0.1 \
         --exclude-regions=AQ \
+        --inline-style="path { fill: none; stroke: #FFF; stroke-width: 0.1; }" \
         --style="$shading_css" \
         --output="site/svgs/$d-$shading.svg"
     done
