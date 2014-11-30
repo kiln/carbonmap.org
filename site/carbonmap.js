@@ -107,6 +107,29 @@ var TIMELINE = {
 
         [108, "_raw"],
         [108, "Continents"]
+    ],
+
+    "sk": [
+        [4.5, "Area"],
+        [15.5, "Population"],
+        [17.5, "GDP"],
+
+        [31, "Extraction"],
+        [32.5, "Emissions"],
+        [34, "Consumption"],
+        [38, "Historical"],
+        [43, "Reserves"],
+
+        [51, "PeopleAtRisk"],
+
+        [60, "_raw"],
+        [63, "PopulationGrowth"],
+
+        [72, "Emissions"],
+        [81, "PeopleAtRisk"],
+
+        [92, "_raw"],
+        [92, "Continents"]
     ]
 };
 

@@ -636,7 +636,7 @@ path {
 
 @media screen and (max-width: 1230px) {
 
-	body.lang-pt .navtitle, body.lang-es .navtitle {
+	body.lang-pt .navtitle, body.lang-es .navtitle, body.lang-sk .navtitle {
 		font-size: 14px;
 	}
 
@@ -680,6 +680,10 @@ path {
 	}
 
 	body.lang-pt .navitems {
+		font-size: 16px;
+	}
+
+	body.lang-sk .navitems {
 		font-size: 16px;
 	}
 
@@ -739,6 +743,10 @@ path {
 	body.lang-es #maparea {
 		width: 80%;
 		margin-right: 20%;
+	}
+
+	body.lang-sk .navitems {
+		font-size: 16px;
 	}
 }
 
