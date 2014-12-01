@@ -1,17 +1,18 @@
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=411dcd77-eeeb-4bf0-a0c2-7cdf19f88192");
-/* Original names: "Trade Gothic W01 Cn 18", "TradeGothicW01-BoldCn20 675334"; */
+/* Original names: "Trade Gothic W02 Cn_18", "TradeGothicW02-BoldCn20_675505"; */
 @font-face{
 font-family:"TradeGothic";
-src:url("fonts/087e5c21-3358-4cf3-9d2c-289a03a48292.eot?#iefix");
-src:url("fonts/087e5c21-3358-4cf3-9d2c-289a03a48292.eot?#iefix") format("eot"),url("fonts/fb754dec-aa8f-444c-be48-868464c47ab0.woff") format("woff"),url("fonts/295ff20c-2b48-4fa6-be92-a53bbf9bbbb4.ttf") format("truetype"),url("fonts/c573d9d0-0726-4b95-aeee-fb621a299563.svg#c573d9d0-0726-4b95-aeee-fb621a299563") format("svg");
+src:url("fonts/54d50729-2ab7-49d5-a74c-b604d41c0c59.eot?#iefix");
+src:url("fonts/54d50729-2ab7-49d5-a74c-b604d41c0c59.eot?#iefix") format("eot"),url("fonts/0212a948-10f0-4e92-ad88-f19648a92b4a.woff") format("woff"),url("fonts/5e7c3b52-1246-48a3-a019-a0492c7f9e19.ttf") format("truetype"),url("fonts/8115c2cd-df4a-4fc1-8a70-5982b7d810ab.svg#8115c2cd-df4a-4fc1-8a70-5982b7d810ab") format("svg");
 font-weight: normal;
 }
 @font-face{
 font-family:"TradeGothic";
-src:url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix");
-src:url("fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix") format("eot"),url("fonts/5fdc935e-9e30-442a-bbe9-8d887b858471.woff") format("woff"),url("fonts/616c4c87-a077-43f4-a9f4-f01267c13818.ttf") format("truetype"),url("fonts/c901ad5f-a842-4549-a1f4-583a97f7e169.svg#c901ad5f-a842-4549-a1f4-583a97f7e169") format("svg");
+src:url("fonts/e4693908-7208-4b04-93c4-8d004c3b4e1f.eot?#iefix");
+src:url("fonts/e4693908-7208-4b04-93c4-8d004c3b4e1f.eot?#iefix") format("eot"),url("fonts/e2fbc63c-e7b1-4828-b0b6-275131d16fd0.woff") format("woff"),url("fonts/805d9356-a4a5-46df-8390-957c803e33bc.ttf") format("truetype"),url("fonts/df0f9c50-3ce3-4b1f-8120-074ca66b83b1.svg#df0f9c50-3ce3-4b1f-8120-074ca66b83b1") format("svg");
 font-weight: bold;
 }
+
 
 /******** Map ********/
 
