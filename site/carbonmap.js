@@ -110,7 +110,7 @@ var TIMELINE = {
     ],
 
     "sk": [
-        [4.5, "Area"],
+        [7, "Area"],
         [15.5, "Population"],
         [17.5, "GDP"],
 
