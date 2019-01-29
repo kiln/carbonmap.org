@@ -368,6 +368,10 @@ body.lang-es .navitems {
 	font-size: 19px;
 }
 
+body.lang-fr .navitems {
+	font-size: 17px;
+}
+
 .navitemsselected {
 	color: white;
 	background: #666;
@@ -637,7 +641,10 @@ path {
 
 @media screen and (max-width: 1230px) {
 
-	body.lang-pt .navtitle, body.lang-es .navtitle, body.lang-sk .navtitle {
+	body.lang-pt .navtitle,
+	body.lang-es .navtitle,
+	body.lang-sk .navtitle,
+	body.lang-fr .navtitle {
 		font-size: 14px;
 	}
 
@@ -647,6 +654,10 @@ path {
 
 	body.lang-es .navitems {
 		font-size: 18px;
+	}
+
+	body.lang-fr .navitems {
+		font-size: 16px;
 	}
 
 	body.lang-sk .navitems {
@@ -670,6 +681,10 @@ path {
 
 	body.lang-es .navitems {
 		font-size: 16px;
+	}
+
+	body.lang-fr .navitems {
+		font-size: 15px;
 	}
 
 	body.lang-sk .navitems {
@@ -700,6 +715,10 @@ path {
 		font-size: 15px;
 	}
 
+	body.lang-fr .navitems {
+		font-size: 15px;
+	}
+
 	body.lang-any #maparea {
 		margin-top: -10px;
 		margin-right: 15%;
@@ -710,26 +729,31 @@ path {
 
 @media screen and (max-width: 1050px) {
 
-	body.lang-es #navigation {
+	body.lang-es #navigation,
+	body.lang-fr #navigation {
 		padding-right: 10%;
 	}
 
-	body.lang-es .navblock {
+	body.lang-es .navblock,
+	body.lang-fr .navblock {
 		display: block;
 		text-align: center;
 	}
 
-	body.lang-es .navtitle {
+	body.lang-es .navtitle,
+	body.lang-fr .navtitle {
 		display: inline-block;
 		border: 0;
 		margin-right: 10px;
 	}
 
-	body.lang-es .navitemscontainer {
+	body.lang-es .navitemscontainer,
+	body.lang-fr .navitemscontainer {
 		display: inline-block;
 	}
 
-	body.lang-es #nav-_raw {
+	body.lang-es #nav-_raw,
+	body.lang-fr #nav-_raw {
 		position: absolute;
 		text-align: center;
 		top: 30px;
@@ -739,17 +763,20 @@ path {
 		background: none;
 	}
 
-	body.lang-es #nav-_raw i {
+	body.lang-es #nav-_raw i,
+	body.lang-fr #nav-_raw i {
 		font-size: 40px;
 		color: #333;
 	}
 
-	body.lang-es .navitems {
+	body.lang-es .navitems,
+	body.lang-fr .navitems {
 		border-radius: 5px;
 		font-size: 16px;
 	}
 
-	body.lang-es #maparea {
+	body.lang-es #maparea,
+	body.lang-fr #maparea {
 		width: 80%;
 		margin-right: 20%;
 	}
@@ -770,7 +797,9 @@ path {
 		padding: 4px;
 	}
 
-	body.lang-pt .navitems, body.lang-es .navitems {
+	body.lang-pt .navitems,
+	body.lang-es .navitems,
+	body.lang-fr .navitems {
 		font-size: 15px;
 	}
 
@@ -954,6 +983,9 @@ path {
 		display: none;
 	}
 
+	body.lang-fr .navitems {
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 550px) {

@@ -11,6 +11,7 @@ var lang = "en";
 
 var LANGUAGES = {
     "en": "English",
+    "fr": "Français",
     "pt": "Português",
     "es": "Español",
     "sk": "Slovenčina"
@@ -41,6 +42,29 @@ var DATASETS = [
 
 var TIMELINE = {
     "en": [
+        [6.5, "Area"],
+        [12.5, "Population"],
+        [15.5, "GDP"],
+
+        [25.5, "Extraction"],
+        [27.5, "Emissions"],
+        [29.5, "Consumption"],
+        [33, "Historical"],
+        [37, "Reserves"],
+
+        [46, "PeopleAtRisk"],
+
+        [53, "_raw"],
+        [57, "PopulationGrowth"],
+
+        [64, "Emissions"],
+        [71, "PeopleAtRisk"],
+
+        [78, "_raw"],
+        [78, "Continents"]
+    ],
+
+    "fr": [
         [6.5, "Area"],
         [12.5, "Population"],
         [15.5, "GDP"],
