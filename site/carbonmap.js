@@ -65,26 +65,26 @@ var TIMELINE = {
     ],
 
     "fr": [
-        [6.5, "Area"],
-        [12.5, "Population"],
-        [15.5, "GDP"],
+        [12, "Area"],
+        [23, "Population"],
+        [27, "GDP"],
 
-        [25.5, "Extraction"],
-        [27.5, "Emissions"],
-        [29.5, "Consumption"],
-        [33, "Historical"],
-        [37, "Reserves"],
+        [42, "Extraction"],
+        [45, "Emissions"],
+        [50, "Consumption"],
+        [55, "Historical"],
+        [62, "Reserves"],
 
-        [46, "PeopleAtRisk"],
+        [72, "PeopleAtRisk"],
 
-        [53, "_raw"],
-        [57, "PopulationGrowth"],
+        [83, "_raw"],
+        [94, "PopulationGrowth"],
 
-        [64, "Emissions"],
-        [71, "PeopleAtRisk"],
+        [104, "Emissions"],
+        [114, "PeopleAtRisk"],
 
-        [78, "_raw"],
-        [78, "Continents"]
+        [124, "_raw"],
+        [125, "Continents"]
     ],
 
     "pt": [
@@ -216,7 +216,7 @@ function initLanguage() {
     // Spanish has a translated sources page
     if (lang == "es") $("#sources-link a").attr("href", "http://www.carbonmap.org/sources-es.html");
 
-    $.get("text.json?v=201901291939", textLoaded);
+    $.get("text.json?v=201901301126", textLoaded);
 }
 
 var data_loaded = false, text_loaded = false;
