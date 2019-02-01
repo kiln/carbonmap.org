@@ -65,17 +65,17 @@ var TIMELINE = {
     ],
 
     "fr": [
-        [10.5, "Area"],
-        [21.5, "Population"],
-        [25.5, "GDP"],
+        [10, "Area"],
+        [20.5, "Population"],
+        [24.5, "GDP"],
 
-        [40, "Extraction"],
-        [43.5, "Emissions"],
-        [47, "Consumption"],
-        [52.5, "Historical"],
-        [60.5, "Reserves"],
+        [39, "Extraction"],
+        [42.5, "Emissions"],
+        [45.5, "Consumption"],
+        [52, "Historical"],
+        [59, "Reserves"],
 
-        [72, "PeopleAtRisk"],
+        [71, "PeopleAtRisk"],
 
         [83, "_raw"],
         [94, "PopulationGrowth"],
