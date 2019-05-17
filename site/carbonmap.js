@@ -218,7 +218,7 @@ function initLanguage() {
     // Spanish has a translated sources page
     if (lang == "es") $("#sources-link a").attr("href", "http://www.carbonmap.org/sources-es.html");
 
-    $.get("text.json?v=201901301126", textLoaded);
+    $.get("text.json?v=201905171618", textLoaded);
 }
 
 var data_loaded = false, text_loaded = false;
