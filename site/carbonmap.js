@@ -11,6 +11,7 @@ var lang = "en";
 
 var LANGUAGES = {
     "en": "English",
+    "fa": "فارسی",
     "fr": "Français",
     "pt": "Português",
     "es": "Español",
