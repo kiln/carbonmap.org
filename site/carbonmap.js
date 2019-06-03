@@ -65,6 +65,29 @@ var TIMELINE = {
         [78, "Continents"]
     ],
 
+    "fa": [
+        [8, "Area"],
+        [26, "Population"],
+        [31, "GDP"],
+
+        [42, "Extraction"],
+        [45, "Emissions"],
+        [50, "Consumption"],
+        [58, "Historical"],
+        [66, "Reserves"],
+
+        [75, "PeopleAtRisk"],
+
+        [90, "_raw"],
+        [101, "PopulationGrowth"],
+
+        [117, "Emissions"],
+        [123, "PeopleAtRisk"],
+
+        [130, "_raw"],
+        [133, "Continents"]
+    ],
+
     "fr": [
         [10, "Area"],
         [20.5, "Population"],
@@ -218,7 +241,7 @@ function initLanguage() {
     // Spanish has a translated sources page
     if (lang == "es") $("#sources-link a").attr("href", "http://www.carbonmap.org/sources-es.html");
 
-    $.get("text.json?v=201905171618", textLoaded);
+    $.get("text.json?v=201906041854", textLoaded);
 }
 
 var data_loaded = false, text_loaded = false;

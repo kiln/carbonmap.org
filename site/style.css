@@ -1,4 +1,9 @@
+/* Trade Gothic */
 @import url("//fast.fonts.net/t/1.css?apiType=css&projectid=411dcd77-eeeb-4bf0-a0c2-7cdf19f88192");
+
+/* Persian font “Vazir” */
+@import url("https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.0/dist/font-face.css");
+
 /* Original names: "Trade Gothic W02 Cn_18", "TradeGothicW02-BoldCn20_675505"; */
 @font-face{
 font-family:"TradeGothic";
@@ -12,7 +17,6 @@ src:url("fonts/e4693908-7208-4b04-93c4-8d004c3b4e1f.eot?#iefix");
 src:url("fonts/e4693908-7208-4b04-93c4-8d004c3b4e1f.eot?#iefix") format("eot"),url("fonts/e2fbc63c-e7b1-4828-b0b6-275131d16fd0.woff") format("woff"),url("fonts/805d9356-a4a5-46df-8390-957c803e33bc.ttf") format("truetype"),url("fonts/df0f9c50-3ce3-4b1f-8120-074ca66b83b1.svg#df0f9c50-3ce3-4b1f-8120-074ca66b83b1") format("svg");
 font-weight: bold;
 }
-
 
 /******** Map ********/
 
@@ -28,7 +32,7 @@ html {
 }
 
 body.lang-any {
-	font-family: 'TradeGothic';
+	font-family: 'TradeGothic', 'Vazir';
 	margin: 0;
 }
 
