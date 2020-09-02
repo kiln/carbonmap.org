@@ -322,7 +322,7 @@ function init() {
 
     // Add the countries to the map
     var map = document.getElementById("map");
-    var current_path_by_country = {}; // Only used if !Modernizr.smil
+    var current_path_by_country = {};
     for (var country in carbonmap_data._raw) {
         if (!carbonmap_data._raw.hasOwnProperty(country)) continue;
         if (country.charAt(0) === "_") continue;
@@ -333,9 +333,7 @@ function init() {
         e.id = country;
         e.setAttribute("class", "country");
         e.setAttribute("d", path_data);
-        if (!Modernizr.smil) {
-            current_path_by_country[country] = path_data;
-        }
+        current_path_by_country[country] = path_data;
         map.appendChild(e);
     }
     $("#map-placeholder").hide();
@@ -481,41 +479,7 @@ function init() {
             update_infobox();
 
             // Animate the map to the chosen configuration
-            if (Modernizr.smil) {
-                var animate_elements = [];
-                var redundant_animate_elements = $();
-                for (var k in data) {
-                    if (!data.hasOwnProperty(k)) continue;
-
-                    var country_path = document.getElementById(k);
-                    var new_path = data[k];
-                    if (country_path != null) {
-                        var animate_element = document.createElementNS("http://www.w3.org/2000/svg", "animate");
-
-                        animate_element.setAttribute("dur", "1s");
-                        animate_element.setAttribute("attributeName", "d");
-                        animate_element.setAttribute("to", new_path);
-                        animate_element.setAttribute("begin", "indefinite");
-                        animate_element.setAttribute("fill", "freeze");
-
-                        var existing_animate_elements = country_path.getElementsByTagName("animate");
-                        if (existing_animate_elements.length > 4) {
-                            redundant_animate_elements = redundant_animate_elements.add(
-                                existing_animate_elements[1]);
-                        }
-                        country_path.appendChild(animate_element);
-                        animate_elements.push(animate_element);
-                    }
-                }
-                for (var i=0; i < animate_elements.length; i++)
-                    animate_elements[i].beginElement();
-                redundant_animate_elements.remove();
-            }
-            else {
-                // Fake the animation for browsers that don’t support SMIL
-                // (I’m looking at you, IE 9)
-                fakeAnimation(data);
-            }
+            fakeAnimation(data);
         }
     };
 
