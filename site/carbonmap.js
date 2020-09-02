@@ -11,6 +11,7 @@ var lang = "en";
 
 var LANGUAGES = {
     "en": "English",
+    "de": "Deutsch",
     "fa": "فارسی",
     "fr": "Français",
     "pt": "Português",
@@ -63,6 +64,30 @@ var TIMELINE = {
 
         [78, "_raw"],
         [78, "Continents"]
+    ],
+
+    "de": [
+        [7.5, "Area"],
+
+        [20, "Population"],
+        [23, "GDP"],
+
+        [36, "Extraction"],
+        [40, "Emissions"],
+        [43, "Consumption"],
+        [47.5, "Historical"],
+        [53, "Reserves"],
+
+        [63, "PeopleAtRisk"],
+
+        [81, "_raw"],
+        [91, "PopulationGrowth"],
+
+        [101, "Emissions"],
+        [112, "PeopleAtRisk"],
+
+        [122, "_raw"],
+        [122, "Continents"]
     ],
 
     "fa": [
@@ -241,7 +266,7 @@ function initLanguage() {
     // Spanish has a translated sources page
     if (lang == "es") $("#sources-link a").attr("href", "http://www.carbonmap.org/sources-es.html");
 
-    $.get("text.json?v=201906041854", textLoaded);
+    $.get("text.json?v=202009021631", textLoaded);
 }
 
 var data_loaded = false, text_loaded = false;
